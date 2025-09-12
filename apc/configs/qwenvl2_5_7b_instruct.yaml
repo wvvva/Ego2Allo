@@ -1,0 +1,30 @@
+# VLM
+vlm:
+  type: qwenvl2_5
+  pretrained_model: Qwen/Qwen2.5-VL-7B-Instruct
+  model_name: llava_llama3
+  conv_template: llava_llama_3
+  # MLLM sampling parameters
+  do_sample: false
+  temperature: 0.0
+  max_new_tokens: 512
+
+# Detection - Grounding DINO
+detection:
+  ckpt_path: apc/vision_modules/src/checkpoints/groundingdino_swint_ogc.pth
+  box_threshold: 0.05 # 45
+  text_threshold: 0.05
+  num_candidates: 5
+  use_vlm_refinement: true
+
+# Segmentation - SAM
+segmentation:
+  ckpt_path: apc/vision_modules/src/checkpoints/sam_vit_h_4b8939.pth
+
+# Depth - DepthPro
+depth:
+  ckpt_path: apc/vision_modules/src/checkpoints/depth_pro.pt
+
+# Orientation - OrientAnything
+orientation:
+  ckpt_path: apc/vision_modules/src/checkpoints
