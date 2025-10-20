@@ -16,8 +16,8 @@ from transformers import AutoImageProcessor
 from huggingface_hub import hf_hub_download
 
 # Import from Orient-Anything
-from .src.orient_anything.render import render, Model
-from .src.orient_anything.vision_tower import DINOv2_MLP
+from orient_anything.render import render, Model
+from orient_anything.vision_tower import DINOv2_MLP
 
 class OrientationModule:
     def __init__(self, config, device="cuda"):

@@ -12,10 +12,12 @@ python run_APC.py \
     --visualize_trace \
     --return_conv_history
 '''
+
 import os
 import sys
 os.environ["DISPLAY"] =':1'
 sys.path.append("apc/vision_modules")
+sys.path.append(os.path.join(os.path.dirname(__file__), "GroundingDINO"))
 import yaml
 import argparse
 from box import Box

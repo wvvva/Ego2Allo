@@ -18,10 +18,13 @@ import open3d as o3d
 from scipy.stats import mode
 
 # Import modules
+sys.path.append("/ocean/projects/cis250208p/shared/models/vision_modules/ml-depth-pro/src")
 import depth_pro
 from depth_pro.depth_pro import DepthProConfig
-from .src.omni3d.cubercnn import util as cube_utils
-from .src.omni3d.cubercnn import vis as cube_vis
+
+sys.path.append("/ocean/projects/cis250208p/shared/models/vision_modules")
+from omni3d.cubercnn import util as cube_utils
+from omni3d.cubercnn import vis as cube_vis
 
 class DepthModule:
     def __init__(self, config, device="cuda"):

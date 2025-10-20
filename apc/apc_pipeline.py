@@ -12,9 +12,9 @@ from .utils import *
 from .vlms import VLM_MODELS
 
 # Add external module paths
-sys.path.append("apc/vision_modules/src/omni3d")
-sys.path.append("apc/vision_modules/src/orient_anything")
-sys.path.append("apc/vision_modules/src/GroundingDINO")
+sys.path.append("/ocean/projects/cis250208p/shared/models/vision_modules/omni3d")
+sys.path.append("/ocean/projects/cis250208p/shared/models/vision_modules/orient_anything")
+sys.path.append("/ocean/projects/cis250208p/shared/models/vision_modules/GroundingDINO")
 
 # Import vision modules
 from .vision_modules.vision_utils import cxcywh_to_xyxy, transform_src_to_tgt
