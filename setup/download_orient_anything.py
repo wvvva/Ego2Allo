@@ -7,7 +7,7 @@ from huggingface_hub import hf_hub_download
 
 # Parse arguments
 parser = argparse.ArgumentParser()
-parser.add_argument("--cache_dir", type=str, default="apc/vision_modules/src/checkpoints")
+parser.add_argument("--cache_dir", type=str, default="/ocean/projects/cis250208p/shared/models")
 args = parser.parse_args()
 
 # Download Orient-Anything checkpoint

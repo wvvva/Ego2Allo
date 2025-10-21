@@ -3,3 +3,5 @@ outputs
 
 .locks
 *__pycache__*
+
+models--facebook--dinov2-large/

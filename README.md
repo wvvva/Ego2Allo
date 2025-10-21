@@ -78,3 +78,13 @@ If you find our work useful, please consider citing:
   year={2025}
 }
 ```
+
+
+### new readme
+
+1. Load anaconda3, gcc/13.3.1
+
+Add .toml file
+```bash
+git clone https://github.com/IDEA-Research/GroundingDINO.git
+```

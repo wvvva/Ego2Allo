@@ -72,8 +72,8 @@ class OrientationModule:
         radius: int = 240,
         height: int = 512,
         width: int = 512,
-        axis_obj_path: str = "apc/vision_modules/src/orient_anything/assets/axis.obj",
-        axis_texture_path: str = "apc/vision_modules/src/orient_anything/assets/axis.png",
+        axis_obj_path: str = "/ocean/projects/cis250208p/shared/models/vision_modules/orient_anything/assets/axis.obj",
+        axis_texture_path: str = "/ocean/projects/cis250208p/shared/models/vision_modules/orient_anything/assets/axis.png",
         **apc_args,
     ):
         '''

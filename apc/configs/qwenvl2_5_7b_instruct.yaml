@@ -11,7 +11,7 @@ vlm:
 
 # Detection - Grounding DINO
 detection:
-  ckpt_path: apc/vision_modules/src/checkpoints/groundingdino_swint_ogc.pth
+  ckpt_path: /jet/home/ydinga/idl_project/shared/models/vision_modules/checkpoints/groundingdino_swint_ogc.pth
   box_threshold: 0.05 # 45
   text_threshold: 0.05
   num_candidates: 5
@@ -19,12 +19,12 @@ detection:
 
 # Segmentation - SAM
 segmentation:
-  ckpt_path: apc/vision_modules/src/checkpoints/sam_vit_h_4b8939.pth
+  ckpt_path: /jet/home/ydinga/idl_project/shared/models/vision_modules/checkpoints/sam_vit_h_4b8939.pth
 
 # Depth - DepthPro
 depth:
-  ckpt_path: apc/vision_modules/src/checkpoints/depth_pro.pt
+  ckpt_path: /jet/home/ydinga/idl_project/shared/models/vision_modules/checkpoints/depth_pro.pt
 
 # Orientation - OrientAnything
 orientation:
-  ckpt_path: apc/vision_modules/src/checkpoints
+  ckpt_path: /jet/home/ydinga/idl_project/shared/models/vision_modules/checkpoints/

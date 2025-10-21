@@ -1,4 +1,4 @@
-VISION_MODULES_DIR="apc/vision_modules/src"
+VISION_MODULES_DIR="/ocean/projects/cis250208p/shared/models/vision_modules"
 CHECKPOINT_DIR="$VISION_MODULES_DIR/checkpoints"
 
 # ================================
@@ -8,26 +8,26 @@ mkdir -p $VISION_MODULES_DIR
 cd $VISION_MODULES_DIR
 
 # Grounding DINO
-git clone git@github.com:IDEA-Research/GroundingDINO.git
+git clone https://github.com/IDEA-Research/GroundingDINO.git
 cd GroundingDINO
 pip install -e .
 cd ..
 echo "* [INFO] Installed Grounding DINO"
 
 # Depth Pro
-git clone git@github.com:apple/ml-depth-pro.git
+git clone https://github.com/apple/ml-depth-pro.git
 cd ml-depth-pro
 pip install -e .
 cd ..
 echo "* [INFO] Installed Depth Pro"
 
 # Orient-Anything
-git clone git@github.com:SpatialVision/Orient-Anything.git
+git clone https://github.com/SpatialVision/Orient-Anything.git
 mv Orient-Anything orient_anything
 echo "* [INFO] Cloned Orient-Anything"
 
 # Omni3D
-git clone git@github.com:facebookresearch/omni3d.git
+git clone https://github.com/facebookresearch/omni3d.git
 echo "* [INFO] Cloned Omni3D"
 
 # return to root directory
