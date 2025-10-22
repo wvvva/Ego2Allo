@@ -5,12 +5,12 @@ import numpy as np
 import torch
 import trimesh
 
-# Define decorator for each APC stage
-def apc_stage(func):
-    def wrapper(*args, **kwargs):
-        print(f"[INFO] Running APC stage: {func.__name__}")
-        return func(*args, **kwargs)
-    return wrapper
+# # Define decorator for each APC stage
+# def apc_stage(func):
+#     def wrapper(*args, **kwargs):
+#         print(f"[INFO] Running APC stage: {func.__name__}")
+#         return func(*args, **kwargs)
+#     return wrapper
 
 # ------------------------------------------------------------ #
 # Conversation Utils
