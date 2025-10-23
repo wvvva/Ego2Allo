@@ -12,7 +12,10 @@ export PATH="$HOME/miniconda/bin:$PATH"
 conda init bash
 source ~/.bashrc
 
-conda create -n ego2allo python=3.11
+conda create -n ego2allo python=3.10
 conda activate ego2allo
 pip install -r requirements.txt
+
+module load cuda/12.6.1
+echo $CUDA_HOME
 ```
