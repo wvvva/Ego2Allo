@@ -45,7 +45,7 @@ class DepthModule:
             precision=torch.float16
         )
         self.depth_model.eval()
-        print("* [INFO] Loaded depth model")
+        # print("* [INFO] Loaded depth model")
 
     def depth_process_image(
         self,
@@ -69,8 +69,8 @@ class DepthModule:
                 image = image.transpose(Image.ROTATE_270)
             elif exif_orientation == 8:
                 image = image.transpose(Image.ROTATE_90)
-            elif exif_orientation != 1:
-                print(f"Ignoring image orientation {exif_orientation}.")
+            # elif exif_orientation != 1:
+                # print(f"Ignoring image orientation {exif_orientation}.")
 
         # Convert to numpy array
         image_npy = np.array(image)
@@ -328,6 +328,6 @@ class DepthModule:
             )
             # Save the image
             image_concat.save(os.path.join(apc_args['trace_save_dir'], "scene_abstraction.png"))
-            print(f"* [INFO] Saved the scene abstraction image to {os.path.join(apc_args['trace_save_dir'], 'scene_abstraction.png')}")
+            # print(f"* [INFO] Saved the scene abstraction image to {os.path.join(apc_args['trace_save_dir'], 'scene_abstraction.png')}")
         except:
             raise Exception("Error in saving the scene abstraction image")

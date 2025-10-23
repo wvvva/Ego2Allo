@@ -51,7 +51,7 @@ class OrientationModule:
             "facebook/dinov2-large", 
             cache_dir=config.orientation.ckpt_path,
         )
-        print(f"* [INFO] Loaded Orient-Anything!")
+        # print(f"* [INFO] Loaded Orient-Anything!")
 
     def orientation_to_direction(self, azimuth_deg, polar_deg):
         '''

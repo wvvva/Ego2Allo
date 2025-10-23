@@ -1,0 +1,24 @@
+{
+  "_data_files": [
+    {
+      "filename": "data-00000-of-00001.arrow"
+    }
+  ],
+  "_fingerprint": "7e5cdddd74440dfc",
+  "_format_columns": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "answer",
+    "category",
+    "image_source",
+    "image_url",
+    "index",
+    "question"
+  ],
+  "_format_kwargs": {},
+  "_format_type": null,
+  "_output_all_columns": false,
+  "_split": null
+}

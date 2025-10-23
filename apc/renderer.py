@@ -409,7 +409,7 @@ class RenderModule:
                 positions[i][1] = pos[1] * xy_scale
                 positions[i][2] = (pos[2] - z_offset) * z_scale - min_depth
 
-            print("* [INFO] Scaled all positions!")
+            # print("* [INFO] Scaled all positions!")
 
         # Add cubes to scene
         cube_meshes = []
@@ -425,7 +425,7 @@ class RenderModule:
             png = scene.save_image(resolution=(512, 512), visible=False)
         except NoSuchDisplayException:
             # Fallback: blank gray image (headless mode)
-            print("[WARN] No display detected; using blank placeholder image.")
+            # print("[WARN] No display detected; using blank placeholder image.")
             arr = np.ones((512, 512, 3), dtype=np.uint8) * 127
             img = Image.fromarray(arr)
             buf = io.BytesIO()

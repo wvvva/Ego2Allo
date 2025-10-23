@@ -47,13 +47,13 @@ class DetectionModule:
         # Load model
         self.detection_model = load_model(config_path, config.detection.ckpt_path)
         self.detection_model.to(self.device)
-        print("* [INFO] Loaded GroundingDINO!")
+        # print("* [INFO] Loaded GroundingDINO!")
 
         # Load SAM
         self.segmentation_model = sam_model_registry["default"](
             checkpoint=config.segmentation.ckpt_path).to(device=self.device)
         self.segmentation_predictor = SamPredictor(self.segmentation_model)
-        print("* [INFO] Loaded SAM!")
+        # print("* [INFO] Loaded SAM!")
 
     def detection_process_image(
         self, 
@@ -83,7 +83,7 @@ class DetectionModule:
         '''
         Run detection model (GroundingDINO)
         '''
-        print(f"* [INFO] Running detection for {category}...")
+        # print(f"* [INFO] Running detection for {category}...")
 
         boxes, scores, _ = predict(
             model=self.detection_model,
@@ -110,7 +110,7 @@ class DetectionModule:
         Run detection refinement with VLM
         (Choose the best detection from top-N detections)
         '''
-        print(f"* [INFO] Running detection refinement for {category}...")
+        # print(f"* [INFO] Running detection refinement for {category}...")
 
         W, H = image.size
         
@@ -165,7 +165,7 @@ class DetectionModule:
 
         # Query VLM
         response = vlm_model.process_messages(messages, max_new_tokens=512)
-        print(f"* [INFO] Response for VLM detection refinement: {response}")
+        # print(f"* [INFO] Response for VLM detection refinement: {response}")
         
         # Get the selected index
         selected_idx = 0

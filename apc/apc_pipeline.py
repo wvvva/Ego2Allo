@@ -168,7 +168,6 @@ class APC:
         objects_of_interest: List[str],
         abstract_scene_dict_camera: Dict,
         conv_history: list = None,
-        camera_mode: bool = False,
     ):
         '''
         From the prompt, extract the object of the reference viewer
@@ -179,15 +178,6 @@ class APC:
         Output:
             ref_viewer: str
         '''
-        if camera_mode:
-            ref_viewer = "camera"
-            self.logger.info("[Perspective Change] Detected camera-centric question. Setting ref_viewer='camera'.")
-            if conv_history is not None:
-                conv_history += [
-                    {'text': f"[Auto-detected camera perspective] Prompt: {prompt}", 'image': None},
-                    {'text': "Reference viewer automatically set to 'camera'", 'image': None},
-                ]
-            return ref_viewer, conv_history
         prompt_ref_viewer = self.prompt_parser.get_prompt_by_type("get_reference_viewer")
         
         obj_str = ', '.join(objects_of_interest)
@@ -255,26 +245,11 @@ class APC:
 
         return prompt_abstract, color_obj_map
     
-    def _is_camera_perspective(self, prompt: str) -> bool:
-        """
-        Heuristically decide if the question is from the camera's perspective.
-        """
-        cam_keywords = [
-            "camera", "viewer", "in the image", "visible", "from this view",
-            "seen in the picture", "closer to the camera", "facing the camera"
-        ]
-        object_keywords = ["from the perspective of", "facing where it is facing"]
-
-        if any(k in prompt.lower() for k in object_keywords):
-            return False
-        return any(k in prompt.lower() for k in cam_keywords)
-
     # @apc_stage
     def do_scene_abstraction(
         self, 
         image: Image.Image, 
         objects_of_interest: List[str],
-        camera_mode: bool = False,
         **apc_args,
     ):
         '''
@@ -288,38 +263,13 @@ class APC:
             abstract_scene_dict: dict of abstract scene
         '''
         self.logger.info("[Scene Abstraction] Running scene abstraction...")
-        if camera_mode:
-            self.logger.info("[Scene Abstraction] Detected CAMERA perspective question.")
-        else:
-            self.logger.info("[Scene Abstraction] Detected OBJECT perspective question.")
-        
+
         abstract_scene_dict = {
             "camera": {
                 "position": np.array([0, 0, 0]),
                 "orientation": np.array([0, 0, 1]),
             }
         }
-
-        if camera_mode or not objects_of_interest:
-            self.logger.info("[Scene Abstraction] Using camera-centric layout.")
-            default_objs = ["object_1", "object_2", "object_3"]
-            colors = [["red", [255, 0, 0]], ["green", [0, 255, 0]], ["blue", [0, 0, 255]]]
-
-            for i, name in enumerate(default_objs):
-                abstract_scene_dict[name] = {
-                    "position": np.array([i * 2.0 - 2.0, 0.0, -5.0]),
-                    "orientation": np.array([0, 0, 1]),
-                    "color": colors[i % len(colors)],
-                }
-
-            # Optional visualization
-            if apc_args.get("visualize_scene_abstraction", False):
-                self.depth_module.visualize_scene_abstraction(
-                    image, [], default_objs, **apc_args
-                )
-
-            return abstract_scene_dict
-    
         box3D_meshes = []
         box3D_obj_names = []
         _, image_processed = self.detection_module.detection_process_image(image)
@@ -602,9 +552,14 @@ class APC:
         render_whole_scene: bool = False,               # render the whole scene regardless of the reference viewer
         return_conv_history: bool = False,              # store all conversations and images for visualization
         options: str = None,                            # for evaluation, choose one of the given options
-        logging: bool = True,                          # enable logging
+        logging: bool = True,
     ):
-    
+        if logging:
+            self.logger.disabled = False
+            self.logger.info("[APC] Starting APC pipeline...")
+        else:
+            # print("Disabling logging...")
+            self.logger.disabled = True
         # ------------------------------------------------------------ #
         # Define auxiliary arguments
         # ------------------------------------------------------------ #
@@ -621,33 +576,19 @@ class APC:
         # Initialize conversation storage if requested
         conv_history = [] if return_conv_history else None
 
-        if logging:
-            self.logger.info(f"[APC] Starting APC pipeline...")
-            self.logger.info(f"[APC] Prompt: {prompt}")
-        else:
-            self.logger.disabled = True
         # ------------------------------------------------------------ #
         # [1] Scene Abstraction
         # ------------------------------------------------------------ #
         # Extract objects of interest
-        result = self.get_objects_of_interest(image, prompt, conv_history=conv_history)
-        if result is None:
-            self.logger.warning("[Scene Abstraction] No objects detected — assuming camera-perspective question.")
-            objs_of_interest = []
-        else:
-            objs_of_interest, conv_history = result
-
+        objs_of_interest, conv_history = self.get_objects_of_interest(image, prompt, conv_history=conv_history)
         self.logger.info(f"[Scene Abstraction] Objects of interest: {objs_of_interest}")
-
-        camera_mode = self._is_camera_perspective(prompt) or (objs_of_interest is None)
 
         # Run 3D scene abstraction (from camera's perspective)
         abstract_scene_dict = {}
         abstract_scene_dict['camera'] = self.do_scene_abstraction(
             image, 
             objs_of_interest,
-            camera_mode=camera_mode,
-            **apc_args
+            **apc_args,
         )
         self.logger.info(f"[Scene Abstraction] Abstracted scene (camera's perspective): {abstract_scene_dict['camera']}")
 
@@ -659,7 +600,6 @@ class APC:
             prompt, 
             objs_of_interest, 
             abstract_scene_dict['camera'],
-            camera_mode=camera_mode,
             conv_history=conv_history,
         )
 

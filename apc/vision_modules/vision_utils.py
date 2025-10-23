@@ -50,7 +50,7 @@ def sort_by_scores(scores, preds):
     scores_indices = np.argsort(-np.array(scores))
 
     if not scores_indices.tolist() == list(range(len(scores))):
-        print("* [INFO] Sorting by scores in descending order")
+        # print("* [INFO] Sorting by scores in descending order")
         preds = [[t[k] for k in scores_indices] for t in preds]
 
     return preds

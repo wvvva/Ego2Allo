@@ -1,0 +1,74 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "benchmark",
+  "dataset_name": "3_dsr_bench",
+  "dataset_size": 1473221,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/ccvl/3DSRBench@5c90e422b68d0484d50a3ff06b3096ea7d288026/3dsrbench_v1-00000-of-00001.parquet": {
+      "num_bytes": 134906,
+      "checksum": null
+    }
+  },
+  "download_size": 134906,
+  "features": {
+    "index": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "A": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "B": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "C": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "D": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "category": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "image_source": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "image_url": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 1608127,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 1473221,
+      "num_examples": 5157,
+      "dataset_name": "3_dsr_bench"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

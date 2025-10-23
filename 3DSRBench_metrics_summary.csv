@@ -1,0 +1,2 @@
+overall_accuracy,std_dev_accuracy,acc_height_higher,acc_location_above,acc_location_closer_to_camera,acc_location_next_to,acc_multi_object_closer_to,acc_multi_object_facing,acc_multi_object_parallel,acc_multi_object_same_direction,acc_multi_object_viewpoint_towards_object,acc_orientation_in_front_of,acc_orientation_on_the_left,acc_orientation_viewpoint,prediction_noise,spatial_consistency
+0.47,0.5016135580465918,0.2857142857142857,0.6666666666666666,0.35294117647058826,0.8,0.42857142857142855,0.0,0.4,0.6,0.2857142857142857,0.5,0.625,0.3333333333333333,0.0,

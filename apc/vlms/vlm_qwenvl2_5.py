@@ -1,7 +1,7 @@
 from .vlm_base import VLMBase
 
 # QwenVL2.5
-from transformers import Qwen2_5_VLForConditionalGeneration, AutoTokenizer, AutoProcessor
+from transformers import Qwen2_5_VLForConditionalGeneration, AutoTokenizer, AutoProcessor, AutoConfig
 from qwen_vl_utils import process_vision_info
 
 class ModelQwenVL2_5(VLMBase):
@@ -20,12 +20,18 @@ class ModelQwenVL2_5(VLMBase):
         self.load_model(config, device=device)
 
     def load_model(self, config, device="cuda"):
+        cfg = AutoConfig.from_pretrained(config.pretrained_model)
+        print(f"[INFO] Loaded config {config.pretrained_model}")
+        print(f"[INFO] Loaded config hidden_size={cfg.hidden_size}, model_type={cfg.model_type}")
+
         self.vlm_model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
             config.pretrained_model, 
-            torch_dtype="auto", 
+            dtype="auto", 
             device_map=device
         )
         self.processor = AutoProcessor.from_pretrained(config.pretrained_model)
+        print(f"[INFO] Loaded model type: {self.vlm_model.config.model_type}")
+        print(f"[INFO] Hidden size: {self.vlm_model.config.hidden_size}")
 
     def generate_response(
         self,
