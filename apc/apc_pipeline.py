@@ -444,6 +444,13 @@ class APC:
             ref_viewer,
             **apc_args,
         )
+
+        # print(visual_prompt.mode, visual_prompt.size)
+        # print(np.min(visual_prompt), np.max(visual_prompt))
+        # visual_prompt.show()
+
+        # visual_prompt.save(f"outputs/visual_prompt_{ref_viewer}.png")
+
         visual_prompt = visual_prompt.resize((512, 512))
         self.logger.info("[Perspective Prompting] Rendered the visual prompt!")
 

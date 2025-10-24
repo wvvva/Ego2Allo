@@ -420,17 +420,18 @@ class RenderModule:
             cube_meshes.append(cube_mesh)
             scene.add_geometry(cube_mesh)
 
+
         # --- Safe rendering ---
-        try:
-            png = scene.save_image(resolution=(512, 512), visible=False)
-        except NoSuchDisplayException:
-            # Fallback: blank gray image (headless mode)
-            # print("[WARN] No display detected; using blank placeholder image.")
-            arr = np.ones((512, 512, 3), dtype=np.uint8) * 127
-            img = Image.fromarray(arr)
-            buf = io.BytesIO()
-            img.save(buf, format="PNG")
-            png = buf.getvalue()
+        # try:
+        png = scene.save_image(resolution=(512, 512))
+        # except NoSuchDisplayException:
+        #     # Fallback: blank gray image (headless mode)
+        #     # print("[WARN] No display detected; using blank placeholder image.")
+        #     arr = np.ones((512, 512, 3), dtype=np.uint8) * 127
+        #     img = Image.fromarray(arr)
+        #     buf = io.BytesIO()
+        #     img.save(buf, format="PNG")
+        #     png = buf.getvalue()
 
         # Convert to PIL.Image (compatible with downstream code)
         if isinstance(png, bytes):
