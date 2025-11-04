@@ -158,7 +158,7 @@ class RenderModule:
                 wire_scene.add_geometry(cube_mesh)
                 
                 # Save mask
-                wire_png = wire_scene.save_image()
+                wire_png = wire_scene.save_image(resolution=(512, 512))
                 wire_image = Image.open(io.BytesIO(wire_png)).convert('RGB')
                 wire_image = np.array(wire_image)[:, :, ::-1]
 
@@ -173,6 +173,7 @@ class RenderModule:
                 kernel = np.ones((3, 3), np.uint8)
                 dilated = cv2.dilate(wire_mask, kernel, iterations=1)
                 outline = cv2.subtract(dilated, wire_mask)
+
                 outline_color = cv2.cvtColor(outline, cv2.COLOR_GRAY2BGR)
 
                 # Draw outline on the original image
@@ -422,16 +423,7 @@ class RenderModule:
 
 
         # --- Safe rendering ---
-        # try:
         png = scene.save_image(resolution=(512, 512))
-        # except NoSuchDisplayException:
-        #     # Fallback: blank gray image (headless mode)
-        #     # print("[WARN] No display detected; using blank placeholder image.")
-        #     arr = np.ones((512, 512, 3), dtype=np.uint8) * 127
-        #     img = Image.fromarray(arr)
-        #     buf = io.BytesIO()
-        #     img.save(buf, format="PNG")
-        #     png = buf.getvalue()
 
         # Convert to PIL.Image (compatible with downstream code)
         if isinstance(png, bytes):

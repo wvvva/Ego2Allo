@@ -124,4 +124,7 @@ class ModelQwenVL2_5(VLMBase):
             clean_up_tokenization_spaces=False
         )[0]
         
+
+        print(f"* [INFO] Response for VLM: {response}")
+        
         return response

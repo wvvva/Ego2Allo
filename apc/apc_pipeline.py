@@ -133,6 +133,9 @@ class APC:
             # Query VLM
             response_objs = self.vlm_model.process_messages(messages)
 
+            if response_objs.lower().startswith("[detect]"):
+                response_objs = response_objs.lower().replace("[detect]", "").strip()
+
             # Parse the response
             pattern_objs = self.prompt_parser.get_prompt_by_type("pattern_get_objects_of_interest")
 

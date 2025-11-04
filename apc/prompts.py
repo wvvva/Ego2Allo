@@ -16,8 +16,8 @@ Given an image and a spatial reasoning question, we need to all entities that ar
 [Detect] [old man, person wearing a hat, green car]
 
 # Examples 3
-[Question] From the car's perspective, which is on the right side: the person or the tree?
-[Detect] [car, person, tree]
+[Question] From the camera's perspective, which is on the right side: the person or the tree?
+[Detect] [camera, person, tree]
 
 ### Your Task
 Now, given the question below, please identify the entities that are included in the question.
