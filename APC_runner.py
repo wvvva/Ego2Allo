@@ -41,15 +41,27 @@ class APCRunner:
         image = Image.open(BytesIO(response.content)).convert("RGB").resize((512, 512))
         return image
 
-    def run_single(self, i, example, verbose=False, prompt_type="visual"):
-        image_url = example["image_url"]
+    def load_image(self, image_path):
+        image = Image.open(image_path).convert("RGB").resize((512, 512))
+        return image
+
+    def run_single(self, i, example, verbose=False, prompt_type="visual", datasource="3DSRBench"):
         question = example["question"]
-        options = [example["A"], example["B"], example["C"], example["D"]]
-        correct = example["answer"]
         category = example["category"]
+        if (datasource == "3DSRBench"):
+            image_url = example["image_url"]
+            options = [example["A"], example["B"], example["C"], example["D"]]
+            correct = example["answer"]
+        elif (datasource == "SAT"):
+            image_path = example["image"]
+            options = example["answer_choices"]
+            correct = example["correct_answer"]
 
         # Download image
-        image = self.download_image(image_url)
+        if (datasource == "3DSRBench"):
+            image = self.download_image(image_url)
+        elif (datasource == "SAT"):
+            image = self.load_image(image_path)
 
         if verbose:
             plt.imshow(image)
@@ -117,10 +129,10 @@ class APCRunner:
             "response_text": response_text,
         }
 
-    def run(self, ds, verbose=False, prompt_type="visual"):
+    def run(self, ds, verbose=False, prompt_type="visual", datasource="3DSRBench"):
         results = []
 
-        for i, example in enumerate(tqdm(ds, desc="Evaluating 3DSRBench")):
-            results.append(self.run_single(i, ds[i], verbose, prompt_type))
+        for i, example in enumerate(tqdm(ds, desc=f"Evaluating {datasource}")):
+            results.append(self.run_single(i, ds[i], verbose, prompt_type, datasource))
         
         return results
