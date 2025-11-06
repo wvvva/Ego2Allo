@@ -279,6 +279,9 @@ class APC:
         image_h, image_w = image_processed.shape[1], image_processed.shape[2]
 
         for obj_name in objects_of_interest:
+            if obj_name == "camera":
+                continue
+
             self.logger.info(f"[Scene Abstraction] Running abstraction for {obj_name}")
 
             # ------------------------------------------------------------ #
@@ -372,6 +375,9 @@ class APC:
         '''
         self.logger.info(f"[Perspective Change] Running perspective change from {ref_viewer}...")
 
+        if ref_viewer == "camera":
+            return abstract_scene_src
+        
         abstract_scene_tgt = {
             ref_viewer: {   # ref_viewer should be at the origin, facing towards +z
                 'position': np.array([0, 0, 0]),

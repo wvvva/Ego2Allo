@@ -120,7 +120,7 @@ class APCRunner:
             )
 
         return {
-            "index": example["index"],
+            "index": i,
             "category": category,
             "question": question,
             "prediction": pred_letter,
