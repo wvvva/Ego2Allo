@@ -2,7 +2,7 @@
 vlm:
   type: qwenvl2_5
   pretrained_model: Qwen/Qwen2.5-VL-3B-Instruct
-  model_name: qwen2_5_vl_2b
+  model_name: qwen2_5_vl_3b_instruct
   conv_template: llava_llama_3 
   do_sample: false
   temperature: 0.0

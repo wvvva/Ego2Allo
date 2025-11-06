@@ -1,6 +1,6 @@
 # VLM
 vlm:
-  type: gemini-2.5-pro
+  type: gemini
   model_name: gemini-2.5-flash
   api_key: AIzaSyC06YvqkbHEvaPV7oARxqNMPiFCAudXrag
 

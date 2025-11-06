@@ -133,6 +133,7 @@ Here is the question and the response you provided:
 
 Based on the response you provided, please choose the correct option from the following list:
 [Options] {options}
+Return only the option, no other text.
 """
 
 # ---------------------------------------------------------------- # 
