@@ -16,8 +16,8 @@ Given an image and a spatial reasoning question, we need to all entities that ar
 [Detect] [old man, person wearing a hat, green car]
 
 # Examples 3
-[Question] From the camera's perspective, which is on the right side: the person or the tree?
-[Detect] [camera, person, tree]
+[Question] From the car's perspective, which is on the right side: the person or the tree?
+[Detect] [car, person, tree]
 
 ### Your Task
 Now, given the question below, please identify the entities that are included in the question.
@@ -77,20 +77,24 @@ PROMPT_CONVERT_TO_EGO = """
 From a sentence with a perspective description, we need to remove the perspective description.
 
 # Example 1
-[Question] From the car's perspective, which is on the right side: the person or the tree?
-[Output] Which is on the right side: the person or the tree?
+[Question] From the car's perspective, which is on the right side: blue cube or the green cube?
+[Reference Viewer] car
+[Output] Which is on the right side: blue cube or the green cube?
 
 # Example 2
-[Question] You are standing at the airplane's position, facing where it is facing. Is the the person on your left or right?
-[Output] Is the the person on your left or right?
+[Question] You are standing at the airplane's position, facing where it is facing. Is the the red cube on your left or right?
+[Reference Viewer] airplane
+[Output] Is the the red cube on your left or right?
 
 # Example 3
-[Question] From the cat's viewpoint, is the person wearing a hat on the left of the green car?
-[Output] Is the person wearing a hat on the left of the green car?
+[Question] From the cat's viewpoint, is the yellow cube wearing a hat on the left of the green cube?
+[Reference Viewer] cat
+[Output] Is the yellow cube wearing a hat on the left of the green cube?
 
 # Your Task
 Given the question below, please remove the perspective description.
 [Question] {question}
+[Reference Viewer] {ref_viewer}
 [Output]
 """
 
@@ -105,7 +109,9 @@ Based on the image, please answer the following question.
 
 {question}
 
-Please only return the answer.
+Answer the question in the format:
+[Reasoning] <reasoning>
+[Answer] <answer>
 """
 
 # Prompt for 'prompt_abstract_to_real'
@@ -133,7 +139,7 @@ Here is the question and the response you provided:
 
 Based on the response you provided, please choose the correct option from the following list:
 [Options] {options}
-Return only the option, no other text.
+Return only the option
 """
 
 # ---------------------------------------------------------------- # 

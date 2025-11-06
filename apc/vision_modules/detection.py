@@ -19,7 +19,7 @@ import torch
 from box import Box
 import open3d as o3d
 from .vision_utils import *
-from ..utils import add_message
+from ..utils import add_message, store_conv
 
 # Import modules
 from groundingdino.util.inference import load_model, predict
@@ -104,6 +104,7 @@ class DetectionModule:
         image: Image.Image,
         category: str,
         boxes_output: List[List[int]],
+        conv_save_path: str = None,
         **apc_args,
     ):
         '''
@@ -165,6 +166,8 @@ class DetectionModule:
 
         # Query VLM
         response = vlm_model.process_messages(messages, max_new_tokens=512)
+        if conv_save_path is not None:
+            store_conv(messages, response, conv_save_path, "detection_refinement")
         # print(f"* [INFO] Response for VLM detection refinement: {response}")
         
         # Get the selected index

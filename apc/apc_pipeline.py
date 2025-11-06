@@ -98,6 +98,7 @@ class APC:
         prompt: str,
         num_tries: int = 2,
         conv_history: list = None,
+        conv_save_path: str = None,
     ):
         '''
         From the image and prompt, extract the objects of interest
@@ -132,6 +133,8 @@ class APC:
 
             # Query VLM
             response_objs = self.vlm_model.process_messages(messages)
+            if conv_save_path is not None:
+                store_conv(messages, response_objs, conv_save_path, "get_objects_of_interest")
 
             if response_objs.lower().startswith("[detect]"):
                 response_objs = response_objs.lower().replace("[detect]", "").strip()
@@ -171,6 +174,7 @@ class APC:
         objects_of_interest: List[str],
         abstract_scene_dict_camera: Dict,
         conv_history: list = None,
+        conv_save_path: str = None,
     ):
         '''
         From the prompt, extract the object of the reference viewer
@@ -195,6 +199,8 @@ class APC:
         )
         # Query VLM
         response_ref_viewer = self.vlm_model.process_messages(messages)
+        if conv_save_path is not None:
+            store_conv(messages, response_ref_viewer, conv_save_path, "get_reference_viewer")
 
         # Parse the response
         pattern_ref_viewer = self.prompt_parser.get_prompt_by_type("pattern_reference_viewer")
@@ -240,7 +246,7 @@ class APC:
 
             color = obj_dict['color'][0]
             # Replace the object name with the color cube
-            prompt_abstract = prompt_abstract.replace(' ' + obj_name, f' {color} cube')
+            prompt_abstract = re.sub(r' ' + re.escape(obj_name), f' {color} cube', prompt_abstract, flags=re.IGNORECASE)
             # TODO: add option to replace using VLM
 
             # Make the color-object map
@@ -253,6 +259,7 @@ class APC:
         self, 
         image: Image.Image, 
         objects_of_interest: List[str],
+        conv_save_path: str = None,
         **apc_args,
     ):
         '''
@@ -300,6 +307,7 @@ class APC:
                     image,
                     obj_name,
                     boxes_output=boxes,
+                    conv_save_path=conv_save_path,
                     **apc_args,
                 )
             else:
@@ -417,6 +425,7 @@ class APC:
         abstract_scene_dict_ref: Dict,
         prompt: str,
         conv_history: list = None,
+        conv_save_path: str = None,
         **apc_args,
     ):
         '''
@@ -471,7 +480,7 @@ class APC:
         )
         # Remove perspective description (convert to egocentric)
         prompt_convert_to_ego = self.prompt_parser.get_prompt_by_type("convert_to_ego")
-        prompt_convert_to_ego = prompt_convert_to_ego.format(question=prompt_abstract)
+        prompt_convert_to_ego = prompt_convert_to_ego.format(question=prompt_abstract, ref_viewer=ref_viewer)
 
         # Query VLM
         messages = add_message(
@@ -481,6 +490,9 @@ class APC:
         )
         
         prompt_ego = self.vlm_model.process_messages(messages)
+        if conv_save_path is not None:
+            store_conv(messages, prompt_ego, conv_save_path, "convert_to_ego")
+        
         self.logger.info(f"[Perspective Prompting] Converted to egocentric: {prompt_ego}")
 
         # Query VLM with the final visual prompt
@@ -494,6 +506,8 @@ class APC:
             image=visual_prompt,
         )
         response_perspective_visual_abstract = self.vlm_model.process_messages(messages)
+        if conv_save_path is not None:
+            store_conv(messages, response_perspective_visual_abstract, conv_save_path, "perspective_visual")
 
         messages = add_message(
             messages,
@@ -516,6 +530,8 @@ class APC:
             text=prompt_abstract_to_real,
         )
         response_perspective_visual = self.vlm_model.process_messages(messages)
+        if conv_save_path is not None:
+            store_conv(messages, response_perspective_visual, conv_save_path, "abstract_to_real")
 
         messages = add_message(messages, role='system', text=response_perspective_visual,)
         self.logger.info(f"[Perspective Prompting] Translate abstract -> real: {response_perspective_visual}")
@@ -545,6 +561,9 @@ class APC:
                 text=prompt_choose_options,
             )
             response_perspective_visual = self.vlm_model.process_messages(messages)
+            if conv_save_path is not None:
+                store_conv(messages, response_perspective_visual, conv_save_path, "choose_options")
+
             self.logger.info(f"[Perspective Prompting] Chose options: {response_perspective_visual}")
 
             # Update conv_history if needed
@@ -569,6 +588,7 @@ class APC:
         return_conv_history: bool = False,              # store all conversations and images for visualization
         options: str = None,                            # for evaluation, choose one of the given options
         logging: bool = True,
+        conv_save_path: str = None,
     ):
         if logging:
             self.logger.disabled = False
@@ -596,7 +616,7 @@ class APC:
         # [1] Scene Abstraction
         # ------------------------------------------------------------ #
         # Extract objects of interest
-        objs_of_interest, conv_history = self.get_objects_of_interest(image, prompt, conv_history=conv_history)
+        objs_of_interest, conv_history = self.get_objects_of_interest(image, prompt, conv_history=conv_history, conv_save_path=conv_save_path)
         self.logger.info(f"[Scene Abstraction] Objects of interest: {objs_of_interest}")
 
         # Run 3D scene abstraction (from camera's perspective)
@@ -604,6 +624,7 @@ class APC:
         abstract_scene_dict['camera'] = self.do_scene_abstraction(
             image, 
             objs_of_interest,
+            conv_save_path=conv_save_path,
             **apc_args,
         )
         self.logger.info(f"[Scene Abstraction] Abstracted scene (camera's perspective): {abstract_scene_dict['camera']}")
@@ -617,6 +638,7 @@ class APC:
             objs_of_interest, 
             abstract_scene_dict['camera'],
             conv_history=conv_history,
+            conv_save_path=conv_save_path,
         )
 
         # Transform the abstract scene to align with the target perspective
@@ -635,6 +657,7 @@ class APC:
                 abstract_scene_dict[ref_viewer],
                 prompt,
                 conv_history=conv_history,
+                conv_save_path=conv_save_path,
                 **apc_args,
             )
         elif perspective_prompt_type == "numerical":

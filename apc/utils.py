@@ -4,6 +4,10 @@ import textwrap
 import numpy as np
 import torch
 import trimesh
+import json
+from io import BytesIO
+import base64
+import os
 
 # # Define decorator for each APC stage
 # def apc_stage(func):
@@ -423,3 +427,35 @@ def visualize_conversation(
         canvas.save(output_path)
 
     return canvas
+
+def image_to_base64(img: Image.Image):
+    """Convert a PIL Image to base64 string."""
+    buf = BytesIO()
+    img.save(buf, format="PNG")
+    return base64.b64encode(buf.getvalue()).decode("utf-8")
+
+def serialize_messages(messages):
+    """Convert PIL images in messages to base64."""
+    serialized = []
+    for msg in messages:
+        new_msg = {"role": msg["role"], "content": []}
+        for item in msg["content"]:
+            if item["type"] == "image" and isinstance(item.get("image"), Image.Image):
+                new_msg["content"].append({
+                    "type": "image",
+                    "data": image_to_base64(item["image"]),
+                    "format": "png"
+                })
+            else:
+                new_msg["content"].append(item)
+        serialized.append(new_msg)
+    return serialized
+
+def store_conv(messages, response, conv_save_path: str, conv_type: str):
+    to_store = {
+        "messages": serialize_messages(messages),
+        "response": response,
+        "conv_type": conv_type,
+    }
+    with open(conv_save_path, "a") as f:
+        f.write(json.dumps(to_store) + "\n")

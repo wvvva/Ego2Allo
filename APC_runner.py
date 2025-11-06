@@ -7,6 +7,7 @@ torch.cuda.empty_cache()
 
 import os
 import sys
+import json
 os.environ["DISPLAY"] =':1'
 os.environ['CUDA_VISIBLE_DEVICES'] = '0' # set GPU device
 sys.path.append("apc/vision_modules")
@@ -45,7 +46,7 @@ class APCRunner:
         image = Image.open(image_path).convert("RGB").resize((512, 512))
         return image
 
-    def run_single(self, i, example, verbose=False, prompt_type="visual", datasource="3DSRBench"):
+    def run_single(self, i, example, verbose=False, prompt_type="visual", datasource="3DSRBench", conv_save_path=None):
         question = example["question"]
         category = example["category"]
         if (datasource == "3DSRBench"):
@@ -62,6 +63,10 @@ class APCRunner:
             image = self.download_image(image_url)
         elif (datasource == "SAT"):
             image = self.load_image(image_path)
+
+        if conv_save_path is not None:
+            os.makedirs(conv_save_path, exist_ok=True)
+            conv_save_path = os.path.join(conv_save_path, f"conversation_{i}.jsonl")
 
         if verbose:
             plt.imshow(image)
@@ -96,6 +101,7 @@ class APCRunner:
             visualize_scene_abstraction=False,
             return_conv_history=True if verbose else False,
             logging=False,
+            conv_save_path=conv_save_path,
         )
 
         if verbose:
@@ -129,12 +135,12 @@ class APCRunner:
             "response_text": response_text,
         }
 
-    def run(self, ds, verbose=False, prompt_type="visual", datasource="3DSRBench"):
+    def run(self, ds, verbose=False, prompt_type="visual", datasource="3DSRBench", conv_save_path=None):
         results = []
 
         for i, example in enumerate(tqdm(ds, desc=f"Evaluating {datasource}")):
             try:
-                results.append(self.run_single(i, ds[i], verbose, prompt_type, datasource))
+                results.append(self.run_single(i, ds[i], verbose, prompt_type, datasource, conv_save_path))
             except Exception as e:
                 print(f"Error running example {i}: {e}")
                 results.append({
