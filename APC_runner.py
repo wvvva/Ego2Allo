@@ -133,6 +133,19 @@ class APCRunner:
         results = []
 
         for i, example in enumerate(tqdm(ds, desc=f"Evaluating {datasource}")):
-            results.append(self.run_single(i, ds[i], verbose, prompt_type, datasource))
+            try:
+                results.append(self.run_single(i, ds[i], verbose, prompt_type, datasource))
+            except Exception as e:
+                print(f"Error running example {i}: {e}")
+                results.append({
+                    "index": example["index"],
+                    "category": example["category"],
+                    "question": example["question"],
+                    "prediction": "ERROR",
+                    "answer": example["answer"],
+                    "is_correct": False,
+                    "response_text": str(e),
+                })
+                continue
         
         return results
