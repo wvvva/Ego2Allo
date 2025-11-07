@@ -4,7 +4,8 @@ import json
 import os
 from datasets import Dataset
 
-model_name = "gemini_2.5_flash" # Change this
+# model_name = "gemini_2.5_flash" # Change this
+model_name = "qwenvl2_5_7b_instruct"
 config_path = f"apc/configs/{model_name}.yaml"
 
 apc_runner = APCRunner(config_path)
@@ -21,12 +22,15 @@ ds = Dataset.from_list(data)
 
 print(ds)
 
-ds = ds.select(range(25))
+ds = ds.select(range(100))
 
 SAT_TRAIN_GENERATED_FOLDER = "/ocean/projects/cis250208p/shared/datasets/SAT/train_generated"
 
 # run the model on the dataset
-results = apc_runner.run_single(1, ds[1], verbose=False, datasource="SAT", conv_save_path=SAT_TRAIN_GENERATED_FOLDER)
-results = apc_runner.run(ds, verbose=False, datasource="SAT", conv_save_path=SAT_TRAIN_GENERATED_FOLDER)
+#results = apc_runner.run_single(1, ds[1], verbose=False, datasource="SAT", conv_save_path=SAT_TRAIN_GENERATED_FOLDER)
+
+# results = apc_runner.run(ds, verbose=False, datasource="SAT", conv_save_path=SAT_TRAIN_GENERATED_FOLDER)
+results = apc_runner.run(ds, verbose=False, datasource="SAT")
 df = pd.DataFrame(results)
+
 df.to_csv(f"SAT_raw_predictions_{model_name}.csv", index=False)

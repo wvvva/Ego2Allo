@@ -2,7 +2,7 @@
 vlm:
   type: gemini
   model_name: gemini-2.5-flash
-  api_key: AIzaSyCwQJLl3-lU2iIzatj0NdS4QmmGo4CAQpo
+  api_key: 
 
 # Detection - Grounding DINO
 detection:
