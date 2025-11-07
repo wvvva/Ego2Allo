@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 # import APC pipeline
 from apc.apc_pipeline import APC
-from apc.utils import visualize_conversation, create_image_with_text
+from apc.utils import visualize_conversation, create_image_with_text, split_response
 import requests
 from io import BytesIO
 from tqdm import tqdm
@@ -106,9 +106,11 @@ class APCRunner:
 
         if verbose:
             print("Response", response_text)
-            
+
+        reasoning, answer = split_response(response_text)
+
         # Extract predicted answer (search for 'A', 'B', 'C', 'D')
-        match = re.search(r"\b([ABCD])\b", response_text.upper())
+        match = re.search(r"\b([ABCD])\b", answer.upper())
         pred_letter = match.group(1) if match else None
 
         if verbose:
@@ -129,6 +131,7 @@ class APCRunner:
             "index": i,
             "category": category,
             "question": question,
+            "reasoning": reasoning,
             "prediction": pred_letter,
             "answer": correct,
             "is_correct": pred_letter == correct,
@@ -148,6 +151,7 @@ class APCRunner:
                     "category": example["category"],
                     "question": example["question"],
                     "prediction": "ERROR",
+                    "reasoning": "",
                     "answer": example["answer"],
                     "is_correct": False,
                     "response_text": str(e),

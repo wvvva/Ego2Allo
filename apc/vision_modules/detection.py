@@ -155,7 +155,8 @@ class DetectionModule:
         prompt_refinement = f"""
         Select the image that best fits the description: '{category}'.
         
-        Please return its index.
+        Return image index only.
+        [Index]
         """
 
         # Make conversation

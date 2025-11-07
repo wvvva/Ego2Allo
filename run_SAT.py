@@ -26,7 +26,7 @@ ds = ds.select(range(25))
 SAT_TRAIN_GENERATED_FOLDER = "/ocean/projects/cis250208p/shared/datasets/SAT/train_generated"
 
 # run the model on the dataset
-# results = apc_runner.run_single(1, ds[1], verbose=False, datasource="SAT", conv_save_path=SAT_TRAIN_GENERATED_FOLDER)
+results = apc_runner.run_single(1, ds[1], verbose=False, datasource="SAT", conv_save_path=SAT_TRAIN_GENERATED_FOLDER)
 results = apc_runner.run(ds, verbose=False, datasource="SAT", conv_save_path=SAT_TRAIN_GENERATED_FOLDER)
-# df = pd.DataFrame(results)
-# df.to_csv(f"SAT_raw_predictions_{model_name}.csv", index=False)
+df = pd.DataFrame(results)
+df.to_csv(f"SAT_raw_predictions_{model_name}.csv", index=False)

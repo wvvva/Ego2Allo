@@ -8,6 +8,7 @@ import json
 from io import BytesIO
 import base64
 import os
+import re
 
 # # Define decorator for each APC stage
 # def apc_stage(func):
@@ -459,3 +460,14 @@ def store_conv(messages, response, conv_save_path: str, conv_type: str):
     }
     with open(conv_save_path, "a") as f:
         f.write(json.dumps(to_store) + "\n")
+
+def split_response(response_text: str):
+    parts = re.split(r"\[answer\]", response_text, flags=re.IGNORECASE)
+    if len(parts) == 2:
+        reasoning_text = parts[0]
+        reasoning = re.sub(r"\[reasoning\]", "", reasoning_text, flags=re.IGNORECASE).strip()
+        answer = parts[1].strip()
+    else:
+        reasoning = ""
+        answer = response_text
+    return reasoning, answer
