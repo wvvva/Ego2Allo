@@ -138,16 +138,18 @@ class APCRunner:
             "response_text": response_text,
         }
 
-    def run(self, ds, verbose=False, prompt_type="visual", datasource="3DSRBench", conv_save_path=None):
+    def run(self, ds, verbose=False, prompt_type="visual", datasource="3DSRBench", conv_save_path=None, index_offset=0):
         results = []
 
         for i, example in enumerate(tqdm(ds, desc=f"Evaluating {datasource}")):
+            torch.cuda.empty_cache()
+            gc.collect()
             try:
-                results.append(self.run_single(i, ds[i], verbose, prompt_type, datasource, conv_save_path))
+                results.append(self.run_single(i + index_offset, ds[i], verbose, prompt_type, datasource, conv_save_path))
             except Exception as e:
                 print(f"Error running example {i}: {e}")
                 results.append({
-                    "index": example["index"],
+                    "index": i + index_offset,
                     "category": example["category"],
                     "question": example["question"],
                     "prediction": "ERROR",
