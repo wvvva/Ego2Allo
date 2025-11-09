@@ -19,3 +19,5 @@ pip install -r requirements.txt
 module load cuda/12.6.1
 echo $CUDA_HOME
 ```
+
+# 

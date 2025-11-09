@@ -83,7 +83,7 @@ class APC:
         # Set color dictionary (for visual prompts)
         self.color_dict = [
             ['blue', [0, 0, 1]],
-            ['red', [1, 0, 0]],
+            # ['red', [1, 0, 0]],
             ['green', [0, 1, 0]],
             ['yellow', [1, 1, 0]],
             ['purple', [1, 0, 1]],

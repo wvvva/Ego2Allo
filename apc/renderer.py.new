@@ -13,6 +13,7 @@ from PIL import Image
 import trimesh
 # import trimesh.transformations as tf
 from pytorch3d.renderer import look_at_view_transform
+# from pytorch3d.renderer.cameras import look_at_view_transform
 from apc.utils import perspective_grid, unit_cube, duplicate_verts
 
 from trimesh.exchange import gltf
@@ -42,6 +43,100 @@ class RenderModule:
             grid_path.merge_vertices()
             scene.add_geometry(grid_path)
     
+    def make_sphere(self, pos, radius=1.0, color=[1.0, 0, 0, 1.0]):
+        '''Create a sphere at the given position'''
+        sphere = trimesh.creation.icosphere(radius=radius)
+        sphere.apply_translation(pos)
+        sphere.visual.face_colors = [color for _ in range(len(sphere.faces))]
+        return sphere
+
+    def make_arrow(
+        self,
+        pos: np.ndarray,
+        ori: np.ndarray,
+        length: float = 3.0,
+        radius: float = 0.2,
+        head_length: float = 1.0,
+        head_radius: float = 0.4,
+        color: List[float] = [1.0, 0, 0, 1.0],  # Default to bright red
+    ):
+        '''
+        Create an arrow mesh with a sphere at its base
+        '''
+        try:
+            # Ensure inputs are numpy arrays
+            pos = np.array(pos, dtype=np.float32)
+            ori = np.array(ori, dtype=np.float32)
+            
+            # Normalize orientation vector
+            ori_norm = ori / (np.linalg.norm(ori) + 1e-6)
+            
+            # Create arrow shaft (cylinder)
+            shaft = trimesh.creation.cylinder(
+                radius=radius,
+                height=length - head_length,
+                sections=12  # More sections for smoother cylinder
+            )
+            
+            # Create arrow head (cone)
+            head = trimesh.creation.cone(
+                radius=head_radius,
+                height=head_length,
+                sections=12  # More sections for smoother cone
+            )
+            
+            # Position shaft and head
+            shaft.apply_translation([0, 0, -(length - head_length)/2])
+            head.apply_translation([0, 0, head_length/2])
+            
+            # Combine shaft and head
+            arrow = trimesh.util.concatenate([shaft, head])
+            
+            # Calculate rotation to align with orientation vector
+            z_axis = np.array([0, 0, 1], dtype=np.float32)
+            
+            # Handle special cases
+            if np.allclose(ori_norm, z_axis):
+                # Already aligned with Z-axis
+                rotation_matrix = np.eye(3)
+            elif np.allclose(ori_norm, -z_axis):
+                # Point in opposite direction
+                rotation_matrix = np.diag([-1, -1, 1])
+            else:
+                # General case - use cross product for rotation axis
+                rotation_axis = np.cross(z_axis, ori_norm)
+                rotation_axis = rotation_axis / (np.linalg.norm(rotation_axis) + 1e-6)
+                cos_angle = np.clip(np.dot(z_axis, ori_norm), -1.0, 1.0)
+                angle = np.arccos(cos_angle)
+                
+                # Use trimesh's rotation_matrix
+                rotation_matrix = trimesh.transformations.rotation_matrix(
+                    angle, rotation_axis
+                )[:3,:3]
+            
+            # Create transformation matrix
+            transform = np.eye(4)
+            transform[:3,:3] = rotation_matrix
+            transform[:3,3] = pos
+            
+            # Apply transformation
+            arrow.apply_transform(transform)
+            
+            # Set colors - ensure proper shape
+            color_rgba = np.array(color, dtype=np.float32)
+            if color_rgba.size == 3:
+                color_rgba = np.append(color_rgba, 1.0)  # Add alpha if missing
+            
+            # Set face colors
+            arrow.visual.face_colors = np.tile(color_rgba, (len(arrow.faces), 1))
+            
+            print(f"Created arrow at {pos} with orientation {ori_norm}")
+            return arrow
+            
+        except Exception as e:
+            print(f"Error in make_arrow: {str(e)}")
+            raise
+
     def make_cube(
         self,
         pos: np.ndarray,
@@ -328,58 +423,14 @@ class RenderModule:
     #         )
 
     #     return visual_prompt_with_wireframes
-    
-
-    def make_arrow(self, origin, direction, length=0.5, color=(1.0, 0.0, 0.0), shift = 2):
-        """
-        Create a thin red arrow (shaft + head) pointing along 'direction' from 'origin'.
-        """
-        import trimesh
-        import numpy as np
-
-        # Normalize direction
-        direction = np.array(direction, dtype=float)
-        norm = np.linalg.norm(direction)
-        if norm < 1e-8:
-            return trimesh.Trimesh()  # skip invalid arrows
-        direction /= norm
-
-        # Dimensions (thinner)
-        shaft_length = length * 0.85
-        shaft_radius = length * 0.02     # thinner
-        cone_length = length * 0.15
-        cone_radius = shaft_radius * 4.0
-
-        # Cylinder (shaft)
-        shaft = trimesh.creation.cylinder(radius=shaft_radius, height=shaft_length, sections=24)
-        shaft.apply_translation([0, 0, shaft_length / 2.0])
-
-        # Cone (head)
-        head = trimesh.creation.cone(radius=cone_radius, height=cone_length, sections=24)
-        head.apply_translation([0, 0, shaft_length + cone_length / 2.0])
-
-        # Combine
-        arrow = trimesh.util.concatenate([shaft, head])
-
-        # Align Z-axis with direction
-        z_axis = np.array([0, 0, 1])
-        rotation, _ = trimesh.geometry.align_vectors(z_axis, direction, return_angle=True)
-        arrow.apply_transform(rotation)
-        arrow.apply_translation(origin + direction * shift)
-
-        # Color (solid red by default)
-        rgba = np.array([color[0]*255, color[1]*255, color[2]*255, 255])
-        arrow.visual.face_colors = rgba
-        return arrow
-
-
-
+            
     def render_visual_prompt(
         self,
         scene_abs_dict: Dict[str, Any],  # scene abstraction dictionary
         ref_viewer: str,                 # reference object (whose perspective is used)
         **apc_args,
     ):
+        print("loading")
         """
         Render a visual prompt safely (works even in headless environments).
         """
@@ -416,22 +467,23 @@ class RenderModule:
         scene.camera.fov = [cam_fov_deg, cam_fov_deg]
         self.draw_grid(scene, grid_size=grid_size)
 
-        # Determine which objects to render
+            # Determine which objects to render
         if apc_args["render_whole_scene"]:
             z_list = [pos[2] for pos in positions]
             max_z_obj_idx = np.argmax(z_list)
             max_z_obj_pos = positions[max_z_obj_idx]
             max_z = max_z_obj_pos[2]
 
-            # Always define z_trans
-            z_trans = 0.0
-
-            # Compute translation adaptively
+            # Calculate z_trans based on object positions
             dist_xy = np.linalg.norm(max_z_obj_pos[:2])
-            z_trans = abs(max_z) + dist_xy * math.tan(math.radians(cam_fov_deg / 2.0))
-            z_trans += box_size * 2.0  # small buffer so all objects stay visible
+            z_trans = max_z + dist_xy * math.atan(math.radians(cam_fov_deg / 2.0))
+            # If all objects are behind camera (z < 0), move camera back slightly
+            if max_z < 0:
+                z_trans = box_size * 2  # minimal camera offset
+            else:
+                z_trans = z_trans + box_size  # push camera back for positive z
 
-
+            # Apply z translation to all positions
             for i, pos in enumerate(positions):
                 x, y, z = pos
                 z = z - z_trans
@@ -461,19 +513,96 @@ class RenderModule:
 
             # print("* [INFO] Scaled all positions!")
 
-        # Add cubes to scene
+        # Add cubes and orientation arrows to scene
+        print("\n=== Starting scene geometry creation ===")
+        print(f"Number of objects to render: {len(positions)}")
+        print(f"Grid size: {grid_size}, Box size: {box_size}")
+        
         cube_meshes = []
+        arrow_meshes = []
         for idx, (pos, ori) in enumerate(zip(positions, orientations)):
+            print(f"\n--- Processing object {idx} ---")
+            print(f"Original position: {pos}")
+            print(f"Original orientation: {ori}")
+            
+            if idx >= len(colors):
+                print(f"Skipping object {idx} - no color available")
+                continue
+                
+            # Add cube
             cube_color = colors[idx][1]
             face_color = [cube_color + [box_alpha] for _ in range(12)]
+            print(f"Creating cube with color: {cube_color}")
             cube_mesh = self.make_cube(pos, ori, box_size=box_size, color=face_color)
             cube_meshes.append(cube_mesh)
+            print(f"Added cube to scene at position {pos}")
             scene.add_geometry(cube_mesh)
             
-            arrow = self.make_arrow(pos, ori, length=10, shift = box_size)
-            scene.add_geometry(arrow)
+            try:
+                print(f"\nCreating arrow for object {idx}")
+                # Create HUGE bright red arrow for maximum visibility
+                arrow_color = [1.0, 0.0, 0.0, 1.0]  # Bright red, fully opaque
+                print(f"Arrow color: {arrow_color}")
 
-            # arrow = self.make_arrow(pos, ori, length=box_size * 0.8, color=(0.2, 0.8, 0.2))
+                # Calculate arrow starting point - on the face in orientation direction
+                arrow_dir = ori.copy()
+                arrow_dir = arrow_dir / (np.linalg.norm(arrow_dir) + 1e-6)
+                
+                # Start arrow from the center of the face in the orientation direction
+                arrow_start = np.array(pos) + (arrow_dir * box_size)  # Move to face center
+                print(f"Arrow start position: {arrow_start}")
+                print(f"Initial normalized direction: {arrow_dir}")
+                
+                # Add slight upward tilt if too horizontal
+                if abs(arrow_dir[1]) < 0.2:
+                    arrow_dir[1] = 0.2
+                    arrow_dir = arrow_dir / np.linalg.norm(arrow_dir)
+                print(f"Final arrow direction: {arrow_dir}")
+                
+                print("\nCreating sphere marker")
+                # Add a small red sphere at arrow base
+                sphere = self.make_sphere(
+                    arrow_start,
+                    radius=box_size * 0.2,  # Small sphere as connection point
+                    color=[1.0, 0.0, 0.0, 1.0]  # Bright red
+                )
+                print("Sphere created successfully")
+                print("Adding sphere to scene")
+                scene.add_geometry(sphere)
+                
+                print("\nCreating proportional arrow")
+                # Create proportional arrow
+                arrow_mesh = self.make_arrow(
+                    arrow_start,
+                    arrow_dir,
+                    length=box_size * 2.5,      # Length proportional to box
+                    radius=box_size * 0.15,     # Thinner shaft
+                    head_length=box_size * 0.5,  # Smaller head
+                    head_radius=box_size * 0.3,  # Smaller head radius
+                    color=arrow_color
+                )
+                print("Arrow mesh created successfully")
+                
+                # Position the arrow mesh relative to the box size
+                arrow_meshes.append(arrow_mesh)
+                print("Adding arrow to scene")
+                scene.add_geometry(arrow_mesh)
+                print(f"Successfully added arrow and sphere for object {idx}")
+                
+                # Debug output for mesh properties
+                print("\nArrow mesh verification:")
+                print(f"Number of vertices: {len(arrow_mesh.vertices)}")
+                print(f"Number of faces: {len(arrow_mesh.faces)}")
+                print(f"Arrow bounds: {arrow_mesh.bounds}")
+                
+            except Exception as e:
+                print(f"Error creating arrow for object {idx}: {str(e)}")
+                import traceback
+                print(traceback.format_exc())
+                
+        print(f"\n=== Scene geometry complete ===")
+        print(f"Created {len(arrow_meshes)} arrows for {len(positions)} objects")
+        print(f"Total geometries in scene: {len(scene.geometry)}")
 
 
         # --- Safe rendering ---
