@@ -93,6 +93,29 @@ class RenderModule:
 
         return cube_mesh
     
+    # def recenter_camera(self, scene_dict):
+    #     objs = [v for k, v in scene_dict.items() if k != 'camera']
+    #     obj_positions = np.array([o['position'] for o in objs])
+        
+    #     # Average position of all objects
+    #     center = np.mean(obj_positions, axis=0)
+        
+    #     # Compute camera distance (so objects stay in frame)
+    #     max_dist = np.linalg.norm(obj_positions - center, axis=1).max()
+    #     vertical_spread = np.max(np.abs(obj_positions[:, 1] - center[1]))
+    #     depth_spread = np.max(np.abs(obj_positions[:, 2] - center[2]))
+    #     distance = max(max_dist, vertical_spread * 1.5, depth_spread * 1.5) * 2.5
+
+    #     # Adjust camera position (move backward along its orientation)
+    #     new_dir = center - scene_dict['camera']['position']
+    #     scene_dict['camera']['orientation'] = new_dir / np.linalg.norm(new_dir)
+
+    #     cam_dir = scene_dict['camera']['orientation'] / np.linalg.norm(scene_dict['camera']['orientation'])
+    #     scene_dict['camera']['position'] = center - cam_dir * distance
+        
+    #     return scene_dict
+
+    
     def add_wireframe(
         self,
         scene,              # Original trimesh scene
@@ -103,6 +126,8 @@ class RenderModule:
         '''
         Draw a wireframe to each cube (for better visualization)
         '''
+
+        os.makedirs(trace_save_dir, exist_ok=True)
         # Save the rendered image (temporary)
         temp_path = os.path.join(trace_save_dir, 'visual_prompt_temp.png')
 
@@ -422,7 +447,7 @@ class RenderModule:
             max_z_obj_idx = np.argmax(z_list)
             max_z_obj_pos = positions[max_z_obj_idx]
             max_z = max_z_obj_pos[2]
-
+            
             # Always define z_trans
             z_trans = 0.0
 
@@ -466,6 +491,12 @@ class RenderModule:
         for idx, (pos, ori) in enumerate(zip(positions, orientations)):
             cube_color = colors[idx][1]
             face_color = [cube_color + [box_alpha] for _ in range(12)]
+
+            # --- Fix for vertical degeneracy ---
+            if abs(ori[1]) > 0.9999:
+                ori[2] = 1e-10
+            # -----------------------------------
+
             cube_mesh = self.make_cube(pos, ori, box_size=box_size, color=face_color)
             cube_meshes.append(cube_mesh)
             scene.add_geometry(cube_mesh)
@@ -492,6 +523,7 @@ class RenderModule:
             scene, visual_prompt, cube_meshes, trace_save_dir
         )
 
+        os.makedirs(trace_save_dir, exist_ok=True)
         # Save the image if requested
         if apc_args.get("visualize_trace", False):
             visual_prompt_with_wireframes.save(
