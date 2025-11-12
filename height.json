@@ -1,0 +1,4902 @@
+[
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        17.68461058593639,
+        -17.977600649821795,
+        -6.392076142558693
+      ],
+      "color": "purple",
+      "orientation": [
+        19.058690081780753,
+        12.03389568668166,
+        1.788759907692775
+      ]
+    },
+    "object_2": {
+      "position": [
+        2.9123261546351813,
+        12.270324947868975,
+        -17.350426311185466
+      ],
+      "color": "yellow",
+      "orientation": [
+        -6.503643887002628,
+        -17.296792356107247,
+        -13.325114675834545
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "yellow",
+      "B": "purple"
+    },
+    "question": "Which one is higher, the purple box or the yellow box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_0/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        5.262960727967187,
+        -1.6599675071140538,
+        -4.567792260335057
+      ],
+      "color": "brown",
+      "orientation": [
+        6.184987224613927,
+        1.9035091067829484,
+        2.1568951678477433
+      ]
+    },
+    "object_2": {
+      "position": [
+        -16.90557175851385,
+        10.609847507648633,
+        -1.3520827473567074
+      ],
+      "color": "gray",
+      "orientation": [
+        4.6139262760301705,
+        -8.896250544923943,
+        5.320230632325554
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "gray",
+      "B": "brown"
+    },
+    "question": "Which one is higher, the brown box or the gray box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_1/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -17.10849429655008,
+        -11.55011103943167,
+        -14.730086241164884
+      ],
+      "color": "yellow",
+      "orientation": [
+        19.842265239129183,
+        10.579807599340135,
+        -5.3454876383405505
+      ]
+    },
+    "object_2": {
+      "position": [
+        0.8197741099463443,
+        15.83637890969305,
+        -2.0568724547426847
+      ],
+      "color": "brown",
+      "orientation": [
+        10.06293659086441,
+        -3.0124340916392,
+        -15.44401031803262
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "brown",
+      "B": "yellow"
+    },
+    "question": "Which one is higher, the yellow box or the brown box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_2/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        12.416786649841839,
+        -11.123377833558203,
+        -0.6659594715775725
+      ],
+      "color": "blue",
+      "orientation": [
+        4.849769520430467,
+        18.5607880168836,
+        14.44637288253739
+      ]
+    },
+    "object_2": {
+      "position": [
+        11.43823458928874,
+        -8.062644443241837,
+        -9.974195584032444
+      ],
+      "color": "brown",
+      "orientation": [
+        -0.9918918064324878,
+        -2.8692240272508513,
+        -9.66661753529074
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "blue",
+      "B": "brown"
+    },
+    "question": "Which one is higher, the blue box or the brown box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_3/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -12.988793835723357,
+        16.329754492930327,
+        -17.39538403675069
+      ],
+      "color": "green",
+      "orientation": [
+        3.373165829991173,
+        9.24789727101549,
+        -6.98629417356338
+      ]
+    },
+    "object_2": {
+      "position": [
+        -18.34408709960606,
+        17.903380122476484,
+        -2.560979586178167
+      ],
+      "color": "gray",
+      "orientation": [
+        13.773978381429608,
+        -5.828762907736795,
+        8.73328725040463
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "green",
+      "B": "gray"
+    },
+    "question": "Which one is higher, the green box or the gray box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_4/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -19.72637785507488,
+        19.977741737680887,
+        -15.914575039038457
+      ],
+      "color": "yellow",
+      "orientation": [
+        -4.048028798094734,
+        17.446614965266498,
+        18.259790921830877
+      ]
+    },
+    "object_2": {
+      "position": [
+        -15.619870775229202,
+        20.168906418754702,
+        -3.848204669658376
+      ],
+      "color": "purple",
+      "orientation": [
+        2.60342097814177,
+        8.6117649345463,
+        -13.519154836761267
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "yellow",
+      "B": "purple"
+    },
+    "question": "Which one is higher, the yellow box or the purple box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_5/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -16.34487659674329,
+        -9.158395371537228,
+        -3.4001839031064165
+      ],
+      "color": "green",
+      "orientation": [
+        -12.690920506508636,
+        -6.7335514977109625,
+        18.015686496543346
+      ]
+    },
+    "object_2": {
+      "position": [
+        -9.873830428383133,
+        5.156379192034576,
+        -4.070035274239716
+      ],
+      "color": "gray",
+      "orientation": [
+        -7.772148031595293,
+        -16.174984384389145,
+        -9.897951003301536
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "green",
+      "B": "gray"
+    },
+    "question": "Which one is higher, the green box or the gray box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_6/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        10.971306001423041,
+        -2.4603965548731708,
+        -14.740121668144596
+      ],
+      "color": "gray",
+      "orientation": [
+        12.163470487921899,
+        9.882525889253536,
+        17.0348079141759
+      ]
+    },
+    "object_2": {
+      "position": [
+        -9.056694567579605,
+        11.164235745707224,
+        -2.32429488486639
+      ],
+      "color": "blue",
+      "orientation": [
+        -19.96431320642976,
+        17.921536619066785,
+        0.21170051639874998
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "gray",
+      "B": "blue"
+    },
+    "question": "Which one is higher, the gray box or the blue box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_7/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        5.293629722700093,
+        2.1513086753257014,
+        -2.953670045608277
+      ],
+      "color": "purple",
+      "orientation": [
+        -16.691398485329998,
+        -10.177349250163052,
+        12.973809916638551
+      ]
+    },
+    "object_2": {
+      "position": [
+        19.822907676553548,
+        3.4022762114755323,
+        -8.22413978388857
+      ],
+      "color": "gray",
+      "orientation": [
+        -0.7651855214836729,
+        -17.69720310036874,
+        -6.087373080074157
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "gray",
+      "B": "purple"
+    },
+    "question": "Which one is higher, the purple box or the gray box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_8/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        9.017837957175207,
+        18.795123240914236,
+        -10.575424187823806
+      ],
+      "color": "brown",
+      "orientation": [
+        3.5025707314177943,
+        -17.583643726985414,
+        0.9564796846404313
+      ]
+    },
+    "object_2": {
+      "position": [
+        7.629317884433611,
+        19.74632035607799,
+        -17.32343471456176
+      ],
+      "color": "gray",
+      "orientation": [
+        18.88493751163437,
+        18.865430715526635,
+        10.794966292235397
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "brown",
+      "B": "gray"
+    },
+    "question": "Which one is higher, the brown box or the gray box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_9/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -17.14524927171313,
+        -3.899163791515349,
+        -18.04406813828099
+      ],
+      "color": "orange",
+      "orientation": [
+        -10.73128686016451,
+        0.7667130468145018,
+        16.58193988573818
+      ]
+    },
+    "object_2": {
+      "position": [
+        -17.23868384899433,
+        11.405593784343761,
+        -9.288070116151047
+      ],
+      "color": "blue",
+      "orientation": [
+        -13.984613685236544,
+        16.318000507778386,
+        15.798674328563237
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "blue",
+      "B": "orange"
+    },
+    "question": "Which one is higher, the orange box or the blue box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_10/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -19.86007453289265,
+        -7.389963639150906,
+        -3.9521430791277403
+      ],
+      "color": "gray",
+      "orientation": [
+        -4.054894900416869,
+        1.2951740065335997,
+        -3.277501445155796
+      ]
+    },
+    "object_2": {
+      "position": [
+        -9.78564251897215,
+        2.5609772197964435,
+        -2.7637132267272904
+      ],
+      "color": "purple",
+      "orientation": [
+        -7.208724912485378,
+        16.866540336122277,
+        -16.48862744181613
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "purple",
+      "B": "gray"
+    },
+    "question": "Which one is higher, the gray box or the purple box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_11/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -16.35375298646057,
+        -18.428344712912224,
+        -1.0935767088175048
+      ],
+      "color": "brown",
+      "orientation": [
+        16.203318476784972,
+        -2.588269817627431,
+        10.199673213863086
+      ]
+    },
+    "object_2": {
+      "position": [
+        -6.206238607793026,
+        15.821022661655231,
+        -10.940034119315253
+      ],
+      "color": "blue",
+      "orientation": [
+        18.744736904129184,
+        -5.481031641529075,
+        16.830557139471033
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "blue",
+      "B": "brown"
+    },
+    "question": "Which one is higher, the brown box or the blue box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_12/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -2.9652061133105008,
+        -5.149056209011679,
+        -17.007659755979148
+      ],
+      "color": "brown",
+      "orientation": [
+        -1.1879528221687963,
+        -12.696185385041181,
+        7.633582374545256
+      ]
+    },
+    "object_2": {
+      "position": [
+        -16.320884676713572,
+        -2.0052983026173035,
+        -17.953676744847368
+      ],
+      "color": "green",
+      "orientation": [
+        -18.574841955217394,
+        11.046526324739268,
+        -15.84774801992738
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "brown",
+      "B": "green"
+    },
+    "question": "Which one is higher, the brown box or the green box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_13/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        6.1130077961533935,
+        -12.642800809908659,
+        -15.61126725321758
+      ],
+      "color": "yellow",
+      "orientation": [
+        16.06227024668666,
+        4.981048723867907,
+        2.4130414363342467
+      ]
+    },
+    "object_2": {
+      "position": [
+        18.751865907500196,
+        0.8691721530531371,
+        -14.164622028452127
+      ],
+      "color": "green",
+      "orientation": [
+        1.2845571631134902,
+        -1.0211075816120356,
+        -4.834883922776886
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "green",
+      "B": "yellow"
+    },
+    "question": "Which one is higher, the yellow box or the green box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_14/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        19.819936002043292,
+        2.5254734133978154,
+        -15.649494481849155
+      ],
+      "color": "orange",
+      "orientation": [
+        -2.6947880531502904,
+        14.775729395482017,
+        11.214779870798996
+      ]
+    },
+    "object_2": {
+      "position": [
+        -2.0889761099653548,
+        12.318411165821034,
+        -14.235140575298137
+      ],
+      "color": "blue",
+      "orientation": [
+        -17.745874928242312,
+        -16.58227330225096,
+        12.86610238844473
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "blue",
+      "B": "orange"
+    },
+    "question": "Which one is higher, the orange box or the blue box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_15/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -14.685371058950206,
+        5.357639805679341,
+        -0.8522333752939701
+      ],
+      "color": "gray",
+      "orientation": [
+        12.465526764477048,
+        19.18511190023913,
+        -7.033173152162844
+      ]
+    },
+    "object_2": {
+      "position": [
+        -6.952166405472319,
+        18.15183070506406,
+        -14.373770929630833
+      ],
+      "color": "green",
+      "orientation": [
+        -1.5020277804863653,
+        17.149962140823668,
+        -17.536196801207225
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "green",
+      "B": "gray"
+    },
+    "question": "Which one is higher, the gray box or the green box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_16/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -14.198527972362038,
+        1.2785888877429414,
+        -16.902914239749535
+      ],
+      "color": "purple",
+      "orientation": [
+        13.114529916673085,
+        2.8198619795300246,
+        2.6359005096621786
+      ]
+    },
+    "object_2": {
+      "position": [
+        -14.45428438543372,
+        18.65149319892982,
+        -17.94493602537222
+      ],
+      "color": "blue",
+      "orientation": [
+        5.8332024430471066,
+        0.16649051659781833,
+        -14.42656464350312
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "blue",
+      "B": "purple"
+    },
+    "question": "Which one is higher, the purple box or the blue box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_17/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -11.769053862463235,
+        -0.17389952037074607,
+        -3.836178889455489
+      ],
+      "color": "gray",
+      "orientation": [
+        -1.8094832108582253,
+        13.094967304773775,
+        0.31862427922231973
+      ]
+    },
+    "object_2": {
+      "position": [
+        1.3342104438399929,
+        2.355638973210662,
+        -7.428761120345072
+      ],
+      "color": "blue",
+      "orientation": [
+        18.397954832200313,
+        -2.6191667789416186,
+        -5.300868194717697
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "blue",
+      "B": "gray"
+    },
+    "question": "Which one is higher, the gray box or the blue box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_18/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        17.304957305806525,
+        5.106549780496216,
+        -7.766340520825235
+      ],
+      "color": "brown",
+      "orientation": [
+        2.0610822698579803,
+        -1.8872888785311623,
+        11.407374274802997
+      ]
+    },
+    "object_2": {
+      "position": [
+        2.220878114295086,
+        18.737588838142585,
+        -5.493803961304788
+      ],
+      "color": "blue",
+      "orientation": [
+        3.4840011630365986,
+        -16.44818798219323,
+        8.204163688580358
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "brown",
+      "B": "blue"
+    },
+    "question": "Which one is higher, the brown box or the blue box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_19/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        12.983063093946818,
+        13.7766939805609,
+        -3.9696352662060335
+      ],
+      "color": "purple",
+      "orientation": [
+        -9.097877081034188,
+        -16.138942015048528,
+        12.193438791386974
+      ]
+    },
+    "object_2": {
+      "position": [
+        18.291194589199634,
+        15.162642765090892,
+        -10.654313713216148
+      ],
+      "color": "orange",
+      "orientation": [
+        -6.299547201460939,
+        1.6322726376857872,
+        12.172343139628275
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "purple",
+      "B": "orange"
+    },
+    "question": "Which one is higher, the purple box or the orange box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_20/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -12.593862218303077,
+        -0.8727733943333504,
+        -8.30891233221342
+      ],
+      "color": "brown",
+      "orientation": [
+        2.085127327252188,
+        12.787360119443719,
+        3.767116216920794
+      ]
+    },
+    "object_2": {
+      "position": [
+        -1.249229522889248,
+        19.308935254245515,
+        -17.58306524861431
+      ],
+      "color": "blue",
+      "orientation": [
+        -13.856517166053441,
+        14.63398583876517,
+        -6.218223195987873
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "brown",
+      "B": "blue"
+    },
+    "question": "Which one is higher, the brown box or the blue box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_21/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        14.852061820698673,
+        5.30614519673491,
+        -15.484284128937754
+      ],
+      "color": "green",
+      "orientation": [
+        0.500815705646275,
+        -4.286037651855459,
+        14.754909782592698
+      ]
+    },
+    "object_2": {
+      "position": [
+        14.040606745478435,
+        17.530931859198958,
+        -13.631878511940418
+      ],
+      "color": "gray",
+      "orientation": [
+        1.793108505163488,
+        -9.673305828178385,
+        8.8753909421523
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "gray",
+      "B": "green"
+    },
+    "question": "Which one is higher, the green box or the gray box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_22/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        2.5571305900128536,
+        14.87238118055884,
+        -19.710639595011617
+      ],
+      "color": "purple",
+      "orientation": [
+        -15.767952644353018,
+        4.139010338689097,
+        -4.547258893236478
+      ]
+    },
+    "object_2": {
+      "position": [
+        16.836486853915275,
+        19.656011955036384,
+        -14.315340378719954
+      ],
+      "color": "blue",
+      "orientation": [
+        -12.76925611426526,
+        2.1675939643464304,
+        12.875167365981717
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "purple",
+      "B": "blue"
+    },
+    "question": "Which one is higher, the purple box or the blue box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_23/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -6.77545687775476,
+        -10.23223920288466,
+        -15.905074611116202
+      ],
+      "color": "yellow",
+      "orientation": [
+        6.405507547483211,
+        14.459851383587996,
+        -8.099576283238964
+      ]
+    },
+    "object_2": {
+      "position": [
+        0.5083587590649152,
+        19.83567901407792,
+        -4.40591170953434
+      ],
+      "color": "gray",
+      "orientation": [
+        -10.346672050276208,
+        -2.39781765155211,
+        -15.937342498922735
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "gray",
+      "B": "yellow"
+    },
+    "question": "Which one is higher, the yellow box or the gray box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_24/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        16.089013807146472,
+        5.818735638131322,
+        -10.708210867782594
+      ],
+      "color": "gray",
+      "orientation": [
+        -7.325942964444415,
+        7.9544394689369895,
+        -8.463181723353692
+      ]
+    },
+    "object_2": {
+      "position": [
+        0.36174721109924235,
+        12.395673598740075,
+        -3.341112401374314
+      ],
+      "color": "blue",
+      "orientation": [
+        -9.038315030523481,
+        -16.746900110221613,
+        18.19792601579025
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "gray",
+      "B": "blue"
+    },
+    "question": "Which one is higher, the gray box or the blue box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_25/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        10.19036868329312,
+        -0.447566889511684,
+        -6.378750869812869
+      ],
+      "color": "orange",
+      "orientation": [
+        11.406015175727632,
+        19.297626105730195,
+        -15.369184675941652
+      ]
+    },
+    "object_2": {
+      "position": [
+        -19.52409846819959,
+        4.355670058199926,
+        -14.445944172231771
+      ],
+      "color": "green",
+      "orientation": [
+        14.873973372572593,
+        6.72581110681179,
+        -6.890756738221722
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "green",
+      "B": "orange"
+    },
+    "question": "Which one is higher, the orange box or the green box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_26/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        8.508198899772662,
+        15.8528756246494,
+        -13.062384191997866
+      ],
+      "color": "brown",
+      "orientation": [
+        -15.301761354469821,
+        7.14847827441513,
+        15.767673780610892
+      ]
+    },
+    "object_2": {
+      "position": [
+        2.1821339697331794,
+        16.635269233444365,
+        -3.1004206982506055
+      ],
+      "color": "yellow",
+      "orientation": [
+        -15.35792256390586,
+        -0.5731680400706267,
+        -16.79222781304435
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "yellow",
+      "B": "brown"
+    },
+    "question": "Which one is higher, the brown box or the yellow box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_27/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -1.4540061149768455,
+        10.829359763535539,
+        -13.001025355306556
+      ],
+      "color": "brown",
+      "orientation": [
+        -1.6559321111751188,
+        -9.292928853300314,
+        -17.561496805540727
+      ]
+    },
+    "object_2": {
+      "position": [
+        -6.687478736239614,
+        16.788374987804083,
+        -15.017195421135074
+      ],
+      "color": "yellow",
+      "orientation": [
+        2.0180609636064553,
+        -5.792886681119448,
+        13.614997566768153
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "yellow",
+      "B": "brown"
+    },
+    "question": "Which one is higher, the brown box or the yellow box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_28/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        8.179014874881204,
+        -14.32159583494748,
+        -7.05966068770868
+      ],
+      "color": "purple",
+      "orientation": [
+        -7.117315919035416,
+        19.106851213342182,
+        -3.7424933111595493
+      ]
+    },
+    "object_2": {
+      "position": [
+        5.692242512631829,
+        2.1938945866005604,
+        -11.997841950950345
+      ],
+      "color": "gray",
+      "orientation": [
+        -14.657985421972972,
+        -17.569201398192725,
+        -1.2005371525626245
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "gray",
+      "B": "purple"
+    },
+    "question": "Which one is higher, the purple box or the gray box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_29/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -2.7594987995553026,
+        13.969924474469089,
+        -19.147547972491225
+      ],
+      "color": "orange",
+      "orientation": [
+        -14.234793862111449,
+        10.628027572759457,
+        -5.819129717022541
+      ]
+    },
+    "object_2": {
+      "position": [
+        -1.8641340658241035,
+        18.516149609712564,
+        -17.108565894001003
+      ],
+      "color": "green",
+      "orientation": [
+        10.456143564440893,
+        -7.446751701703942,
+        15.3274935149146
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "orange",
+      "B": "green"
+    },
+    "question": "Which one is higher, the orange box or the green box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_30/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        18.371111134076088,
+        -19.445297096746025,
+        -16.294119859571015
+      ],
+      "color": "blue",
+      "orientation": [
+        -14.301292207835568,
+        -13.494814447616186,
+        -6.888921774113452
+      ]
+    },
+    "object_2": {
+      "position": [
+        -4.216524574002548,
+        -18.56918190869016,
+        -14.752844439286864
+      ],
+      "color": "brown",
+      "orientation": [
+        15.926755283197267,
+        1.6587973957214288,
+        -11.222807168922637
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "blue",
+      "B": "brown"
+    },
+    "question": "Which one is higher, the blue box or the brown box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_31/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        10.874770139652455,
+        11.405792818960588,
+        -1.0366497100154106
+      ],
+      "color": "gray",
+      "orientation": [
+        -0.6371087814899923,
+        -3.9692472560582637,
+        -14.653020872744289
+      ]
+    },
+    "object_2": {
+      "position": [
+        -18.908755578736404,
+        14.894894858165541,
+        -9.36236326105183
+      ],
+      "color": "yellow",
+      "orientation": [
+        4.2495328549128395,
+        -10.862002157734757,
+        -15.685457366427077
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "yellow",
+      "B": "gray"
+    },
+    "question": "Which one is higher, the gray box or the yellow box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_32/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        12.52521589956379,
+        0.6171255053775617,
+        -16.48073782949401
+      ],
+      "color": "purple",
+      "orientation": [
+        -4.680292491733123,
+        14.658955374384128,
+        -17.162697136483487
+      ]
+    },
+    "object_2": {
+      "position": [
+        18.7609388895972,
+        7.898612891285825,
+        -11.29908394932956
+      ],
+      "color": "green",
+      "orientation": [
+        11.222498904166308,
+        12.852342653297065,
+        -7.563407539319794
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "green",
+      "B": "purple"
+    },
+    "question": "Which one is higher, the purple box or the green box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_33/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -17.860225650893984,
+        11.183710421343331,
+        -14.393690420027
+      ],
+      "color": "yellow",
+      "orientation": [
+        4.377077847769847,
+        11.070303102500215,
+        -3.480756322022156
+      ]
+    },
+    "object_2": {
+      "position": [
+        -7.677237954772597,
+        17.743880318193614,
+        -18.058419474211
+      ],
+      "color": "orange",
+      "orientation": [
+        7.874428176927495,
+        -2.9500745587174713,
+        6.487941472598322
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "yellow",
+      "B": "orange"
+    },
+    "question": "Which one is higher, the yellow box or the orange box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_34/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -14.23030862063213,
+        -14.386735212559367,
+        -9.085249072824617
+      ],
+      "color": "purple",
+      "orientation": [
+        6.788728521644096,
+        -17.39369270288212,
+        -12.611971222106938
+      ]
+    },
+    "object_2": {
+      "position": [
+        9.91725383686876,
+        -2.590361689468331,
+        -13.810640639744696
+      ],
+      "color": "yellow",
+      "orientation": [
+        12.310700510080046,
+        2.3334787368631567,
+        -18.288375321665285
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "yellow",
+      "B": "purple"
+    },
+    "question": "Which one is higher, the purple box or the yellow box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_35/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        11.150036455035472,
+        -3.2489783739073204,
+        -11.77250111060964
+      ],
+      "color": "yellow",
+      "orientation": [
+        -17.58394151215779,
+        6.843219289577853,
+        6.895536189902792
+      ]
+    },
+    "object_2": {
+      "position": [
+        6.9031799213712866,
+        14.450907668180495,
+        -4.577503029521342
+      ],
+      "color": "blue",
+      "orientation": [
+        7.053081258146538,
+        15.315876154127139,
+        8.854710361207907
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "blue",
+      "B": "yellow"
+    },
+    "question": "Which one is higher, the yellow box or the blue box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_36/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        4.082700833579498,
+        -17.976293132774927,
+        -6.2662033742601935
+      ],
+      "color": "gray",
+      "orientation": [
+        13.56892892699993,
+        -15.095726626811725,
+        -6.779745959468668
+      ]
+    },
+    "object_2": {
+      "position": [
+        4.706648534626115,
+        -16.30205965878937,
+        -12.154891754082096
+      ],
+      "color": "green",
+      "orientation": [
+        -19.197201957886833,
+        -13.399600888301265,
+        17.720512951820552
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "gray",
+      "B": "green"
+    },
+    "question": "Which one is higher, the gray box or the green box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_37/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -18.70754601141575,
+        -15.537231581325992,
+        -0.8967087428502083
+      ],
+      "color": "blue",
+      "orientation": [
+        -5.495643918080653,
+        0.43427786160393467,
+        18.112492008514366
+      ]
+    },
+    "object_2": {
+      "position": [
+        4.872736813366771,
+        12.994504292359482,
+        -16.51061592785932
+      ],
+      "color": "orange",
+      "orientation": [
+        3.252972345440817,
+        -14.888806917040727,
+        -4.363117022887618
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "orange",
+      "B": "blue"
+    },
+    "question": "Which one is higher, the blue box or the orange box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_38/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -12.022848921770057,
+        -4.589663484336883,
+        -3.353765204118588
+      ],
+      "color": "brown",
+      "orientation": [
+        -1.697868829165749,
+        -0.7826144243040147,
+        -14.428602361070428
+      ]
+    },
+    "object_2": {
+      "position": [
+        4.855211727759482,
+        9.508451654281716,
+        -2.285947180539555
+      ],
+      "color": "orange",
+      "orientation": [
+        -17.2251123358771,
+        2.020821217845178,
+        8.64473715723232
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "orange",
+      "B": "brown"
+    },
+    "question": "Which one is higher, the brown box or the orange box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_39/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -0.924271180954797,
+        -12.588005847617595,
+        -7.182714870907903
+      ],
+      "color": "orange",
+      "orientation": [
+        -12.592390092725179,
+        8.54629072808659,
+        6.2855670105937875
+      ]
+    },
+    "object_2": {
+      "position": [
+        16.918295966333865,
+        10.924178072204711,
+        -3.067944146557096
+      ],
+      "color": "green",
+      "orientation": [
+        -16.241173662026483,
+        -0.07673331222818192,
+        -8.528524071679335
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "orange",
+      "B": "green"
+    },
+    "question": "Which one is higher, the orange box or the green box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_40/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -16.167486161443886,
+        2.160442923002968,
+        -15.449496489077221
+      ],
+      "color": "orange",
+      "orientation": [
+        -4.5372923801134135,
+        -5.486445618600154,
+        7.5434881325016505
+      ]
+    },
+    "object_2": {
+      "position": [
+        3.517490419622785,
+        12.446165281535777,
+        -0.7895162300929712
+      ],
+      "color": "gray",
+      "orientation": [
+        -16.068073774707287,
+        5.134101472647448,
+        1.134842936168198
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "gray",
+      "B": "orange"
+    },
+    "question": "Which one is higher, the orange box or the gray box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_41/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        1.3785079831497242,
+        14.849048080843318,
+        -14.857939038960863
+      ],
+      "color": "orange",
+      "orientation": [
+        -4.3201190829753155,
+        18.7468857134363,
+        -7.33715598073343
+      ]
+    },
+    "object_2": {
+      "position": [
+        8.649389312663903,
+        17.112595379030548,
+        -11.522060593303312
+      ],
+      "color": "yellow",
+      "orientation": [
+        17.71790223832282,
+        15.818141686304855,
+        -1.5645262512201086
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "orange",
+      "B": "yellow"
+    },
+    "question": "Which one is higher, the orange box or the yellow box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_42/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -10.766026258502057,
+        -14.682754794804524,
+        -5.01305212348935
+      ],
+      "color": "blue",
+      "orientation": [
+        -8.418946647597188,
+        -11.124774501398234,
+        16.601701119046503
+      ]
+    },
+    "object_2": {
+      "position": [
+        -12.195131675409874,
+        -3.673196568998291,
+        -9.537922149337279
+      ],
+      "color": "gray",
+      "orientation": [
+        12.008020143995786,
+        18.357730911180482,
+        17.853951356949914
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "gray",
+      "B": "blue"
+    },
+    "question": "Which one is higher, the blue box or the gray box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_43/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -19.042223749751024,
+        -5.407748276756319,
+        -0.48048755405072896
+      ],
+      "color": "green",
+      "orientation": [
+        15.18097497861313,
+        -6.948929906212179,
+        -18.3418142137278
+      ]
+    },
+    "object_2": {
+      "position": [
+        5.121599469220239,
+        15.189210820697316,
+        -7.418648160189626
+      ],
+      "color": "yellow",
+      "orientation": [
+        11.214274304618304,
+        10.330109714502616,
+        -18.591594811135774
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "yellow",
+      "B": "green"
+    },
+    "question": "Which one is higher, the green box or the yellow box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_44/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -14.44218152266191,
+        -8.744312105263532,
+        -19.872731402551413
+      ],
+      "color": "purple",
+      "orientation": [
+        16.299818424087405,
+        7.38601373090582,
+        -7.234084068639728
+      ]
+    },
+    "object_2": {
+      "position": [
+        19.84472774101676,
+        13.657191977233296,
+        -7.27031169580437
+      ],
+      "color": "yellow",
+      "orientation": [
+        -11.379432976985186,
+        19.953177463604774,
+        17.7693137090779
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "purple",
+      "B": "yellow"
+    },
+    "question": "Which one is higher, the purple box or the yellow box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_45/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        5.860019738475511,
+        4.664040800824992,
+        -17.92016149112634
+      ],
+      "color": "green",
+      "orientation": [
+        1.7810992342222676,
+        -5.605853190555013,
+        -7.59579508276191
+      ]
+    },
+    "object_2": {
+      "position": [
+        -6.950754854318939,
+        14.774792645230288,
+        -16.302576827393885
+      ],
+      "color": "brown",
+      "orientation": [
+        17.00869683451336,
+        4.419543721028525,
+        -15.893679046377013
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "brown",
+      "B": "green"
+    },
+    "question": "Which one is higher, the green box or the brown box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_46/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -17.880374786879464,
+        -9.849071949759786,
+        -12.61865449698089
+      ],
+      "color": "purple",
+      "orientation": [
+        -12.816622718191022,
+        16.797461606570735,
+        -17.268957342878682
+      ]
+    },
+    "object_2": {
+      "position": [
+        -6.675840879065804,
+        0.784091059772619,
+        -13.130638809463335
+      ],
+      "color": "brown",
+      "orientation": [
+        18.534806063307897,
+        19.381769415046406,
+        17.770377331138484
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "brown",
+      "B": "purple"
+    },
+    "question": "Which one is higher, the purple box or the brown box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_47/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -9.235156586312891,
+        -1.2101571083037683,
+        -5.943367829839719
+      ],
+      "color": "brown",
+      "orientation": [
+        9.837050610175385,
+        -13.713742106185762,
+        3.801840220947142
+      ]
+    },
+    "object_2": {
+      "position": [
+        -3.561968411767804,
+        12.737333476187539,
+        -19.87136097358455
+      ],
+      "color": "green",
+      "orientation": [
+        3.4005602286879437,
+        -3.2988360059170247,
+        -9.300399871004847
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "brown",
+      "B": "green"
+    },
+    "question": "Which one is higher, the brown box or the green box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_48/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        15.344794377994347,
+        -17.60923860469015,
+        -9.919794906891163
+      ],
+      "color": "gray",
+      "orientation": [
+        4.531066260540424,
+        18.73497500836494,
+        15.458567550976163
+      ]
+    },
+    "object_2": {
+      "position": [
+        -6.2445758035126975,
+        -2.0302669360791725,
+        -11.67915515012253
+      ],
+      "color": "green",
+      "orientation": [
+        19.29830356760791,
+        1.8425702578819525,
+        1.207725939595825
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "gray",
+      "B": "green"
+    },
+    "question": "Which one is higher, the gray box or the green box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_49/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        11.380123202442466,
+        -18.293145047685044,
+        -18.180896928115146
+      ],
+      "color": "gray",
+      "orientation": [
+        7.871734320124972,
+        -9.524741375799266,
+        12.50405315296048
+      ]
+    },
+    "object_2": {
+      "position": [
+        12.470729887730329,
+        -4.088631320725087,
+        -13.9312400525733
+      ],
+      "color": "purple",
+      "orientation": [
+        10.55905276636387,
+        -15.17169273577772,
+        -7.2718955823529186
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "gray",
+      "B": "purple"
+    },
+    "question": "Which one is higher, the gray box or the purple box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_50/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -18.168455039754402,
+        -13.969858947615315,
+        -7.956797243474556
+      ],
+      "color": "green",
+      "orientation": [
+        14.128938241721869,
+        -2.0812208701848505,
+        14.850563243806512
+      ]
+    },
+    "object_2": {
+      "position": [
+        6.430025264251171,
+        -13.439331613142272,
+        -4.547241933044564
+      ],
+      "color": "gray",
+      "orientation": [
+        -5.175097494383012,
+        2.6054923579548763,
+        0.5221561292778389
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "gray",
+      "B": "green"
+    },
+    "question": "Which one is higher, the green box or the gray box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_51/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        6.934567950156705,
+        -19.042549979377803,
+        -8.254226332432165
+      ],
+      "color": "orange",
+      "orientation": [
+        -0.9969394934996565,
+        -5.398401682322046,
+        -7.393213923235894
+      ]
+    },
+    "object_2": {
+      "position": [
+        1.365822566775961,
+        11.3002634131201,
+        -6.944832688516714
+      ],
+      "color": "yellow",
+      "orientation": [
+        -15.294591845360163,
+        13.99331751491777,
+        -4.674748249129351
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "orange",
+      "B": "yellow"
+    },
+    "question": "Which one is higher, the orange box or the yellow box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_52/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -1.3052193422910854,
+        3.1080325520273213,
+        -10.256342096825986
+      ],
+      "color": "gray",
+      "orientation": [
+        15.580417951379857,
+        13.766017140774444,
+        5.688344562998392
+      ]
+    },
+    "object_2": {
+      "position": [
+        -12.648819042605988,
+        11.865889626547792,
+        -7.274350047032863
+      ],
+      "color": "orange",
+      "orientation": [
+        15.357510679324605,
+        4.014825152904024,
+        13.460167887032725
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "gray",
+      "B": "orange"
+    },
+    "question": "Which one is higher, the gray box or the orange box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_53/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        17.286783352496947,
+        6.235169948613986,
+        -11.489742833978298
+      ],
+      "color": "orange",
+      "orientation": [
+        15.336687937725493,
+        -19.61138686547397,
+        2.011543491217825
+      ]
+    },
+    "object_2": {
+      "position": [
+        8.330687922694914,
+        15.661383049561815,
+        -11.095751419119967
+      ],
+      "color": "brown",
+      "orientation": [
+        17.343267793076336,
+        -9.232347488246164,
+        7.668337355301812
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "orange",
+      "B": "brown"
+    },
+    "question": "Which one is higher, the orange box or the brown box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_54/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -3.5122661482691555,
+        -0.848598962753293,
+        -16.47824666343905
+      ],
+      "color": "orange",
+      "orientation": [
+        -11.753870166712659,
+        7.982849623102872,
+        16.294669524709008
+      ]
+    },
+    "object_2": {
+      "position": [
+        -10.47025459581528,
+        17.423364429161314,
+        -4.259282267572269
+      ],
+      "color": "brown",
+      "orientation": [
+        -14.006070038718793,
+        8.70869565357421,
+        8.290305549422374
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "orange",
+      "B": "brown"
+    },
+    "question": "Which one is higher, the orange box or the brown box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_55/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -0.6161098390192024,
+        19.683445413414958,
+        -9.952032989746566
+      ],
+      "color": "gray",
+      "orientation": [
+        15.339800503117132,
+        -2.1715512322994037,
+        14.60022574847325
+      ]
+    },
+    "object_2": {
+      "position": [
+        -4.106009097364929,
+        20.02679589026624,
+        -5.549266100143317
+      ],
+      "color": "green",
+      "orientation": [
+        9.839290267331403,
+        -6.258481021205039,
+        10.895968809261227
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "green",
+      "B": "gray"
+    },
+    "question": "Which one is higher, the gray box or the green box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_56/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        3.1893954387490027,
+        -12.86529227877411,
+        -18.471584456640738
+      ],
+      "color": "blue",
+      "orientation": [
+        -16.39581518108504,
+        19.696611162347416,
+        8.812055958655783
+      ]
+    },
+    "object_2": {
+      "position": [
+        -12.608847786749884,
+        -1.385760899083424,
+        -13.032819895688668
+      ],
+      "color": "gray",
+      "orientation": [
+        0.35290907711641495,
+        3.18362066468201,
+        17.6953279304486
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "blue",
+      "B": "gray"
+    },
+    "question": "Which one is higher, the blue box or the gray box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_57/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        13.482268468369682,
+        7.469255328275327,
+        -5.400216213422835
+      ],
+      "color": "green",
+      "orientation": [
+        -13.250436008732013,
+        15.537365051238396,
+        13.089744369263485
+      ]
+    },
+    "object_2": {
+      "position": [
+        -9.18902073132569,
+        9.031055168939572,
+        -5.147760144432594
+      ],
+      "color": "brown",
+      "orientation": [
+        18.631443418355325,
+        -11.532911018657273,
+        14.823376424058111
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "green",
+      "B": "brown"
+    },
+    "question": "Which one is higher, the green box or the brown box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_58/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        0.5684521143258507,
+        -19.100684278535027,
+        -3.992404926327225
+      ],
+      "color": "brown",
+      "orientation": [
+        -16.815979014428706,
+        8.651199475769285,
+        -8.848140493897066
+      ]
+    },
+    "object_2": {
+      "position": [
+        4.869719805120148,
+        15.223695002246167,
+        -12.043418802203805
+      ],
+      "color": "orange",
+      "orientation": [
+        14.524278246739037,
+        2.4078646795489114,
+        11.171893709895265
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "brown",
+      "B": "orange"
+    },
+    "question": "Which one is higher, the brown box or the orange box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_59/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        2.1277446103456015,
+        15.84663502354659,
+        -12.683812782555746
+      ],
+      "color": "orange",
+      "orientation": [
+        12.58650187836934,
+        13.695397157089033,
+        5.643892686725312
+      ]
+    },
+    "object_2": {
+      "position": [
+        7.151129675956707,
+        18.22388932656493,
+        -16.26286096998528
+      ],
+      "color": "brown",
+      "orientation": [
+        -6.44796861509664,
+        -3.7816433282553774,
+        -12.464891242414321
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "brown",
+      "B": "orange"
+    },
+    "question": "Which one is higher, the orange box or the brown box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_60/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -14.411827018261256,
+        -15.009411752948868,
+        -18.450903170112582
+      ],
+      "color": "blue",
+      "orientation": [
+        16.06950014834095,
+        8.844103658344387,
+        13.03320274149192
+      ]
+    },
+    "object_2": {
+      "position": [
+        -18.68091624454955,
+        1.0295527395467197,
+        -15.172610635699863
+      ],
+      "color": "brown",
+      "orientation": [
+        15.528233579316023,
+        14.5320717733996,
+        -18.26312302589189
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "brown",
+      "B": "blue"
+    },
+    "question": "Which one is higher, the blue box or the brown box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_61/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        17.16879239320196,
+        -3.2479323646331864,
+        -0.6365515470199341
+      ],
+      "color": "orange",
+      "orientation": [
+        3.8685670761846183,
+        13.653620291579443,
+        -3.792135475012639
+      ]
+    },
+    "object_2": {
+      "position": [
+        -11.131990655549373,
+        3.9998864109299985,
+        -0.4269369446237796
+      ],
+      "color": "yellow",
+      "orientation": [
+        18.634194747820196,
+        -13.488799896746242,
+        -12.877244470249218
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "yellow",
+      "B": "orange"
+    },
+    "question": "Which one is higher, the orange box or the yellow box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_62/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        3.6449152888771117,
+        5.574149716685419,
+        -4.727927912294431
+      ],
+      "color": "yellow",
+      "orientation": [
+        16.986527773416718,
+        0.5639629574244474,
+        -9.978106504959058
+      ]
+    },
+    "object_2": {
+      "position": [
+        18.313724796381656,
+        7.2575207945080855,
+        -11.605221347380922
+      ],
+      "color": "brown",
+      "orientation": [
+        8.070745390197786,
+        0.7326754049089423,
+        -11.223046728318824
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "brown",
+      "B": "yellow"
+    },
+    "question": "Which one is higher, the yellow box or the brown box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_63/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        0.39055518114206933,
+        -16.819523147337414,
+        -11.105084614966463
+      ],
+      "color": "orange",
+      "orientation": [
+        -2.8582498820434594,
+        -8.971629058021033,
+        3.992887230228778
+      ]
+    },
+    "object_2": {
+      "position": [
+        -2.5361882588775764,
+        1.2819623851795932,
+        -13.177423722774435
+      ],
+      "color": "yellow",
+      "orientation": [
+        -13.787182399917782,
+        -15.243798615014331,
+        4.148380712559494
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "yellow",
+      "B": "orange"
+    },
+    "question": "Which one is higher, the orange box or the yellow box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_64/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        16.991688862694346,
+        -16.8197956383949,
+        -6.720472689289355
+      ],
+      "color": "gray",
+      "orientation": [
+        -13.182559553561752,
+        9.722298004328064,
+        9.489733956093396
+      ]
+    },
+    "object_2": {
+      "position": [
+        19.729682352411466,
+        5.402922389249596,
+        -3.6680616925657787
+      ],
+      "color": "orange",
+      "orientation": [
+        -5.132315853864245,
+        -17.5362823700654,
+        0.7956311372411022
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "gray",
+      "B": "orange"
+    },
+    "question": "Which one is higher, the gray box or the orange box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_65/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -19.562223262314518,
+        0.3837386420877884,
+        -18.744891855966543
+      ],
+      "color": "purple",
+      "orientation": [
+        -17.112939216861548,
+        5.38321168689194,
+        15.350758222671267
+      ]
+    },
+    "object_2": {
+      "position": [
+        -14.018881709961164,
+        2.812783504355629,
+        -17.30836890199949
+      ],
+      "color": "yellow",
+      "orientation": [
+        2.1852460821391375,
+        16.711452637979598,
+        -1.682295787446371
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "yellow",
+      "B": "purple"
+    },
+    "question": "Which one is higher, the purple box or the yellow box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_66/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -12.129672998160498,
+        -17.465027283729807,
+        -8.925709837825348
+      ],
+      "color": "purple",
+      "orientation": [
+        5.0831226860670995,
+        -13.208140701469947,
+        12.615037688172265
+      ]
+    },
+    "object_2": {
+      "position": [
+        12.287212020171637,
+        15.90643631875324,
+        -1.1326612557400146
+      ],
+      "color": "brown",
+      "orientation": [
+        8.334195207570275,
+        1.1124896536590398,
+        1.6582823943332237
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "purple",
+      "B": "brown"
+    },
+    "question": "Which one is higher, the purple box or the brown box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_67/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        13.80467384763044,
+        11.048009895964444,
+        -9.319662450101049
+      ],
+      "color": "orange",
+      "orientation": [
+        0.3308288863363664,
+        -5.100244106030903,
+        4.20440596627725
+      ]
+    },
+    "object_2": {
+      "position": [
+        16.5102511850749,
+        12.204054669772566,
+        -3.425356134257825
+      ],
+      "color": "gray",
+      "orientation": [
+        -16.279973217141873,
+        -7.907883536141668,
+        17.948137696868713
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "orange",
+      "B": "gray"
+    },
+    "question": "Which one is higher, the orange box or the gray box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_68/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        11.95376887169516,
+        0.8753176676857635,
+        -16.670740166948864
+      ],
+      "color": "orange",
+      "orientation": [
+        -7.815578103927177,
+        -17.891297177285207,
+        -6.112876997868177
+      ]
+    },
+    "object_2": {
+      "position": [
+        -11.93791276757295,
+        10.189409442764507,
+        -8.858345334371645
+      ],
+      "color": "purple",
+      "orientation": [
+        18.889416083196444,
+        8.361192105363735,
+        9.0251364223036
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "purple",
+      "B": "orange"
+    },
+    "question": "Which one is higher, the orange box or the purple box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_69/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -3.5373854035249295,
+        14.150312243897794,
+        -14.509375406157737
+      ],
+      "color": "gray",
+      "orientation": [
+        -8.697136956415669,
+        15.091996720359809,
+        -18.179371344649773
+      ]
+    },
+    "object_2": {
+      "position": [
+        -13.392839704002245,
+        15.495073552663678,
+        -2.2647869297608807
+      ],
+      "color": "purple",
+      "orientation": [
+        18.771038599804285,
+        -14.590801702433701,
+        3.9183474753334444
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "purple",
+      "B": "gray"
+    },
+    "question": "Which one is higher, the gray box or the purple box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_70/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -13.176382424765896,
+        -14.421154974629449,
+        -11.400865374166095
+      ],
+      "color": "blue",
+      "orientation": [
+        19.671487201356406,
+        18.344388314813386,
+        11.115358132734112
+      ]
+    },
+    "object_2": {
+      "position": [
+        -11.161527540197046,
+        -4.527468755481081,
+        -16.13072851606265
+      ],
+      "color": "yellow",
+      "orientation": [
+        12.190971573884944,
+        -14.022787104866197,
+        -15.490973963107116
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "blue",
+      "B": "yellow"
+    },
+    "question": "Which one is higher, the blue box or the yellow box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_71/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -12.263351828580507,
+        12.375629456994872,
+        -13.091716111057558
+      ],
+      "color": "purple",
+      "orientation": [
+        12.185527437846474,
+        -17.991906496562958,
+        -3.3612501600650866
+      ]
+    },
+    "object_2": {
+      "position": [
+        -14.815607032468847,
+        13.694616287668444,
+        -1.3123075955588916
+      ],
+      "color": "orange",
+      "orientation": [
+        18.249813453212283,
+        10.024250779795487,
+        -19.33440204641421
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "orange",
+      "B": "purple"
+    },
+    "question": "Which one is higher, the purple box or the orange box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_72/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        13.758057047221413,
+        10.461605484831516,
+        -2.3390540191457205
+      ],
+      "color": "green",
+      "orientation": [
+        -5.050480739217949,
+        4.527418728045944,
+        -9.257651292646818
+      ]
+    },
+    "object_2": {
+      "position": [
+        3.579896797008235,
+        17.59620401522281,
+        -7.536353980368444
+      ],
+      "color": "blue",
+      "orientation": [
+        -4.9579472807748495,
+        -10.214154189236746,
+        1.4897298269835524
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "blue",
+      "B": "green"
+    },
+    "question": "Which one is higher, the green box or the blue box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_73/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        3.2380151965876927,
+        -18.22076638656707,
+        -7.621243809190039
+      ],
+      "color": "yellow",
+      "orientation": [
+        9.81779541474944,
+        11.997606970656065,
+        4.250001068852839
+      ]
+    },
+    "object_2": {
+      "position": [
+        0.2171050471035585,
+        -17.272648594389988,
+        -5.627231929339796
+      ],
+      "color": "green",
+      "orientation": [
+        -1.0733310816290818,
+        -7.371865489836843,
+        -16.16383811165222
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "yellow",
+      "B": "green"
+    },
+    "question": "Which one is higher, the yellow box or the green box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_74/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -17.700174985461267,
+        12.192357597950036,
+        -6.692577004281656
+      ],
+      "color": "blue",
+      "orientation": [
+        0.1318723830646782,
+        3.2187786824367777,
+        19.742214925032876
+      ]
+    },
+    "object_2": {
+      "position": [
+        -5.916084230744332,
+        17.49470234931334,
+        -3.4496855682722654
+      ],
+      "color": "green",
+      "orientation": [
+        2.0986619451241637,
+        -6.258155407165539,
+        6.871402895337315
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "blue",
+      "B": "green"
+    },
+    "question": "Which one is higher, the blue box or the green box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_75/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        12.971175245307322,
+        -9.018208939414421,
+        -2.0963182953054513
+      ],
+      "color": "yellow",
+      "orientation": [
+        9.006292407001734,
+        -5.05226124710147,
+        -16.786437281319863
+      ]
+    },
+    "object_2": {
+      "position": [
+        4.563621861239739,
+        15.996309351538798,
+        -1.2416260730589954
+      ],
+      "color": "green",
+      "orientation": [
+        15.527202135403193,
+        -14.940381814348118,
+        15.579379286603398
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "yellow",
+      "B": "green"
+    },
+    "question": "Which one is higher, the yellow box or the green box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_76/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -19.547827805849924,
+        10.724812903800895,
+        -1.6997365621593232
+      ],
+      "color": "green",
+      "orientation": [
+        -2.8758682181774198,
+        -2.3618210654027934,
+        -7.371965299048471
+      ]
+    },
+    "object_2": {
+      "position": [
+        8.460134391876828,
+        12.688674961410067,
+        -6.52924521641353
+      ],
+      "color": "purple",
+      "orientation": [
+        15.171027733125001,
+        3.646435476949975,
+        -19.698279404783765
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "purple",
+      "B": "green"
+    },
+    "question": "Which one is higher, the green box or the purple box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_77/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        18.56994557975539,
+        17.069826771654924,
+        -8.809602601442732
+      ],
+      "color": "brown",
+      "orientation": [
+        -15.000993896871964,
+        8.002678134016904,
+        10.111620163408883
+      ]
+    },
+    "object_2": {
+      "position": [
+        -11.402726943907965,
+        18.209106049156418,
+        -11.42713267411952
+      ],
+      "color": "blue",
+      "orientation": [
+        5.182761834283202,
+        12.102370834535463,
+        -12.885436384144553
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "blue",
+      "B": "brown"
+    },
+    "question": "Which one is higher, the brown box or the blue box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_78/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -19.9448650110177,
+        -2.6336955185995983,
+        -3.0908113179134133
+      ],
+      "color": "orange",
+      "orientation": [
+        0.013474268903593156,
+        -16.239225398529207,
+        -13.39227618987092
+      ]
+    },
+    "object_2": {
+      "position": [
+        -9.608130712262707,
+        2.473377796581758,
+        -1.9732011294254832
+      ],
+      "color": "brown",
+      "orientation": [
+        13.352491476807337,
+        -13.136786935503055,
+        -6.053003856127965
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "brown",
+      "B": "orange"
+    },
+    "question": "Which one is higher, the orange box or the brown box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_79/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -2.541553256517645,
+        -11.22460823856854,
+        -16.240002659969623
+      ],
+      "color": "yellow",
+      "orientation": [
+        9.626114168727064,
+        4.174112644707119,
+        -3.126229534657611
+      ]
+    },
+    "object_2": {
+      "position": [
+        -13.740591129767257,
+        -5.759634850130632,
+        -6.748375052794355
+      ],
+      "color": "orange",
+      "orientation": [
+        14.260650591305449,
+        -3.424480168632698,
+        17.304566160333586
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "orange",
+      "B": "yellow"
+    },
+    "question": "Which one is higher, the yellow box or the orange box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_80/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -13.647146402663918,
+        5.022484834183029,
+        -1.3856546632553126
+      ],
+      "color": "purple",
+      "orientation": [
+        -0.5182775348419639,
+        -17.339535054295844,
+        -3.251341586675167
+      ]
+    },
+    "object_2": {
+      "position": [
+        17.82919762375917,
+        5.851075142759621,
+        -7.177857058912325
+      ],
+      "color": "gray",
+      "orientation": [
+        -15.076895955126993,
+        -16.169434634094518,
+        7.319299390318292
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "purple",
+      "B": "gray"
+    },
+    "question": "Which one is higher, the purple box or the gray box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_81/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        1.4598012964179539,
+        3.9087591783113176,
+        -5.844159985888517
+      ],
+      "color": "purple",
+      "orientation": [
+        -13.255770589334164,
+        18.071159181461418,
+        -2.1079251664831453
+      ]
+    },
+    "object_2": {
+      "position": [
+        16.761461812848736,
+        7.038397679043246,
+        -1.8183130106699679
+      ],
+      "color": "brown",
+      "orientation": [
+        1.1817813607020469,
+        -7.821635965042905,
+        -0.3936638864275075
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "brown",
+      "B": "purple"
+    },
+    "question": "Which one is higher, the purple box or the brown box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_82/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -2.842225854044983,
+        8.656887526206454,
+        -7.554359551811682
+      ],
+      "color": "purple",
+      "orientation": [
+        8.152530654567613,
+        17.406719402129546,
+        19.526162564184723
+      ]
+    },
+    "object_2": {
+      "position": [
+        17.39638369966778,
+        9.814126445922852,
+        -10.544172957946554
+      ],
+      "color": "green",
+      "orientation": [
+        12.003973148506788,
+        0.4331200483519062,
+        11.673983256574118
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "green",
+      "B": "purple"
+    },
+    "question": "Which one is higher, the purple box or the green box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_83/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -9.437149941499591,
+        10.755537026907792,
+        -16.28061087872405
+      ],
+      "color": "orange",
+      "orientation": [
+        -18.117616584588873,
+        9.41525427263064,
+        -10.503485095088099
+      ]
+    },
+    "object_2": {
+      "position": [
+        -6.885173107554454,
+        19.183666253402855,
+        -0.5268573189507464
+      ],
+      "color": "green",
+      "orientation": [
+        18.67921798123359,
+        -7.946009661715422,
+        -18.69348536727848
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "green",
+      "B": "orange"
+    },
+    "question": "Which one is higher, the orange box or the green box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_84/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -14.122576638065718,
+        1.815937156917542,
+        -5.304799317444136
+      ],
+      "color": "purple",
+      "orientation": [
+        8.789560005807413,
+        1.7621570209032456,
+        -17.55215823862799
+      ]
+    },
+    "object_2": {
+      "position": [
+        -2.859270860523118,
+        17.825184018010326,
+        -2.1279317007845826
+      ],
+      "color": "blue",
+      "orientation": [
+        7.398903508269893,
+        -10.07773198089675,
+        -10.503844648749672
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "purple",
+      "B": "blue"
+    },
+    "question": "Which one is higher, the purple box or the blue box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_85/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        1.62606599882875,
+        13.855809176856432,
+        -1.2909092371123947
+      ],
+      "color": "yellow",
+      "orientation": [
+        2.2646269996848503,
+        -18.23193424308776,
+        15.6445144495461
+      ]
+    },
+    "object_2": {
+      "position": [
+        -19.125707305700672,
+        16.78793905103349,
+        -18.648117069285934
+      ],
+      "color": "purple",
+      "orientation": [
+        12.280426053359456,
+        -14.669209044543106,
+        10.285389620959329
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "purple",
+      "B": "yellow"
+    },
+    "question": "Which one is higher, the yellow box or the purple box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_86/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        13.638543629346444,
+        -5.999795043220724,
+        -15.8587554755361
+      ],
+      "color": "blue",
+      "orientation": [
+        -0.9859746575701855,
+        6.4221444787871675,
+        6.9651710481011975
+      ]
+    },
+    "object_2": {
+      "position": [
+        15.776455487718067,
+        15.100534172667691,
+        -19.06667908088027
+      ],
+      "color": "gray",
+      "orientation": [
+        12.013738238163477,
+        6.411853640154025,
+        -12.274228544295923
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "blue",
+      "B": "gray"
+    },
+    "question": "Which one is higher, the blue box or the gray box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_87/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        10.512513399100946,
+        6.453310465873621,
+        -10.619231136126144
+      ],
+      "color": "purple",
+      "orientation": [
+        -16.027966786644875,
+        12.454352861495352,
+        2.3375289273962387
+      ]
+    },
+    "object_2": {
+      "position": [
+        6.427005623069245,
+        13.846480287945536,
+        -9.549176140926363
+      ],
+      "color": "orange",
+      "orientation": [
+        -2.7342641456651435,
+        19.10120664887686,
+        -2.7949196255816133
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "purple",
+      "B": "orange"
+    },
+    "question": "Which one is higher, the purple box or the orange box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_88/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        19.403324196400064,
+        -10.935480273674884,
+        -19.13564011191845
+      ],
+      "color": "yellow",
+      "orientation": [
+        9.004484859055136,
+        -16.205772222752927,
+        11.084625455086623
+      ]
+    },
+    "object_2": {
+      "position": [
+        0.113421525254914,
+        -8.420064385992745,
+        -3.9033688697797544
+      ],
+      "color": "green",
+      "orientation": [
+        -15.97966443088561,
+        -2.2301160196246315,
+        7.51866889952322
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "green",
+      "B": "yellow"
+    },
+    "question": "Which one is higher, the yellow box or the green box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_89/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        1.210149035279553,
+        14.59028658073273,
+        -18.452060577490496
+      ],
+      "color": "brown",
+      "orientation": [
+        -14.820579029259168,
+        4.397621367880845,
+        5.0065875677784355
+      ]
+    },
+    "object_2": {
+      "position": [
+        3.0150141113869253,
+        16.874643655286786,
+        -17.38763621614177
+      ],
+      "color": "orange",
+      "orientation": [
+        5.715160695189066,
+        -17.1113022931026,
+        -16.164389107536014
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "brown",
+      "B": "orange"
+    },
+    "question": "Which one is higher, the brown box or the orange box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_90/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -7.1169766516834,
+        -0.4676787074481048,
+        -19.990544080686984
+      ],
+      "color": "orange",
+      "orientation": [
+        3.469416675945915,
+        -16.012898351385033,
+        -18.978194058689297
+      ]
+    },
+    "object_2": {
+      "position": [
+        4.631637379114132,
+        15.444638059211192,
+        -15.673522930323003
+      ],
+      "color": "green",
+      "orientation": [
+        10.977350737435415,
+        -16.529744396301247,
+        -1.8139892468131116
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "green",
+      "B": "orange"
+    },
+    "question": "Which one is higher, the orange box or the green box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_91/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        11.592998088373967,
+        -16.840399492581323,
+        -19.421775729844438
+      ],
+      "color": "blue",
+      "orientation": [
+        0.6589835691875869,
+        -8.315528687615302,
+        -6.051436544233582
+      ]
+    },
+    "object_2": {
+      "position": [
+        7.637687895825927,
+        16.652705455782563,
+        -8.1165881042278
+      ],
+      "color": "yellow",
+      "orientation": [
+        7.775473001709102,
+        15.910264668941892,
+        17.232594433479015
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "yellow",
+      "B": "blue"
+    },
+    "question": "Which one is higher, the blue box or the yellow box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_92/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -11.163495177193647,
+        -2.5167530102645514,
+        -5.628140623440348
+      ],
+      "color": "brown",
+      "orientation": [
+        -12.767565183778418,
+        15.657789702107536,
+        1.3037057295597485
+      ]
+    },
+    "object_2": {
+      "position": [
+        13.289547913515491,
+        -1.0536089622293376,
+        -13.835403032437535
+      ],
+      "color": "yellow",
+      "orientation": [
+        16.887022185402884,
+        -1.7586176815634822,
+        -15.316523794190037
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "brown",
+      "B": "yellow"
+    },
+    "question": "Which one is higher, the brown box or the yellow box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_93/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        8.260856766372378,
+        -4.114629987266936,
+        -14.597990200819847
+      ],
+      "color": "yellow",
+      "orientation": [
+        14.447078341822788,
+        6.039896796532197,
+        -13.012827306483059
+      ]
+    },
+    "object_2": {
+      "position": [
+        -14.576626593004178,
+        17.968535488895704,
+        -13.290457770387485
+      ],
+      "color": "orange",
+      "orientation": [
+        12.066394766853051,
+        3.722665711367206,
+        8.727279271268088
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "yellow",
+      "B": "orange"
+    },
+    "question": "Which one is higher, the yellow box or the orange box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_94/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -18.100649151648327,
+        19.474667602971792,
+        -12.259492953657006
+      ],
+      "color": "orange",
+      "orientation": [
+        9.604818849855604,
+        -7.664433493635698,
+        4.219715192719697
+      ]
+    },
+    "object_2": {
+      "position": [
+        -9.671239552177195,
+        19.975809585865232,
+        -9.496482447720656
+      ],
+      "color": "blue",
+      "orientation": [
+        5.487538252931735,
+        -17.81350386359748,
+        0.16599137042707923
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "orange",
+      "B": "blue"
+    },
+    "question": "Which one is higher, the orange box or the blue box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_95/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -11.036312305856315,
+        -13.8560077748653,
+        -12.18002001996233
+      ],
+      "color": "gray",
+      "orientation": [
+        12.302046439980273,
+        -14.908806119881017,
+        7.266273065135593
+      ]
+    },
+    "object_2": {
+      "position": [
+        3.983452624247718,
+        -9.585422287164608,
+        -0.6840747494660953
+      ],
+      "color": "blue",
+      "orientation": [
+        18.98739075365077,
+        -7.283041714820513,
+        2.4605345513918024
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "blue",
+      "B": "gray"
+    },
+    "question": "Which one is higher, the gray box or the blue box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_96/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -16.13354048730566,
+        -12.100662768034333,
+        -1.2429008106020802
+      ],
+      "color": "purple",
+      "orientation": [
+        14.836492914105825,
+        -5.973361613488484,
+        4.988425522634415
+      ]
+    },
+    "object_2": {
+      "position": [
+        -19.375782030526434,
+        2.0587156092073897,
+        -12.78062727890137
+      ],
+      "color": "yellow",
+      "orientation": [
+        2.9248620887849697,
+        8.804595211132682,
+        -8.639341036016383
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "yellow",
+      "B": "purple"
+    },
+    "question": "Which one is higher, the purple box or the yellow box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_97/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        8.60728711027766,
+        -6.305393819294327,
+        -6.520056424792994
+      ],
+      "color": "brown",
+      "orientation": [
+        2.2041477700460597,
+        -9.950851361196262,
+        10.880802087705561
+      ]
+    },
+    "object_2": {
+      "position": [
+        -2.8638306267564992,
+        13.587092040822387,
+        -13.231933930573456
+      ],
+      "color": "green",
+      "orientation": [
+        1.9205844539684271,
+        -16.95328919604469,
+        12.50725693557736
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "green",
+      "B": "brown"
+    },
+    "question": "Which one is higher, the brown box or the green box?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_98/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_1": {
+      "position": [
+        -18.18139589973763,
+        9.996885635347642,
+        -16.146745197369842
+      ],
+      "color": "green",
+      "orientation": [
+        -1.5093948466024365,
+        2.4981369102470374,
+        2.463838975036019
+      ]
+    },
+    "object_2": {
+      "position": [
+        -8.654008822338977,
+        19.611146295230185,
+        -7.324073963847432
+      ],
+      "color": "yellow",
+      "orientation": [
+        -17.290740355021107,
+        2.402448561120014,
+        16.04872749017352
+      ]
+    },
+    "category": "height",
+    "options": {
+      "A": "green",
+      "B": "yellow"
+    },
+    "question": "Which one is higher, the green box or the yellow box?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/height/scene_99/visual_prompt.png"
+  }
+]
