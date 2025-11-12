@@ -1,5 +1,3 @@
-apc/configs/
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -216,3 +214,8 @@ outputs
 models--facebook--dinov2-large/
 
 apc_vlm_env
+
+train/sft/4b_lora_model/
+train/sft/training_checkpoints/
+train/sft/wandb/
+train/sft/unsloth_compiled_cache/
