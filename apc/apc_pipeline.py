@@ -218,6 +218,7 @@ class APC:
 
         self.logger.info(f"[Perspective Change] Reference viewer: {ref_viewer}")
 
+
         # Update conv_history if needed
         if conv_history is not None:
             conv_history += [
@@ -509,6 +510,16 @@ class APC:
         if conv_save_path is not None:
             store_conv(messages, response_perspective_visual_abstract, conv_save_path, "perspective_visual")
 
+        # save response as a json file
+        with open("abstract_response.jsonl", "a") as f:
+            # read then write
+            json_data = {
+                "response": response_perspective_visual_abstract,
+            }
+            json.dump(json_data, f)
+            f.write("\n")
+            
+
         messages = add_message(
             messages,
             role='system',
@@ -517,21 +528,41 @@ class APC:
         self.logger.info(f"[Perspective Prompting] Obtained abstract response: {response_perspective_visual_abstract}")
 
         # Translate the 'abstract' response to the real world
-        prompt_abstract_to_real = self.prompt_parser.get_prompt_by_type("abstract_to_real")
-        prompt_abstract_to_real = prompt_abstract_to_real.format(
+        # prompt_abstract_to_real = self.prompt_parser.get_prompt_by_type("abstract_to_real")
+        # prompt_abstract_to_real = prompt_abstract_to_real.format(
+        #     color_obj_map=color_obj_map,
+        #     abstract_response=response_perspective_visual_abstract,
+        # )
+
+        if conv_history is not None:
+            conv_history += [
+                {'text': prompt_perspective_visual, 'image': visual_prompt},
+                {'text': response_perspective_visual_abstract, 'image': None},
+            ]
+
+        match = re.search(r"\[Answer\]\s*(.*)", response_perspective_visual_abstract)
+        if match:
+            answer = match.group(1)
+            return answer, conv_history
+
+        # Extract the option from 'abstract' response
+        prompt_choose_options = self.prompt_parser.get_prompt_by_type("choose_options")
+        prompt_choose_options = prompt_choose_options.format(
+            question=prompt_ego,
             color_obj_map=color_obj_map,
-            abstract_response=response_perspective_visual_abstract,
+            options=apc_args['options'],
         )
 
         # Query VLM
         messages = add_message(
             messages,
             role='user',
-            text=prompt_abstract_to_real,
+            text=prompt_choose_options,
         )
+        
         response_perspective_visual = self.vlm_model.process_messages(messages)
         if conv_save_path is not None:
-            store_conv(messages, response_perspective_visual, conv_save_path, "abstract_to_real")
+            store_conv(messages, response_perspective_visual, conv_save_path, "prompt_choose_options")
 
         messages = add_message(messages, role='system', text=response_perspective_visual,)
         self.logger.info(f"[Perspective Prompting] Translate abstract -> real: {response_perspective_visual}")
@@ -539,39 +570,37 @@ class APC:
         # Update conv_history if needed
         if conv_history is not None:
             conv_history += [
-                {'text': prompt_perspective_visual, 'image': visual_prompt},
-                {'text': response_perspective_visual_abstract, 'image': None},
-                {'text': prompt_abstract_to_real, 'image': None},
+                {'text': prompt_choose_options, 'image': None},
                 {'text': response_perspective_visual, 'image': None},
             ]
 
-        # Choose options if needed
-        options = apc_args['options']
-        if options is not None:
-            prompt_choose_options = self.prompt_parser.get_prompt_by_type("choose_options")
-            prompt_choose_options = prompt_choose_options.format(
-                question=prompt,
-                response=response_perspective_visual,
-                options=options,
-            )
-            # Add prompt to messages
-            messages = add_message(
-                messages,
-                role="user",
-                text=prompt_choose_options,
-            )
-            response_perspective_visual = self.vlm_model.process_messages(messages)
-            if conv_save_path is not None:
-                store_conv(messages, response_perspective_visual, conv_save_path, "choose_options")
+        # # Choose options if needed
+        # options = apc_args['options']
+        # if options is not None:
+        #     prompt_choose_options = self.prompt_parser.get_prompt_by_type("choose_options")
+        #     prompt_choose_options = prompt_choose_options.format(
+        #         question=prompt,
+        #         response=response_perspective_visual,
+        #         options=options,
+        #     )
+        #     # Add prompt to messages
+        #     messages = add_message(
+        #         messages,
+        #         role="user",
+        #         text=prompt_choose_options,
+        #     )
+        #     response_perspective_visual = self.vlm_model.process_messages(messages)
+        #     if conv_save_path is not None:
+        #         store_conv(messages, response_perspective_visual, conv_save_path, "choose_options")
 
-            self.logger.info(f"[Perspective Prompting] Chose options: {response_perspective_visual}")
+        #     self.logger.info(f"[Perspective Prompting] Chose options: {response_perspective_visual}")
 
-            # Update conv_history if needed
-            if conv_history is not None:
-                conv_history += [
-                    {'text': prompt_choose_options, 'image': None},
-                    {'text': response_perspective_visual, 'image': None},
-                ]
+        #     # Update conv_history if needed
+        #     if conv_history is not None:
+        #         conv_history += [
+        #             {'text': prompt_choose_options, 'image': None},
+        #             {'text': response_perspective_visual, 'image': None},
+        #         ]
 
         return response_perspective_visual, conv_history
 

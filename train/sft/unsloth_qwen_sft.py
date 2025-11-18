@@ -14,7 +14,7 @@ import wandb
 # trainer.train(resume_from_checkpoint=artifact_dir)
 
 os.environ["WANDB_PROJECT"] = "Ego2Allo-VLM-SFT"
-os.environ["WANDB_LOG_MODEL"] = "try1"
+os.environ["WANDB_LOG_MODEL"] = "try2"
 
 print("Loading model")
 
@@ -29,13 +29,13 @@ print("Getting PEFT model")
 
 model = FastVisionModel.get_peft_model(
     model,
-    finetune_vision_layers     = True, # False if not finetuning vision layers
+    finetune_vision_layers     = False, # False if not finetuning vision layers
     finetune_language_layers   = True, # False if not finetuning language layers
     finetune_attention_modules = True, # False if not finetuning attention layers
-    finetune_mlp_modules       = True, # False if not finetuning MLP layers
+    finetune_mlp_modules       = False, # False if not finetuning MLP layers
 
-    r = 8,           # The larger, the higher the accuracy, but might overfit
-    lora_alpha = 16,  # Recommended alpha == r at least
+    r = 4,           # The larger, the higher the accuracy, but might overfit
+    lora_alpha = 4,  # Recommended alpha == r at least
     lora_dropout = 0.1,
     bias = "none",
     random_state = 3407,
@@ -71,7 +71,7 @@ trainer = SFTTrainer(
         warmup_steps = 5,
         # max_steps = 1000, # Set to None for full training runs
         num_train_epochs = 1, # 1 - 3
-        learning_rate = 1e-4,
+        learning_rate = 1e-5,
         optim = "adamw_8bit",
         weight_decay = 0.1,
         lr_scheduler_type = "linear",
@@ -79,16 +79,16 @@ trainer = SFTTrainer(
 
         report_to = "wandb",     # For Weights and Biases
         logging_steps = 1,
-        save_strategy = "steps",
-        save_steps = 50,
+        # save_strategy = "steps",
+        # save_steps = 50,
         run_name = "try1",
         output_dir = "training_checkpoints",
         
-        eval_strategy = "steps",             # evaluate every N steps
-        eval_steps = 25,                     # how many steps until we do evaluation
-        load_best_model_at_end = True,       # MUST USE for early stopping
-        metric_for_best_model = "eval_loss", # metric we want to early stop on
-        greater_is_better = False,           # the lower the eval loss, the better
+        # eval_strategy = "steps",             # evaluate every N steps
+        # eval_steps = 25,                     # how many steps until we do evaluation
+        # load_best_model_at_end = True,       # MUST USE for early stopping
+        # metric_for_best_model = "eval_loss", # metric we want to early stop on
+        # greater_is_better = False,           # the lower the eval loss, the better
 
         # You MUST put the below items for vision finetuning:
         remove_unused_columns = False,
@@ -110,7 +110,8 @@ trainer_stats = trainer.train()
 print("Training complete")
 print("Saving model")
 
-model.save_pretrained("4b_lora_model")  # Local saving
-tokenizer.save_pretrained("4b_lora_model")
+# r, lora_alpha, max_turn_nums = 4, 8, 2
+model.save_pretrained("4b_lora_model_4_4_2")  # Local saving
+tokenizer.save_pretrained("4b_lora_model_4_4_2")
 
 print("Model saved")

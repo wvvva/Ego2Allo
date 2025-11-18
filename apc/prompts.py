@@ -103,6 +103,7 @@ This is an image of a 3D scene.
 
 - The viewer is facing towards the object that is **closest to the center**.
 - A **larger** object is closer to the viewer compared to a **smaller** object.
+- The red arrow on each cube indicates the direction the cube is facing (front).
 
 # Task
 Based on the image, please answer the following question.
@@ -131,16 +132,28 @@ Given the color-object map below, change all the colored boxes in the below resp
 """
 
 # Auxiliary prompt for choosing options for evaluation
+# PROMPT_CHOOSE_OPTIONS = """
+# Here is the question and the response you provided:
+
+# [Question] {question}
+# [Response] {response}
+
+# Based on the response you provided, please choose the correct option from the following list:
+# [Options] {options}
+# Return only the option
+# """
+
 PROMPT_CHOOSE_OPTIONS = """
-Here is the question and the response you provided:
-
 [Question] {question}
-[Response] {response}
 
-Based on the response you provided, please choose the correct option from the following list:
+Here is an color-object map that maps each colored box to an object:
+{color_obj_map}
+
+Based on the response, please choose the correct option from the following list:
 [Options] {options}
-Return only the option
+Return option only without any explanation (e.g. A, B, C, D).
 """
+
 
 # ---------------------------------------------------------------- # 
 

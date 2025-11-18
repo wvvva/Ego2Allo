@@ -93,6 +93,8 @@ We include ready-made CSVs under `raw_predictions/` and summary metrics under `3
 ## Supported VLMs
 - Qwen2.5-VL (local): `apc/vlms/vlm_qwenvl2_5.py`
 - Gemini 2.5 (API): `apc/vlms/vlm_gemini.py` (uses `openai` SDK with a Gemini-compatible endpoint)
+- Qwen3-VL (local): `vllm serve unsloth/Qwen3-VL-4B-Instruct --max-model-len=4096 --max-num-seqs=1 --seed 3407 --limit-mm-per-prompt '{"image": 1}'  --gpu-memory-utilization 0.4`
+- Qwen3-VL SFT: `vllm serve /jet/home/ydinga/idl_project/shared/models/sft/Qwen3-VL-4B-Instruct-SFT_4_4_2 --max-model-len=4k --max-num-seqs=1 --seed 3407 --limit-mm-per-prompt '{"image": 1}' --gpu-memory-utilization 0.4 --served-model-name Qwen3-VL-4B-Instruct-SFT_8_16`
 
 To expose Qwen2.5-VL as a simple HTTP API, see `qwenvl_server.py` (FastAPI + Uvicorn).
 
@@ -176,3 +178,5 @@ If you get rendering errors, ensure EGL/Xvfb is available, and keep `pyglet==1.5
   - If you see “file not found” for GroundingDINO/SAM/DepthPro/Orient-Anything, re-run `setup/setup_vision_modules.sh` and update paths in your YAML
 - Gemini:
   - Ensure `vlm.api_key` is set in the YAML; network egress is required
+
+interact -p GPU-shared --gres=gpu:v100-32:1 -t 8:00:00 -A cis250208p

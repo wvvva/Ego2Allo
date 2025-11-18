@@ -489,7 +489,7 @@ class RenderModule:
         # Add cubes to scene
         cube_meshes = []
         for idx, (pos, ori) in enumerate(zip(positions, orientations)):
-            cube_color = colors[idx]
+            cube_color = colors[idx][1]
             face_color = [cube_color + [box_alpha] for _ in range(12)]
 
             # --- Fix for vertical degeneracy ---

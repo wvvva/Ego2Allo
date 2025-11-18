@@ -1,2 +1,3 @@
-python unsloth_qwen_sft.py > unsloth_qwen_sft.log 2>&1
+python unsloth_qwen_sft.py
+python save_model_for_vllm.py
 scancel -u ydinga

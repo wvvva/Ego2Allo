@@ -88,8 +88,8 @@ class APCRunner:
         os.makedirs(save_dir, exist_ok=True)
 
         image_with_text = create_image_with_text(image, "[Q] " + prompt, fontsize=20)
-        if verbose:
-            image_with_text.save(f"outputs/benchmark/3DSRBench_{i}_prompt.png")
+        # if verbose:
+        #     image_with_text.save(f"outputs/benchmark/3DSRBench_{i}_prompt.png")
 
         # Run APC pipeline
         response_text, conv_history = self.apc.run_apc(
@@ -109,9 +109,13 @@ class APCRunner:
 
         reasoning, answer = split_response(response_text)
 
+        print("Answer: ", answer)
+
         # Extract predicted answer (search for 'A', 'B', 'C', 'D')
         match = re.search(r"\b([ABCD])\b", answer.upper())
         pred_letter = match.group(1) if match else None
+
+        print("correctenss: ", pred_letter == correct)
 
         if verbose:
             print(len(conv_history))
