@@ -1,7 +1,13 @@
 #!/bin/bash
 
-python run_3DSRBench.py
-scancel -u ydinga
+python run_3DSRBench.py --prompt-type "none"
+python run_3DSRBench.py --prompt-type "none_reasoning"
+python run_3DSRBench.py --prompt-type "numerical_react"
+python run_3DSRBench.py --prompt-type "numerical"
+python run_3DSRBench.py --prompt-type "visual"
+python run_3DSRBench.py --prompt-type "numerical_reasoning"
+python run_3DSRBench.py --prompt-type "visual_reasoning"
+scancel -u $USER
 
 # FILE_TO_RUN="python run_SAT.py"
 

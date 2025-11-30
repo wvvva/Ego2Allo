@@ -1,0 +1,5002 @@
+[
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -15.923869523220041,
+        11.791661310809843,
+        -12.6454218163091
+      ],
+      "color": "brown",
+      "orientation": [
+        7.6710517939425955,
+        -9.284086769331147,
+        -4.194639639379023
+      ]
+    },
+    "object_1": {
+      "position": [
+        19.359095530017683,
+        -10.862346537941786,
+        -10.084075106735115
+      ],
+      "color": "purple",
+      "orientation": [
+        19.447308276696745,
+        -12.165044284851959,
+        -9.06292307159461
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "purple",
+      "B": "brown"
+    },
+    "question": "Which object is closer to the camera, the purple one or the brown one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_200/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -13.744231763573895,
+        18.010646438372763,
+        -15.734878812264501
+      ],
+      "color": "green",
+      "orientation": [
+        7.465216639774738,
+        -7.437171188131408,
+        -7.822898448862716
+      ]
+    },
+    "object_1": {
+      "position": [
+        -14.5231515053072,
+        -17.865550067891864,
+        -15.478259650609424
+      ],
+      "color": "brown",
+      "orientation": [
+        11.416835238591744,
+        -2.6562204949503396,
+        4.2904381115681645
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "brown",
+      "B": "green"
+    },
+    "question": "Which box is above the other, the brown one or the green one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_201/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -15.151255121700142,
+        -14.963886146953062,
+        -16.220645556883408
+      ],
+      "color": "purple",
+      "orientation": [
+        -17.742027764082323,
+        11.592068705267302,
+        13.549529691207013
+      ]
+    },
+    "object_1": {
+      "position": [
+        9.884113857736647,
+        9.040120007867813,
+        -1.6363160432979775
+      ],
+      "color": "orange",
+      "orientation": [
+        -10.841204770404493,
+        -0.12470166297860885,
+        -2.403337484544039
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "purple",
+      "B": "orange"
+    },
+    "question": "Which object is closer to the camera, the purple one or the orange one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_202/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -2.2121623763122735,
+        10.889743042860276,
+        -11.446609393447762
+      ],
+      "color": "yellow",
+      "orientation": [
+        -13.22660553818193,
+        -10.653527838643043,
+        -10.049139804019461
+      ]
+    },
+    "object_1": {
+      "position": [
+        0.6942234581269418,
+        -13.704974567672084,
+        -13.457819398776296
+      ],
+      "color": "gray",
+      "orientation": [
+        12.556802594170016,
+        -13.364304077677097,
+        6.398673589020287
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "yellow",
+      "B": "gray"
+    },
+    "question": "Which box is above the other, the gray one or the yellow one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_203/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        0.17834444115518266,
+        12.360206937616375,
+        -8.989747760418636
+      ],
+      "color": "green",
+      "orientation": [
+        8.729931379122021,
+        15.46583118433793,
+        19.28858005827606
+      ]
+    },
+    "object_1": {
+      "position": [
+        -12.503661344036136,
+        -7.951353707944628,
+        -10.189867830749854
+      ],
+      "color": "purple",
+      "orientation": [
+        5.915896983267665,
+        0.5416350086092621,
+        -16.064586986878183
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "purple",
+      "B": "green"
+    },
+    "question": "Which object is closer to the camera, the purple one or the green one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_204/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        11.583161926511085,
+        7.216870014231862,
+        -7.929664597319523
+      ],
+      "color": "orange",
+      "orientation": [
+        3.472724594263866,
+        -13.738602275036742,
+        1.8783257132932896
+      ]
+    },
+    "object_1": {
+      "position": [
+        -8.834353048052591,
+        -2.793315421660239,
+        -12.81535925862789
+      ],
+      "color": "green",
+      "orientation": [
+        -15.015560768028685,
+        -1.2584814460030849,
+        -6.548510511421233
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "orange",
+      "B": "green"
+    },
+    "question": "Which object is closer to the camera, the orange one or the green one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_205/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -10.311789777966062,
+        19.760362342340166,
+        -15.881508487291278
+      ],
+      "color": "orange",
+      "orientation": [
+        3.770164101859926,
+        13.080988311661002,
+        -9.491305513014968
+      ]
+    },
+    "object_1": {
+      "position": [
+        -9.417935165512041,
+        14.629598383271897,
+        -16.031097837917677
+      ],
+      "color": "green",
+      "orientation": [
+        9.795029478739039,
+        -9.559919528469578,
+        -5.878957741621775
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "green",
+      "B": "orange"
+    },
+    "question": "Which box is above the other, the green one or the orange one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_206/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        11.57598888259814,
+        -15.88550995268983,
+        -14.180984004436183
+      ],
+      "color": "brown",
+      "orientation": [
+        -5.807292711954801,
+        6.594498843467541,
+        -16.888450610798653
+      ]
+    },
+    "object_1": {
+      "position": [
+        13.266272382197222,
+        -6.206269144180606,
+        -18.866081145406195
+      ],
+      "color": "blue",
+      "orientation": [
+        7.4613907504311285,
+        -2.435135360162665,
+        -10.935743024625308
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "blue",
+      "B": "brown"
+    },
+    "question": "Which object is closer to the camera, the blue one or the brown one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_207/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        21.379763310557447,
+        -0.6381356155530735,
+        -0.8774153874411041
+      ],
+      "color": "gray",
+      "orientation": [
+        3.063704550504628,
+        -1.5564254189321787,
+        12.190169161048615
+      ]
+    },
+    "object_1": {
+      "position": [
+        19.504554162855513,
+        -7.136723142405188,
+        -1.2640715425656808
+      ],
+      "color": "purple",
+      "orientation": [
+        -16.80635719613333,
+        -16.4146021662018,
+        -11.867970278877822
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "purple",
+      "B": "gray"
+    },
+    "question": "Which box is above the other, the purple one or the gray one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_208/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -0.30019638651554104,
+        16.30544990045111,
+        -7.794407579495861
+      ],
+      "color": "brown",
+      "orientation": [
+        6.825044523648547,
+        6.839904090800605,
+        -11.22620464142615
+      ]
+    },
+    "object_1": {
+      "position": [
+        -18.084614157516683,
+        6.030733113479556,
+        -6.40327572294378
+      ],
+      "color": "gray",
+      "orientation": [
+        -2.3596554052564187,
+        14.42652303147981,
+        17.847063064373422
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "brown",
+      "B": "gray"
+    },
+    "question": "Which object is closer to the camera, the brown one or the gray one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_209/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        6.690989825175151,
+        19.99088114627548,
+        -12.256103367074264
+      ],
+      "color": "orange",
+      "orientation": [
+        16.154717788465632,
+        0.44298646913965456,
+        8.936104893856765
+      ]
+    },
+    "object_1": {
+      "position": [
+        7.243634588755327,
+        5.563441889558412,
+        -13.804107885859755
+      ],
+      "color": "yellow",
+      "orientation": [
+        15.262823552209106,
+        -9.177978111615621,
+        0.04280477573327346
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "yellow",
+      "B": "orange"
+    },
+    "question": "Which box is above the other, the yellow one or the orange one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_210/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        7.672283927380718,
+        4.826256713270105,
+        -13.689092201631162
+      ],
+      "color": "brown",
+      "orientation": [
+        16.097471695096935,
+        -18.117494058716854,
+        -5.766583970533702
+      ]
+    },
+    "object_1": {
+      "position": [
+        9.941266403736591,
+        11.593825777554446,
+        -5.2984602217304015
+      ],
+      "color": "orange",
+      "orientation": [
+        7.901360331126156,
+        14.61814903559626,
+        -13.182175510283415
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "brown",
+      "B": "orange"
+    },
+    "question": "Which object is closer to the camera, the brown one or the orange one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_211/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        0.3120124639516746,
+        -9.401006682591753,
+        -4.575410545614416
+      ],
+      "color": "gray",
+      "orientation": [
+        -5.953652900778032,
+        -3.584931011754179,
+        15.1601059043509
+      ]
+    },
+    "object_1": {
+      "position": [
+        10.19011927428972,
+        -19.52571896540963,
+        -4.823189509729172
+      ],
+      "color": "brown",
+      "orientation": [
+        -1.9543294047780932,
+        7.197755982457863,
+        -18.96160992149678
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "gray",
+      "B": "brown"
+    },
+    "question": "Which object is closer to the camera, the gray one or the brown one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_212/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        9.08801646305244,
+        -6.806933536890135,
+        -4.339552446965618
+      ],
+      "color": "brown",
+      "orientation": [
+        17.713704475227175,
+        19.17718615575155,
+        7.975150570454538
+      ]
+    },
+    "object_1": {
+      "position": [
+        -0.33040852426085365,
+        -5.200848456018811,
+        -8.557791383263416
+      ],
+      "color": "gray",
+      "orientation": [
+        -7.867157142235959,
+        6.785489114232082,
+        -5.710281321918842
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "gray",
+      "B": "brown"
+    },
+    "question": "Which object is closer to the camera, the gray one or the brown one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_213/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -5.447626503978217,
+        4.676266577397858,
+        -13.95621595939938
+      ],
+      "color": "purple",
+      "orientation": [
+        1.2085868869244152,
+        5.864120229221189,
+        6.033145852896915
+      ]
+    },
+    "object_1": {
+      "position": [
+        -9.34227710659274,
+        16.657647216136162,
+        -9.321839129114744
+      ],
+      "color": "orange",
+      "orientation": [
+        15.720231978121639,
+        -10.504774702249605,
+        14.706289998853464
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "orange",
+      "B": "purple"
+    },
+    "question": "Which object is closer to the camera, the orange one or the purple one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_214/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        2.4663816150757327,
+        18.151297559864005,
+        -8.857265623184038
+      ],
+      "color": "green",
+      "orientation": [
+        10.013803413678694,
+        -6.8246366507542255,
+        -1.0012008343197394
+      ]
+    },
+    "object_1": {
+      "position": [
+        -1.6681045648143424,
+        -4.676271734323478,
+        -17.094539022955054
+      ],
+      "color": "brown",
+      "orientation": [
+        6.615299539100441,
+        13.315653240035736,
+        -11.233200731609475
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "green",
+      "B": "brown"
+    },
+    "question": "Which object is closer to the camera, the green one or the brown one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_215/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        5.095051002093086,
+        14.191130378066468,
+        -8.682577814020211
+      ],
+      "color": "brown",
+      "orientation": [
+        -5.548899982985249,
+        -6.881631650927327,
+        5.3243785769816085
+      ]
+    },
+    "object_1": {
+      "position": [
+        6.779669018047454,
+        19.711564617694037,
+        -7.577819913685717
+      ],
+      "color": "green",
+      "orientation": [
+        -5.769392656278338,
+        -4.520917815633826,
+        -4.1946730164364165
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "green",
+      "B": "brown"
+    },
+    "question": "Which box is above the other, the brown one or the green one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_216/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -4.16203099280137,
+        -3.9694961921908423,
+        -3.972552439491345
+      ],
+      "color": "yellow",
+      "orientation": [
+        10.555426927559207,
+        1.171383726148477,
+        -0.4612642463305576
+      ]
+    },
+    "object_1": {
+      "position": [
+        16.969959664715063,
+        -11.593986772152164,
+        -13.589844109248322
+      ],
+      "color": "blue",
+      "orientation": [
+        -15.911343950276775,
+        11.039919649432353,
+        11.175492024127834
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "yellow",
+      "B": "blue"
+    },
+    "question": "Which object is closer to the camera, the yellow one or the blue one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_217/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        8.613815471961058,
+        11.36291633863781,
+        -12.034063398391213
+      ],
+      "color": "purple",
+      "orientation": [
+        19.197272692325008,
+        -6.6250286386328625,
+        -16.512595547163173
+      ]
+    },
+    "object_1": {
+      "position": [
+        11.435934248832297,
+        3.4948336459184475,
+        -12.950568851142501
+      ],
+      "color": "orange",
+      "orientation": [
+        13.03381217938729,
+        17.07517561210421,
+        6.559202988337862
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "purple",
+      "B": "orange"
+    },
+    "question": "Which box is above the other, the orange one or the purple one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_218/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        19.37818091916845,
+        13.754239519292199,
+        -19.967676407518173
+      ],
+      "color": "gray",
+      "orientation": [
+        -5.20425054891219,
+        19.724805027449776,
+        5.3795795827883595
+      ]
+    },
+    "object_1": {
+      "position": [
+        21.621604001340756,
+        19.0636672489144,
+        -22.69687563532133
+      ],
+      "color": "yellow",
+      "orientation": [
+        16.85764168285357,
+        -15.458394778157349,
+        11.045591607903837
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "yellow",
+      "B": "gray"
+    },
+    "question": "Which box is above the other, the gray one or the yellow one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_219/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -1.1571209961793638,
+        18.96775136206339,
+        -3.2056886489843643
+      ],
+      "color": "blue",
+      "orientation": [
+        -16.621261242609297,
+        -4.220105018580185,
+        3.2052056292953104
+      ]
+    },
+    "object_1": {
+      "position": [
+        -1.7774103790531512,
+        9.79177491473375,
+        -2.045011886052446
+      ],
+      "color": "brown",
+      "orientation": [
+        2.2477609037255846,
+        3.077698897922293,
+        13.99178100967216
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "blue",
+      "B": "brown"
+    },
+    "question": "Which box is above the other, the brown one or the blue one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_220/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -9.787679523471382,
+        2.7607419417786456,
+        -9.393033438489299
+      ],
+      "color": "yellow",
+      "orientation": [
+        -17.806604874505965,
+        18.358970555835214,
+        -16.67480912278713
+      ]
+    },
+    "object_1": {
+      "position": [
+        -10.889375971796316,
+        -16.02834126533745,
+        -12.065913015170446
+      ],
+      "color": "brown",
+      "orientation": [
+        8.917316462516531,
+        13.97479737350671,
+        -13.83879667880854
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "brown",
+      "B": "yellow"
+    },
+    "question": "Which box is above the other, the brown one or the yellow one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_221/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        6.001618565975146,
+        -19.670841437653085,
+        -13.771743387094961
+      ],
+      "color": "yellow",
+      "orientation": [
+        2.618074420013464,
+        -3.032579191873822,
+        -11.76057638707376
+      ]
+    },
+    "object_1": {
+      "position": [
+        9.654545263613912,
+        17.270416688938795,
+        -1.8776372791310436
+      ],
+      "color": "purple",
+      "orientation": [
+        18.115854392958525,
+        19.649135311395078,
+        -12.374968983918047
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "purple",
+      "B": "yellow"
+    },
+    "question": "Which object is closer to the camera, the purple one or the yellow one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_222/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -11.17863091419968,
+        17.609830125642464,
+        -7.168315736710951
+      ],
+      "color": "gray",
+      "orientation": [
+        6.338087311385504,
+        -14.112366583863526,
+        3.834298530027734
+      ]
+    },
+    "object_1": {
+      "position": [
+        -10.947438390865635,
+        4.425177997544871,
+        -4.233391142586736
+      ],
+      "color": "purple",
+      "orientation": [
+        3.8567730123811117,
+        19.051029410615435,
+        12.177161222138515
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "purple",
+      "B": "gray"
+    },
+    "question": "Which box is above the other, the purple one or the gray one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_223/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -11.928971238736242,
+        -16.671160998145005,
+        -12.470648846125417
+      ],
+      "color": "brown",
+      "orientation": [
+        17.198567352670096,
+        -2.5720545875148417,
+        2.60130717351716
+      ]
+    },
+    "object_1": {
+      "position": [
+        16.291118928304968,
+        -2.5696079382208126,
+        -18.06728376333013
+      ],
+      "color": "blue",
+      "orientation": [
+        -2.5581275426541623,
+        -5.673608602906977,
+        9.752741368245637
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "blue",
+      "B": "brown"
+    },
+    "question": "Which object is closer to the camera, the blue one or the brown one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_224/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        18.065651745231687,
+        17.006975287724707,
+        -16.227260365200795
+      ],
+      "color": "orange",
+      "orientation": [
+        19.948761787605974,
+        1.9537575510094527,
+        5.237348416953473
+      ]
+    },
+    "object_1": {
+      "position": [
+        17.820985991421196,
+        8.222035529849347,
+        -18.366536622751223
+      ],
+      "color": "blue",
+      "orientation": [
+        6.986531811338033,
+        9.578482259710732,
+        -9.086826499542742
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "blue",
+      "B": "orange"
+    },
+    "question": "Which box is above the other, the blue one or the orange one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_225/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -10.646891628937986,
+        15.907694308083759,
+        -21.814939496422607
+      ],
+      "color": "blue",
+      "orientation": [
+        4.913334174828357,
+        19.91184985493804,
+        14.58753082603814
+      ]
+    },
+    "object_1": {
+      "position": [
+        -10.84822363493335,
+        3.6992564929287752,
+        -19.24578319795799
+      ],
+      "color": "brown",
+      "orientation": [
+        -7.810408954267075,
+        4.7437492477450185,
+        6.208199526592683
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "brown",
+      "B": "blue"
+    },
+    "question": "Which box is above the other, the brown one or the blue one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_226/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        3.8227255487424436,
+        -18.16830348568223,
+        -12.665896234595692
+      ],
+      "color": "orange",
+      "orientation": [
+        -5.206933124822024,
+        9.222960731840555,
+        -16.761809324572514
+      ]
+    },
+    "object_1": {
+      "position": [
+        1.5236555325755532,
+        18.60722905813098,
+        -10.283424070114389
+      ],
+      "color": "yellow",
+      "orientation": [
+        -2.8133684386788183,
+        5.114416384730269,
+        10.946845453752413
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "orange",
+      "B": "yellow"
+    },
+    "question": "Which box is above the other, the orange one or the yellow one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_227/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -0.64658671524478,
+        3.3325541160393897,
+        -10.343152522831954
+      ],
+      "color": "green",
+      "orientation": [
+        14.923671881835652,
+        12.419993579925553,
+        10.167714857806512
+      ]
+    },
+    "object_1": {
+      "position": [
+        -0.16576518352296254,
+        16.008443682673658,
+        -10.949702724959042
+      ],
+      "color": "gray",
+      "orientation": [
+        -15.609579362408756,
+        17.745417004510067,
+        -12.075631759056801
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "green",
+      "B": "gray"
+    },
+    "question": "Which box is above the other, the green one or the gray one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_228/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        13.312681305211214,
+        19.679409831131522,
+        -11.25707330740082
+      ],
+      "color": "yellow",
+      "orientation": [
+        -11.120047194211633,
+        -19.525683101353405,
+        8.642319057194037
+      ]
+    },
+    "object_1": {
+      "position": [
+        11.589610913057328,
+        14.528289394746203,
+        -11.516744431214542
+      ],
+      "color": "gray",
+      "orientation": [
+        10.10200580270974,
+        -5.888957517571836,
+        3.745069175275141
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "yellow",
+      "B": "gray"
+    },
+    "question": "Which box is above the other, the gray one or the yellow one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_229/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -6.687358618437319,
+        -8.665261304982884,
+        -16.865917871858077
+      ],
+      "color": "orange",
+      "orientation": [
+        4.714357377449254,
+        18.058243079217988,
+        16.507795299084826
+      ]
+    },
+    "object_1": {
+      "position": [
+        19.285216606144928,
+        -10.739406817464383,
+        -8.346620350810914
+      ],
+      "color": "purple",
+      "orientation": [
+        15.886344145572828,
+        -8.972065640972167,
+        -18.657921626101906
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "purple",
+      "B": "orange"
+    },
+    "question": "Which object is closer to the camera, the purple one or the orange one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_230/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -1.29818178759432,
+        14.734511796266155,
+        -6.52943892358935
+      ],
+      "color": "brown",
+      "orientation": [
+        -0.5852831659037818,
+        -15.480342928954034,
+        -10.44092714353624
+      ]
+    },
+    "object_1": {
+      "position": [
+        2.3499457601273654,
+        4.276440283481726,
+        -15.163171148574309
+      ],
+      "color": "green",
+      "orientation": [
+        16.380738052509955,
+        -2.759406471655449,
+        -19.50867477641749
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "brown",
+      "B": "green"
+    },
+    "question": "Which object is closer to the camera, the brown one or the green one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_231/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -14.557554519810365,
+        -3.7876691436852106,
+        -1.4115438383027836
+      ],
+      "color": "brown",
+      "orientation": [
+        -18.13422289685456,
+        -9.369588995756683,
+        2.5603386937290225
+      ]
+    },
+    "object_1": {
+      "position": [
+        1.679294617411955,
+        -13.581456886744832,
+        -14.322317351798981
+      ],
+      "color": "purple",
+      "orientation": [
+        -5.295056347983493,
+        -3.479030255599742,
+        -15.063952759459038
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "purple",
+      "B": "brown"
+    },
+    "question": "Which object is closer to the camera, the purple one or the brown one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_232/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -9.184959604875424,
+        15.359148540330452,
+        -0.5992694482837315
+      ],
+      "color": "blue",
+      "orientation": [
+        5.491645139265678,
+        5.603663367718141,
+        9.687357703376609
+      ]
+    },
+    "object_1": {
+      "position": [
+        16.26642567380469,
+        -6.262446856132954,
+        -6.6823022402271075
+      ],
+      "color": "gray",
+      "orientation": [
+        -10.819536931044578,
+        -2.6214121914015074,
+        -17.882112964101992
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "gray",
+      "B": "blue"
+    },
+    "question": "Which object is closer to the camera, the gray one or the blue one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_233/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -15.068822690360143,
+        9.346532318226082,
+        -16.589635018666414
+      ],
+      "color": "purple",
+      "orientation": [
+        12.733989299147979,
+        14.41426200080025,
+        -17.802043284170722
+      ]
+    },
+    "object_1": {
+      "position": [
+        -16.11799473033729,
+        -8.37964624821019,
+        -15.240601903066786
+      ],
+      "color": "green",
+      "orientation": [
+        -9.012334957766148,
+        6.6104767429298725,
+        16.33886432121345
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "green",
+      "B": "purple"
+    },
+    "question": "Which box is above the other, the green one or the purple one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_234/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        13.465793807941793,
+        7.601409845670453,
+        -1.5399792961933265
+      ],
+      "color": "green",
+      "orientation": [
+        6.595764478566352,
+        7.221325018107926,
+        13.470268058917185
+      ]
+    },
+    "object_1": {
+      "position": [
+        11.626597589238973,
+        -17.591902454734146,
+        -2.1925070558384405
+      ],
+      "color": "brown",
+      "orientation": [
+        -10.803377166519596,
+        11.499545567842574,
+        4.459323625514557
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "brown",
+      "B": "green"
+    },
+    "question": "Which box is above the other, the brown one or the green one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_235/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        16.609612777836496,
+        0.02415738285258584,
+        -9.099731706637924
+      ],
+      "color": "blue",
+      "orientation": [
+        1.932930157873784,
+        -18.041392165505332,
+        0.33405051639300964
+      ]
+    },
+    "object_1": {
+      "position": [
+        16.97814211562053,
+        15.950736472775949,
+        -11.658039981630077
+      ],
+      "color": "brown",
+      "orientation": [
+        3.396182285103105,
+        -16.55310415333166,
+        5.906077976038478
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "blue",
+      "B": "brown"
+    },
+    "question": "Which box is above the other, the blue one or the brown one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_236/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        0.89362224733825,
+        11.956259196770546,
+        -4.671612741594622
+      ],
+      "color": "purple",
+      "orientation": [
+        -11.632966873170453,
+        -2.6920326613704084,
+        -18.37482917200755
+      ]
+    },
+    "object_1": {
+      "position": [
+        -10.478403950045255,
+        -1.6322824558622742,
+        -1.430878917449558
+      ],
+      "color": "orange",
+      "orientation": [
+        -15.689943702661338,
+        3.8860549135498665,
+        13.953131610948958
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "purple",
+      "B": "orange"
+    },
+    "question": "Which object is closer to the camera, the purple one or the orange one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_237/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -19.144878607523665,
+        10.88603350988442,
+        -14.796417254676353
+      ],
+      "color": "blue",
+      "orientation": [
+        18.850153611812452,
+        6.614679830139622,
+        -17.8721518239579
+      ]
+    },
+    "object_1": {
+      "position": [
+        -16.423997119148396,
+        -1.3654787501561287,
+        -13.407654401522661
+      ],
+      "color": "brown",
+      "orientation": [
+        6.476663751284825,
+        14.334423471521156,
+        -11.30904097884775
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "blue",
+      "B": "brown"
+    },
+    "question": "Which box is above the other, the brown one or the blue one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_238/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -2.680590350061487,
+        -8.399929701740675,
+        -4.846923661079453
+      ],
+      "color": "blue",
+      "orientation": [
+        -7.361991808415521,
+        18.663666336789447,
+        -2.655148754580896
+      ]
+    },
+    "object_1": {
+      "position": [
+        -3.5889189940570567,
+        -18.754192723385067,
+        -5.164455560277526
+      ],
+      "color": "orange",
+      "orientation": [
+        -18.715887129312335,
+        5.753562888160101,
+        13.307344110001878
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "blue",
+      "B": "orange"
+    },
+    "question": "Which box is above the other, the orange one or the blue one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_239/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        10.150980910908057,
+        -19.44831272071129,
+        -4.720492328016018
+      ],
+      "color": "yellow",
+      "orientation": [
+        -2.7343868676953065,
+        14.046253717881505,
+        -6.516062420286136
+      ]
+    },
+    "object_1": {
+      "position": [
+        3.3441947302805204,
+        11.649169257189364,
+        -6.198837284441158
+      ],
+      "color": "gray",
+      "orientation": [
+        -19.71863172608575,
+        -6.591314415886158,
+        -11.257039409968574
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "gray",
+      "B": "yellow"
+    },
+    "question": "Which object is closer to the camera, the gray one or the yellow one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_240/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        17.556162547884625,
+        -1.2434692598582053,
+        -15.665328594873323
+      ],
+      "color": "orange",
+      "orientation": [
+        16.03183286979627,
+        7.535957684367315,
+        15.523734240834273
+      ]
+    },
+    "object_1": {
+      "position": [
+        5.95533293516219,
+        -13.352894579742678,
+        -8.962164740995672
+      ],
+      "color": "green",
+      "orientation": [
+        -16.307703989162192,
+        -14.316954377155309,
+        3.335975084759319
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "orange",
+      "B": "green"
+    },
+    "question": "Which object is closer to the camera, the orange one or the green one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_241/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -10.71926317445049,
+        -9.42087249495653,
+        -1.0024996992751802
+      ],
+      "color": "blue",
+      "orientation": [
+        17.064122731392082,
+        1.6809970971656512,
+        -10.549094247761559
+      ]
+    },
+    "object_1": {
+      "position": [
+        3.661105684741081,
+        7.669122028908681,
+        -8.057737125031835
+      ],
+      "color": "gray",
+      "orientation": [
+        0.370409799350373,
+        -2.717789452486631,
+        5.893992591044693
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "blue",
+      "B": "gray"
+    },
+    "question": "Which object is closer to the camera, the blue one or the gray one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_242/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        9.041721881279283,
+        -8.51263970289133,
+        -5.194185552141493
+      ],
+      "color": "purple",
+      "orientation": [
+        -19.205695926262486,
+        5.825317387809893,
+        1.7681119481057976
+      ]
+    },
+    "object_1": {
+      "position": [
+        10.32951792423184,
+        17.994311514734058,
+        -16.922674175541715
+      ],
+      "color": "blue",
+      "orientation": [
+        15.478791050295783,
+        -9.435409110614472,
+        -4.2524366881261155
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "purple",
+      "B": "blue"
+    },
+    "question": "Which object is closer to the camera, the purple one or the blue one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_243/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        16.958360297676762,
+        3.4094085223493593,
+        -16.846494686670198
+      ],
+      "color": "purple",
+      "orientation": [
+        -12.397725622921962,
+        -5.720322040937052,
+        16.736443317733304
+      ]
+    },
+    "object_1": {
+      "position": [
+        -10.954685195002135,
+        5.912246790137594,
+        -5.917244956800843
+      ],
+      "color": "green",
+      "orientation": [
+        19.65089866239586,
+        7.057809549831241,
+        2.6171233162686782
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "purple",
+      "B": "green"
+    },
+    "question": "Which object is closer to the camera, the purple one or the green one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_244/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -13.623130979052906,
+        18.84917106514839,
+        -12.486167939205007
+      ],
+      "color": "brown",
+      "orientation": [
+        -4.314114919274626,
+        3.01262106338271,
+        -7.834399073207571
+      ]
+    },
+    "object_1": {
+      "position": [
+        -14.532712138755603,
+        -14.074478396311534,
+        -12.85129463158069
+      ],
+      "color": "purple",
+      "orientation": [
+        10.829642946684306,
+        18.452131314772878,
+        -14.881911425757579
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "brown",
+      "B": "purple"
+    },
+    "question": "Which box is above the other, the purple one or the brown one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_245/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -2.136222206683842,
+        14.808747307194427,
+        -5.23884816267096
+      ],
+      "color": "orange",
+      "orientation": [
+        3.896022836901267,
+        18.69610055902283,
+        -10.747126666955626
+      ]
+    },
+    "object_1": {
+      "position": [
+        0.5123472570510081,
+        -11.43789859842455,
+        -5.0016091255725925
+      ],
+      "color": "purple",
+      "orientation": [
+        -8.825243900438497,
+        -3.9903144597843436,
+        12.48797081858789
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "purple",
+      "B": "orange"
+    },
+    "question": "Which box is above the other, the purple one or the orange one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_246/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -2.9948731229105863,
+        18.45579241741595,
+        -20.09222420396981
+      ],
+      "color": "orange",
+      "orientation": [
+        -2.4820502952671717,
+        -18.961412599715608,
+        -9.588350697145525
+      ]
+    },
+    "object_1": {
+      "position": [
+        -0.03709259592015712,
+        13.252955901331049,
+        -18.279555523581084
+      ],
+      "color": "green",
+      "orientation": [
+        -12.987616090636074,
+        4.793332252885833,
+        -17.186876450354927
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "orange",
+      "B": "green"
+    },
+    "question": "Which box is above the other, the green one or the orange one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_247/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -4.230262560669873,
+        10.05876351045228,
+        -11.510443817404576
+      ],
+      "color": "yellow",
+      "orientation": [
+        0.9454134918724897,
+        -11.097811122376985,
+        -19.070837743228495
+      ]
+    },
+    "object_1": {
+      "position": [
+        9.057655876528496,
+        -14.892445253440151,
+        -11.617487774690783
+      ],
+      "color": "brown",
+      "orientation": [
+        17.78490694796335,
+        -9.55617352861459,
+        7.007739252037592
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "yellow",
+      "B": "brown"
+    },
+    "question": "Which object is closer to the camera, the yellow one or the brown one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_248/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -13.4895358510331,
+        3.576458012163531,
+        -9.242068073940201
+      ],
+      "color": "brown",
+      "orientation": [
+        -7.542645353017896,
+        -1.7587113694779362,
+        -11.7038916818106
+      ]
+    },
+    "object_1": {
+      "position": [
+        -12.283052784528472,
+        11.184700923267823,
+        -8.573123921397237
+      ],
+      "color": "orange",
+      "orientation": [
+        8.375543719921986,
+        5.572672819956971,
+        7.984714572751702
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "brown",
+      "B": "orange"
+    },
+    "question": "Which box is above the other, the brown one or the orange one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_249/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -18.776385955650156,
+        11.604950574943715,
+        -0.5115748291290316
+      ],
+      "color": "yellow",
+      "orientation": [
+        -9.05643859603773,
+        2.225479282757007,
+        5.978014753337977
+      ]
+    },
+    "object_1": {
+      "position": [
+        -13.772998645640545,
+        -14.544442148398007,
+        -6.691206381500066
+      ],
+      "color": "blue",
+      "orientation": [
+        -11.119127272458007,
+        -19.033146217466008,
+        2.023566685447374
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "blue",
+      "B": "yellow"
+    },
+    "question": "Which object is closer to the camera, the blue one or the yellow one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_250/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -5.874095677676138,
+        15.766267744308863,
+        -18.220703077461206
+      ],
+      "color": "orange",
+      "orientation": [
+        -7.921577623503563,
+        1.918460313252087,
+        -6.39097815387867
+      ]
+    },
+    "object_1": {
+      "position": [
+        4.0955513090598,
+        -3.0556404214706347,
+        -17.732135312676153
+      ],
+      "color": "purple",
+      "orientation": [
+        -3.153243274726762,
+        13.379325970264489,
+        9.601213185676446
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "purple",
+      "B": "orange"
+    },
+    "question": "Which object is closer to the camera, the purple one or the orange one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_251/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        11.289128326405255,
+        14.623957904311816,
+        -6.427084601757937
+      ],
+      "color": "purple",
+      "orientation": [
+        6.3189613791925865,
+        5.683181835497933,
+        9.005013415279343
+      ]
+    },
+    "object_1": {
+      "position": [
+        -13.195271626382228,
+        17.799602479589822,
+        -12.787148304546097
+      ],
+      "color": "orange",
+      "orientation": [
+        15.670834436297511,
+        -19.08032588749359,
+        19.106225593276307
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "purple",
+      "B": "orange"
+    },
+    "question": "Which object is closer to the camera, the purple one or the orange one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_252/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -15.110246275250283,
+        19.244197507759132,
+        -18.653195102442393
+      ],
+      "color": "brown",
+      "orientation": [
+        5.918235549818608,
+        7.036737026031755,
+        17.914373254216216
+      ]
+    },
+    "object_1": {
+      "position": [
+        -16.53052483324513,
+        3.9384127383084113,
+        -19.409089006387934
+      ],
+      "color": "orange",
+      "orientation": [
+        -9.17812455057581,
+        0.7860977587650275,
+        3.4372621202914466
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "orange",
+      "B": "brown"
+    },
+    "question": "Which box is above the other, the orange one or the brown one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_253/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -9.467669178091542,
+        10.081218689699703,
+        -1.766074741496503
+      ],
+      "color": "orange",
+      "orientation": [
+        -14.429205153120401,
+        11.897643976836974,
+        16.32711743043449
+      ]
+    },
+    "object_1": {
+      "position": [
+        -5.567075678509937,
+        19.552788497715866,
+        -17.545800039044373
+      ],
+      "color": "purple",
+      "orientation": [
+        8.735375706054676,
+        -4.602464374679478,
+        16.986068660343115
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "orange",
+      "B": "purple"
+    },
+    "question": "Which object is closer to the camera, the orange one or the purple one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_254/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        4.436377378002201,
+        1.610933291986239,
+        -17.14198586179607
+      ],
+      "color": "yellow",
+      "orientation": [
+        4.322277438327031,
+        -0.5097351653053082,
+        -7.761608705598274
+      ]
+    },
+    "object_1": {
+      "position": [
+        5.0903583439095,
+        17.833836562259336,
+        -18.645566620671616
+      ],
+      "color": "blue",
+      "orientation": [
+        -13.179313131217043,
+        18.17525211929356,
+        -11.0824677023417
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "blue",
+      "B": "yellow"
+    },
+    "question": "Which box is above the other, the blue one or the yellow one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_255/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        8.097685257446262,
+        14.067666784061316,
+        -8.266777413896353
+      ],
+      "color": "purple",
+      "orientation": [
+        2.595459740867966,
+        11.662455295403468,
+        2.731790422012512
+      ]
+    },
+    "object_1": {
+      "position": [
+        16.469516836321084,
+        2.8967298791373466,
+        -1.4955141492440234
+      ],
+      "color": "orange",
+      "orientation": [
+        -0.33225034645304774,
+        10.893396966675077,
+        -13.276013242871096
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "purple",
+      "B": "orange"
+    },
+    "question": "Which object is closer to the camera, the purple one or the orange one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_256/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        4.221351431144857,
+        15.645770322323603,
+        -14.134546303340809
+      ],
+      "color": "purple",
+      "orientation": [
+        -12.514366919102837,
+        4.14441232834983,
+        -10.8075116985524
+      ]
+    },
+    "object_1": {
+      "position": [
+        1.9282630194395232,
+        7.227339168417188,
+        -14.75655432906927
+      ],
+      "color": "green",
+      "orientation": [
+        17.811106942792705,
+        10.766682529602566,
+        2.6365732943327274
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "green",
+      "B": "purple"
+    },
+    "question": "Which box is above the other, the green one or the purple one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_257/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        11.826872563862661,
+        18.57874530455708,
+        -6.031420479895685
+      ],
+      "color": "green",
+      "orientation": [
+        4.929861907447105,
+        17.713395689813403,
+        2.4611795611888994
+      ]
+    },
+    "object_1": {
+      "position": [
+        9.660182954589022,
+        13.227288312189451,
+        -8.214419313680004
+      ],
+      "color": "purple",
+      "orientation": [
+        14.323872126997756,
+        11.255070780367241,
+        -0.68207272362352
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "purple",
+      "B": "green"
+    },
+    "question": "Which box is above the other, the purple one or the green one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_258/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -15.252617070768768,
+        15.828772176889725,
+        -10.051059239209774
+      ],
+      "color": "brown",
+      "orientation": [
+        -6.990263170973353,
+        -12.534021585519843,
+        -9.006311510913578
+      ]
+    },
+    "object_1": {
+      "position": [
+        -16.225523779395306,
+        1.613334119451455,
+        -12.50713934043026
+      ],
+      "color": "orange",
+      "orientation": [
+        10.149598923772416,
+        -7.615306998864032,
+        -6.946605115200587
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "orange",
+      "B": "brown"
+    },
+    "question": "Which box is above the other, the orange one or the brown one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_259/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -14.655310420461305,
+        -3.353985107783938,
+        -1.8778142131979472
+      ],
+      "color": "brown",
+      "orientation": [
+        -4.1602135633557005,
+        11.036364960012065,
+        -12.994634927186222
+      ]
+    },
+    "object_1": {
+      "position": [
+        7.800666563552383,
+        13.056511667811293,
+        -10.795885263791389
+      ],
+      "color": "blue",
+      "orientation": [
+        -15.688095779878552,
+        -11.005234524815961,
+        17.47378911641634
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "brown",
+      "B": "blue"
+    },
+    "question": "Which object is closer to the camera, the brown one or the blue one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_260/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -18.966871951561288,
+        -12.252252583900036,
+        -6.2994297900440905
+      ],
+      "color": "gray",
+      "orientation": [
+        -4.606732206530623,
+        11.566409340901373,
+        -8.824919242615344
+      ]
+    },
+    "object_1": {
+      "position": [
+        -20.109876733335117,
+        12.096331601275887,
+        -8.969862022680362
+      ],
+      "color": "green",
+      "orientation": [
+        19.82828139298038,
+        -3.7877533496623244,
+        12.256646859267441
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "gray",
+      "B": "green"
+    },
+    "question": "Which box is above the other, the gray one or the green one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_261/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        4.526739221745856,
+        -6.500677815878099,
+        -13.452712973516546
+      ],
+      "color": "brown",
+      "orientation": [
+        17.95719368939347,
+        -15.79505435938168,
+        17.873514523326243
+      ]
+    },
+    "object_1": {
+      "position": [
+        4.247608570747818,
+        12.027676272585438,
+        -14.525631955095884
+      ],
+      "color": "purple",
+      "orientation": [
+        19.400185509785295,
+        -14.351477811133488,
+        9.043961487657537
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "brown",
+      "B": "purple"
+    },
+    "question": "Which object is closer to the camera, the brown one or the purple one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_262/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        3.736966401867228,
+        4.631904598016409,
+        -10.687893996700677
+      ],
+      "color": "brown",
+      "orientation": [
+        -14.458635277432833,
+        -18.01164744359449,
+        11.751332195629086
+      ]
+    },
+    "object_1": {
+      "position": [
+        1.5077693191861528,
+        -1.4664956481850169,
+        -8.884245499118196
+      ],
+      "color": "green",
+      "orientation": [
+        -9.07556360096445,
+        -14.390718732028391,
+        -12.93905987679965
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "brown",
+      "B": "green"
+    },
+    "question": "Which box is above the other, the green one or the brown one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_263/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -15.29198180054512,
+        13.788605351662902,
+        -4.5036976769119486
+      ],
+      "color": "yellow",
+      "orientation": [
+        -19.095501020502972,
+        -6.228028329799962,
+        2.615081920886947
+      ]
+    },
+    "object_1": {
+      "position": [
+        -17.76262538111153,
+        -1.085189175837403,
+        -3.862429153407202
+      ],
+      "color": "purple",
+      "orientation": [
+        -8.186522032704282,
+        -3.027488704734644,
+        -8.68135133007296
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "purple",
+      "B": "yellow"
+    },
+    "question": "Which box is above the other, the purple one or the yellow one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_264/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -13.388401906628197,
+        18.873918964703577,
+        -14.028835693519312
+      ],
+      "color": "blue",
+      "orientation": [
+        1.6086948835507222,
+        -14.024895398033541,
+        2.2506872303925505
+      ]
+    },
+    "object_1": {
+      "position": [
+        18.434418191540374,
+        16.426680446195256,
+        -6.704353060446271
+      ],
+      "color": "green",
+      "orientation": [
+        8.129991957426434,
+        2.973187235012645,
+        19.099860585171115
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "blue",
+      "B": "green"
+    },
+    "question": "Which object is closer to the camera, the blue one or the green one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_265/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -18.341700560738797,
+        9.41524724261295,
+        -16.49543105016163
+      ],
+      "color": "gray",
+      "orientation": [
+        -13.72552621443958,
+        -10.713705048335559,
+        5.947950561774718
+      ]
+    },
+    "object_1": {
+      "position": [
+        7.069528353521616,
+        -18.177436782906593,
+        -12.936277976496736
+      ],
+      "color": "blue",
+      "orientation": [
+        16.58476948058277,
+        19.15154208018562,
+        -16.111595258410397
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "gray",
+      "B": "blue"
+    },
+    "question": "Which object is closer to the camera, the gray one or the blue one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_266/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -16.00918371381969,
+        0.09943273640722339,
+        -14.868587717517062
+      ],
+      "color": "orange",
+      "orientation": [
+        2.1688139617323863,
+        13.347355375102978,
+        7.797911942499066
+      ]
+    },
+    "object_1": {
+      "position": [
+        -1.3258867002372554,
+        -0.2663170328909885,
+        -16.511408176605382
+      ],
+      "color": "green",
+      "orientation": [
+        -13.664362697162344,
+        15.348830291708154,
+        9.71761833708415
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "green",
+      "B": "orange"
+    },
+    "question": "Which object is closer to the camera, the green one or the orange one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_267/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        14.429254956984577,
+        9.974079858445602,
+        -7.087345365985454
+      ],
+      "color": "yellow",
+      "orientation": [
+        -12.074699398027548,
+        -14.123851453768243,
+        -4.447578960351253
+      ]
+    },
+    "object_1": {
+      "position": [
+        16.86238100067348,
+        0.6261452893422934,
+        -6.578123577747226
+      ],
+      "color": "green",
+      "orientation": [
+        -16.70686905511628,
+        15.307601398959427,
+        16.07530577869185
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "yellow",
+      "B": "green"
+    },
+    "question": "Which box is above the other, the green one or the yellow one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_268/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        14.250418993033868,
+        -13.707585216773461,
+        -1.7500319620464957
+      ],
+      "color": "green",
+      "orientation": [
+        19.438660847059907,
+        -10.044178076987054,
+        14.287099432330088
+      ]
+    },
+    "object_1": {
+      "position": [
+        15.418080006465203,
+        -16.41215141397918,
+        -6.527714806522022
+      ],
+      "color": "orange",
+      "orientation": [
+        7.208832603533864,
+        -10.072964721565798,
+        19.592947683373858
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "green",
+      "B": "orange"
+    },
+    "question": "Which object is closer to the camera, the green one or the orange one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_269/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -13.55272376987655,
+        -17.08507562105057,
+        -4.625628257501466
+      ],
+      "color": "gray",
+      "orientation": [
+        17.392805394914596,
+        7.599322645670142,
+        19.671623399834914
+      ]
+    },
+    "object_1": {
+      "position": [
+        -12.506847891781351,
+        2.253838779364246,
+        -6.787377384915517
+      ],
+      "color": "brown",
+      "orientation": [
+        -5.422876523676759,
+        11.163129811883618,
+        -9.012428508467849
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "brown",
+      "B": "gray"
+    },
+    "question": "Which box is above the other, the gray one or the brown one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_270/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -4.766002163609983,
+        18.669664039430074,
+        -0.3569752936507129
+      ],
+      "color": "blue",
+      "orientation": [
+        -3.17907815500768,
+        -10.395171145350353,
+        4.616381528904263
+      ]
+    },
+    "object_1": {
+      "position": [
+        -2.5902460591588605,
+        4.257849266574105,
+        0.6681351591258942
+      ],
+      "color": "gray",
+      "orientation": [
+        2.4419875825328887,
+        -19.961076605324223,
+        7.255309405745415
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "gray",
+      "B": "blue"
+    },
+    "question": "Which box is above the other, the blue one or the gray one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_271/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -14.633507037514919,
+        -17.79950707331771,
+        -19.437327483951524
+      ],
+      "color": "purple",
+      "orientation": [
+        5.261686907618909,
+        3.7393801007476313,
+        10.824091474418207
+      ]
+    },
+    "object_1": {
+      "position": [
+        -13.249479603631773,
+        -2.006154809744203,
+        -14.233698075724625
+      ],
+      "color": "yellow",
+      "orientation": [
+        -11.244195098615894,
+        0.9517200073939058,
+        17.51246361883559
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "purple",
+      "B": "yellow"
+    },
+    "question": "Which object is closer to the camera, the purple one or the yellow one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_272/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -14.338801499194513,
+        15.943113461104566,
+        -13.655311512784348
+      ],
+      "color": "blue",
+      "orientation": [
+        14.819509279870694,
+        3.578887981520186,
+        -2.400029798867223
+      ]
+    },
+    "object_1": {
+      "position": [
+        17.952120788255797,
+        -1.7012870754300167,
+        -16.9288755878058
+      ],
+      "color": "gray",
+      "orientation": [
+        16.15260762559521,
+        3.25103449076288,
+        3.0175595362529926
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "blue",
+      "B": "gray"
+    },
+    "question": "Which object is closer to the camera, the blue one or the gray one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_273/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        16.285971328810852,
+        16.047505178833152,
+        -9.239839654991215
+      ],
+      "color": "orange",
+      "orientation": [
+        -8.71118373746059,
+        -0.06393733182207129,
+        3.226781277761262
+      ]
+    },
+    "object_1": {
+      "position": [
+        16.98543229647577,
+        8.091415087830327,
+        -8.535290170521158
+      ],
+      "color": "brown",
+      "orientation": [
+        -8.988037330318143,
+        9.710728074914101,
+        -9.369268384237643
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "orange",
+      "B": "brown"
+    },
+    "question": "Which box is above the other, the brown one or the orange one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_274/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -8.146776769194922,
+        13.999328514529687,
+        -19.269771985898075
+      ],
+      "color": "green",
+      "orientation": [
+        7.688109684579739,
+        15.782748493789299,
+        -11.131202062599446
+      ]
+    },
+    "object_1": {
+      "position": [
+        -6.1595529137529414,
+        -18.705148239122146,
+        -17.012541996471782
+      ],
+      "color": "yellow",
+      "orientation": [
+        13.915358803256318,
+        -7.423547739846757,
+        19.713818577129146
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "green",
+      "B": "yellow"
+    },
+    "question": "Which box is above the other, the yellow one or the green one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_275/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -17.964657143160153,
+        18.587720641895245,
+        -0.930451954150584
+      ],
+      "color": "orange",
+      "orientation": [
+        -6.947328480266393,
+        17.443887910257594,
+        -8.933718239348813
+      ]
+    },
+    "object_1": {
+      "position": [
+        -14.847172960992285,
+        18.98711096012252,
+        -2.42585837389095
+      ],
+      "color": "yellow",
+      "orientation": [
+        -19.080365818959134,
+        -17.497254328386312,
+        -3.107299799302371
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "orange",
+      "B": "yellow"
+    },
+    "question": "Which object is closer to the camera, the orange one or the yellow one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_276/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        7.221394176400079,
+        -6.46739781198065,
+        -19.986959443390994
+      ],
+      "color": "orange",
+      "orientation": [
+        -2.7588994289794684,
+        6.268370858877677,
+        8.526461712252736
+      ]
+    },
+    "object_1": {
+      "position": [
+        -2.7350438081433026,
+        0.9246230634611372,
+        -17.75893576158481
+      ],
+      "color": "brown",
+      "orientation": [
+        -12.540068654689867,
+        13.855679501921053,
+        11.766555303453146
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "orange",
+      "B": "brown"
+    },
+    "question": "Which object is closer to the camera, the orange one or the brown one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_277/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        16.667408104076543,
+        -16.918543690259476,
+        -17.423006020226246
+      ],
+      "color": "orange",
+      "orientation": [
+        19.647136780596178,
+        2.087157576072439,
+        -16.96587840379504
+      ]
+    },
+    "object_1": {
+      "position": [
+        -11.82084939298495,
+        -0.9746208871871502,
+        -7.025508330699848
+      ],
+      "color": "yellow",
+      "orientation": [
+        -7.505321667288772,
+        3.145863053446849,
+        -5.5747340479546015
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "orange",
+      "B": "yellow"
+    },
+    "question": "Which object is closer to the camera, the orange one or the yellow one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_278/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -13.961117183897652,
+        -12.04207187706864,
+        -0.12780880638036152
+      ],
+      "color": "gray",
+      "orientation": [
+        -14.533735379177042,
+        4.196632091352832,
+        -9.427500700194456
+      ]
+    },
+    "object_1": {
+      "position": [
+        -4.075989131175399,
+        11.186665078974613,
+        -17.78424736869172
+      ],
+      "color": "orange",
+      "orientation": [
+        19.806351454697705,
+        -17.958800143823677,
+        -15.919431178286846
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "orange",
+      "B": "gray"
+    },
+    "question": "Which object is closer to the camera, the orange one or the gray one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_279/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -15.886789574555984,
+        19.82279804803405,
+        -6.569309471705147
+      ],
+      "color": "purple",
+      "orientation": [
+        12.820606871284042,
+        8.200644730807483,
+        6.391873833364965
+      ]
+    },
+    "object_1": {
+      "position": [
+        -13.745854111653806,
+        14.599933043392198,
+        -5.697097261754651
+      ],
+      "color": "green",
+      "orientation": [
+        -14.222494740068562,
+        6.610875027990119,
+        8.485857753429514
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "green",
+      "B": "purple"
+    },
+    "question": "Which box is above the other, the green one or the purple one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_280/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -14.87124548758139,
+        -16.398058780347252,
+        -19.934153601659826
+      ],
+      "color": "blue",
+      "orientation": [
+        -13.699981864683464,
+        11.313406808458453,
+        13.952991447044695
+      ]
+    },
+    "object_1": {
+      "position": [
+        -17.468887103267335,
+        10.89632972179485,
+        -17.8814600507219
+      ],
+      "color": "brown",
+      "orientation": [
+        -6.240067032225273,
+        -16.45366553083044,
+        8.941046814082991
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "brown",
+      "B": "blue"
+    },
+    "question": "Which box is above the other, the blue one or the brown one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_281/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        16.191993451892067,
+        4.594005320170297,
+        -16.220532965573298
+      ],
+      "color": "gray",
+      "orientation": [
+        11.644046399808904,
+        -18.31303174559775,
+        -1.0778545470409213
+      ]
+    },
+    "object_1": {
+      "position": [
+        15.232648084749664,
+        17.731790124370015,
+        -14.152181146247166
+      ],
+      "color": "yellow",
+      "orientation": [
+        11.203056557019437,
+        -12.731724966036811,
+        -9.175178975850224
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "gray",
+      "B": "yellow"
+    },
+    "question": "Which box is above the other, the gray one or the yellow one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_282/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -3.5269042824805226,
+        13.389609553925432,
+        -13.1935693348581
+      ],
+      "color": "brown",
+      "orientation": [
+        11.800857036272419,
+        -6.8664222924708,
+        -18.130753484791157
+      ]
+    },
+    "object_1": {
+      "position": [
+        -1.9537904895633806,
+        19.8808478888577,
+        -12.498351542839373
+      ],
+      "color": "orange",
+      "orientation": [
+        -10.384819340397279,
+        13.29274383220919,
+        -1.6145204017129657
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "orange",
+      "B": "brown"
+    },
+    "question": "Which box is above the other, the brown one or the orange one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_283/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -10.750535653913534,
+        0.9789514153723964,
+        -4.55913587279114
+      ],
+      "color": "yellow",
+      "orientation": [
+        -13.678327488690325,
+        2.908359257210307,
+        -12.184287984353217
+      ]
+    },
+    "object_1": {
+      "position": [
+        -12.933675330398223,
+        -0.12284981891419733,
+        -7.298537819542707
+      ],
+      "color": "brown",
+      "orientation": [
+        3.227013610471168,
+        4.394436903639534,
+        12.357884212621308
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "yellow",
+      "B": "brown"
+    },
+    "question": "Which object is closer to the camera, the yellow one or the brown one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_284/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        6.738419408301581,
+        -0.17282878015488734,
+        -8.731266603150447
+      ],
+      "color": "green",
+      "orientation": [
+        17.320094020721086,
+        3.243816951630855,
+        -2.2474699464409937
+      ]
+    },
+    "object_1": {
+      "position": [
+        -18.53559344914467,
+        -17.906533175259657,
+        -0.2928192751057921
+      ],
+      "color": "gray",
+      "orientation": [
+        10.027420193027254,
+        -11.235311669805013,
+        6.77875395782538
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "green",
+      "B": "gray"
+    },
+    "question": "Which object is closer to the camera, the green one or the gray one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_285/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -19.68905979422106,
+        -6.127424413631758,
+        -9.126130828809664
+      ],
+      "color": "green",
+      "orientation": [
+        11.072137051249417,
+        -10.368533951515037,
+        9.592735749869231
+      ]
+    },
+    "object_1": {
+      "position": [
+        -19.650937693126288,
+        16.99681889409792,
+        -11.01584103778039
+      ],
+      "color": "purple",
+      "orientation": [
+        -13.019851014050573,
+        -3.876935293066964,
+        14.776916495064242
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "green",
+      "B": "purple"
+    },
+    "question": "Which box is above the other, the green one or the purple one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_286/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -6.301473101689812,
+        -8.309792881385519,
+        -13.798412087729217
+      ],
+      "color": "gray",
+      "orientation": [
+        -7.489490149012269,
+        -14.060482999849917,
+        16.73083098041554
+      ]
+    },
+    "object_1": {
+      "position": [
+        6.11973512685536,
+        -2.413075307064485,
+        -3.8263061543935564
+      ],
+      "color": "orange",
+      "orientation": [
+        -0.6388179504934968,
+        12.94514952574653,
+        3.2516843188234823
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "orange",
+      "B": "gray"
+    },
+    "question": "Which object is closer to the camera, the orange one or the gray one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_287/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        4.995706623239856,
+        19.39576729004158,
+        -15.670280052447694
+      ],
+      "color": "purple",
+      "orientation": [
+        1.8008390119802016,
+        -16.03153305171585,
+        -17.58233048128134
+      ]
+    },
+    "object_1": {
+      "position": [
+        3.048200673165411,
+        10.339263050044405,
+        -18.652196919564787
+      ],
+      "color": "yellow",
+      "orientation": [
+        1.2228355347869524,
+        1.8463809888155005,
+        0.9993213045048712
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "yellow",
+      "B": "purple"
+    },
+    "question": "Which box is above the other, the yellow one or the purple one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_288/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -7.078830644325073,
+        4.143893197812229,
+        -14.39698741737746
+      ],
+      "color": "green",
+      "orientation": [
+        -10.001516994156558,
+        13.273997905672218,
+        -13.055844352290805
+      ]
+    },
+    "object_1": {
+      "position": [
+        -8.691096941449374,
+        -4.771151954628108,
+        -16.59677446015135
+      ],
+      "color": "orange",
+      "orientation": [
+        17.184253414105513,
+        18.827522213832978,
+        -2.1981648688085507
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "green",
+      "B": "orange"
+    },
+    "question": "Which box is above the other, the orange one or the green one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_289/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        13.31039574715259,
+        -6.547801633408618,
+        -4.332078675525022
+      ],
+      "color": "green",
+      "orientation": [
+        10.954138869031645,
+        13.650896351072682,
+        9.104165470817975
+      ]
+    },
+    "object_1": {
+      "position": [
+        16.170408413238945,
+        -1.3369600292124346,
+        -16.394805633590153
+      ],
+      "color": "gray",
+      "orientation": [
+        -15.350174173393935,
+        7.544481159107022,
+        -11.889125571347957
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "green",
+      "B": "gray"
+    },
+    "question": "Which object is closer to the camera, the green one or the gray one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_290/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -6.721649059291442,
+        19.75474316709787,
+        -4.541301315620332
+      ],
+      "color": "orange",
+      "orientation": [
+        -12.618447671251118,
+        -5.579715111492627,
+        0.30206831477953244
+      ]
+    },
+    "object_1": {
+      "position": [
+        -8.819188378970871,
+        13.716675364793161,
+        -2.9538932683814316
+      ],
+      "color": "purple",
+      "orientation": [
+        10.079434730393015,
+        -5.082582457459438,
+        -13.663784746750336
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "orange",
+      "B": "purple"
+    },
+    "question": "Which box is above the other, the purple one or the orange one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_291/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -20.94888387674574,
+        19.781579989082836,
+        -22.135622045708043
+      ],
+      "color": "orange",
+      "orientation": [
+        -9.757640376946126,
+        -11.362791918761864,
+        19.535633951598363
+      ]
+    },
+    "object_1": {
+      "position": [
+        -19.098288818546692,
+        14.388574672436746,
+        -19.714101453548626
+      ],
+      "color": "blue",
+      "orientation": [
+        15.989670869018568,
+        11.326606937614876,
+        -17.055287916499424
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "blue",
+      "B": "orange"
+    },
+    "question": "Which box is above the other, the blue one or the orange one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_292/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        8.965891421854842,
+        -15.242969907537788,
+        -9.349739255672402
+      ],
+      "color": "purple",
+      "orientation": [
+        11.818766920477994,
+        -18.453649241836033,
+        19.727966965092904
+      ]
+    },
+    "object_1": {
+      "position": [
+        8.035247669285685,
+        7.642572149887307,
+        -10.346928496544054
+      ],
+      "color": "brown",
+      "orientation": [
+        13.56687415973444,
+        2.5604973928915626,
+        8.52412977625687
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "brown",
+      "B": "purple"
+    },
+    "question": "Which object is closer to the camera, the brown one or the purple one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_293/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        2.4107262675482106,
+        17.12391685871384,
+        -12.714590618085804
+      ],
+      "color": "green",
+      "orientation": [
+        -8.04820466145285,
+        -7.402052177624281,
+        -6.951652240689569
+      ]
+    },
+    "object_1": {
+      "position": [
+        4.152635612044222,
+        -2.979759651624555,
+        -10.365742108379967
+      ],
+      "color": "orange",
+      "orientation": [
+        11.671771064286084,
+        -19.52197251673564,
+        -9.576816887096955
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "green",
+      "B": "orange"
+    },
+    "question": "Which box is above the other, the orange one or the green one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_294/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -5.479058542295245,
+        -11.530701751769588,
+        -15.256086349483216
+      ],
+      "color": "purple",
+      "orientation": [
+        -18.000867690122135,
+        -10.5420853059847,
+        5.410426272290284
+      ]
+    },
+    "object_1": {
+      "position": [
+        -8.360297104860331,
+        -2.7154201271082092,
+        -15.248245921138803
+      ],
+      "color": "brown",
+      "orientation": [
+        17.766927976196854,
+        -14.279648043213108,
+        -9.790686300483182
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "brown",
+      "B": "purple"
+    },
+    "question": "Which box is above the other, the purple one or the brown one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_295/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        0.821127451688092,
+        -0.46039479210325496,
+        -13.152506059603443
+      ],
+      "color": "green",
+      "orientation": [
+        13.839377467247147,
+        15.141083252440744,
+        0.17185771511507042
+      ]
+    },
+    "object_1": {
+      "position": [
+        14.97206115102587,
+        7.334532587257868,
+        -15.618420146605104
+      ],
+      "color": "orange",
+      "orientation": [
+        0.28219929463753957,
+        -17.78631808580297,
+        9.246991463728623
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "green",
+      "B": "orange"
+    },
+    "question": "Which object is closer to the camera, the green one or the orange one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_296/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        16.141968177355025,
+        -12.164550993278453,
+        -8.511127303011785
+      ],
+      "color": "brown",
+      "orientation": [
+        -3.6834373941965417,
+        -12.715325751172845,
+        -9.199579022863977
+      ]
+    },
+    "object_1": {
+      "position": [
+        13.76312006459894,
+        5.058466596893885,
+        -7.513404576466483
+      ],
+      "color": "green",
+      "orientation": [
+        16.293526203640127,
+        7.264248407171401,
+        15.362296372916987
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "brown",
+      "B": "green"
+    },
+    "question": "Which box is above the other, the brown one or the green one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_297/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        11.716591119121134,
+        -8.724309396646564,
+        -4.165855981022489
+      ],
+      "color": "green",
+      "orientation": [
+        -4.451638786229157,
+        1.7748425673096975,
+        -0.5628643529824906
+      ]
+    },
+    "object_1": {
+      "position": [
+        -13.156220629870194,
+        15.968850655910082,
+        -3.2542790188241746
+      ],
+      "color": "blue",
+      "orientation": [
+        9.385761495576801,
+        -4.10659684300926,
+        -1.750807633173519
+      ]
+    },
+    "category": "location",
+    "subcategory": "closer_to_camera",
+    "options": {
+      "A": "blue",
+      "B": "green"
+    },
+    "question": "Which object is closer to the camera, the blue one or the green one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_298/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -6.990093767259746,
+        -3.663887285810416,
+        -11.371926078519625
+      ],
+      "color": "gray",
+      "orientation": [
+        0.20907930021726173,
+        -17.400568586207736,
+        -1.4904263614687707
+      ]
+    },
+    "object_1": {
+      "position": [
+        -8.694475131412705,
+        -17.98901189844729,
+        -9.271246844615211
+      ],
+      "color": "purple",
+      "orientation": [
+        6.079449197150492,
+        11.694572034355303,
+        -10.601875061308537
+      ]
+    },
+    "category": "location",
+    "subcategory": "above",
+    "options": {
+      "A": "purple",
+      "B": "gray"
+    },
+    "question": "Which box is above the other, the purple one or the gray one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_299/visual_prompt.png"
+  }
+]

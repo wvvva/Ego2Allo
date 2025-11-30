@@ -1,0 +1,6302 @@
+[
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -4.010430362090286,
+        4.9005734806658054,
+        -9.396381830218042
+      ],
+      "color": "gray",
+      "orientation": [
+        11.29865013588169,
+        17.140679006919044,
+        -3.729770984621503
+      ]
+    },
+    "object_1": {
+      "position": [
+        14.198839032232002,
+        12.11991425344123,
+        -2.6370999855007895
+      ],
+      "color": "orange",
+      "orientation": [
+        14.27075017352498,
+        -17.89816980345584,
+        -15.502828789269806
+      ]
+    },
+    "object_2": {
+      "position": [
+        14.32966642901966,
+        -3.725779839864636,
+        -15.39233508966785
+      ],
+      "color": "green",
+      "orientation": [
+        11.29865013588169,
+        17.140679006919044,
+        -3.729770984621503
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "parallel",
+    "options": {
+      "A": "parallel",
+      "B": "perpendicular"
+    },
+    "question": "Is the green box parallel or perpendicular to the gray one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_100/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -0.346019180157203,
+        14.293370505715131,
+        -18.64074372511993
+      ],
+      "color": "green",
+      "orientation": [
+        3.7974013213680102,
+        -2.67350829717774,
+        8.40327896798265
+      ]
+    },
+    "object_1": {
+      "position": [
+        17.12156539593662,
+        -8.187849579321513,
+        -11.580329085495203
+      ],
+      "color": "orange",
+      "orientation": [
+        19.349098873500537,
+        15.487613622144863,
+        -19.68749101156174
+      ]
+    },
+    "object_2": {
+      "position": [
+        17.83477499854502,
+        -8.187849579321513,
+        -10.879378257870917
+      ],
+      "color": "blue",
+      "orientation": [
+        -19.307276864723523,
+        11.837825528372722,
+        2.3870648322158132
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "viewpoint_towards_object",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the orange box is facing the blue?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_101/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        5.584828272899941,
+        -11.888426293274325,
+        -3.8377347303712277
+      ],
+      "color": "yellow",
+      "orientation": [
+        0.19904610414448945,
+        -0.9740391869053447,
+        0.10783464562781331
+      ]
+    },
+    "object_1": {
+      "position": [
+        18.955152783362607,
+        0.8709822948276269,
+        -13.37798636230669
+      ],
+      "color": "orange",
+      "orientation": [
+        2.962887555580892,
+        -14.498995586645718,
+        1.605165451312697
+      ]
+    },
+    "object_2": {
+      "position": [
+        19.74976637519061,
+        3.957015623836991,
+        -14.35582080095877
+      ],
+      "color": "green",
+      "orientation": [
+        -14.143654245836563,
+        12.083882582343655,
+        -17.725260338053616
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "parallel",
+    "options": {
+      "A": "parallel",
+      "B": "perpendicular"
+    },
+    "question": "Is the yellow box parallel or perpendicular to the orange one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_102/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -14.994638964379853,
+        -12.264888913082629,
+        -12.501885609579968
+      ],
+      "color": "blue",
+      "orientation": [
+        -18.92392390685025,
+        -11.274185353120814,
+        19.548015042107004
+      ]
+    },
+    "object_1": {
+      "position": [
+        -8.320439994985481,
+        -18.19548553029945,
+        -14.414291317417227
+      ],
+      "color": "gray",
+      "orientation": [
+        -9.519500600809906,
+        9.277435920502882,
+        -2.353718751834432
+      ]
+    },
+    "object_2": {
+      "position": [
+        9.392972195408653,
+        5.936024605273516,
+        -6.393912052397695
+      ],
+      "color": "purple",
+      "orientation": [
+        2.284368497149501,
+        -5.945860758478725,
+        13.841000559599685
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "closer_to",
+    "options": {
+      "A": "purple",
+      "B": "gray"
+    },
+    "question": "Which box is closer to the blue box, the purple one or the gray one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_103/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -4.78876068766381,
+        -4.301845697895285,
+        -11.27732860556639
+      ],
+      "color": "gray",
+      "orientation": [
+        -4.601795550922606,
+        -1.0351844069195764,
+        -9.590538962694716
+      ]
+    },
+    "object_1": {
+      "position": [
+        -11.328886436522252,
+        -16.226869036261277,
+        -8.502959726721082
+      ],
+      "color": "orange",
+      "orientation": [
+        6.420938331263919,
+        5.663977909275371,
+        -2.5634380063370763
+      ]
+    },
+    "object_2": {
+      "position": [
+        9.20661002636827,
+        -10.066354821239294,
+        -8.981270302731431
+      ],
+      "color": "green",
+      "orientation": [
+        -4.601795550922606,
+        -1.0351844069195764,
+        -9.590538962694716
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "same_direction",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "question": "Does the green box and gray box face the same direction?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_104/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        7.43463184375447,
+        -5.822791366620233,
+        -16.806429624572875
+      ],
+      "color": "orange",
+      "orientation": [
+        -1.850647267518152,
+        9.14264393355284,
+        -7.7459340228625795
+      ]
+    },
+    "object_1": {
+      "position": [
+        -12.824836125643643,
+        -0.40147176351519676,
+        -16.460964664231675
+      ],
+      "color": "blue",
+      "orientation": [
+        14.593358563507095,
+        -1.7932637784766001,
+        -9.220860368736044
+      ]
+    },
+    "object_2": {
+      "position": [
+        6.462006354543821,
+        -5.822791366620233,
+        -16.574051360232716
+      ],
+      "color": "brown",
+      "orientation": [
+        -10.84869214868258,
+        -3.6765484247838778,
+        -12.078712894273963
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "viewpoint_towards_object",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the orange box is facing the brown?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_105/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        17.133203534087777,
+        -11.53364505790217,
+        -9.549457010724868
+      ],
+      "color": "blue",
+      "orientation": [
+        0.3594827843381426,
+        -0.11406993521647653,
+        0.9261534309412266
+      ]
+    },
+    "object_1": {
+      "position": [
+        -10.386573435769728,
+        -7.313521522292232,
+        -15.793203584926205
+      ],
+      "color": "purple",
+      "orientation": [
+        12.752086937540568,
+        -9.125600412420113,
+        -13.76353814867917
+      ]
+    },
+    "object_2": {
+      "position": [
+        4.067013157978188,
+        -7.35168820863584,
+        -17.036757271580456
+      ],
+      "color": "green",
+      "orientation": [
+        4.250337337590917,
+        -1.3487035426183667,
+        10.950356120989216
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "parallel",
+    "options": {
+      "A": "parallel",
+      "B": "perpendicular"
+    },
+    "question": "Is the blue box parallel or perpendicular to the green one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_106/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -5.549268699030581,
+        -6.903141119962509,
+        -18.52515520977599
+      ],
+      "color": "gray",
+      "orientation": [
+        -14.216868852047519,
+        -5.155310467688693,
+        17.823014895972413
+      ]
+    },
+    "object_1": {
+      "position": [
+        6.460139904527729,
+        17.85124995379511,
+        -17.779797922672348
+      ],
+      "color": "brown",
+      "orientation": [
+        18.080851348243023,
+        3.4791157510139357,
+        -12.422222223340338
+      ]
+    },
+    "object_2": {
+      "position": [
+        7.026409825126925,
+        17.85124995379511,
+        -16.95557806303259
+      ],
+      "color": "blue",
+      "orientation": [
+        1.5794738182851198,
+        -11.228452794813307,
+        2.9127897817758743
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "viewpoint_towards_object",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the brown box is facing the blue?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_107/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        4.5971090960013505,
+        3.3076961601768318,
+        -10.64313530957335
+      ],
+      "color": "green",
+      "orientation": [
+        14.48935466559869,
+        -16.134491893366025,
+        16.1154542307219
+      ]
+    },
+    "object_1": {
+      "position": [
+        16.260376658073113,
+        -14.305457593040103,
+        -13.882700287491872
+      ],
+      "color": "purple",
+      "orientation": [
+        5.2108541825158525,
+        -13.32184149141467,
+        -8.966632304913439
+      ]
+    },
+    "object_2": {
+      "position": [
+        9.486340418317482,
+        -2.014756813408095,
+        -4.5869973181866985
+      ],
+      "color": "brown",
+      "orientation": [
+        14.48935466559869,
+        -16.134491893366025,
+        16.1154542307219
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "parallel",
+    "options": {
+      "A": "parallel",
+      "B": "perpendicular"
+    },
+    "question": "Is the brown box parallel or perpendicular to the green one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_108/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -19.11703421511544,
+        -0.7861046604171342,
+        -13.018081835474455
+      ],
+      "color": "gray",
+      "orientation": [
+        -13.95674181496059,
+        -11.232847074534952,
+        7.938126583326714
+      ]
+    },
+    "object_1": {
+      "position": [
+        -12.712777601676724,
+        -10.2112628616011,
+        -10.133120125986554
+      ],
+      "color": "blue",
+      "orientation": [
+        -19.251034380867655,
+        7.410869511046116,
+        -19.047679145743217
+      ]
+    },
+    "object_2": {
+      "position": [
+        -7.864864799404927,
+        1.9465179243704185,
+        -17.515643646259402
+      ],
+      "color": "purple",
+      "orientation": [
+        -13.95674181496059,
+        -11.232847074534952,
+        7.938126583326714
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "same_direction",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "question": "Does the gray box and purple box face the same direction?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_109/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        14.052802078134484,
+        2.93416849027097,
+        -5.210788203386336
+      ],
+      "color": "brown",
+      "orientation": [
+        9.758198839265873,
+        -19.084999350438636,
+        9.69869533074278
+      ]
+    },
+    "object_1": {
+      "position": [
+        -8.710397786457778,
+        6.527317722702314,
+        -7.8203432990573685
+      ],
+      "color": "gray",
+      "orientation": [
+        8.398021358566915,
+        4.563008676060257,
+        0.07569116729753489
+      ]
+    },
+    "object_2": {
+      "position": [
+        13.670435739733236,
+        -6.5269826671889675,
+        -3.6152006996756256
+      ],
+      "color": "orange",
+      "orientation": [
+        -0.8526420417958931,
+        0.4973293477040641,
+        -0.1602032099378182
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "facing",
+    "options": {
+      "A": "brown",
+      "B": "gray"
+    },
+    "question": "Which box is the orange one facing towards, the gray one or the brown one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_110/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        6.5584146026801164,
+        0.556184617715374,
+        -5.272083991883234
+      ],
+      "color": "yellow",
+      "orientation": [
+        0.7747287250055993,
+        -0.6296294389970821,
+        -0.057984240957508884
+      ]
+    },
+    "object_1": {
+      "position": [
+        -6.811009424872477,
+        6.392369526989,
+        -0.00945544265894327
+      ],
+      "color": "brown",
+      "orientation": [
+        -0.445167387917099,
+        1.0582217876906697,
+        8.724123168015275
+      ]
+    },
+    "object_2": {
+      "position": [
+        12.530033622334088,
+        -4.297007231111273,
+        -5.719027270176621
+      ],
+      "color": "gray",
+      "orientation": [
+        -2.848085857510224,
+        16.87086112317207,
+        5.033686302058356
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "facing",
+    "options": {
+      "A": "brown",
+      "B": "gray"
+    },
+    "question": "Which box is the yellow one facing towards, the gray one or the brown one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_111/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        5.630652279604582,
+        5.586806668194836,
+        -7.995337062279983
+      ],
+      "color": "purple",
+      "orientation": [
+        -8.872581942861242,
+        -15.053145415793221,
+        -10.97372194801325
+      ]
+    },
+    "object_1": {
+      "position": [
+        16.965334313790912,
+        4.867347867744538,
+        -9.678833080811629
+      ],
+      "color": "brown",
+      "orientation": [
+        16.03774347551625,
+        8.310038300823717,
+        -10.937309610774403
+      ]
+    },
+    "object_2": {
+      "position": [
+        6.622688003696187,
+        5.586806668194836,
+        -7.869380235843121
+      ],
+      "color": "blue",
+      "orientation": [
+        1.7694115554581415,
+        -3.5042232125517856,
+        -13.93588202632941
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "viewpoint_towards_object",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the blue box is facing the purple?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_112/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        8.49306882769212,
+        3.8558959722925934,
+        -9.308793987394886
+      ],
+      "color": "purple",
+      "orientation": [
+        14.269613215853603,
+        7.378017418909806,
+        -3.7969746001878875
+      ]
+    },
+    "object_1": {
+      "position": [
+        13.076850050371682,
+        -15.70848333648517,
+        -2.0823452969731484
+      ],
+      "color": "yellow",
+      "orientation": [
+        14.269613215853603,
+        7.378017418909806,
+        -3.7969746001878875
+      ]
+    },
+    "object_2": {
+      "position": [
+        11.1771130682461,
+        -5.793843981736316,
+        -0.2063363655777124
+      ],
+      "color": "blue",
+      "orientation": [
+        5.760807520975799,
+        -19.051330619355053,
+        18.217346780011653
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "same_direction",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "question": "Does the yellow box and purple box face the same direction?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_113/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        13.716269573321078,
+        15.200282842486914,
+        -12.59217792057285
+      ],
+      "color": "brown",
+      "orientation": [
+        -15.319950248486922,
+        17.088744462949165,
+        -2.3501076916371346
+      ]
+    },
+    "object_1": {
+      "position": [
+        -4.016944454643445,
+        6.076517562980875,
+        -12.25984973571556
+      ],
+      "color": "green",
+      "orientation": [
+        6.262190568171754,
+        -6.929872298712079,
+        -15.302483397866977
+      ]
+    },
+    "object_2": {
+      "position": [
+        -8.1150992653231,
+        0.8674874027391581,
+        -17.466684642056332
+      ],
+      "color": "orange",
+      "orientation": [
+        6.262190568171754,
+        -6.929872298712079,
+        -15.302483397866977
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "parallel",
+    "options": {
+      "A": "parallel",
+      "B": "perpendicular"
+    },
+    "question": "Is the orange box parallel or perpendicular to the green one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_114/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -6.011411335196421,
+        -5.238349475699046,
+        -9.177509198509972
+      ],
+      "color": "green",
+      "orientation": [
+        11.735244346231092,
+        -4.95312930391365,
+        2.4351487261804827
+      ]
+    },
+    "object_1": {
+      "position": [
+        -16.197998602564148,
+        11.234906291725416,
+        -6.953934791396694
+      ],
+      "color": "yellow",
+      "orientation": [
+        11.019795043662349,
+        3.5312760432039205,
+        -2.5571139962830856
+      ]
+    },
+    "object_2": {
+      "position": [
+        -10.553433030158544,
+        0.19200864038174004,
+        -8.408191543529508
+      ],
+      "color": "blue",
+      "orientation": [
+        11.735244346231092,
+        -4.95312930391365,
+        2.4351487261804827
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "parallel",
+    "options": {
+      "A": "parallel",
+      "B": "perpendicular"
+    },
+    "question": "Is the blue box parallel or perpendicular to the green one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_115/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -2.2296064651312264,
+        19.849885364769392,
+        -5.3720104417074666
+      ],
+      "color": "purple",
+      "orientation": [
+        -2.1581650787467694,
+        15.997380998944351,
+        15.363166413485388
+      ]
+    },
+    "object_1": {
+      "position": [
+        5.677486328666312,
+        -2.9817805072444834,
+        -4.248106071605397
+      ],
+      "color": "blue",
+      "orientation": [
+        16.64136813650053,
+        -10.882378936873547,
+        4.545287204716153
+      ]
+    },
+    "object_2": {
+      "position": [
+        18.78980983268741,
+        -16.22019427824643,
+        -1.4472037481901978
+      ],
+      "color": "gray",
+      "orientation": [
+        16.64136813650053,
+        -10.882378936873547,
+        4.545287204716153
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "parallel",
+    "options": {
+      "A": "parallel",
+      "B": "perpendicular"
+    },
+    "question": "Is the blue box parallel or perpendicular to the gray one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_116/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        5.108547429912306,
+        14.183386056239556,
+        -18.67940955273163
+      ],
+      "color": "yellow",
+      "orientation": [
+        -4.794530878865402,
+        19.099441511542274,
+        19.92802824224721
+      ]
+    },
+    "object_1": {
+      "position": [
+        2.816654001398188,
+        -8.455954088488085,
+        -14.901759951821369
+      ],
+      "color": "gray",
+      "orientation": [
+        -6.562526278461478,
+        7.523290906704744,
+        -14.215377412903706
+      ]
+    },
+    "object_2": {
+      "position": [
+        12.536858456994906,
+        -14.383131859790472,
+        -18.304393466266585
+      ],
+      "color": "blue",
+      "orientation": [
+        -13.46200172119492,
+        0.02944721777140913,
+        16.589574194601887
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "closer_to",
+    "options": {
+      "A": "blue",
+      "B": "yellow"
+    },
+    "question": "Which box is closer to the gray box, the blue one or the yellow one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_117/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        9.888298969804627,
+        5.4132386634801435,
+        -15.773810599014366
+      ],
+      "color": "brown",
+      "orientation": [
+        8.195618579212145,
+        -16.948801795517966,
+        4.6486228578688795
+      ]
+    },
+    "object_1": {
+      "position": [
+        2.359163752955503,
+        2.160253553478938,
+        -8.577782278531645
+      ],
+      "color": "yellow",
+      "orientation": [
+        8.195618579212145,
+        -16.948801795517966,
+        4.6486228578688795
+      ]
+    },
+    "object_2": {
+      "position": [
+        -3.921271484423894,
+        3.5850551780675275,
+        -12.525608400587593
+      ],
+      "color": "orange",
+      "orientation": [
+        4.451159696972539,
+        18.910789613782896,
+        -16.83082541493121
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "same_direction",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "question": "Does the brown box and yellow box face the same direction?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_118/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        5.187431951511826,
+        -9.675032498146434,
+        -0.2847542983331621
+      ],
+      "color": "purple",
+      "orientation": [
+        1.381623207882111,
+        13.466853450876869,
+        -9.446856857647674
+      ]
+    },
+    "object_1": {
+      "position": [
+        -1.9610198935118497,
+        12.830559121870905,
+        -11.068692239348257
+      ],
+      "color": "yellow",
+      "orientation": [
+        1.381623207882111,
+        13.466853450876869,
+        -9.446856857647674
+      ]
+    },
+    "object_2": {
+      "position": [
+        7.092242407021455,
+        7.70781724138844,
+        -1.7607329210904652
+      ],
+      "color": "gray",
+      "orientation": [
+        -4.059783291042173,
+        -0.16422858128162332,
+        -3.253463696087387
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "same_direction",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "question": "Does the purple box and yellow box face the same direction?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_119/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        5.488672059366252,
+        -2.0210433927300784,
+        -18.80580130203847
+      ],
+      "color": "purple",
+      "orientation": [
+        -16.614154080073227,
+        -11.95844896081653,
+        4.2673621336415195
+      ]
+    },
+    "object_1": {
+      "position": [
+        6.477904743167841,
+        -2.0210433927300784,
+        -18.659450021556523
+      ],
+      "color": "green",
+      "orientation": [
+        -2.3526179956423903,
+        2.0838672837958505,
+        15.902058431776325
+      ]
+    },
+    "object_2": {
+      "position": [
+        -8.892889025821638,
+        9.654244626041027,
+        -6.349434741039872
+      ],
+      "color": "blue",
+      "orientation": [
+        -1.3320461126983965,
+        -2.3987495503410052,
+        16.437497095421982
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "viewpoint_towards_object",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the green box is facing the purple?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_120/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -16.250426250524033,
+        1.8584092454886694,
+        -5.631797354016115
+      ],
+      "color": "yellow",
+      "orientation": [
+        -18.546601224762355,
+        -12.695907605410287,
+        8.473655568359181
+      ]
+    },
+    "object_1": {
+      "position": [
+        16.177364238703326,
+        -9.201711856909029,
+        -16.26357954274292
+      ],
+      "color": "blue",
+      "orientation": [
+        -8.29776738683076,
+        -16.08639313355791,
+        2.077922130811789
+      ]
+    },
+    "object_2": {
+      "position": [
+        -16.96694588243607,
+        -7.496442260838148,
+        -17.46266051996425
+      ],
+      "color": "brown",
+      "orientation": [
+        16.562568817835285,
+        -11.515979429109189,
+        6.751204306172589
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "closer_to",
+    "options": {
+      "A": "blue",
+      "B": "yellow"
+    },
+    "question": "Which box is closer to the brown box, the blue one or the yellow one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_121/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -8.302730792896625,
+        -14.382017935606974,
+        -16.56128036633764
+      ],
+      "color": "brown",
+      "orientation": [
+        10.245116417010237,
+        6.977500781569024,
+        -17.16303954880975
+      ]
+    },
+    "object_1": {
+      "position": [
+        -14.196903508527491,
+        13.24833976663416,
+        -0.8252866235566643
+      ],
+      "color": "orange",
+      "orientation": [
+        10.245116417010237,
+        6.977500781569024,
+        -17.16303954880975
+      ]
+    },
+    "object_2": {
+      "position": [
+        14.033090163615746,
+        -15.984746340436011,
+        -17.336584281471197
+      ],
+      "color": "gray",
+      "orientation": [
+        18.638465759512222,
+        6.3953550762647104,
+        -13.877203506642513
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "parallel",
+    "options": {
+      "A": "parallel",
+      "B": "perpendicular"
+    },
+    "question": "Is the orange box parallel or perpendicular to the brown one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_122/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -18.254771829037818,
+        -3.830278451158332,
+        -16.903735169632405
+      ],
+      "color": "yellow",
+      "orientation": [
+        14.34479399273718,
+        -15.699204738483834,
+        -5.468592123729605
+      ]
+    },
+    "object_1": {
+      "position": [
+        16.572105052559756,
+        12.78763381581092,
+        -10.567810885389067
+      ],
+      "color": "purple",
+      "orientation": [
+        -19.425565543870277,
+        5.204611369485544,
+        10.94348393986197
+      ]
+    },
+    "object_2": {
+      "position": [
+        -3.578894368306287,
+        15.776823788461257,
+        -3.3352174459408133
+      ],
+      "color": "brown",
+      "orientation": [
+        0.9321692598286314,
+        -0.13827755865087893,
+        -0.3345740393456941
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "facing",
+    "options": {
+      "A": "yellow",
+      "B": "purple"
+    },
+    "question": "Which box is the brown one facing towards, the purple one or the yellow one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_123/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -13.616025462128857,
+        15.416209058286157,
+        -3.7840127483881503
+      ],
+      "color": "orange",
+      "orientation": [
+        17.2990486271705,
+        -17.34079300247544,
+        -15.941494440018946
+      ]
+    },
+    "object_1": {
+      "position": [
+        -14.298763730752766,
+        18.250238145317653,
+        -12.875435487986094
+      ],
+      "color": "green",
+      "orientation": [
+        2.8765551697472524,
+        -8.913663845236854,
+        17.844808779458518
+      ]
+    },
+    "object_2": {
+      "position": [
+        10.865118306661113,
+        1.0286452383279112,
+        -12.119992798703569
+      ],
+      "color": "yellow",
+      "orientation": [
+        12.022407440802219,
+        -8.745014223702015,
+        4.680443809763972
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "closer_to",
+    "options": {
+      "A": "green",
+      "B": "yellow"
+    },
+    "question": "Which box is closer to the orange box, the green one or the yellow one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_124/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        19.558276976280226,
+        -8.529991423096543,
+        -12.659371420475736
+      ],
+      "color": "orange",
+      "orientation": [
+        8.679228650797164,
+        14.570076688567283,
+        -12.903965315926506
+      ]
+    },
+    "object_1": {
+      "position": [
+        1.8547762069854485,
+        17.394216746421094,
+        -3.093207124536338
+      ],
+      "color": "blue",
+      "orientation": [
+        -9.770981514035718,
+        -18.07616509838202,
+        -4.921127717762065
+      ]
+    },
+    "object_2": {
+      "position": [
+        6.278472488765253,
+        -2.8506014085770275,
+        -6.509038232373905
+      ],
+      "color": "gray",
+      "orientation": [
+        -9.770981514035718,
+        -18.07616509838202,
+        -4.921127717762065
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "same_direction",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "question": "Does the gray box and blue box face the same direction?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_125/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -11.422366321142077,
+        -4.257355726767308,
+        -13.304549223954002
+      ],
+      "color": "gray",
+      "orientation": [
+        0.26042105873271737,
+        -17.66965724674218,
+        -8.41672721765693
+      ]
+    },
+    "object_1": {
+      "position": [
+        6.258739245617164,
+        13.780709389640549,
+        -17.03879544126834
+      ],
+      "color": "brown",
+      "orientation": [
+        -0.6924785231565943,
+        -0.7064588040182181,
+        0.14625133569308232
+      ]
+    },
+    "object_2": {
+      "position": [
+        -11.619960502791574,
+        -18.21834654643692,
+        -3.14469137928128
+      ],
+      "color": "purple",
+      "orientation": [
+        -17.8330811399926,
+        -11.845513745877629,
+        5.964583505311861
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "facing",
+    "options": {
+      "A": "purple",
+      "B": "gray"
+    },
+    "question": "Which box is the brown one facing towards, the gray one or the purple one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_126/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        0.4310969031554066,
+        3.179198398845074,
+        -19.769512928476843
+      ],
+      "color": "green",
+      "orientation": [
+        -16.340486549735004,
+        -3.897772057371725,
+        8.667003480078982
+      ]
+    },
+    "object_1": {
+      "position": [
+        1.8679597090844737,
+        -12.308305114223668,
+        -18.945993064026023
+      ],
+      "color": "blue",
+      "orientation": [
+        -2.8456912972445565,
+        -3.0362780520540547,
+        -10.321144165617312
+      ]
+    },
+    "object_2": {
+      "position": [
+        12.634707770445303,
+        13.5851280012333,
+        -6.794937952078223
+      ],
+      "color": "purple",
+      "orientation": [
+        16.294993800881343,
+        -15.595594630695565,
+        -11.758905086566148
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "closer_to",
+    "options": {
+      "A": "blue",
+      "B": "green"
+    },
+    "question": "Which box is closer to the purple box, the blue one or the green one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_127/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -0.5491388950714367,
+        17.26899176881564,
+        -18.304549302974323
+      ],
+      "color": "brown",
+      "orientation": [
+        17.5139243405684,
+        17.386711234987672,
+        19.626311235856633
+      ]
+    },
+    "object_1": {
+      "position": [
+        -0.049717039611117286,
+        14.659527141288521,
+        -7.968464756449908
+      ],
+      "color": "purple",
+      "orientation": [
+        -0.6271439233635192,
+        2.193501381773096,
+        13.024871083159745
+      ]
+    },
+    "object_2": {
+      "position": [
+        -11.186071645741634,
+        12.875402022570078,
+        -7.3349793115154185
+      ],
+      "color": "green",
+      "orientation": [
+        17.5139243405684,
+        17.386711234987672,
+        19.626311235856633
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "same_direction",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "question": "Does the green box and brown box face the same direction?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_128/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        2.3280156782264214,
+        -11.914563490831265,
+        -0.8388506699591538
+      ],
+      "color": "yellow",
+      "orientation": [
+        10.17497147367758,
+        -17.52559212656958,
+        -7.37448744367847
+      ]
+    },
+    "object_1": {
+      "position": [
+        18.99929053125429,
+        -18.587929535771984,
+        -13.939735910731176
+      ],
+      "color": "green",
+      "orientation": [
+        -0.7500014133828846,
+        0.3002190300292402,
+        0.5893779890121259
+      ]
+    },
+    "object_2": {
+      "position": [
+        13.39852055209952,
+        16.579844215489985,
+        -12.888651178023277
+      ],
+      "color": "blue",
+      "orientation": [
+        -12.768677915169452,
+        18.061170011749226,
+        -8.659501259007204
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "facing",
+    "options": {
+      "A": "yellow",
+      "B": "blue"
+    },
+    "question": "Which box is the green one facing towards, the yellow one or the blue one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_129/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -9.986791165642849,
+        -7.321917725609168,
+        -0.6357689048210844
+      ],
+      "color": "gray",
+      "orientation": [
+        -14.690616112205252,
+        5.329981844426182,
+        9.124178827641249
+      ]
+    },
+    "object_1": {
+      "position": [
+        12.045635425160441,
+        -0.1939097128681766,
+        -14.404333618714897
+      ],
+      "color": "purple",
+      "orientation": [
+        17.416369811715462,
+        18.364239297040818,
+        3.3496494336291427
+      ]
+    },
+    "object_2": {
+      "position": [
+        12.304028918427015,
+        -14.420027254695977,
+        -9.44955395082646
+      ],
+      "color": "brown",
+      "orientation": [
+        -14.690616112205252,
+        5.329981844426182,
+        9.124178827641249
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "same_direction",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "question": "Does the brown box and gray box face the same direction?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_130/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -4.813533964654999,
+        -16.86374205903776,
+        -10.719934126187114
+      ],
+      "color": "blue",
+      "orientation": [
+        5.8805278051868015,
+        -4.32470575069614,
+        -11.51030733245677
+      ]
+    },
+    "object_1": {
+      "position": [
+        -3.3491256735145747,
+        7.76954262979508,
+        -3.6619655328099867
+      ],
+      "color": "gray",
+      "orientation": [
+        10.14420525199856,
+        10.673938448847835,
+        -6.090128948886981
+      ]
+    },
+    "object_2": {
+      "position": [
+        -5.7040475843810485,
+        -16.86374205903776,
+        -11.174890709920561
+      ],
+      "color": "orange",
+      "orientation": [
+        0.3995345359594715,
+        0.9766546040156925,
+        -16.693720431271288
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "viewpoint_towards_object",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the blue box is facing the orange?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_131/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        18.340012146424122,
+        -14.885656390212283,
+        -9.442259505550549
+      ],
+      "color": "orange",
+      "orientation": [
+        19.543281051547687,
+        -15.29372067482743,
+        -3.1977337196091185
+      ]
+    },
+    "object_1": {
+      "position": [
+        -7.265943311012009,
+        -19.894939403940764,
+        -20.340913141517852
+      ],
+      "color": "yellow",
+      "orientation": [
+        4.396876139236735,
+        -17.490344454448955,
+        -9.82679766534121
+      ]
+    },
+    "object_2": {
+      "position": [
+        -8.042006243876315,
+        -19.894939403940764,
+        -19.710257669620518
+      ],
+      "color": "purple",
+      "orientation": [
+        14.6129798828322,
+        6.617646571458238,
+        17.982230442938246
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "viewpoint_towards_object",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the purple box is facing the yellow?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_132/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -9.619884190240832,
+        15.424601856119509,
+        -10.090614001008474
+      ],
+      "color": "gray",
+      "orientation": [
+        14.625964147416475,
+        18.9905041682685,
+        16.50588531747114
+      ]
+    },
+    "object_1": {
+      "position": [
+        -12.14700563263634,
+        10.509722545914649,
+        -0.4222862774898708
+      ],
+      "color": "blue",
+      "orientation": [
+        17.04462170674033,
+        -13.064096251946449,
+        -2.3490134460869427
+      ]
+    },
+    "object_2": {
+      "position": [
+        -16.250697798064436,
+        7.710701806159538,
+        -3.894305290818803
+      ],
+      "color": "yellow",
+      "orientation": [
+        0.788978063361221,
+        -0.6047236211965479,
+        -0.10873342403194815
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "parallel",
+    "options": {
+      "A": "parallel",
+      "B": "perpendicular"
+    },
+    "question": "Is the yellow box parallel or perpendicular to the blue one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_133/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        0.08771340753007806,
+        -8.014120849305177,
+        -5.549366656437815
+      ],
+      "color": "blue",
+      "orientation": [
+        -14.258721774748274,
+        6.694904575345429,
+        -17.9496336864143
+      ]
+    },
+    "object_1": {
+      "position": [
+        10.11636156940002,
+        -7.627380508362659,
+        -17.571525978278125
+      ],
+      "color": "purple",
+      "orientation": [
+        -3.453682326285332,
+        -6.946231462583775,
+        15.385226216653649
+      ]
+    },
+    "object_2": {
+      "position": [
+        11.111270847802082,
+        -7.627380508362659,
+        -17.470751339854118
+      ],
+      "color": "yellow",
+      "orientation": [
+        1.3236839175309925,
+        14.985583198156256,
+        -13.068222638340497
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "viewpoint_towards_object",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the yellow box is facing the purple?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_134/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -19.198463307940283,
+        -6.930597884380871,
+        -17.69464985011218
+      ],
+      "color": "green",
+      "orientation": [
+        0.7720355893594965,
+        0.3511204467903358,
+        0.5297881469116595
+      ]
+    },
+    "object_1": {
+      "position": [
+        -4.828831970924124,
+        -12.76267084085758,
+        -13.974594532115947
+      ],
+      "color": "brown",
+      "orientation": [
+        18.993492264698077,
+        8.638207333968086,
+        13.033760630961979
+      ]
+    },
+    "object_2": {
+      "position": [
+        6.9197694741453795,
+        9.034720696629918,
+        -7.978238869589212
+      ],
+      "color": "orange",
+      "orientation": [
+        15.081317831872532,
+        14.218002476023202,
+        17.04824844450861
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "parallel",
+    "options": {
+      "A": "parallel",
+      "B": "perpendicular"
+    },
+    "question": "Is the green box parallel or perpendicular to the brown one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_135/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        13.35914536545539,
+        -0.8117522919693272,
+        -9.93571929475754
+      ],
+      "color": "orange",
+      "orientation": [
+        9.147546161670451,
+        17.93280122769017,
+        -11.463655675219332
+      ]
+    },
+    "object_1": {
+      "position": [
+        -3.830434865369927,
+        0.2609960600627872,
+        -12.374464106875944
+      ],
+      "color": "blue",
+      "orientation": [
+        -0.7755387878863724,
+        -0.5460883844624301,
+        -0.31674447878210826
+      ]
+    },
+    "object_2": {
+      "position": [
+        -11.294540868628449,
+        -4.994784375993202,
+        -15.422943954054029
+      ],
+      "color": "gray",
+      "orientation": [
+        11.085731274699945,
+        18.534349659009564,
+        -19.350131956850085
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "facing",
+    "options": {
+      "A": "gray",
+      "B": "orange"
+    },
+    "question": "Which box is the blue one facing towards, the gray one or the orange one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_136/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        6.890033057388493,
+        -19.170016352487742,
+        -15.82869528468133
+      ],
+      "color": "yellow",
+      "orientation": [
+        16.616537225790694,
+        11.823287200164025,
+        -7.7146771331914685
+      ]
+    },
+    "object_1": {
+      "position": [
+        -13.81064401988331,
+        -11.962516555044509,
+        -16.26541637155311
+      ],
+      "color": "green",
+      "orientation": [
+        5.478686545611772,
+        6.710833942498212,
+        11.555013117001135
+      ]
+    },
+    "object_2": {
+      "position": [
+        -10.938173982331097,
+        -16.01730809405136,
+        -7.725960982426956
+      ],
+      "color": "purple",
+      "orientation": [
+        1.7261485268233656,
+        -3.9001790665237337,
+        0.2015622993084385
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "closer_to",
+    "options": {
+      "A": "yellow",
+      "B": "purple"
+    },
+    "question": "Which box is closer to the green box, the yellow one or the purple one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_137/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -4.196211583019007,
+        -14.926717475413444,
+        -5.950799773890328
+      ],
+      "color": "brown",
+      "orientation": [
+        -12.260683862263647,
+        5.730805643089422,
+        -15.798475171860776
+      ]
+    },
+    "object_1": {
+      "position": [
+        12.415958387731344,
+        -14.544296551110524,
+        -19.57051394690257
+      ],
+      "color": "orange",
+      "orientation": [
+        -12.260683862263647,
+        5.730805643089422,
+        -15.798475171860776
+      ]
+    },
+    "object_2": {
+      "position": [
+        -1.2411343253852394,
+        6.438936410413007,
+        -0.15385965126527168
+      ],
+      "color": "blue",
+      "orientation": [
+        -13.92501513507105,
+        4.825437409300491,
+        -17.323546852245432
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "same_direction",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "question": "Does the orange box and brown box face the same direction?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_138/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        8.671974167632683,
+        6.194161104669295,
+        -1.8150363212025624
+      ],
+      "color": "yellow",
+      "orientation": [
+        -11.998665587980245,
+        9.949985285846683,
+        17.69175380015242
+      ]
+    },
+    "object_1": {
+      "position": [
+        -0.3360995504357014,
+        4.690850914817879,
+        -19.73883087491069
+      ],
+      "color": "purple",
+      "orientation": [
+        0.13032480430937338,
+        0.7953601406643762,
+        -0.5919608872417733
+      ]
+    },
+    "object_2": {
+      "position": [
+        -6.962254900188164,
+        12.95812015688309,
+        -13.598624171190606
+      ],
+      "color": "gray",
+      "orientation": [
+        1.0667938119701148,
+        6.510543260316339,
+        -4.845587260110262
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "parallel",
+    "options": {
+      "A": "parallel",
+      "B": "perpendicular"
+    },
+    "question": "Is the purple box parallel or perpendicular to the gray one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_139/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        15.823804245046716,
+        8.277913839377817,
+        -6.539374792068722
+      ],
+      "color": "gray",
+      "orientation": [
+        12.130301448518715,
+        -19.834630064812426,
+        -14.334400952790265
+      ]
+    },
+    "object_1": {
+      "position": [
+        15.060449286742784,
+        8.277913839377817,
+        -7.185354054609559
+      ],
+      "color": "green",
+      "orientation": [
+        -13.315338696728588,
+        17.758651851340836,
+        -18.96950836158531
+      ]
+    },
+    "object_2": {
+      "position": [
+        12.97476208966792,
+        -13.293377530291096,
+        -10.201655577339677
+      ],
+      "color": "orange",
+      "orientation": [
+        -18.466695727010958,
+        -10.849351632251105,
+        7.434545444228661
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "viewpoint_towards_object",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the gray box is facing the green?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_140/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -16.539768729079846,
+        -5.6320810526669085,
+        -6.109128505997575
+      ],
+      "color": "orange",
+      "orientation": [
+        0.4815242228866994,
+        0.29222741756498516,
+        -0.8262793469503277
+      ]
+    },
+    "object_1": {
+      "position": [
+        11.905927345506644,
+        -3.4622280124260207,
+        -5.132075769580037
+      ],
+      "color": "purple",
+      "orientation": [
+        -17.043997271535474,
+        7.14442554525672,
+        -8.778509686235756
+      ]
+    },
+    "object_2": {
+      "position": [
+        7.943723589244346,
+        -4.197507772124736,
+        -1.7688051913377905
+      ],
+      "color": "gray",
+      "orientation": [
+        7.60010140148372,
+        4.612349494015369,
+        -13.041518005319226
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "parallel",
+    "options": {
+      "A": "parallel",
+      "B": "perpendicular"
+    },
+    "question": "Is the orange box parallel or perpendicular to the gray one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_141/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        12.897311282495018,
+        18.087090764354073,
+        -16.369206778159
+      ],
+      "color": "yellow",
+      "orientation": [
+        1.1782381947595155,
+        16.2378703004618,
+        15.476811496498748
+      ]
+    },
+    "object_1": {
+      "position": [
+        -2.87312066039593,
+        10.37901275866982,
+        -14.415369421513361
+      ],
+      "color": "gray",
+      "orientation": [
+        5.2363194148385475,
+        19.58491883297682,
+        19.143143743162398
+      ]
+    },
+    "object_2": {
+      "position": [
+        0.8410222945758505,
+        1.4773693351896284,
+        -17.71221076780806
+      ],
+      "color": "purple",
+      "orientation": [
+        5.2363194148385475,
+        19.58491883297682,
+        19.143143743162398
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "same_direction",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "question": "Does the gray box and purple box face the same direction?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_142/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -10.396437284013187,
+        1.8784272919846075,
+        -2.526114193737822
+      ],
+      "color": "green",
+      "orientation": [
+        17.924295411217415,
+        -1.3728825533445708,
+        -5.854726240518641
+      ]
+    },
+    "object_1": {
+      "position": [
+        13.443180774017776,
+        -6.442395343509034,
+        -16.666454481400773
+      ],
+      "color": "gray",
+      "orientation": [
+        -7.534707341014135,
+        -7.529065636707415,
+        -4.494174672354202
+      ]
+    },
+    "object_2": {
+      "position": [
+        12.93092030958251,
+        -6.442395343509034,
+        -15.807624337206612
+      ],
+      "color": "blue",
+      "orientation": [
+        -6.9838130546854735,
+        -3.827392319219122,
+        15.740318581330058
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "viewpoint_towards_object",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the gray box is facing the blue?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_143/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -19.36765146000546,
+        15.603548683578822,
+        -15.000094683921272
+      ],
+      "color": "brown",
+      "orientation": [
+        11.30803290350346,
+        1.1093567154774853,
+        0.35075743010281
+      ]
+    },
+    "object_1": {
+      "position": [
+        1.7730428458120855,
+        9.297390147017246,
+        -15.564202730871
+      ],
+      "color": "orange",
+      "orientation": [
+        5.204248293677097,
+        -6.16069089980237,
+        1.7884807832851166
+      ]
+    },
+    "object_2": {
+      "position": [
+        -10.26483479592292,
+        17.809976253371858,
+        -14.63046216627461
+      ],
+      "color": "blue",
+      "orientation": [
+        5.204248293677097,
+        -6.16069089980237,
+        1.7884807832851166
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "same_direction",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "question": "Does the blue box and orange box face the same direction?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_144/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        0.6647416311279564,
+        -13.179824616590139,
+        -10.25790236960627
+      ],
+      "color": "blue",
+      "orientation": [
+        -16.095501192789662,
+        -18.056608114713605,
+        1.2734791310907276
+      ]
+    },
+    "object_1": {
+      "position": [
+        -19.1598564916475,
+        -11.257596645788244,
+        -5.018014184010804
+      ],
+      "color": "purple",
+      "orientation": [
+        -16.095501192789662,
+        -18.056608114713605,
+        1.2734791310907276
+      ]
+    },
+    "object_2": {
+      "position": [
+        12.827241688984849,
+        9.08883344221178,
+        -2.049169582057303
+      ],
+      "color": "brown",
+      "orientation": [
+        -0.6847867106940662,
+        5.1674129219553855,
+        16.382927530189505
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "same_direction",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "question": "Does the purple box and blue box face the same direction?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_145/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -2.6734189890677413,
+        5.858978558379711,
+        -11.915894760025935
+      ],
+      "color": "yellow",
+      "orientation": [
+        0.5249326684859597,
+        11.728752321208852,
+        1.6305047046355234
+      ]
+    },
+    "object_1": {
+      "position": [
+        2.7224858072376037,
+        -16.533514510430358,
+        -3.644727682045069
+      ],
+      "color": "purple",
+      "orientation": [
+        -0.7334051821890198,
+        0.6771239586485223,
+        -0.06016629756304371
+      ]
+    },
+    "object_2": {
+      "position": [
+        -13.083622626833446,
+        -1.9403605845727832,
+        -4.941412033960317
+      ],
+      "color": "brown",
+      "orientation": [
+        10.633440805564543,
+        -9.689397684357663,
+        13.284296651657868
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "facing",
+    "options": {
+      "A": "brown",
+      "B": "yellow"
+    },
+    "question": "Which box is the purple one facing towards, the brown one or the yellow one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_146/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -3.408392460274502,
+        19.02950110027939,
+        -11.838335972878891
+      ],
+      "color": "orange",
+      "orientation": [
+        4.538074521444223,
+        -5.400231212953873,
+        12.582165146336429
+      ]
+    },
+    "object_1": {
+      "position": [
+        10.2607212362493,
+        -15.580513457920123,
+        -19.863260354065265
+      ],
+      "color": "blue",
+      "orientation": [
+        13.860174341297622,
+        -12.1893166409708,
+        18.200697151720718
+      ]
+    },
+    "object_2": {
+      "position": [
+        10.612085881958421,
+        -7.098019972222328,
+        -2.9019583434298504
+      ],
+      "color": "green",
+      "orientation": [
+        0.3146078114923583,
+        -0.37437792513805085,
+        0.8722746666717524
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "parallel",
+    "options": {
+      "A": "parallel",
+      "B": "perpendicular"
+    },
+    "question": "Is the green box parallel or perpendicular to the orange one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_147/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        16.002271802368206,
+        9.230711797113507,
+        -10.804725624231647
+      ],
+      "color": "yellow",
+      "orientation": [
+        7.270380360812801,
+        2.2889813069654252,
+        -1.7852083188395795
+      ]
+    },
+    "object_1": {
+      "position": [
+        15.588607938198841,
+        14.917357109478864,
+        -19.204587302970737
+      ],
+      "color": "blue",
+      "orientation": [
+        8.580323491462565,
+        9.416975302328531,
+        2.63440430267017
+      ]
+    },
+    "object_2": {
+      "position": [
+        4.056067786682892,
+        0.9501941181980627,
+        -9.02957097324619
+      ],
+      "color": "green",
+      "orientation": [
+        7.270380360812801,
+        2.2889813069654252,
+        -1.7852083188395795
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "same_direction",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "question": "Does the yellow box and green box face the same direction?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_148/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -19.616213844617167,
+        -17.279225324241363,
+        -6.090743855038152
+      ],
+      "color": "green",
+      "orientation": [
+        4.647797170381821,
+        -1.0147772493090592,
+        -11.04819748335843
+      ]
+    },
+    "object_1": {
+      "position": [
+        -13.525077951401364,
+        -17.117396886451107,
+        -17.121317367107963
+      ],
+      "color": "purple",
+      "orientation": [
+        -8.687777654519305,
+        -19.53192071461933,
+        11.692365784857039
+      ]
+    },
+    "object_2": {
+      "position": [
+        -6.9903557020478,
+        -0.8046871957804314,
+        -18.13095961492745
+      ],
+      "color": "orange",
+      "orientation": [
+        4.647797170381821,
+        -1.0147772493090592,
+        -11.04819748335843
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "parallel",
+    "options": {
+      "A": "parallel",
+      "B": "perpendicular"
+    },
+    "question": "Is the green box parallel or perpendicular to the orange one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_149/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        3.5351215296994596,
+        12.186956870133379,
+        -7.654293624178322
+      ],
+      "color": "green",
+      "orientation": [
+        -0.45436268024789683,
+        -16.4084988261399,
+        -10.331620937037513
+      ]
+    },
+    "object_1": {
+      "position": [
+        -6.653392645921636,
+        4.564673835657715,
+        -19.777076287924412
+      ],
+      "color": "orange",
+      "orientation": [
+        19.990791933316252,
+        -14.381068495978226,
+        -14.888331196280898
+      ]
+    },
+    "object_2": {
+      "position": [
+        -3.7004066434875256,
+        -13.695548818777432,
+        -8.746915893508863
+      ],
+      "color": "blue",
+      "orientation": [
+        -7.062544997752752,
+        10.81692125470266,
+        6.9537250277453175
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "closer_to",
+    "options": {
+      "A": "green",
+      "B": "blue"
+    },
+    "question": "Which box is closer to the orange box, the green one or the blue one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_150/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        2.070626139413534,
+        -6.8411291586730805,
+        -10.663882601069226
+      ],
+      "color": "blue",
+      "orientation": [
+        10.81335627832042,
+        3.5307029971256156,
+        14.879735568849341
+      ]
+    },
+    "object_1": {
+      "position": [
+        -2.6155385317608064,
+        11.99859413442438,
+        -1.9447729193558798
+      ],
+      "color": "gray",
+      "orientation": [
+        8.960840540910468,
+        -6.988561375707398,
+        9.648797579837144
+      ]
+    },
+    "object_2": {
+      "position": [
+        -2.598451243475356,
+        11.99859413442438,
+        -0.9449189177241166
+      ],
+      "color": "green",
+      "orientation": [
+        10.688573797646615,
+        -12.506666095143686,
+        -0.1826654106925929
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "viewpoint_towards_object",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the green box is facing the gray?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_151/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        15.949312561691613,
+        11.349522321212284,
+        -8.446381723167121
+      ],
+      "color": "blue",
+      "orientation": [
+        -0.9371423167169894,
+        -0.16464850412718593,
+        -0.3076607682285699
+      ]
+    },
+    "object_1": {
+      "position": [
+        -6.391405951225693,
+        7.42443451046816,
+        -15.780766797721471
+      ],
+      "color": "green",
+      "orientation": [
+        14.871132980363313,
+        -6.729496324290558,
+        -10.877449161575408
+      ]
+    },
+    "object_2": {
+      "position": [
+        8.442107489837607,
+        -1.9911511459382325,
+        -13.181520664985332
+      ],
+      "color": "brown",
+      "orientation": [
+        -2.9307952303717144,
+        -8.486288019737898,
+        -12.612485915840699
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "facing",
+    "options": {
+      "A": "brown",
+      "B": "green"
+    },
+    "question": "Which box is the blue one facing towards, the green one or the brown one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_152/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        11.199728832133786,
+        -16.199260575005354,
+        -18.9396406958643
+      ],
+      "color": "orange",
+      "orientation": [
+        8.191256370681174,
+        -14.845503448372156,
+        -16.99284084160929
+      ]
+    },
+    "object_1": {
+      "position": [
+        10.298924474836365,
+        -16.199260575005354,
+        -19.373865879235762
+      ],
+      "color": "blue",
+      "orientation": [
+        -4.184619690919863,
+        17.840455267704783,
+        -7.764463886314697
+      ]
+    },
+    "object_2": {
+      "position": [
+        6.791255822514664,
+        11.311610997773162,
+        -3.6063861154055417
+      ],
+      "color": "purple",
+      "orientation": [
+        14.99970399944069,
+        -15.968838661033061,
+        19.266753378623307
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "viewpoint_towards_object",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the orange box is facing the blue?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_153/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -12.60247069019702,
+        18.922567872296767,
+        -10.996284396988969
+      ],
+      "color": "yellow",
+      "orientation": [
+        1.9148347699648625,
+        -19.10831778193554,
+        -13.328609915491594
+      ]
+    },
+    "object_1": {
+      "position": [
+        4.220409725632129,
+        0.7773868990482597,
+        -13.230881947141652
+      ],
+      "color": "blue",
+      "orientation": [
+        -7.891795364544155,
+        16.851679772203887,
+        0.0864814269168157
+      ]
+    },
+    "object_2": {
+      "position": [
+        3.887149414171315,
+        0.7773868990482597,
+        -14.17371680267312
+      ],
+      "color": "purple",
+      "orientation": [
+        9.866278888065615,
+        -19.135331116960796,
+        -3.48739671205999
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "viewpoint_towards_object",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the purple box is facing the blue?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_154/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -7.8488724965263845,
+        4.962439209968927,
+        -12.22812789690763
+      ],
+      "color": "purple",
+      "orientation": [
+        -0.7992894467267161,
+        0.5250564276044625,
+        -0.292321959802099
+      ]
+    },
+    "object_1": {
+      "position": [
+        13.794992776495278,
+        14.482442997693688,
+        -6.155800067252951
+      ],
+      "color": "blue",
+      "orientation": [
+        14.751384628842537,
+        8.165036226983045,
+        -8.36077460408962
+      ]
+    },
+    "object_2": {
+      "position": [
+        -14.261153184992533,
+        9.174691986320497,
+        -14.573273907942689
+      ],
+      "color": "green",
+      "orientation": [
+        -1.9876619178150499,
+        5.234771506368062,
+        -3.0067264276221373
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "facing",
+    "options": {
+      "A": "green",
+      "B": "blue"
+    },
+    "question": "Which box is the purple one facing towards, the green one or the blue one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_155/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        0.71262333835395,
+        -10.201640988619477,
+        -6.886009512548961
+      ],
+      "color": "brown",
+      "orientation": [
+        0.8732089019007648,
+        -0.48209281756387956,
+        -0.07136335820699835
+      ]
+    },
+    "object_1": {
+      "position": [
+        19.349007458924902,
+        13.169344156522598,
+        -15.73669579008515
+      ],
+      "color": "yellow",
+      "orientation": [
+        -15.035565059192407,
+        -4.994467155784687,
+        -18.283589315313357
+      ]
+    },
+    "object_2": {
+      "position": [
+        17.898832300927765,
+        -19.69003246513055,
+        -8.29055953917691
+      ],
+      "color": "green",
+      "orientation": [
+        -15.8083659188774,
+        -0.8321847291503204,
+        -2.136146756674769
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "facing",
+    "options": {
+      "A": "yellow",
+      "B": "green"
+    },
+    "question": "Which box is the brown one facing towards, the green one or the yellow one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_156/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -9.61717903575412,
+        -4.599754963539112,
+        -19.681348288717103
+      ],
+      "color": "blue",
+      "orientation": [
+        5.079286927346864,
+        11.579902770554934,
+        -18.473702791442477
+      ]
+    },
+    "object_1": {
+      "position": [
+        -0.6399156603549763,
+        -13.524343541386049,
+        -0.4836444865932634
+      ],
+      "color": "orange",
+      "orientation": [
+        -12.791105913135663,
+        -13.777522508211838,
+        -13.048013263886613
+      ]
+    },
+    "object_2": {
+      "position": [
+        17.067639719137013,
+        -15.618086843930218,
+        -11.479114274783859
+      ],
+      "color": "brown",
+      "orientation": [
+        -15.306652542226438,
+        19.384152466725077,
+        -17.487759200799857
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "closer_to",
+    "options": {
+      "A": "brown",
+      "B": "orange"
+    },
+    "question": "Which box is closer to the blue box, the brown one or the orange one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_157/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        8.872318563040832,
+        7.341080263528195,
+        -4.213018067068557
+      ],
+      "color": "orange",
+      "orientation": [
+        19.894011935884336,
+        -4.207907203847139,
+        1.6500115035813678
+      ]
+    },
+    "object_1": {
+      "position": [
+        14.350761267494192,
+        -15.298664520594581,
+        -19.015296672020796
+      ],
+      "color": "gray",
+      "orientation": [
+        -4.066052358523828,
+        -9.600194821106891,
+        -5.392208300650655
+      ]
+    },
+    "object_2": {
+      "position": [
+        6.236404827070579,
+        -17.4294435784202,
+        -13.78280173915112
+      ],
+      "color": "purple",
+      "orientation": [
+        19.894011935884336,
+        -4.207907203847139,
+        1.6500115035813678
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "same_direction",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "question": "Does the purple box and orange box face the same direction?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_158/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -8.294249087044552,
+        15.133091205658374,
+        -15.357059269966866
+      ],
+      "color": "brown",
+      "orientation": [
+        0.5369102640311586,
+        -0.39025016443523236,
+        0.7479519887909022
+      ]
+    },
+    "object_1": {
+      "position": [
+        7.1522528518625705,
+        -15.47511707778407,
+        -16.990252096775368
+      ],
+      "color": "blue",
+      "orientation": [
+        -4.677654444074406,
+        -1.0169389447722352,
+        -10.314497096418854
+      ]
+    },
+    "object_2": {
+      "position": [
+        -16.012510686877597,
+        -0.6107748472432135,
+        -0.5498044269236502
+      ],
+      "color": "purple",
+      "orientation": [
+        10.358953233109997,
+        -7.52934610012122,
+        14.43071625102501
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "parallel",
+    "options": {
+      "A": "parallel",
+      "B": "perpendicular"
+    },
+    "question": "Is the brown box parallel or perpendicular to the purple one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_159/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        17.523136083351098,
+        -0.516742920542125,
+        -7.1630158308214416
+      ],
+      "color": "blue",
+      "orientation": [
+        -8.740498345068897,
+        13.303164730411922,
+        -18.931859705556562
+      ]
+    },
+    "object_1": {
+      "position": [
+        -14.228670776327013,
+        -5.520481704868324,
+        -13.712270085263881
+      ],
+      "color": "orange",
+      "orientation": [
+        5.9697528523128724,
+        13.632827353158348,
+        -9.925009721921265
+      ]
+    },
+    "object_2": {
+      "position": [
+        18.90712635544739,
+        -10.951092512437217,
+        -9.38691122672501
+      ],
+      "color": "green",
+      "orientation": [
+        5.9697528523128724,
+        13.632827353158348,
+        -9.925009721921265
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "same_direction",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "question": "Does the orange box and green box face the same direction?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_160/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -17.800180639490556,
+        -1.8341383493011136,
+        -11.74963681330809
+      ],
+      "color": "brown",
+      "orientation": [
+        12.348735507933974,
+        16.000355832030216,
+        16.58846387653722
+      ]
+    },
+    "object_1": {
+      "position": [
+        -5.3623147541473735,
+        12.554121970773558,
+        -13.314756131368208
+      ],
+      "color": "gray",
+      "orientation": [
+        -19.194181033538914,
+        -10.53887284391303,
+        -19.43646438224315
+      ]
+    },
+    "object_2": {
+      "position": [
+        19.07987377683871,
+        -8.446549849399991,
+        -18.695494077034088
+      ],
+      "color": "blue",
+      "orientation": [
+        3.4994936335049616,
+        8.445533486020022,
+        -16.496241579111512
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "closer_to",
+    "options": {
+      "A": "blue",
+      "B": "gray"
+    },
+    "question": "Which box is closer to the brown box, the blue one or the gray one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_161/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        11.753684979796894,
+        -15.622111865992743,
+        -19.783247522901927
+      ],
+      "color": "orange",
+      "orientation": [
+        6.991318242147276,
+        -0.6609954631330623,
+        10.00770431885708
+      ]
+    },
+    "object_1": {
+      "position": [
+        10.631290777970982,
+        3.2543164186212756,
+        -15.552464478666593
+      ],
+      "color": "green",
+      "orientation": [
+        -3.2607195964471956,
+        -1.6757565788359514,
+        -2.0494864629806777
+      ]
+    },
+    "object_2": {
+      "position": [
+        11.706797574936218,
+        -6.050909900719713,
+        -2.856572768688576
+      ],
+      "color": "blue",
+      "orientation": [
+        -17.995808752770053,
+        -11.644159512218923,
+        8.97400917883692
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "closer_to",
+    "options": {
+      "A": "green",
+      "B": "orange"
+    },
+    "question": "Which box is closer to the blue box, the green one or the orange one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_162/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -8.264374408359853,
+        7.905375963251039,
+        -17.074038581135742
+      ],
+      "color": "blue",
+      "orientation": [
+        13.894856421632888,
+        -16.818624448217058,
+        6.724565293591031
+      ]
+    },
+    "object_1": {
+      "position": [
+        -13.444130163304187,
+        11.371702582986039,
+        -9.720190992009412
+      ],
+      "color": "orange",
+      "orientation": [
+        9.95909505748348,
+        8.82294743673119,
+        -14.49999787881791
+      ]
+    },
+    "object_2": {
+      "position": [
+        4.210272549881328,
+        10.99059418447457,
+        -2.2188042566883404
+      ],
+      "color": "purple",
+      "orientation": [
+        18.389122666877718,
+        9.232028874973409,
+        -14.689002329422522
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "closer_to",
+    "options": {
+      "A": "blue",
+      "B": "purple"
+    },
+    "question": "Which box is closer to the orange box, the blue one or the purple one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_163/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -11.794657589072997,
+        12.314079251271892,
+        -12.688889793675536
+      ],
+      "color": "green",
+      "orientation": [
+        -12.579558902863734,
+        -4.477789393755538,
+        19.737594644136266
+      ]
+    },
+    "object_1": {
+      "position": [
+        -6.573429763130733,
+        -6.651399921783984,
+        -3.7655614483895157
+      ],
+      "color": "brown",
+      "orientation": [
+        -2.5562349441977403,
+        -1.1609063104894446,
+        14.824936234944275
+      ]
+    },
+    "object_2": {
+      "position": [
+        -8.913695395908361,
+        -19.04407668853867,
+        -18.85316412325343
+      ],
+      "color": "orange",
+      "orientation": [
+        -8.073622501162454,
+        -19.653831693942337,
+        0.1874383490651681
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "closer_to",
+    "options": {
+      "A": "brown",
+      "B": "green"
+    },
+    "question": "Which box is closer to the orange box, the brown one or the green one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_164/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        3.405706664830646,
+        -12.045803248984575,
+        -4.123474420452782
+      ],
+      "color": "orange",
+      "orientation": [
+        -8.909228060485876,
+        -3.684766214567375,
+        9.564316573871334
+      ]
+    },
+    "object_1": {
+      "position": [
+        -4.715492040997393,
+        4.0150699586080165,
+        -2.5248031809262486
+      ],
+      "color": "purple",
+      "orientation": [
+        0.44947372203368463,
+        -0.8889008533367342,
+        -0.08847963685736839
+      ]
+    },
+    "object_2": {
+      "position": [
+        -17.861200962202076,
+        7.192566616387829,
+        -13.963534572890877
+      ],
+      "color": "blue",
+      "orientation": [
+        -8.211981198099082,
+        -2.18077794996055,
+        6.620853052552647
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "facing",
+    "options": {
+      "A": "blue",
+      "B": "orange"
+    },
+    "question": "Which box is the purple one facing towards, the orange one or the blue one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_165/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -13.053554035065629,
+        -0.7497707759600125,
+        -3.2038639626895673
+      ],
+      "color": "gray",
+      "orientation": [
+        0.9344185395368356,
+        -0.08095980657079133,
+        -0.34685371944072807
+      ]
+    },
+    "object_1": {
+      "position": [
+        18.93536271884799,
+        16.24232530322122,
+        -12.862609815483172
+      ],
+      "color": "orange",
+      "orientation": [
+        -19.186927540652384,
+        16.689077975132548,
+        -9.43480587187608
+      ]
+    },
+    "object_2": {
+      "position": [
+        -11.292206250582248,
+        13.568416502364627,
+        -1.2302438977024153
+      ],
+      "color": "green",
+      "orientation": [
+        15.642028110570777,
+        -1.3552551845069303,
+        -5.806279948637535
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "parallel",
+    "options": {
+      "A": "parallel",
+      "B": "perpendicular"
+    },
+    "question": "Is the gray box parallel or perpendicular to the green one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_166/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -10.112471042089815,
+        18.321814043135156,
+        -19.044660498991018
+      ],
+      "color": "brown",
+      "orientation": [
+        -15.536603852864781,
+        -3.843384903640409,
+        0.014418826667498053
+      ]
+    },
+    "object_1": {
+      "position": [
+        3.0428725780705825,
+        4.119535200565107,
+        -15.366454285132283
+      ],
+      "color": "yellow",
+      "orientation": [
+        -6.290644848392235,
+        15.195681536186086,
+        7.966115725792594
+      ]
+    },
+    "object_2": {
+      "position": [
+        4.09995956738717,
+        8.145745562699652,
+        -12.983239327295966
+      ],
+      "color": "green",
+      "orientation": [
+        -0.7681986648597589,
+        0.5500285232688782,
+        -0.32762697522997214
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "facing",
+    "options": {
+      "A": "brown",
+      "B": "yellow"
+    },
+    "question": "Which box is the green one facing towards, the brown one or the yellow one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_167/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        13.942145872713844,
+        5.980762257982484,
+        -8.75052147433425
+      ],
+      "color": "gray",
+      "orientation": [
+        4.085371165929104,
+        13.607032675631444,
+        19.591089869829787
+      ]
+    },
+    "object_1": {
+      "position": [
+        1.5648251848709016,
+        2.8628422613303783,
+        -0.417077448900379
+      ],
+      "color": "green",
+      "orientation": [
+        4.5684939675268765,
+        18.87930827511388,
+        15.97777965251776
+      ]
+    },
+    "object_2": {
+      "position": [
+        -10.687373808539963,
+        0.8252489003384866,
+        -7.986913942609483
+      ],
+      "color": "yellow",
+      "orientation": [
+        -14.971879546639727,
+        -16.016262544273893,
+        -10.553254467775478
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "closer_to",
+    "options": {
+      "A": "yellow",
+      "B": "gray"
+    },
+    "question": "Which box is closer to the green box, the yellow one or the gray one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_168/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        13.707215339467524,
+        -7.592020475177934,
+        -15.83941347444844
+      ],
+      "color": "gray",
+      "orientation": [
+        -14.463193851207507,
+        8.54818188352425,
+        -9.77630652278342
+      ]
+    },
+    "object_1": {
+      "position": [
+        -0.9518253919966142,
+        15.051638370241022,
+        -11.819767036378481
+      ],
+      "color": "blue",
+      "orientation": [
+        18.933336578396023,
+        -10.573335598658229,
+        -0.8748109847998755
+      ]
+    },
+    "object_2": {
+      "position": [
+        7.833885970292378,
+        4.305945417773547,
+        -3.600381106001791
+      ],
+      "color": "orange",
+      "orientation": [
+        13.42697043982237,
+        -2.3418595685701113,
+        12.645350747409907
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "closer_to",
+    "options": {
+      "A": "orange",
+      "B": "gray"
+    },
+    "question": "Which box is closer to the blue box, the orange one or the gray one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_169/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -14.500996597258444,
+        -15.073194084221676,
+        -0.9146018251190853
+      ],
+      "color": "brown",
+      "orientation": [
+        15.980985971615304,
+        -16.192771445565274,
+        -10.973739030064111
+      ]
+    },
+    "object_1": {
+      "position": [
+        -4.973392133708128,
+        1.078775959698369,
+        -2.3337801459545595
+      ],
+      "color": "gray",
+      "orientation": [
+        -12.983725601738566,
+        18.301124409685443,
+        -19.322883692207363
+      ]
+    },
+    "object_2": {
+      "position": [
+        -10.284692041891287,
+        -2.911160152885394,
+        -19.31029822791117
+      ],
+      "color": "orange",
+      "orientation": [
+        15.980985971615304,
+        -16.192771445565274,
+        -10.973739030064111
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "same_direction",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "question": "Does the brown box and orange box face the same direction?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_170/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -18.88351382958772,
+        -12.928783389881682,
+        -7.058184478753324
+      ],
+      "color": "yellow",
+      "orientation": [
+        13.64769741141422,
+        -8.061758067789558,
+        -14.913565656636383
+      ]
+    },
+    "object_1": {
+      "position": [
+        -14.936731832241644,
+        11.491802840085438,
+        -9.202742624774258
+      ],
+      "color": "orange",
+      "orientation": [
+        15.843240085782789,
+        -11.83961879329869,
+        13.61341261818118
+      ]
+    },
+    "object_2": {
+      "position": [
+        13.573083867737523,
+        4.197514010489854,
+        -15.381871591369274
+      ],
+      "color": "gray",
+      "orientation": [
+        13.64769741141422,
+        -8.061758067789558,
+        -14.913565656636383
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "same_direction",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "question": "Does the gray box and yellow box face the same direction?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_171/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -17.313612727181802,
+        -1.7418761764858637,
+        -11.929028457702856
+      ],
+      "color": "blue",
+      "orientation": [
+        -4.500976469170528,
+        -5.416104383898293,
+        8.523629872981008
+      ]
+    },
+    "object_1": {
+      "position": [
+        -3.344551635256316,
+        -16.17938768300888,
+        -9.461648572412525
+      ],
+      "color": "gray",
+      "orientation": [
+        15.904494283238378,
+        -10.686204042705615,
+        -9.5161541344857
+      ]
+    },
+    "object_2": {
+      "position": [
+        -16.34897127387875,
+        -2.7770960775855755,
+        -3.3843027909404135
+      ],
+      "color": "orange",
+      "orientation": [
+        0.7434075985110169,
+        -0.49949436575036765,
+        -0.4448039130445244
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "parallel",
+    "options": {
+      "A": "parallel",
+      "B": "perpendicular"
+    },
+    "question": "Is the orange box parallel or perpendicular to the gray one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_172/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -16.357863597356083,
+        -10.130182278459898,
+        -7.109141046929903
+      ],
+      "color": "gray",
+      "orientation": [
+        14.343421725688039,
+        -7.842883024508982,
+        -14.976996434168717
+      ]
+    },
+    "object_1": {
+      "position": [
+        -16.118162543656126,
+        4.313838764173028,
+        -19.48891279847858
+      ],
+      "color": "purple",
+      "orientation": [
+        0.2250869753775966,
+        18.060112029551284,
+        7.883916063727703
+      ]
+    },
+    "object_2": {
+      "position": [
+        -13.296752327860698,
+        -10.309721778919968,
+        -14.657877108142813
+      ],
+      "color": "brown",
+      "orientation": [
+        10.149822983922448,
+        -9.912480152512684,
+        12.360903201184769
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "closer_to",
+    "options": {
+      "A": "gray",
+      "B": "brown"
+    },
+    "question": "Which box is closer to the purple box, the gray one or the brown one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_173/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        19.813791966604704,
+        -7.692045967436112,
+        -17.654126216028555
+      ],
+      "color": "blue",
+      "orientation": [
+        5.321166055516173,
+        -13.186905283348338,
+        -14.37446634069401
+      ]
+    },
+    "object_1": {
+      "position": [
+        19.862147478151215,
+        -13.276800791345732,
+        -5.598451541120715
+      ],
+      "color": "green",
+      "orientation": [
+        -15.28979368351977,
+        -6.816408852017965,
+        -3.608624934816973
+      ]
+    },
+    "object_2": {
+      "position": [
+        19.67874238152139,
+        18.474144613048963,
+        -3.3688017102977987
+      ],
+      "color": "orange",
+      "orientation": [
+        0.004530033651635834,
+        -0.8777052057700695,
+        -0.4791795598303783
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "facing",
+    "options": {
+      "A": "green",
+      "B": "blue"
+    },
+    "question": "Which box is the orange one facing towards, the blue one or the green one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_174/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        10.32432348815118,
+        -14.83438503979848,
+        -16.377050806910354
+      ],
+      "color": "green",
+      "orientation": [
+        -0.9895223134312543,
+        0.13972215394548956,
+        0.036377340728693926
+      ]
+    },
+    "object_1": {
+      "position": [
+        -3.578252861837381,
+        -12.87131873331344,
+        -15.865956968979077
+      ],
+      "color": "brown",
+      "orientation": [
+        -15.764494308406952,
+        13.635509396335117,
+        -1.4359100784890444
+      ]
+    },
+    "object_2": {
+      "position": [
+        7.557151603400243,
+        15.391237765786265,
+        -11.274582965670763
+      ],
+      "color": "gray",
+      "orientation": [
+        8.985217878543725,
+        2.1574414695722197,
+        -9.25413212254564
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "facing",
+    "options": {
+      "A": "gray",
+      "B": "brown"
+    },
+    "question": "Which box is the green one facing towards, the brown one or the gray one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_175/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -1.3784096489263717,
+        -6.754717168804717,
+        -7.487348274932021
+      ],
+      "color": "green",
+      "orientation": [
+        -2.6817171339767825,
+        -11.460878195260973,
+        18.033422783586552
+      ]
+    },
+    "object_1": {
+      "position": [
+        -9.49071623825116,
+        17.454603122419073,
+        -6.199754307326069
+      ],
+      "color": "brown",
+      "orientation": [
+        -2.6817171339767825,
+        -11.460878195260973,
+        18.033422783586552
+      ]
+    },
+    "object_2": {
+      "position": [
+        -16.865883444108146,
+        -19.361400782774865,
+        -10.86884587291259
+      ],
+      "color": "orange",
+      "orientation": [
+        -4.092086143962588,
+        -19.892038223217558,
+        -14.364988138003314
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "same_direction",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "question": "Does the brown box and green box face the same direction?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_176/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -19.19439735759824,
+        -0.9084641612442468,
+        -6.564344980249519
+      ],
+      "color": "gray",
+      "orientation": [
+        -19.15384267270493,
+        -8.219266258134663,
+        -10.720497615043518
+      ]
+    },
+    "object_1": {
+      "position": [
+        10.32710661415264,
+        -6.976107627893198,
+        -13.555306285592291
+      ],
+      "color": "brown",
+      "orientation": [
+        -19.15384267270493,
+        -8.219266258134663,
+        -10.720497615043518
+      ]
+    },
+    "object_2": {
+      "position": [
+        8.556516230769748,
+        -8.714226856875321,
+        -12.639683470138
+      ],
+      "color": "purple",
+      "orientation": [
+        -18.229798071395543,
+        4.171214007264776,
+        4.321474137741092
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "parallel",
+    "options": {
+      "A": "parallel",
+      "B": "perpendicular"
+    },
+    "question": "Is the gray box parallel or perpendicular to the brown one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_177/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        19.899409128674577,
+        4.897884720905218,
+        -17.354384032159192
+      ],
+      "color": "orange",
+      "orientation": [
+        5.087750068948921,
+        -15.14540998291984,
+        -9.357597812753138
+      ]
+    },
+    "object_1": {
+      "position": [
+        -12.172578813709855,
+        1.5303987927493488,
+        -6.576559192156582
+      ],
+      "color": "green",
+      "orientation": [
+        18.04677604038566,
+        -15.634702161977021,
+        2.172761693356918
+      ]
+    },
+    "object_2": {
+      "position": [
+        -6.270626611084413,
+        5.575404860064104,
+        -11.809540612490277
+      ],
+      "color": "gray",
+      "orientation": [
+        18.04677604038566,
+        -15.634702161977021,
+        2.172761693356918
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "parallel",
+    "options": {
+      "A": "parallel",
+      "B": "perpendicular"
+    },
+    "question": "Is the green box parallel or perpendicular to the gray one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_178/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -5.0410747984613415,
+        3.0588677466213774,
+        -18.283976190910963
+      ],
+      "color": "brown",
+      "orientation": [
+        -9.313688212921791,
+        -6.819801903819812,
+        -11.953099359183913
+      ]
+    },
+    "object_1": {
+      "position": [
+        -4.252261224464787,
+        3.0588677466213774,
+        -18.898608719726987
+      ],
+      "color": "orange",
+      "orientation": [
+        -0.720293953161498,
+        -3.398611950570995,
+        -7.610522676597178
+      ]
+    },
+    "object_2": {
+      "position": [
+        17.514008462936623,
+        -13.791168668523,
+        -1.353111380911404
+      ],
+      "color": "purple",
+      "orientation": [
+        11.586891867073973,
+        -5.952821025015131,
+        -6.510756529679828
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "viewpoint_towards_object",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the brown box is facing the orange?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_179/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        10.322616634887506,
+        -17.062778192915147,
+        -14.639068666686338
+      ],
+      "color": "brown",
+      "orientation": [
+        -9.873695046565064,
+        -16.547989309289925,
+        -16.847915145295737
+      ]
+    },
+    "object_1": {
+      "position": [
+        -9.551935536861617,
+        18.23419687963579,
+        -9.22077921947272
+      ],
+      "color": "orange",
+      "orientation": [
+        13.925197408259685,
+        11.703525484601663,
+        -5.248242210728877
+      ]
+    },
+    "object_2": {
+      "position": [
+        -7.13772019455773,
+        -9.030405679197537,
+        -13.304593348799166
+      ],
+      "color": "green",
+      "orientation": [
+        0.8159416541679967,
+        -6.726749516074516,
+        -10.384816468651552
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "closer_to",
+    "options": {
+      "A": "orange",
+      "B": "brown"
+    },
+    "question": "Which box is closer to the green box, the orange one or the brown one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_180/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        9.864309740411358,
+        16.166195996704673,
+        -17.580618138713678
+      ],
+      "color": "blue",
+      "orientation": [
+        -1.3341270775969214,
+        -16.2116410118108,
+        5.546193651386236
+      ]
+    },
+    "object_1": {
+      "position": [
+        12.692076359547983,
+        -5.253155400091938,
+        -8.719628069116256
+      ],
+      "color": "purple",
+      "orientation": [
+        -0.41273854934236454,
+        1.812818069086937,
+        -0.3135725680326402
+      ]
+    },
+    "object_2": {
+      "position": [
+        -3.48015114395357,
+        -19.92282404452308,
+        -19.142573352081914
+      ],
+      "color": "brown",
+      "orientation": [
+        -1.3341270775969214,
+        -16.2116410118108,
+        5.546193651386236
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "same_direction",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "question": "Does the brown box and blue box face the same direction?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_181/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -0.8508163693839256,
+        14.987702125522688,
+        -14.833146159804956
+      ],
+      "color": "green",
+      "orientation": [
+        -7.7308781089879375,
+        10.045659413168444,
+        -8.438814298015501
+      ]
+    },
+    "object_1": {
+      "position": [
+        16.408526232942357,
+        -17.1866767775225,
+        -5.102923271741604
+      ],
+      "color": "brown",
+      "orientation": [
+        2.36724616769979,
+        8.947460177133813,
+        -15.217404056838095
+      ]
+    },
+    "object_2": {
+      "position": [
+        0.08379310768424375,
+        14.987702125522688,
+        -14.477470569731132
+      ],
+      "color": "yellow",
+      "orientation": [
+        -7.1206214009441595,
+        2.108773287658252,
+        18.71087145045719
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "viewpoint_towards_object",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the yellow box is facing the green?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_182/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        15.399664202967957,
+        -2.176831879565306,
+        -11.184120229075582
+      ],
+      "color": "brown",
+      "orientation": [
+        2.461817337375205,
+        13.430093857040582,
+        -19.614971513637837
+      ]
+    },
+    "object_1": {
+      "position": [
+        -8.825109017634185,
+        3.153903689063924,
+        -2.2900388082705163
+      ],
+      "color": "orange",
+      "orientation": [
+        -6.276725425896675,
+        -8.724933671819727,
+        -18.10900876726885
+      ]
+    },
+    "object_2": {
+      "position": [
+        16.329588142563914,
+        -2.176831879565306,
+        -10.81636832008484
+      ],
+      "color": "yellow",
+      "orientation": [
+        6.005450197384384,
+        -9.539834345441736,
+        -15.185813506516915
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "viewpoint_towards_object",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the yellow box is facing the brown?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_183/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        7.5131541864586495,
+        -0.5217154710551277,
+        -18.908301486826268
+      ],
+      "color": "purple",
+      "orientation": [
+        0.1728543376037308,
+        5.705474660438309,
+        19.654165578441848
+      ]
+    },
+    "object_1": {
+      "position": [
+        9.144606276270434,
+        -1.9297975252436252,
+        -15.645087903406267
+      ],
+      "color": "yellow",
+      "orientation": [
+        19.373449804568807,
+        -12.11202069853725,
+        14.749545390666363
+      ]
+    },
+    "object_2": {
+      "position": [
+        8.53885356863923,
+        -1.9297975252436252,
+        -14.849434928047371
+      ],
+      "color": "green",
+      "orientation": [
+        -1.9858626233908296,
+        -14.827534006538151,
+        12.504541541888031
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "viewpoint_towards_object",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the yellow box is facing the green?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_184/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        18.12923591004408,
+        -1.2860168632400182,
+        -6.579355247900935
+      ],
+      "color": "orange",
+      "orientation": [
+        16.409964503414997,
+        19.388983480561507,
+        8.243047192415268
+      ]
+    },
+    "object_1": {
+      "position": [
+        -17.734166910462985,
+        -4.704646113539454,
+        -14.590354906997327
+      ],
+      "color": "gray",
+      "orientation": [
+        0.9717520793844896,
+        0.09263092237091142,
+        0.21706544734857064
+      ]
+    },
+    "object_2": {
+      "position": [
+        9.552493026351879,
+        11.91939819583417,
+        -8.547756375081875
+      ],
+      "color": "yellow",
+      "orientation": [
+        -3.0413788853042973,
+        17.12473470780258,
+        5.838407414131169
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "facing",
+    "options": {
+      "A": "orange",
+      "B": "yellow"
+    },
+    "question": "Which box is the gray one facing towards, the orange one or the yellow one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_185/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        6.623110290143465,
+        -15.290074140670459,
+        -18.190469996473023
+      ],
+      "color": "gray",
+      "orientation": [
+        0.2542771122371047,
+        0.8912880870132895,
+        0.3754313467740136
+      ]
+    },
+    "object_1": {
+      "position": [
+        -8.280452437212379,
+        16.565297732678708,
+        -17.374107464788707
+      ],
+      "color": "blue",
+      "orientation": [
+        -7.942121343305457,
+        -1.7640302209104846,
+        8.403095322464722
+      ]
+    },
+    "object_2": {
+      "position": [
+        14.790183769985376,
+        13.33702184254036,
+        -6.132068952181335
+      ],
+      "color": "yellow",
+      "orientation": [
+        -2.3497823206088206,
+        17.204469173122078,
+        8.421871834446016
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "facing",
+    "options": {
+      "A": "blue",
+      "B": "yellow"
+    },
+    "question": "Which box is the gray one facing towards, the yellow one or the blue one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_186/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -6.5934539624231014,
+        -2.1163997283837617,
+        -1.5777659603590521
+      ],
+      "color": "yellow",
+      "orientation": [
+        -15.894528929064759,
+        -3.601401319550611,
+        17.254863179601344
+      ]
+    },
+    "object_1": {
+      "position": [
+        12.10365785207722,
+        -7.761681202959686,
+        -19.50068312244962
+      ],
+      "color": "gray",
+      "orientation": [
+        16.96194772496969,
+        8.276985992589534,
+        1.2417090230779664
+      ]
+    },
+    "object_2": {
+      "position": [
+        6.575876688823072,
+        -8.94040245883084,
+        -10.937148945918231
+      ],
+      "color": "blue",
+      "orientation": [
+        16.96194772496969,
+        8.276985992589534,
+        1.2417090230779664
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "parallel",
+    "options": {
+      "A": "parallel",
+      "B": "perpendicular"
+    },
+    "question": "Is the blue box parallel or perpendicular to the gray one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_187/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        9.40914295579159,
+        -9.017691134739817,
+        -11.182463774417835
+      ],
+      "color": "orange",
+      "orientation": [
+        -3.773662308191632,
+        0.4898058452244989,
+        -4.526745953067524
+      ]
+    },
+    "object_1": {
+      "position": [
+        13.322693895914234,
+        17.387037643100896,
+        -2.9183662315922696
+      ],
+      "color": "gray",
+      "orientation": [
+        15.833071625777457,
+        13.350854521082141,
+        10.995458722666033
+      ]
+    },
+    "object_2": {
+      "position": [
+        19.441223537838276,
+        1.2980399945901553,
+        -0.4955064299610612
+      ],
+      "color": "yellow",
+      "orientation": [
+        -0.6381218738509533,
+        0.08282559440979402,
+        -0.7654674356389124
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "parallel",
+    "options": {
+      "A": "parallel",
+      "B": "perpendicular"
+    },
+    "question": "Is the yellow box parallel or perpendicular to the orange one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_188/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        4.890552026429106,
+        2.844240986012025,
+        -19.03677934887254
+      ],
+      "color": "orange",
+      "orientation": [
+        3.817740955577598,
+        5.081662750010459,
+        -12.973899788345943
+      ]
+    },
+    "object_1": {
+      "position": [
+        10.404262115799241,
+        -19.120310462799345,
+        -9.01328812267396
+      ],
+      "color": "gray",
+      "orientation": [
+        13.154447616626477,
+        1.3229573399968473,
+        9.958699599304289
+      ]
+    },
+    "object_2": {
+      "position": [
+        4.341683418913899,
+        7.909119444779613,
+        -11.791716142259814
+      ],
+      "color": "green",
+      "orientation": [
+        13.154447616626477,
+        1.3229573399968473,
+        9.958699599304289
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "same_direction",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "question": "Does the gray box and green box face the same direction?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_189/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -6.609896006444863,
+        -15.236282953064787,
+        -2.777523985687232
+      ],
+      "color": "green",
+      "orientation": [
+        1.5924477345404924,
+        18.099715457664367,
+        -19.065146694549586
+      ]
+    },
+    "object_1": {
+      "position": [
+        9.866355480109288,
+        -12.04249385878219,
+        -11.764491928133044
+      ],
+      "color": "orange",
+      "orientation": [
+        11.918179320788909,
+        -15.156823005043583,
+        -2.950801040425965
+      ]
+    },
+    "object_2": {
+      "position": [
+        -11.992693282765616,
+        6.95015395861704,
+        -17.950362720005128
+      ],
+      "color": "blue",
+      "orientation": [
+        -4.473411833839576,
+        -12.726241962865007,
+        18.98346446085776
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "closer_to",
+    "options": {
+      "A": "orange",
+      "B": "green"
+    },
+    "question": "Which box is closer to the blue box, the orange one or the green one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_190/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -19.219069677344947,
+        2.2672066083091416,
+        -8.246979951554598
+      ],
+      "color": "orange",
+      "orientation": [
+        18.348990702712456,
+        -19.21824236682729,
+        -8.681222697454585
+      ]
+    },
+    "object_1": {
+      "position": [
+        -17.380583691864814,
+        11.557316263135654,
+        -12.482069925419538
+      ],
+      "color": "yellow",
+      "orientation": [
+        -6.368207890384694,
+        13.090090203359438,
+        6.51257294244126
+      ]
+    },
+    "object_2": {
+      "position": [
+        7.339032137316906,
+        -13.868071781538958,
+        -3.120230456784739
+      ],
+      "color": "green",
+      "orientation": [
+        -6.368207890384694,
+        13.090090203359438,
+        6.51257294244126
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "same_direction",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "question": "Does the green box and yellow box face the same direction?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_191/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -5.6989910353450455,
+        -6.276605216105381,
+        -14.51878007814745
+      ],
+      "color": "gray",
+      "orientation": [
+        -2.310768494121991,
+        13.464525706910898,
+        5.278205095967824
+      ]
+    },
+    "object_1": {
+      "position": [
+        18.531783921096682,
+        7.995361710314633,
+        -6.464133991058382
+      ],
+      "color": "brown",
+      "orientation": [
+        -0.4454999845887222,
+        -0.27259132026983335,
+        -0.852774141168104
+      ]
+    },
+    "object_2": {
+      "position": [
+        -18.39758108327989,
+        3.0210451819856665,
+        -4.115621222907519
+      ],
+      "color": "blue",
+      "orientation": [
+        -10.062167264777964,
+        -6.156811569845244,
+        -19.26095700190078
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "parallel",
+    "options": {
+      "A": "parallel",
+      "B": "perpendicular"
+    },
+    "question": "Is the brown box parallel or perpendicular to the blue one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_192/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        19.457986566099706,
+        -15.818251059849624,
+        -8.831035141010918
+      ],
+      "color": "orange",
+      "orientation": [
+        -5.46683628000169,
+        -7.576220311200878,
+        1.913037314736794
+      ]
+    },
+    "object_1": {
+      "position": [
+        19.909386894198022,
+        -15.818251059849624,
+        -9.723356688320369
+      ],
+      "color": "yellow",
+      "orientation": [
+        16.321229604440944,
+        1.6828776402250298,
+        8.256450178332013
+      ]
+    },
+    "object_2": {
+      "position": [
+        14.117676594508623,
+        -3.727616518136312,
+        -19.142228607311452
+      ],
+      "color": "gray",
+      "orientation": [
+        -19.386277220773124,
+        2.879013542524717,
+        -2.0103384847579484
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "viewpoint_towards_object",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the yellow box is facing the orange?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_193/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -8.60851852400113,
+        -13.117374246892734,
+        -18.58419951035321
+      ],
+      "color": "gray",
+      "orientation": [
+        0.7061635287899121,
+        0.705674955043549,
+        0.057930375721759846
+      ]
+    },
+    "object_1": {
+      "position": [
+        -18.719697750723256,
+        6.244952696948857,
+        -12.573343125248687
+      ],
+      "color": "green",
+      "orientation": [
+        -11.81565605624089,
+        -10.288688544274471,
+        1.712544185298455
+      ]
+    },
+    "object_2": {
+      "position": [
+        8.142921579204998,
+        3.6224760282997295,
+        -17.209989175925145
+      ],
+      "color": "yellow",
+      "orientation": [
+        -1.5342672959137005,
+        -1.120389397576183,
+        7.394126266944205
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "facing",
+    "options": {
+      "A": "yellow",
+      "B": "green"
+    },
+    "question": "Which box is the gray one facing towards, the yellow one or the green one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_194/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        4.821316266815575,
+        -13.161079685875276,
+        -8.87838793581961
+      ],
+      "color": "blue",
+      "orientation": [
+        -10.500830340656627,
+        14.902199556835846,
+        -8.812296590140477
+      ]
+    },
+    "object_1": {
+      "position": [
+        6.829523145182055,
+        12.234884719167361,
+        -6.5944727822974585
+      ],
+      "color": "green",
+      "orientation": [
+        -0.0785148482750008,
+        -0.9929058173932636,
+        -0.08929421250545205
+      ]
+    },
+    "object_2": {
+      "position": [
+        18.946719033571433,
+        -17.294600072484165,
+        -16.1430042858641
+      ],
+      "color": "brown",
+      "orientation": [
+        -16.848074457062143,
+        10.196425189687247,
+        18.32916759182845
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "facing",
+    "options": {
+      "A": "brown",
+      "B": "blue"
+    },
+    "question": "Which box is the green one facing towards, the blue one or the brown one?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_195/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -9.959703670975472,
+        -10.753663107182891,
+        -1.3549702150504785
+      ],
+      "color": "orange",
+      "orientation": [
+        4.602311965950122,
+        -8.208954234235062,
+        -3.4595935951797827
+      ]
+    },
+    "object_1": {
+      "position": [
+        -5.1882954104806736,
+        -14.797013935608998,
+        -4.820792228682272
+      ],
+      "color": "blue",
+      "orientation": [
+        13.858505426945584,
+        18.51305666437669,
+        -0.19031327339881443
+      ]
+    },
+    "object_2": {
+      "position": [
+        12.271349121794145,
+        -1.3261284088491898,
+        -15.738226145580786
+      ],
+      "color": "gray",
+      "orientation": [
+        4.602311965950122,
+        -8.208954234235062,
+        -3.4595935951797827
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "same_direction",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "question": "Does the orange box and gray box face the same direction?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_196/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        0.9586690640444857,
+        5.06529403691443,
+        -3.233758833391665
+      ],
+      "color": "yellow",
+      "orientation": [
+        4.915322140430479,
+        18.976120361996045,
+        -13.9519889228098
+      ]
+    },
+    "object_1": {
+      "position": [
+        13.055268655377795,
+        -16.344088389228197,
+        -9.440448862365916
+      ],
+      "color": "blue",
+      "orientation": [
+        -0.1547225256479037,
+        0.9546715570749702,
+        0.2542895164358642
+      ]
+    },
+    "object_2": {
+      "position": [
+        7.764334615052274,
+        16.302122739415978,
+        -0.7446946211885646
+      ],
+      "color": "gray",
+      "orientation": [
+        9.111434516207524,
+        -12.018966514586115,
+        16.601498692615863
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "facing",
+    "options": {
+      "A": "gray",
+      "B": "yellow"
+    },
+    "question": "Which box is the blue one facing towards, the gray one or the yellow one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_197/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -7.9382463924374225,
+        6.108767356457779,
+        -10.401791864425187
+      ],
+      "color": "purple",
+      "orientation": [
+        1.438665034305867,
+        -3.8141481789382183,
+        -8.749396225226453
+      ]
+    },
+    "object_1": {
+      "position": [
+        -8.92499584281156,
+        6.108767356457779,
+        -10.564043281017886
+      ],
+      "color": "brown",
+      "orientation": [
+        5.147915434834811,
+        -15.046438290996246,
+        -13.437780594627199
+      ]
+    },
+    "object_2": {
+      "position": [
+        -8.907674949926637,
+        -15.141808542679351,
+        -0.4427423307390974
+      ],
+      "color": "green",
+      "orientation": [
+        1.8579685631902123,
+        -14.051068646759092,
+        -13.141276565760052
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "viewpoint_towards_object",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the purple box is facing the brown?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_198/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        1.7605773638941784,
+        -11.426641488444421,
+        -7.571259653660551
+      ],
+      "color": "blue",
+      "orientation": [
+        -10.769984914195563,
+        -12.70431360622883,
+        8.00156727184985
+      ]
+    },
+    "object_1": {
+      "position": [
+        -9.713380960275607,
+        13.638782644595992,
+        -11.008569906704667
+      ],
+      "color": "gray",
+      "orientation": [
+        0.41302573548034666,
+        -0.902274955615627,
+        0.12373215548004063
+      ]
+    },
+    "object_2": {
+      "position": [
+        -12.91340335949631,
+        15.017808341650053,
+        -17.05507820469224
+      ],
+      "color": "green",
+      "orientation": [
+        -4.090201819877585,
+        -6.2123740844761866,
+        -10.207168559642334
+      ]
+    },
+    "category": "multi-object",
+    "subcategory": "facing",
+    "options": {
+      "A": "blue",
+      "B": "green"
+    },
+    "question": "Which box is the gray one facing towards, the blue one or the green one?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/multi/scene_199/visual_prompt.png"
+  }
+]

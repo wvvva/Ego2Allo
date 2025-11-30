@@ -1,0 +1,5002 @@
+[
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -16.49267108528509,
+        2.157918183198948,
+        -16.327155979654513
+      ],
+      "color": "blue",
+      "orientation": [
+        0.19523042358479548,
+        0.5964770546025648,
+        0.4122954163190473
+      ]
+    },
+    "object_1": {
+      "position": [
+        -2.2622282772765665,
+        19.640757388134368,
+        -7.383399639811888
+      ],
+      "color": "purple",
+      "orientation": [
+        -0.2946728167422297,
+        -0.8368437818642833,
+        -0.4613679808973384
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the purple box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_100/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        5.624839912668946,
+        -18.56488917241617,
+        -8.594420457596595
+      ],
+      "color": "orange",
+      "orientation": [
+        -0.5554647797466907,
+        -0.21937738642262694,
+        -0.3103330598943428
+      ]
+    },
+    "object_1": {
+      "position": [
+        4.176452352033198,
+        19.22238341006321,
+        -2.0504261189242854
+      ],
+      "color": "blue",
+      "orientation": [
+        -0.7399792444275388,
+        0.21104702627618457,
+        -0.6386625625056898
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the blue box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_101/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -5.888603510866343,
+        6.050158830900386,
+        -17.679142352872848
+      ],
+      "color": "orange",
+      "orientation": [
+        -0.362485167990719,
+        0.15904020548624145,
+        0.9183195053724647
+      ]
+    },
+    "object_1": {
+      "position": [
+        -6.039075653627201,
+        -6.680304818853013,
+        -7.914708248878959
+      ],
+      "color": "blue",
+      "orientation": [
+        0.9116567809090419,
+        0.9578838111014483,
+        -0.7381618805988392
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the orange box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_102/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        2.5285821125406827,
+        19.220338784324923,
+        -15.498264030557715
+      ],
+      "color": "green",
+      "orientation": [
+        0.03361718120480681,
+        -0.5252522698098089,
+        0.8502822691594631
+      ]
+    },
+    "object_1": {
+      "position": [
+        -15.67070961080315,
+        -10.030289916386339,
+        -0.09102700584388046
+      ],
+      "color": "yellow",
+      "orientation": [
+        -0.6682536248964253,
+        -0.7140238226208473,
+        0.8474352078382879
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the green box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_103/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -14.631438285825539,
+        14.361163467220202,
+        -5.839125898030492
+      ],
+      "color": "yellow",
+      "orientation": [
+        -0.298054172045726,
+        0.6617250702161337,
+        -0.6879561328815089
+      ]
+    },
+    "object_1": {
+      "position": [
+        -8.431049617709409,
+        12.602767439434274,
+        -7.091171533601795
+      ],
+      "color": "gray",
+      "orientation": [
+        -0.838998916137736,
+        -0.503370575644507,
+        0.14906717194157149
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the yellow box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_104/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -8.603552687539363,
+        16.01941435125798,
+        -11.138837027781909
+      ],
+      "color": "orange",
+      "orientation": [
+        0.8933829261127127,
+        0.05560567732925907,
+        -0.445841846893259
+      ]
+    },
+    "object_1": {
+      "position": [
+        -8.565494688990661,
+        12.718662526061507,
+        -1.7817489950788143
+      ],
+      "color": "blue",
+      "orientation": [
+        -0.7979926976098661,
+        -0.3334395285918388,
+        0.03397103472674545
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the orange box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_105/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -2.628755800482505,
+        0.8003507853437064,
+        -9.921125708334685
+      ],
+      "color": "purple",
+      "orientation": [
+        -0.1411366000090597,
+        0.3407980019120336,
+        -0.8982543342308513
+      ]
+    },
+    "object_1": {
+      "position": [
+        -19.326116817580093,
+        -15.024951681438994,
+        -1.507507353751599
+      ],
+      "color": "gray",
+      "orientation": [
+        0.9215877574925029,
+        -0.2944478530271401,
+        -0.25293569538721256
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the gray box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_106/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -2.4907052072617653,
+        -16.28288638723294,
+        -17.406442884322068
+      ],
+      "color": "green",
+      "orientation": [
+        -0.2396347135608139,
+        0.07540960913035288,
+        0.08293849445815304
+      ]
+    },
+    "object_1": {
+      "position": [
+        -16.353212581244556,
+        -7.4148926360714285,
+        -14.391927685356068
+      ],
+      "color": "gray",
+      "orientation": [
+        0.15389891005155548,
+        -0.12561458040877674,
+        -0.9800694369180514
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the gray box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_107/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -10.734699252509543,
+        -11.996366495043622,
+        -16.114153999423888
+      ],
+      "color": "orange",
+      "orientation": [
+        0.9317673019835546,
+        -0.21517611677230586,
+        0.016498425287422958
+      ]
+    },
+    "object_1": {
+      "position": [
+        -12.95280235460513,
+        13.401351020919947,
+        -19.18288854090813
+      ],
+      "color": "gray",
+      "orientation": [
+        0.9146881094844466,
+        -0.08345558249836338,
+        -0.39545015768377895
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the gray box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_108/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -4.727168310556976,
+        16.469105517711014,
+        -10.188971024609653
+      ],
+      "color": "gray",
+      "orientation": [
+        0.550954837172403,
+        -0.5443882067429859,
+        -0.6325268741524364
+      ]
+    },
+    "object_1": {
+      "position": [
+        -9.822988183118738,
+        -11.432916718210024,
+        -11.510784438379902
+      ],
+      "color": "green",
+      "orientation": [
+        -0.44547236272530855,
+        -0.08559347025467323,
+        0.2416889977485348
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the gray box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_109/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -17.825280423831522,
+        17.693313675570465,
+        -14.046786396137588
+      ],
+      "color": "blue",
+      "orientation": [
+        -0.23141335113980557,
+        0.8132478947240761,
+        0.5339248271067416
+      ]
+    },
+    "object_1": {
+      "position": [
+        -6.474032891265393,
+        2.179678975811857,
+        -5.346754095148711
+      ],
+      "color": "green",
+      "orientation": [
+        -0.36747756045594326,
+        0.9321171078853909,
+        0.44705972695897556
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the blue box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_110/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -5.298145564461901,
+        -15.138809752629943,
+        -10.4590706326989
+      ],
+      "color": "yellow",
+      "orientation": [
+        0.1870581273538261,
+        0.19187544003781887,
+        -0.738326336950557
+      ]
+    },
+    "object_1": {
+      "position": [
+        13.568739657931268,
+        3.496628644351233,
+        -0.5485962300024525
+      ],
+      "color": "gray",
+      "orientation": [
+        0.7956191997300515,
+        0.0930018446819808,
+        -0.5986156898926722
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the gray box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_111/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -5.085522250173767,
+        4.993711144295073,
+        -19.935698932252656
+      ],
+      "color": "green",
+      "orientation": [
+        -0.8003133623566269,
+        -0.022356364624712445,
+        -0.5991650140840201
+      ]
+    },
+    "object_1": {
+      "position": [
+        12.025255460665164,
+        -1.3350708656668964,
+        -4.370211347121662
+      ],
+      "color": "purple",
+      "orientation": [
+        0.9453174778156319,
+        -0.1572370248724868,
+        0.1623049041260498
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the green box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_112/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -14.386262717509881,
+        7.746458737882872,
+        -5.202294440874468
+      ],
+      "color": "blue",
+      "orientation": [
+        0.42305799309819014,
+        -0.45143091213648123,
+        0.44803930203988895
+      ]
+    },
+    "object_1": {
+      "position": [
+        -8.411047157100576,
+        19.581164973574054,
+        -11.763150119306792
+      ],
+      "color": "gray",
+      "orientation": [
+        -0.5911073838741927,
+        -0.7532412439753933,
+        0.2884782290449428
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the gray box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_113/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        8.930277640892111,
+        15.29580430844127,
+        -4.857944575490656
+      ],
+      "color": "gray",
+      "orientation": [
+        -0.7660608356324434,
+        -0.8328343328735575,
+        0.25020725429420554
+      ]
+    },
+    "object_1": {
+      "position": [
+        19.579543357074996,
+        10.427669763324516,
+        -4.569208589168781
+      ],
+      "color": "orange",
+      "orientation": [
+        -0.524464026402641,
+        -0.8511532043233849,
+        0.02181070683199216
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the orange box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_114/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        10.198048241141219,
+        19.006935227633313,
+        -10.084994253056028
+      ],
+      "color": "purple",
+      "orientation": [
+        0.414510046358901,
+        -0.9098290736053666,
+        0.019811037236247324
+      ]
+    },
+    "object_1": {
+      "position": [
+        -18.037079049349977,
+        -11.935263117741552,
+        -12.015115547342518
+      ],
+      "color": "orange",
+      "orientation": [
+        0.9019563742937424,
+        -0.3213047848687087,
+        -0.6620615526626674
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the purple box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_115/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        17.65077596842631,
+        -6.640458433564294,
+        -6.867016394867678
+      ],
+      "color": "gray",
+      "orientation": [
+        -0.37798598447506776,
+        0.9201202146971544,
+        -0.1024957800165018
+      ]
+    },
+    "object_1": {
+      "position": [
+        -5.040638499757923,
+        -5.683041352116369,
+        -18.386586392628274
+      ],
+      "color": "brown",
+      "orientation": [
+        0.6023825193795473,
+        0.6425383861352325,
+        0.04827704909990249
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the gray box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_116/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -3.242085085781568,
+        9.709039285619902,
+        -11.15550696451546
+      ],
+      "color": "gray",
+      "orientation": [
+        0.1748594109540177,
+        -0.8996387665391656,
+        -0.4000928328132962
+      ]
+    },
+    "object_1": {
+      "position": [
+        10.000069854867583,
+        1.3282396514449957,
+        -17.7801933796623
+      ],
+      "color": "yellow",
+      "orientation": [
+        -0.21098809309899957,
+        -0.12770196697611946,
+        -0.3586939425944997
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the gray box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_117/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -13.872174955155728,
+        5.208845682757843,
+        -4.693432569168877
+      ],
+      "color": "gray",
+      "orientation": [
+        -0.8470394650025449,
+        -0.5105596210318771,
+        0.1478276594768777
+      ]
+    },
+    "object_1": {
+      "position": [
+        -13.051714399957035,
+        6.521386152110789,
+        -6.8235920928255815
+      ],
+      "color": "orange",
+      "orientation": [
+        -0.2452461606447125,
+        -0.16945642934775385,
+        0.7906591708217141
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the gray box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_118/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -18.836259871412743,
+        -16.88866646261287,
+        -3.763979212011577
+      ],
+      "color": "orange",
+      "orientation": [
+        -0.804049356997629,
+        0.5945415905246474,
+        0.0049928010781374295
+      ]
+    },
+    "object_1": {
+      "position": [
+        -15.719795467928037,
+        -11.45560682536801,
+        -15.536464148814957
+      ],
+      "color": "blue",
+      "orientation": [
+        0.5271181805305849,
+        -0.15238348420566417,
+        0.1197170515568946
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the orange box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_119/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        19.040045018717294,
+        6.97707221438716,
+        -0.3286004310776178
+      ],
+      "color": "green",
+      "orientation": [
+        -0.9782770547212715,
+        0.07763567084045432,
+        -0.1922152592168072
+      ]
+    },
+    "object_1": {
+      "position": [
+        14.457425611916058,
+        7.417168040311331,
+        -13.175698600985964
+      ],
+      "color": "blue",
+      "orientation": [
+        -0.4024947736791671,
+        0.6909550542053611,
+        0.6042005597127806
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the green box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_120/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -13.267066648310188,
+        -9.982346611040768,
+        -19.274289481068624
+      ],
+      "color": "purple",
+      "orientation": [
+        -0.4566297554924308,
+        0.5326028304728283,
+        -0.20097458432351534
+      ]
+    },
+    "object_1": {
+      "position": [
+        -13.485360262699416,
+        4.975075273467876,
+        -19.63234465374322
+      ],
+      "color": "green",
+      "orientation": [
+        0.3505639167512526,
+        0.5842985815989679,
+        0.7319153679000086
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the green box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_121/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -10.518440985535008,
+        15.380300289985165,
+        -3.56069219966027
+      ],
+      "color": "blue",
+      "orientation": [
+        -0.9046912314838449,
+        -0.5072523380822473,
+        0.7936482055786629
+      ]
+    },
+    "object_1": {
+      "position": [
+        2.7467082276565478,
+        10.127647295521474,
+        -6.276751997333962
+      ],
+      "color": "gray",
+      "orientation": [
+        -0.499476890997594,
+        -0.5269402370866204,
+        0.6876458542550389
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the gray box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_122/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -16.408279153473323,
+        -12.300019846548622,
+        -13.940096200747139
+      ],
+      "color": "gray",
+      "orientation": [
+        -0.9912705790940858,
+        0.0005388324777057884,
+        -0.13184213046010068
+      ]
+    },
+    "object_1": {
+      "position": [
+        -17.124853409743107,
+        -8.779319179650628,
+        -12.651067879794525
+      ],
+      "color": "green",
+      "orientation": [
+        0.16998178324163127,
+        0.1465690299161897,
+        0.4266180779208695
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the gray box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_123/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        6.233540128356154,
+        -12.735529239621597,
+        -12.144698026904257
+      ],
+      "color": "orange",
+      "orientation": [
+        0.2812051796136297,
+        -0.07710995959814113,
+        0.9565446654488129
+      ]
+    },
+    "object_1": {
+      "position": [
+        -5.968459591627795,
+        -10.127247388940098,
+        -7.2793955882155
+      ],
+      "color": "yellow",
+      "orientation": [
+        -0.3749011455848348,
+        -0.2557110450746485,
+        -0.11150507452053793
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the orange box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_124/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -7.96611445147121,
+        19.356898409733077,
+        -1.8961016665401473
+      ],
+      "color": "blue",
+      "orientation": [
+        0.6186252155912391,
+        0.4849381019954231,
+        0.8013594432376299
+      ]
+    },
+    "object_1": {
+      "position": [
+        -12.116345733739715,
+        -0.31581862393133875,
+        -15.832270366302193
+      ],
+      "color": "purple",
+      "orientation": [
+        -0.5710984947695483,
+        0.8202083088593483,
+        -0.03323903759763539
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the purple box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_125/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -19.474390420840386,
+        11.805305663778366,
+        -12.883185029004087
+      ],
+      "color": "orange",
+      "orientation": [
+        -0.22323933687814312,
+        0.12916715171196347,
+        0.9195322673574817
+      ]
+    },
+    "object_1": {
+      "position": [
+        -16.6210351579879,
+        10.080111173652512,
+        -19.31922070266747
+      ],
+      "color": "brown",
+      "orientation": [
+        0.06878811227901874,
+        -0.752062512065532,
+        0.6554923114362834
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the brown box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_126/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        18.53491156493687,
+        -2.7306444804120034,
+        -1.273240942612425
+      ],
+      "color": "brown",
+      "orientation": [
+        -0.2877798904943676,
+        0.2601032260039109,
+        -0.36624792125816863
+      ]
+    },
+    "object_1": {
+      "position": [
+        7.770511332175282,
+        5.896904194882687,
+        -5.471487771171875
+      ],
+      "color": "blue",
+      "orientation": [
+        -0.43678816131884823,
+        0.7323612068881278,
+        0.5223630577853273
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the blue box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_127/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -15.566427423078903,
+        -15.525301613764428,
+        -5.504822607619502
+      ],
+      "color": "yellow",
+      "orientation": [
+        0.704778814482808,
+        0.3674828619954571,
+        -0.6394339978098729
+      ]
+    },
+    "object_1": {
+      "position": [
+        -4.582546647821539,
+        10.90981748459814,
+        -3.4227194700000183
+      ],
+      "color": "blue",
+      "orientation": [
+        0.05293004989442612,
+        0.9984622123279167,
+        -0.016480853801508807
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the blue box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_128/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        15.395035721134974,
+        19.487173024265083,
+        -13.353053499644771
+      ],
+      "color": "brown",
+      "orientation": [
+        -0.8275420007736569,
+        0.20532365631784089,
+        -0.13745502216816696
+      ]
+    },
+    "object_1": {
+      "position": [
+        -6.044737392030356,
+        12.293037924054907,
+        -7.895711213404489
+      ],
+      "color": "green",
+      "orientation": [
+        0.3766871612330393,
+        -0.8569400616029563,
+        0.3517961233611029
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the green box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_129/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        14.15579372799187,
+        -4.751969287720804,
+        -5.456292533002973
+      ],
+      "color": "brown",
+      "orientation": [
+        0.19708262273276156,
+        0.8385136542971219,
+        0.4317894100590969
+      ]
+    },
+    "object_1": {
+      "position": [
+        -8.402638613069513,
+        -1.148906223791812,
+        -16.855500177355676
+      ],
+      "color": "green",
+      "orientation": [
+        0.42722953710212397,
+        0.09408913973772536,
+        -0.8992342048961492
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the green box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_130/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        11.435855826925735,
+        -16.11058867807106,
+        -19.032510704750077
+      ],
+      "color": "blue",
+      "orientation": [
+        -0.0505769922930138,
+        -0.9942434259117168,
+        -0.09445621747398794
+      ]
+    },
+    "object_1": {
+      "position": [
+        13.350308376533263,
+        -13.500710099252409,
+        -14.994599495842802
+      ],
+      "color": "orange",
+      "orientation": [
+        -0.5349482202418945,
+        0.3347230083376225,
+        -0.021243131690795725
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the blue box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_131/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        11.499199813483841,
+        19.371018616028273,
+        -6.8895234567334604
+      ],
+      "color": "yellow",
+      "orientation": [
+        0.6460353736350732,
+        0.6632353033393241,
+        0.3136037577559445
+      ]
+    },
+    "object_1": {
+      "position": [
+        7.508623037734257,
+        1.476068204435034,
+        -10.105753403291217
+      ],
+      "color": "brown",
+      "orientation": [
+        -0.9459864380202029,
+        -0.21080538352320283,
+        0.24631432776448264
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the brown box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_132/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -8.26605820339584,
+        16.09447195791767,
+        -5.503961795522905
+      ],
+      "color": "blue",
+      "orientation": [
+        0.12207231011743125,
+        -0.928961075639257,
+        -0.2504666517322194
+      ]
+    },
+    "object_1": {
+      "position": [
+        7.731048412535365,
+        -16.622423564006873,
+        -0.8825694429882027
+      ],
+      "color": "green",
+      "orientation": [
+        -0.1390198047956785,
+        -0.981473440257867,
+        0.13184604130961608
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the green box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_133/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -15.690409468017261,
+        -11.648080230965721,
+        -12.226227927117723
+      ],
+      "color": "blue",
+      "orientation": [
+        0.16905465241827033,
+        0.7399599600821636,
+        -0.1917077720871656
+      ]
+    },
+    "object_1": {
+      "position": [
+        -14.935579279616462,
+        15.902324181728758,
+        -0.5539299770962387
+      ],
+      "color": "brown",
+      "orientation": [
+        -0.5380015316573297,
+        0.23272634334890405,
+        -0.8101807202236452
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the brown box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_134/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        14.803203857982638,
+        -7.408327290614011,
+        -16.778226981631068
+      ],
+      "color": "yellow",
+      "orientation": [
+        0.7184288290029864,
+        0.15518292754937682,
+        -0.6780695212602532
+      ]
+    },
+    "object_1": {
+      "position": [
+        -15.777123812229647,
+        9.049063489031319,
+        -0.6902689053275886
+      ],
+      "color": "purple",
+      "orientation": [
+        0.8436887886715985,
+        -0.3136665008504591,
+        0.7663301593543224
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the yellow box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_135/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -14.444633341124682,
+        -7.200759565046582,
+        -11.097584730492397
+      ],
+      "color": "yellow",
+      "orientation": [
+        0.6800193946618318,
+        0.7878376169878547,
+        0.4355441343673645
+      ]
+    },
+    "object_1": {
+      "position": [
+        0.5684671766715184,
+        10.108363790882496,
+        -10.231620390631859
+      ],
+      "color": "green",
+      "orientation": [
+        -0.07076648719339221,
+        0.18490309147295123,
+        0.9802055646046328
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the green box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_136/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        2.02919327822514,
+        17.956426664045395,
+        -9.859480208010318
+      ],
+      "color": "orange",
+      "orientation": [
+        -0.42985620477531783,
+        -0.07019264703836292,
+        0.6801486055893511
+      ]
+    },
+    "object_1": {
+      "position": [
+        -6.131247918592347,
+        -2.8862318676141143,
+        -10.991988169405662
+      ],
+      "color": "yellow",
+      "orientation": [
+        -0.7616931824925001,
+        -0.32291905109391933,
+        -0.5617355080855403
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the yellow box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_137/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -3.5012292167668413,
+        -12.953909671777502,
+        -1.0601749433579357
+      ],
+      "color": "purple",
+      "orientation": [
+        -0.5351631510837667,
+        -0.6112167681174577,
+        -0.5831075906335936
+      ]
+    },
+    "object_1": {
+      "position": [
+        -14.877771975696433,
+        -5.440208407878373,
+        -19.715761381772786
+      ],
+      "color": "brown",
+      "orientation": [
+        -0.4088134985707228,
+        -0.5460067031263665,
+        -0.33241252829449386
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the purple box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_138/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        19.85300981045063,
+        15.520527917548542,
+        -2.771113865750788
+      ],
+      "color": "brown",
+      "orientation": [
+        0.7969957733220956,
+        -0.29058118104224284,
+        0.529490617059897
+      ]
+    },
+    "object_1": {
+      "position": [
+        -16.450861753440734,
+        -4.261625205414482,
+        -6.119589538152841
+      ],
+      "color": "blue",
+      "orientation": [
+        -0.43975085280889425,
+        0.6639523899406945,
+        -0.18457739004857232
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the brown box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_139/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        4.503806693761465,
+        12.486167367706066,
+        -15.750789200313221
+      ],
+      "color": "yellow",
+      "orientation": [
+        -0.5150053792013523,
+        -0.20759903075850694,
+        0.34243827982875574
+      ]
+    },
+    "object_1": {
+      "position": [
+        -6.344177236131671,
+        -17.4890390821938,
+        -17.67746048623601
+      ],
+      "color": "orange",
+      "orientation": [
+        -0.20542468993406432,
+        0.10122588369948825,
+        0.9734238614357323
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the orange box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_140/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        4.710531383019667,
+        -15.812968662245396,
+        -0.25366019571185205
+      ],
+      "color": "yellow",
+      "orientation": [
+        0.7961800960878272,
+        0.41630650553745324,
+        0.4390741931894176
+      ]
+    },
+    "object_1": {
+      "position": [
+        17.568300437233695,
+        -0.24269960267936952,
+        -0.4113670062513428
+      ],
+      "color": "purple",
+      "orientation": [
+        0.08471412183596128,
+        -0.34801532466184293,
+        0.6231663181672789
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the yellow box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_141/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -4.943610601099667,
+        8.673538248918504,
+        -8.243146027166325
+      ],
+      "color": "yellow",
+      "orientation": [
+        -0.4307485361657691,
+        -0.757713363132429,
+        -0.4902307183038696
+      ]
+    },
+    "object_1": {
+      "position": [
+        -10.703573925734307,
+        -13.311830698698559,
+        -16.61564457062789
+      ],
+      "color": "brown",
+      "orientation": [
+        0.363963880502957,
+        -0.054877751184036816,
+        -0.9278144572738409
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the yellow box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_142/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        9.477214675683197,
+        8.275395298074557,
+        -13.455121279528013
+      ],
+      "color": "purple",
+      "orientation": [
+        0.12143449132802844,
+        -0.2585916665123858,
+        -0.9583235432556687
+      ]
+    },
+    "object_1": {
+      "position": [
+        1.3347242279989828,
+        4.77128966989968,
+        -18.113096732729815
+      ],
+      "color": "green",
+      "orientation": [
+        0.8894124976539759,
+        0.730782433406036,
+        0.5041731360571495
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the purple box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_143/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -14.08367577788868,
+        3.0250110293470875,
+        -9.211607725475051
+      ],
+      "color": "orange",
+      "orientation": [
+        0.5774471980449222,
+        -0.22910276140947947,
+        0.7836240531977645
+      ]
+    },
+    "object_1": {
+      "position": [
+        4.816327401060704,
+        13.930642094661096,
+        -6.253732929719822
+      ],
+      "color": "brown",
+      "orientation": [
+        -0.6512592211528025,
+        0.23552252867941004,
+        -0.2890608830360828
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the orange box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_144/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        10.157657457826463,
+        -11.98364232167509,
+        -16.91227049383168
+      ],
+      "color": "orange",
+      "orientation": [
+        -0.9233458338125764,
+        -0.34190654908158546,
+        -0.17473517091016832
+      ]
+    },
+    "object_1": {
+      "position": [
+        -7.8869420067293206,
+        8.951231894248863,
+        -17.09561399482445
+      ],
+      "color": "blue",
+      "orientation": [
+        -0.573592714274832,
+        -0.987718881776996,
+        0.4877197188533131
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the orange box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_145/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -8.288465187631973,
+        -11.25826783351576,
+        -6.820835900747017
+      ],
+      "color": "yellow",
+      "orientation": [
+        -0.7788652718042964,
+        0.5453859721341554,
+        0.30971442995165577
+      ]
+    },
+    "object_1": {
+      "position": [
+        8.085144265745722,
+        -5.0967570293002,
+        -17.81145898037854
+      ],
+      "color": "orange",
+      "orientation": [
+        -0.03426073903206306,
+        -0.5789456641928532,
+        -0.7671626835559102
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the yellow box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_146/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        2.886493463461477,
+        10.193863482142199,
+        -7.717504403899206
+      ],
+      "color": "green",
+      "orientation": [
+        0.5425657646576443,
+        -0.4469111277976259,
+        0.36978145215877634
+      ]
+    },
+    "object_1": {
+      "position": [
+        -12.063566716165464,
+        9.311598470710244,
+        -6.874962806764076
+      ],
+      "color": "purple",
+      "orientation": [
+        0.8350129342117779,
+        -0.22115098902224037,
+        0.5038309623438858
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the purple box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_147/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        10.079616789002962,
+        16.25811337542489,
+        -2.3719074514597054
+      ],
+      "color": "brown",
+      "orientation": [
+        -0.2541585604022609,
+        -0.36681937955724164,
+        0.9121127789816905
+      ]
+    },
+    "object_1": {
+      "position": [
+        9.477917667497131,
+        3.0089758400673645,
+        -2.845505414197543
+      ],
+      "color": "yellow",
+      "orientation": [
+        0.44817879715384995,
+        -0.5317578295731815,
+        -0.71858846042918
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the yellow box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_148/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -19.156590440639736,
+        -2.31704397346347,
+        -2.5458043228182134
+      ],
+      "color": "purple",
+      "orientation": [
+        0.5652915839280277,
+        0.5418211817796108,
+        -0.6219929507709612
+      ]
+    },
+    "object_1": {
+      "position": [
+        8.227763341816633,
+        -12.330529170106557,
+        -17.25881071567538
+      ],
+      "color": "orange",
+      "orientation": [
+        0.4751515988255268,
+        -0.7485318564968562,
+        -0.1503256192343636
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the purple box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_149/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        12.438940048776239,
+        -4.686545264796971,
+        -18.801787310917927
+      ],
+      "color": "blue",
+      "orientation": [
+        0.7111346929903172,
+        -0.28269628395804586,
+        0.6437159756276711
+      ]
+    },
+    "object_1": {
+      "position": [
+        16.259162802271135,
+        -2.2315923627134104,
+        -18.714952946891664
+      ],
+      "color": "gray",
+      "orientation": [
+        -0.15310915644128298,
+        0.2762699171764229,
+        0.09414669866996594
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the blue box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_150/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        10.819852225737144,
+        12.285404451410457,
+        -3.2049676097133144
+      ],
+      "color": "blue",
+      "orientation": [
+        -0.021561596542859274,
+        0.3550450830578089,
+        0.46574873111878357
+      ]
+    },
+    "object_1": {
+      "position": [
+        19.459313321815436,
+        -14.695827710483362,
+        -2.004408848347616
+      ],
+      "color": "purple",
+      "orientation": [
+        0.23983803285793834,
+        0.405345285233946,
+        0.882141097883497
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the purple box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_151/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        19.84454922415928,
+        4.784812754057178,
+        -0.6602680604628688
+      ],
+      "color": "yellow",
+      "orientation": [
+        0.39074254765013694,
+        -0.6764267794727981,
+        0.2614215869829397
+      ]
+    },
+    "object_1": {
+      "position": [
+        -5.70292509734173,
+        -17.865699602036806,
+        -2.3302658612185105
+      ],
+      "color": "orange",
+      "orientation": [
+        -0.24325790841206468,
+        -0.03680386457972489,
+        -0.9692631554571948
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the orange box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_152/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        10.224446231021254,
+        6.6091637161781875,
+        -7.511139729257636
+      ],
+      "color": "yellow",
+      "orientation": [
+        -0.8064139363438234,
+        0.8583926867339209,
+        0.4559249740469391
+      ]
+    },
+    "object_1": {
+      "position": [
+        5.662735022552212,
+        -0.45551903186815323,
+        -7.189934790109101
+      ],
+      "color": "gray",
+      "orientation": [
+        -0.03372860878354114,
+        0.9100394857232051,
+        0.4131470854394755
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the gray box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_153/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -10.540065657947878,
+        -11.9918979781805,
+        -3.128058390341721
+      ],
+      "color": "gray",
+      "orientation": [
+        0.552787083285723,
+        -0.2532849267361778,
+        0.7938974655234255
+      ]
+    },
+    "object_1": {
+      "position": [
+        1.5035919092275023,
+        7.372693347544185,
+        -16.58852224873536
+      ],
+      "color": "orange",
+      "orientation": [
+        0.27710529608435097,
+        0.15067709222492143,
+        0.6579867868119464
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the gray box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_154/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        1.0328504836912131,
+        2.782865416920963,
+        -13.56112267058429
+      ],
+      "color": "orange",
+      "orientation": [
+        -0.03505636646830568,
+        -0.5253083424249074,
+        0.5451692589736612
+      ]
+    },
+    "object_1": {
+      "position": [
+        0.7506843541695396,
+        -7.231497222311827,
+        -18.262332458077147
+      ],
+      "color": "blue",
+      "orientation": [
+        -0.1267100625205769,
+        0.9836498908175748,
+        0.1279744137498043
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the blue box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_155/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -9.758762301388618,
+        3.3530811534312477,
+        -7.801494222169644
+      ],
+      "color": "orange",
+      "orientation": [
+        0.7184771393037388,
+        0.6954042209431361,
+        0.014267757795317788
+      ]
+    },
+    "object_1": {
+      "position": [
+        -12.432731770979135,
+        11.591167831611877,
+        -16.493936497902013
+      ],
+      "color": "blue",
+      "orientation": [
+        -0.5546658127271948,
+        0.7853212226114883,
+        -0.7139551999324969
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the orange box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_156/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -10.079780982176523,
+        13.777090087577747,
+        -13.471225614493088
+      ],
+      "color": "brown",
+      "orientation": [
+        0.5573886973019841,
+        -0.020979352697442,
+        0.12472266523373832
+      ]
+    },
+    "object_1": {
+      "position": [
+        0.1809635079513363,
+        17.49275336088339,
+        -14.574114213884785
+      ],
+      "color": "purple",
+      "orientation": [
+        0.9909837472825257,
+        -0.07681362406778776,
+        0.10977649359424708
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the purple box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_157/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -13.546720198664136,
+        1.6482429620623407,
+        -8.408904142242118
+      ],
+      "color": "yellow",
+      "orientation": [
+        -0.9034592876569639,
+        -0.07093725375809914,
+        -0.42276378811327703
+      ]
+    },
+    "object_1": {
+      "position": [
+        8.871814041345061,
+        -14.97127637273676,
+        -12.039927409790081
+      ],
+      "color": "gray",
+      "orientation": [
+        -0.5818260643992457,
+        0.9718717934347139,
+        -0.2898397584468464
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the yellow box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_158/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -17.32655664666272,
+        15.245724934127587,
+        -12.432577743032176
+      ],
+      "color": "purple",
+      "orientation": [
+        0.9620336306320542,
+        0.17903933038126052,
+        0.20600050966476613
+      ]
+    },
+    "object_1": {
+      "position": [
+        11.621870556358761,
+        -3.971248905021856,
+        -3.011164505242565
+      ],
+      "color": "green",
+      "orientation": [
+        0.9190428610697143,
+        0.9434698670864508,
+        -0.7083591370383708
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the purple box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_159/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -2.9185161558536237,
+        8.52642426211684,
+        -7.2841539000358075
+      ],
+      "color": "yellow",
+      "orientation": [
+        0.5965314561479911,
+        -0.07370792076310424,
+        0.7991979492289258
+      ]
+    },
+    "object_1": {
+      "position": [
+        10.915362301280112,
+        -14.595161791621756,
+        -8.222144241449747
+      ],
+      "color": "orange",
+      "orientation": [
+        -0.024812955009215765,
+        0.2802689491794521,
+        -0.10535583999532006
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the yellow box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_160/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -6.912531316368229,
+        12.336893628343958,
+        -2.1926728800167297
+      ],
+      "color": "green",
+      "orientation": [
+        0.9657957188774386,
+        -0.08048048951851561,
+        0.08870205725003144
+      ]
+    },
+    "object_1": {
+      "position": [
+        -16.593373554488878,
+        16.244115504936964,
+        -13.15987733595845
+      ],
+      "color": "brown",
+      "orientation": [
+        -0.6071589404041464,
+        -0.7044505394175317,
+        0.3675696629866753
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the brown box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_161/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -16.95164991696659,
+        6.5926307010100516,
+        -17.027214884115544
+      ],
+      "color": "gray",
+      "orientation": [
+        -0.09157479513068288,
+        0.6323808305068797,
+        0.7692259360710189
+      ]
+    },
+    "object_1": {
+      "position": [
+        -13.13415035484525,
+        -3.2099481710653706,
+        -13.862029324378204
+      ],
+      "color": "brown",
+      "orientation": [
+        0.47149533199429405,
+        0.8212133087357039,
+        -0.4567534067100494
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the gray box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_162/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -6.932311951236656,
+        -7.151158864449174,
+        -5.824332052950631
+      ],
+      "color": "green",
+      "orientation": [
+        -0.2711736163285914,
+        -0.16637273747322293,
+        0.9480427095591888
+      ]
+    },
+    "object_1": {
+      "position": [
+        -5.865891076643965,
+        8.735404857229593,
+        -7.18292130045133
+      ],
+      "color": "purple",
+      "orientation": [
+        0.714998373597848,
+        0.9835325871232814,
+        -0.30489183465774605
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the green box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_163/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        8.652387893539949,
+        -19.734240948985846,
+        -10.118226956183474
+      ],
+      "color": "purple",
+      "orientation": [
+        0.051236611351412886,
+        -0.35418703207726643,
+        0.5114217042614739
+      ]
+    },
+    "object_1": {
+      "position": [
+        14.661642679730932,
+        -5.51137081773426,
+        -16.830016302377032
+      ],
+      "color": "gray",
+      "orientation": [
+        0.03959503639970534,
+        -0.12516743767068159,
+        0.9913452189611844
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the gray box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_164/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        4.473266581021079,
+        9.362533169276187,
+        -15.891952203722735
+      ],
+      "color": "brown",
+      "orientation": [
+        -0.7036670990661986,
+        -0.23577759894152983,
+        0.6469522440647641
+      ]
+    },
+    "object_1": {
+      "position": [
+        -15.046075158302186,
+        13.100120748143347,
+        -7.4013189804847705
+      ],
+      "color": "green",
+      "orientation": [
+        -0.1412365680256743,
+        0.5555482291286226,
+        0.8194012421062469
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the green box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_165/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        16.861545359100425,
+        -18.594199645615067,
+        -1.9746179442332412
+      ],
+      "color": "green",
+      "orientation": [
+        0.8307159210452941,
+        0.6180265382642478,
+        -0.11044210167312274
+      ]
+    },
+    "object_1": {
+      "position": [
+        12.109573749783081,
+        19.234383933615455,
+        -2.1233640634724225
+      ],
+      "color": "gray",
+      "orientation": [
+        0.1717741941601315,
+        -0.715992577857442,
+        -0.6766448503988484
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the gray box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_166/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -7.620315029501835,
+        17.899521539578153,
+        -7.737758867008564
+      ],
+      "color": "brown",
+      "orientation": [
+        0.15164885144421014,
+        0.07726442686875916,
+        -0.9854099822175367
+      ]
+    },
+    "object_1": {
+      "position": [
+        -11.445138819262075,
+        9.264461778935743,
+        -6.270131606009457
+      ],
+      "color": "gray",
+      "orientation": [
+        0.7689486210020811,
+        -0.7813339953860141,
+        0.8052723507792845
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the brown box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_167/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        13.676478484627765,
+        -9.482472009808113,
+        -4.954075049563251
+      ],
+      "color": "orange",
+      "orientation": [
+        0.3751868481757805,
+        0.564818141836776,
+        0.7349933966014314
+      ]
+    },
+    "object_1": {
+      "position": [
+        -15.196818660635994,
+        -12.740494978554535,
+        -1.6191943928169614
+      ],
+      "color": "yellow",
+      "orientation": [
+        0.8398066002543658,
+        0.7155525968791137,
+        0.5457031216040262
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the orange box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_168/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        12.222946798377038,
+        -18.109452550843514,
+        -19.42587751292915
+      ],
+      "color": "blue",
+      "orientation": [
+        -0.1696863724916844,
+        -0.5033207027552755,
+        -0.5404198811440413
+      ]
+    },
+    "object_1": {
+      "position": [
+        4.595797934272085,
+        -12.5399958250283,
+        -0.29593841771572116
+      ],
+      "color": "yellow",
+      "orientation": [
+        0.1276920423631479,
+        -0.17313480555420782,
+        0.9765854176788097
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the yellow box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_169/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        2.0882619667181643,
+        -13.406330466171594,
+        -14.228837901342972
+      ],
+      "color": "gray",
+      "orientation": [
+        0.5848966553918244,
+        -0.5881052513103359,
+        -0.5585947684759343
+      ]
+    },
+    "object_1": {
+      "position": [
+        4.631367386030007,
+        4.011003327167472,
+        -10.651954769050462
+      ],
+      "color": "green",
+      "orientation": [
+        -0.9199360155470484,
+        0.8350207228167263,
+        0.09065754154364347
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the gray box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_170/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -2.4501435197108314,
+        6.455295783753947,
+        -13.44498350509718
+      ],
+      "color": "blue",
+      "orientation": [
+        0.007887622308790698,
+        -0.29140198875081813,
+        0.25043716958294815
+      ]
+    },
+    "object_1": {
+      "position": [
+        -16.774516877411937,
+        -5.665336598160881,
+        -10.81564042122347
+      ],
+      "color": "green",
+      "orientation": [
+        0.4406103891428015,
+        -0.2043578924284193,
+        -0.8741283292916369
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the green box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_171/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -17.94259735237545,
+        14.933252144680054,
+        -18.625077581196894
+      ],
+      "color": "green",
+      "orientation": [
+        -0.3617861036639889,
+        0.20560976523429098,
+        0.1770084324428447
+      ]
+    },
+    "object_1": {
+      "position": [
+        4.636761349114128,
+        -15.160253675202465,
+        -2.552604839065374
+      ],
+      "color": "yellow",
+      "orientation": [
+        0.5128147966558299,
+        0.7879337407341584,
+        -0.3408539324229036
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the yellow box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_172/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -14.76482784930338,
+        3.78474929638514,
+        -16.744395254974627
+      ],
+      "color": "yellow",
+      "orientation": [
+        0.7228511462214307,
+        0.38684913037151697,
+        -0.5725678735833997
+      ]
+    },
+    "object_1": {
+      "position": [
+        4.5879366505198185,
+        -7.668193585153373,
+        -13.42791536899963
+      ],
+      "color": "brown",
+      "orientation": [
+        -0.6067835382355049,
+        -0.2120652704802639,
+        0.03573243467204068
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the yellow box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_173/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        15.48236157527819,
+        15.86350516134027,
+        -11.871947529534886
+      ],
+      "color": "purple",
+      "orientation": [
+        -0.36570576442806774,
+        0.8942045587532791,
+        0.2581811345959222
+      ]
+    },
+    "object_1": {
+      "position": [
+        12.226244272021852,
+        -15.251083440428417,
+        -12.02724880704093
+      ],
+      "color": "blue",
+      "orientation": [
+        -0.8862970683867124,
+        0.49266869982157324,
+        -0.8812706025457047
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the purple box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_174/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -9.660548372763241,
+        -3.748053963707406,
+        -11.401222058143334
+      ],
+      "color": "brown",
+      "orientation": [
+        -0.43986562853375966,
+        0.5974267343269435,
+        -0.2694824319141036
+      ]
+    },
+    "object_1": {
+      "position": [
+        8.113686803196263,
+        -15.99975940124632,
+        -19.284821686238466
+      ],
+      "color": "gray",
+      "orientation": [
+        0.9974405913347373,
+        0.03393802366847191,
+        0.06293230805242839
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the gray box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_175/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        19.89191701617989,
+        4.398032111278969,
+        -13.560718107003973
+      ],
+      "color": "purple",
+      "orientation": [
+        0.8619354906180461,
+        0.31029384534896964,
+        0.400979972326768
+      ]
+    },
+    "object_1": {
+      "position": [
+        19.50238469857294,
+        -14.292152391991856,
+        -16.23950411370688
+      ],
+      "color": "yellow",
+      "orientation": [
+        0.6129112472445999,
+        0.32105910936882576,
+        -0.5595879796743743
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the purple box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_176/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -14.15194160370258,
+        10.801773136624636,
+        -8.388450426742436
+      ],
+      "color": "purple",
+      "orientation": [
+        0.7231138467919924,
+        0.6504283897110479,
+        -0.23248499568037234
+      ]
+    },
+    "object_1": {
+      "position": [
+        -12.901082687095414,
+        -14.799170473795185,
+        -4.744938112050612
+      ],
+      "color": "orange",
+      "orientation": [
+        0.8493059295487178,
+        0.31502460775911056,
+        0.16495069938996432
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the purple box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_177/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -10.872141660939754,
+        -18.554412866931166,
+        -10.857686046022408
+      ],
+      "color": "gray",
+      "orientation": [
+        -0.9619033460378134,
+        0.07131868521778471,
+        -0.2639234673160927
+      ]
+    },
+    "object_1": {
+      "position": [
+        0.9481195746221829,
+        -17.887514786919244,
+        -17.951583981966202
+      ],
+      "color": "green",
+      "orientation": [
+        0.1409650857424003,
+        0.7445586194450913,
+        -0.1284982410200688
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the gray box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_178/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        9.480465924522733,
+        -5.367696458414306,
+        -10.831121100424374
+      ],
+      "color": "orange",
+      "orientation": [
+        0.9337819381242864,
+        0.21564130009238802,
+        0.9011147762398342
+      ]
+    },
+    "object_1": {
+      "position": [
+        -12.961515545295335,
+        0.938749855487103,
+        -9.202406587005017
+      ],
+      "color": "gray",
+      "orientation": [
+        -0.6740147946885652,
+        0.6700487871269502,
+        0.3110284198881432
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the gray box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_179/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        17.01316666703905,
+        3.3481861631856518,
+        -8.363034327823327
+      ],
+      "color": "yellow",
+      "orientation": [
+        0.3194638765458117,
+        0.853053337083955,
+        -0.4126049379954777
+      ]
+    },
+    "object_1": {
+      "position": [
+        5.926596947978041,
+        0.604355559923043,
+        -6.943967520432363
+      ],
+      "color": "purple",
+      "orientation": [
+        0.46724060029670866,
+        -0.7179825605939738,
+        -0.7863029663187902
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the yellow box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_180/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -14.635610003716554,
+        -11.808400748133296,
+        -17.79141167774662
+      ],
+      "color": "brown",
+      "orientation": [
+        -0.5712160329343603,
+        -0.23027864807960063,
+        -0.046932539274232576
+      ]
+    },
+    "object_1": {
+      "position": [
+        11.058638053881793,
+        16.729362286426912,
+        -6.268391870619093
+      ],
+      "color": "orange",
+      "orientation": [
+        0.6445665933303673,
+        -0.7584280105151922,
+        0.0965445943318079
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the orange box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_181/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        6.395209000415868,
+        13.449812858218067,
+        -9.42648253808181
+      ],
+      "color": "green",
+      "orientation": [
+        0.5083246342015298,
+        0.25272639445091793,
+        0.8232468854071702
+      ]
+    },
+    "object_1": {
+      "position": [
+        -8.178275435126853,
+        18.044245601613426,
+        -19.735769558671915
+      ],
+      "color": "purple",
+      "orientation": [
+        0.17960197926737265,
+        0.2526680665373895,
+        0.9290860835760055
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the green box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_182/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        7.176732412551971,
+        -16.490147025639192,
+        -13.548591424303147
+      ],
+      "color": "purple",
+      "orientation": [
+        -0.4118466182106326,
+        0.5107188287981623,
+        0.8640838038279806
+      ]
+    },
+    "object_1": {
+      "position": [
+        -10.499040309952496,
+        -1.0777518217115443,
+        -13.80136958889631
+      ],
+      "color": "brown",
+      "orientation": [
+        -0.2357817648210264,
+        -0.38693935058080237,
+        -0.8914510066028406
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the brown box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_183/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        0.7036983335368774,
+        10.66346476431665,
+        -7.512905307015391
+      ],
+      "color": "brown",
+      "orientation": [
+        0.20870127765237817,
+        -0.9582661180747821,
+        -0.19537098607990555
+      ]
+    },
+    "object_1": {
+      "position": [
+        -9.125086400535935,
+        -13.754720476727918,
+        -1.0655818059340518
+      ],
+      "color": "orange",
+      "orientation": [
+        0.020801284670042497,
+        -0.17580823945350987,
+        -0.6941559499309227
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the brown box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_184/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -19.656967341557827,
+        -17.63657830191889,
+        -3.2152599170517675
+      ],
+      "color": "green",
+      "orientation": [
+        0.09879290264879076,
+        0.561249599548525,
+        -0.8217291814600094
+      ]
+    },
+    "object_1": {
+      "position": [
+        1.3079081150674199,
+        -1.4298320166770893,
+        -0.7857592101923032
+      ],
+      "color": "purple",
+      "orientation": [
+        0.22608673962215553,
+        -0.5938425568731285,
+        0.8515017074900251
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the green box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_185/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        18.41430725196723,
+        19.227555364613586,
+        -12.369174698318936
+      ],
+      "color": "purple",
+      "orientation": [
+        -0.5527681935038296,
+        0.028274900016681315,
+        0.8141025350061315
+      ]
+    },
+    "object_1": {
+      "position": [
+        -15.673792447125017,
+        -14.909912267568085,
+        -16.845832806520967
+      ],
+      "color": "orange",
+      "orientation": [
+        -0.6819318220657768,
+        0.25372954146997656,
+        0.6859958518262879
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the orange box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_186/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        12.476262072521187,
+        -18.474792166554593,
+        -8.232679842578403
+      ],
+      "color": "blue",
+      "orientation": [
+        0.22405945962632656,
+        0.4281083709093685,
+        -0.6231587453194529
+      ]
+    },
+    "object_1": {
+      "position": [
+        17.397932502374815,
+        8.534012978624709,
+        -9.672475407319599
+      ],
+      "color": "brown",
+      "orientation": [
+        -0.054240680202367796,
+        0.5779744281749769,
+        0.8142502734207895
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the brown box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_187/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        12.499707002029517,
+        16.262254070908973,
+        -19.34427812384623
+      ],
+      "color": "blue",
+      "orientation": [
+        0.7153016521822703,
+        0.26939299752267926,
+        0.6448030383430042
+      ]
+    },
+    "object_1": {
+      "position": [
+        4.7194982456608585,
+        7.489682655871999,
+        -1.1457771114419444
+      ],
+      "color": "orange",
+      "orientation": [
+        -0.09601338754287658,
+        -0.26621709127962556,
+        -0.990153230365759
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the blue box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_188/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -16.894172878542317,
+        -15.85732355034934,
+        -7.503521129175208
+      ],
+      "color": "purple",
+      "orientation": [
+        0.7300107987753164,
+        0.5710535553397991,
+        -0.11662646486296335
+      ]
+    },
+    "object_1": {
+      "position": [
+        -12.262181471672196,
+        -10.116365116708522,
+        -15.946559679828011
+      ],
+      "color": "yellow",
+      "orientation": [
+        0.5928014043497413,
+        0.5731886271699829,
+        -0.5657219210472059
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the yellow box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_189/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        17.795733178774697,
+        8.790715024914189,
+        -9.370967799999327
+      ],
+      "color": "green",
+      "orientation": [
+        -0.10451489283160875,
+        0.9927530246197769,
+        0.059313267962211445
+      ]
+    },
+    "object_1": {
+      "position": [
+        16.221955553834448,
+        -7.4513398430588005,
+        -4.76534219998468
+      ],
+      "color": "purple",
+      "orientation": [
+        -0.1596799946444749,
+        0.6292928007023224,
+        -0.902785747711085
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the green box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_190/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        10.245008582305353,
+        18.98018894147802,
+        -13.973784497892048
+      ],
+      "color": "brown",
+      "orientation": [
+        -0.0834542025399152,
+        -0.6387415330595967,
+        -0.42538875927583697
+      ]
+    },
+    "object_1": {
+      "position": [
+        -9.920849542950837,
+        15.760894957103716,
+        -18.74461273078845
+      ],
+      "color": "orange",
+      "orientation": [
+        -0.45162302698848894,
+        0.7005394684195089,
+        -0.5525224744135416
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the orange box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_191/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -0.7329112585637816,
+        4.700708775095144,
+        -0.5545896602550862
+      ],
+      "color": "green",
+      "orientation": [
+        -0.5403439314599299,
+        -0.7706714197731415,
+        0.3377780294568188
+      ]
+    },
+    "object_1": {
+      "position": [
+        17.69011545210121,
+        1.8949786067783272,
+        -17.428134771591928
+      ],
+      "color": "brown",
+      "orientation": [
+        0.6123023702002153,
+        -0.3113208485000605,
+        0.8516550513921719
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the green box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_192/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -0.9414118587720886,
+        19.128548519256768,
+        -16.231876500000368
+      ],
+      "color": "green",
+      "orientation": [
+        0.6229968219223423,
+        0.8561903038934522,
+        -0.4163015420452614
+      ]
+    },
+    "object_1": {
+      "position": [
+        0.17674343422260108,
+        17.74274429210667,
+        -7.889095503103347
+      ],
+      "color": "orange",
+      "orientation": [
+        0.4738922116858529,
+        -0.039983981531366494,
+        0.8796746285279871
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the orange box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_193/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -11.64922082769328,
+        -6.201153882360302,
+        -19.6561979113723
+      ],
+      "color": "orange",
+      "orientation": [
+        0.05991882852668356,
+        -0.1776835018397757,
+        0.9822618318181182
+      ]
+    },
+    "object_1": {
+      "position": [
+        15.24440874319518,
+        -0.06387811707789481,
+        -3.915676507710593
+      ],
+      "color": "brown",
+      "orientation": [
+        -0.5351335979429392,
+        -0.8240883922702129,
+        -0.9775466350045758
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the orange box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_194/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        11.265585963515761,
+        -13.887958749921383,
+        -12.696706753063093
+      ],
+      "color": "blue",
+      "orientation": [
+        0.23344614255034513,
+        0.3400765019525247,
+        -0.3424988348248328
+      ]
+    },
+    "object_1": {
+      "position": [
+        5.541695232515554,
+        -12.224328579348276,
+        -7.718434848466876
+      ],
+      "color": "purple",
+      "orientation": [
+        0.5711564520787596,
+        -0.7656312522942501,
+        0.295954543490279
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the purple box is facing the camera?",
+    "answer": "B",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_195/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -8.05261600253222,
+        12.086572957520758,
+        -0.2986757512775071
+      ],
+      "color": "purple",
+      "orientation": [
+        -0.8273001837187309,
+        0.5299382703033457,
+        0.18638625131271003
+      ]
+    },
+    "object_1": {
+      "position": [
+        7.14393058353928,
+        0.7016615826685211,
+        -16.296818992077913
+      ],
+      "color": "green",
+      "orientation": [
+        0.3571339856532485,
+        -0.7585071966184653,
+        -0.9260378238725537
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the purple box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_196/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -4.963791183611924,
+        8.898197780556139,
+        -0.9599557071470173
+      ],
+      "color": "yellow",
+      "orientation": [
+        -0.5848692180720543,
+        -0.22071242621310128,
+        -0.16590263414819773
+      ]
+    },
+    "object_1": {
+      "position": [
+        -11.875137843256987,
+        -13.737051936909438,
+        -14.066568406766196
+      ],
+      "color": "gray",
+      "orientation": [
+        -0.4115239940298927,
+        -0.07511100926725776,
+        0.9082985936705072
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the gray box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_197/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        3.112757665118103,
+        14.865545539450771,
+        -14.111029921817215
+      ],
+      "color": "green",
+      "orientation": [
+        0.2635672669316633,
+        -0.16003584577658425,
+        -0.8275391483551773
+      ]
+    },
+    "object_1": {
+      "position": [
+        -3.3371850062247113,
+        15.774999562558357,
+        -3.4196559180232455
+      ],
+      "color": "brown",
+      "orientation": [
+        -0.7014115227645743,
+        -0.3525535627622896,
+        0.6194577143541381
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the brown box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_198/visual_prompt.png"
+  },
+  {
+    "camera": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "color": "black"
+    },
+    "object_0": {
+      "position": [
+        -9.565696131819944,
+        -0.9997023384523018,
+        -1.458124238823146
+      ],
+      "color": "blue",
+      "orientation": [
+        -0.8074868149702017,
+        -0.5594015264153642,
+        0.11895483491837333
+      ]
+    },
+    "object_1": {
+      "position": [
+        18.779371116784013,
+        12.27508128230619,
+        -6.352965806484683
+      ],
+      "color": "green",
+      "orientation": [
+        0.29456350216077604,
+        0.4361320771656495,
+        -0.8503065041723566
+      ]
+    },
+    "category": "orientation",
+    "subcategory": "viewpoint",
+    "options": {
+      "A": "left",
+      "B": "right"
+    },
+    "question": "Which side of the green box is facing the camera?",
+    "answer": "A",
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/orien/scene_199/visual_prompt.png"
+  }
+]
