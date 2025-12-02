@@ -48,7 +48,7 @@ prompt_type = args.parse_args().prompt_type
 
 results = apc_runner.run(ds, verbose=False, prompt_type=prompt_type)
 df = pd.DataFrame(results)
-df.to_csv(f"3DSRBench_raw_predictions_{model_name}_{prompt_type}.csv", index=False) 
+df.to_csv(f"3DSRBench_raw_predictions_{model_name}_{prompt_type}_4b.csv", index=False) 
 
 # # Run APC with numerical prompt
 # prompt_type = "numerical"

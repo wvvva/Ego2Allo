@@ -1,8 +1,8 @@
 # VLM
 vlm:
-  type: qwenvl2_5
-  pretrained_model: /ocean/projects/cis250208p/shared/qwen_3b_grpo_merged
-  model_name: qwen2_5_vl_3b_grpo
+  type: qwenvl3
+  pretrained_model: /ocean/projects/cis250208p/shared/qwen_4b_grpo_merged
+  model_name: qwen3_vl_4b_grpo
   conv_template: llava_llama_3
   log_responses: false
   # MLLM sampling parameters

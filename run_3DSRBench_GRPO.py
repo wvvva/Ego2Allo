@@ -4,7 +4,7 @@ from datasets import load_from_disk
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--prompt-type", type=str, required=False, default=None)
+parser.add_argument("--prompt-type", type=str, required=False, default="visual")
 args = parser.parse_args()
 
 print("Modules imported.")
@@ -25,7 +25,7 @@ ds = load_from_disk("test_dataset_150")
 # run the model on the dataset
 # results = apc_runner.run_single(3, ds[3], verbose=True, datasource="3DSRBench")
 
-results = apc_runner.run(ds, verbose=False, datasource="3DSRBench", prompt_type=args.prompt)
+results = apc_runner.run(ds, verbose=False, datasource="3DSRBench", prompt_type=args.prompt_type)
 df = pd.DataFrame(results)
 
-df.to_csv(f"3DSRBench_raw_predictions_{model_name}.csv", index=False)
+df.to_csv(f"3DSRBench_raw_predictions_{model_name}_4b.csv", index=False)
