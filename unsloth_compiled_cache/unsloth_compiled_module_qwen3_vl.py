@@ -165,7 +165,7 @@ from torch.nn import functional as F
 from typing import Any, List, Optional, Tuple, Union, Dict, Set, Callable
 from transformers.models.qwen3_vl.modeling_qwen3_vl import (F, Callable, Optional, Union, torch, nn, ACT2FN, Cache, use_kernel_forward_from_hub, FlashAttentionKwargs, ModelOutput, ROPE_INIT_FUNCTIONS, dynamic_rope_update, ALL_ATTENTION_FUNCTIONS, PreTrainedModel, Unpack, TransformersKwargs, is_torchdynamo_compiling, deprecate_kwarg, Qwen3VLConfig, Qwen3VLTextConfig, Qwen3VLVisionConfig, Qwen3VLVisionBlock, Qwen3VLTextDecoderLayer, Qwen3VLModel, Qwen3VLModelOutputWithPast, Qwen3VLPreTrainedModel, Qwen3VLVisionModel, Qwen3VLTextModel)
 
-@torch.compiler.disable(recursive = False)
+@torch.compile(fullgraph = False, dynamic = True, options = torch_compile_options)
 def Qwen3VLVisionMLP_forward(self, hidden_state):
     return self.linear_fc2(self.act_fn(self.linear_fc1(hidden_state)))
 
@@ -182,7 +182,7 @@ class Qwen3VLVisionMLP(nn.Module):
         return Qwen3VLVisionMLP_forward(self, hidden_state)
 
 
-@torch.compiler.disable(recursive = False)
+@torch.compile(fullgraph = True, dynamic = True, options = torch_compile_options)
 def Qwen3VLVisionPatchEmbed_forward(self, hidden_states: torch.Tensor) -> torch.Tensor:
     target_dtype = self.proj.weight.dtype
     hidden_states = hidden_states.view(
@@ -206,7 +206,7 @@ class Qwen3VLVisionPatchEmbed(nn.Module):
         return Qwen3VLVisionPatchEmbed_forward(self, hidden_states)
 
 
-@torch.compiler.disable(recursive = False)
+@torch.compile(fullgraph = False, dynamic = True, options = torch_compile_options)
 def Qwen3VLVisionPatchMerger_forward(self, x: torch.Tensor) -> torch.Tensor:
     x = self.norm(x.view(-1, self.hidden_size) if self.use_postshuffle_norm else x).view(-1, self.hidden_size)
     x = self.linear_fc2(self.act_fn(self.linear_fc1(x)))
@@ -226,6 +226,7 @@ class Qwen3VLVisionPatchMerger(nn.Module):
         return Qwen3VLVisionPatchMerger_forward(self, x)
 
 
+@torch.compile(fullgraph = True, dynamic = True, options = torch_compile_options)
 def rotate_half(x):
     """Rotates half the hidden dims of the input."""
     x1 = x[..., : x.shape[-1] // 2]
@@ -233,6 +234,7 @@ def rotate_half(x):
     return torch.cat((-x2, x1), dim=-1)
 
 
+@torch.compile(fullgraph = True, dynamic = True, options = torch_compile_options)
 def apply_rotary_pos_emb(q, k, cos, sin,  unsqueeze_dim=1):
     """Applies Rotary Position Embedding to the query and key tensors.
 
@@ -260,6 +262,7 @@ def apply_rotary_pos_emb(q, k, cos, sin,  unsqueeze_dim=1):
     return q_embed, k_embed
 
 
+@torch.compile(fullgraph = True, dynamic = True, options = torch_compile_options)
 def apply_rotary_pos_emb_vision(
     q: torch.Tensor, k: torch.Tensor, cos: torch.Tensor, sin: torch.Tensor
 ) -> tuple[torch.Tensor, torch.Tensor]:
@@ -274,6 +277,7 @@ def apply_rotary_pos_emb_vision(
     return q_embed, k_embed
 
 
+@torch.compile(fullgraph = True, dynamic = True, options = torch_compile_options)
 def repeat_kv(hidden_states: torch.Tensor, n_rep: int) -> torch.Tensor:
     """
     This is the equivalent of torch.repeat_interleave(x, dim=1, repeats=n_rep). The hidden states go from (batch,
@@ -286,6 +290,7 @@ def repeat_kv(hidden_states: torch.Tensor, n_rep: int) -> torch.Tensor:
     return hidden_states.reshape(batch, num_key_value_heads * n_rep, slen, head_dim)
 
 
+@torch.compile(fullgraph = True, dynamic = True, options = torch_compile_options)
 def eager_attention_forward(
     module: nn.Module,
     query: torch.Tensor,
@@ -406,7 +411,7 @@ class Qwen3VLVisionAttention(nn.Module):
         return Qwen3VLVisionAttention_forward(self, hidden_states, cu_seqlens, rotary_pos_emb, position_embeddings, **kwargs)
 
 
-@torch.compiler.disable(recursive = False)
+@torch.compile(fullgraph = True, dynamic = True, options = torch_compile_options)
 @torch.no_grad()
 @dynamic_rope_update  # power user: used with advanced RoPE types (e.g. dynamic rope)
 def Qwen3VLTextRotaryEmbedding_forward(self, x, position_ids):
@@ -470,7 +475,7 @@ class Qwen3VLTextRotaryEmbedding(nn.Module):
         return Qwen3VLTextRotaryEmbedding_forward(self, x, position_ids)
 
 
-@torch.compiler.disable(recursive = False)
+@torch.compile(fullgraph = True, dynamic = True, options = torch_compile_options)
 def Qwen3VLTextRMSNorm_forward(self, hidden_states: torch.Tensor) -> torch.Tensor:
     input_dtype = hidden_states.dtype
     hidden_states = hidden_states.to(torch.float32)
@@ -583,7 +588,7 @@ class Qwen3VLTextAttention(nn.Module):
         return Qwen3VLTextAttention_forward(self, hidden_states, position_embeddings, attention_mask, past_key_values, cache_position, **kwargs)
 
 
-@torch.compiler.disable(recursive = False)
+@torch.compile(fullgraph = False, dynamic = True, options = torch_compile_options)
 def Qwen3VLTextMLP_forward(self, x):
     down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
     return down_proj

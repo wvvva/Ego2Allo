@@ -15,23 +15,28 @@ class ModelQwenVL2_5(VLMBase):
         ):
         super().__init__(device)
         self.device = device
+        # Allow configs to silence verbose prints from the VLM
+        self.log_responses = config.get("log_responses", True)
 
         # Initialize model
         self.load_model(config, device=device)
 
     def load_model(self, config, device="cuda"):
         cfg = AutoConfig.from_pretrained(config.pretrained_model)
-        print(f"[INFO] Loaded config {config.pretrained_model}")
-        print(f"[INFO] Loaded config hidden_size={cfg.hidden_size}, model_type={cfg.model_type}")
+        if self.log_responses:
+            print(f"[INFO] Loaded config {config.pretrained_model}")
+            print(f"[INFO] Loaded config hidden_size={cfg.hidden_size}, model_type={cfg.model_type}")
 
         self.vlm_model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
             config.pretrained_model, 
             dtype="auto", 
-            device_map=device
+            device_map=device,
+            
         )
         self.processor = AutoProcessor.from_pretrained(config.pretrained_model)
-        print(f"[INFO] Loaded model type: {self.vlm_model.config.model_type}")
-        print(f"[INFO] Hidden size: {self.vlm_model.config.hidden_size}")
+        if self.log_responses:
+            print(f"[INFO] Loaded model type: {self.vlm_model.config.model_type}")
+            print(f"[INFO] Hidden size: {self.vlm_model.config.hidden_size}")
 
     def generate_response(
         self,
@@ -80,18 +85,21 @@ class ModelQwenVL2_5(VLMBase):
         Process full conversation
         """
         # process messages
+        # print("here")
         text = self.processor.apply_chat_template(
             messages,
             tokenize=False,
             add_generation_prompt=True
         )
+        
         # check if image is present
         has_image = False
         for message in messages:
             if "image" in message['content'][0]:
                 has_image = True
                 break
-
+        
+        # print("half")
         if has_image:
             image_inputs, video_inputs = process_vision_info(messages)
         else:
@@ -125,6 +133,7 @@ class ModelQwenVL2_5(VLMBase):
         )[0]
         
 
-        print(f"* [INFO] Response for VLM: {response}")
+        if self.log_responses:
+            print(f"* [INFO] Response for VLM: {response}")
         
         return response

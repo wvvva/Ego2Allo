@@ -1,0 +1,181 @@
+index,category,question,reasoning,prediction,answer,is_correct,response_text
+0,multi_object_parallel,"Consider the real-world 3D orientations of the objects. What is the relationship between the orientations of the one way arrow and the tram, parallel of perpendicular to each other?",,A,A,True,A. parallel
+1,orientation_viewpoint,Consider the real-world 3D locations and orientations of the objects. Which side of the tennis player is facing the camera?,,A,C,False,A. front
+2,multi_object_viewpoint_towards_object,Consider the real-world 3D locations and orientations of the objects. Which side of the person in green shirt is facing the stop sign?,,A,C,False,A. front
+3,orientation_viewpoint,Consider the real-world 3D locations and orientations of the objects. Which side of the red car is facing the camera?,,A,C,False,A. front
+4,multi_object_same_direction,"Consider the real-world 3D orientations of the objects. Are the teddy bear in the image and the horse facing same or similar directions, or very different directions?",,A,B,False,A. same or similar directions
+5,orientation_in_front_of,"Consider the real-world 3D locations and orientations of the objects. If I stand at the stove's position facing where it is facing, is the faucet in front of me or behind me?",,A,A,True,A
+6,orientation_on_the_left,"Consider the real-world 3D locations and orientations of the objects. If I stand at the man's position facing where it is facing, is the chairs on the left or right of me?",,B,B,True,B. on the right
+7,multi_object_closer_to,"Consider the real-world 3D locations of the objects. Which is closer to the police man, the camera or the yellow texi?",,B,A,False,B. yellow cube
+8,multi_object_parallel,"Consider the real-world 3D orientations of the objects. What is the relationship between the orientations of the white boat and the black boat, parallel of perpendicular to each other?",,A,A,True,A. parallel
+9,height_higher,Consider the real-world 3D locations of the objects. Which object has a higher location?,,A,B,False,A. green cube
+10,location_above,Consider the real-world 3D locations of the objects. Is the rick cooker directly above the fridge?,,B,A,False,B.
+11,orientation_viewpoint,Consider the real-world 3D locations and orientations of the objects. Which side of the teddy bear is facing the camera?,,A,A,True,A. front
+12,orientation_on_the_left,"Consider the real-world 3D locations and orientations of the objects. If I stand at the red car's position facing where it is facing, is the fire hydrant on the left or right of me?",,B,B,True,B. on the right
+13,multi_object_closer_to,"Consider the real-world 3D locations of the objects. Which is closer to the triangle cake, the steel bowls or the bowl with bananas in it?",,A,B,False,A. yellow cube or B. purple cube
+14,orientation_in_front_of,"Consider the real-world 3D locations and orientations of the objects. If I stand at the smiling woman's position facing where it is facing, is the coffe mug next to the window in front of me or behind me?",,A,B,False,A
+15,multi_object_same_direction,"Consider the real-world 3D orientations of the objects. Are the man with blue shirt and brown shoes and the baggage inquiries board facing same or similar directions, or very different directions?",,A,B,False,A. same or similar directions
+16,orientation_viewpoint,Consider the real-world 3D locations and orientations of the objects. Which side of the plane is facing the camera?,,A,D,False,A. front
+17,location_closer_to_camera,Consider the real-world 3D location of the objects. Which object is closer to the camera?,,B,B,True,B. yellow cube
+18,height_higher,Consider the real-world 3D locations of the objects. Which object has a lower location?,,A,A,True,A. yellow cube
+19,orientation_viewpoint,Consider the real-world 3D locations and orientations of the objects. Which side of the tractor is facing the camera?,,A,A,True,A. front
+20,location_above,Consider the real-world 3D locations of the objects. Is the man directly above the skateboard?,,B,A,False,B.
+21,location_closer_to_camera,Consider the real-world 3D location of the objects. Which object is further away from the camera?,,B,B,True,B. yellow cube
+22,multi_object_viewpoint_towards_object,Consider the real-world 3D locations and orientations of the objects. Which side of the woman is facing the bus?,,C,C,True,C
+23,orientation_in_front_of,"Consider the real-world 3D locations and orientations of the objects. If I stand at the person in white's position facing where it is facing, is the ceramic jar in front of me or behind me?",,A,B,False,A. in front of
+24,orientation_viewpoint,Consider the real-world 3D locations and orientations of the objects. Which side of the girl sitting on the back of the motorcycle is facing the camera?,,C,C,True,C. back
+25,location_next_to,Consider the real-world 3D locations of the objects. Are the statue and the green flag next to each other or far away from each other?,,B,B,True,B. far away from each other
+26,multi_object_same_direction,"Consider the real-world 3D orientations of the objects. Are the boy on the jet and the girl in the picture on the wall facing same or similar directions, or very different directions?",,A,B,False,A. same or similar directions
+27,location_above,Consider the real-world 3D locations of the objects. Is the lantern directly above the sidewalk traffic light?,,B,B,True,B. no
+28,height_higher,Consider the real-world 3D locations of the objects. Which object has a higher location?,,A,A,True,A. green cube
+29,multi_object_viewpoint_towards_object,Consider the real-world 3D locations and orientations of the objects. Which side of the red toy is facing the man?,,A,A,True,A. front
+30,location_closer_to_camera,Consider the real-world 3D location of the objects. Which object is further away from the camera?,,B,B,True,B. yellow cube
+31,multi_object_parallel,"Consider the real-world 3D orientations of the objects. What is the relationship between the orientations of the fridge and the microwave, parallel of perpendicular to each other?",,A,B,False,A. parallel
+32,multi_object_closer_to,"Consider the real-world 3D locations of the objects. Which is closer to the rose, the lamp or the table?",,B,A,False,B. yellow cube
+33,orientation_on_the_left,"Consider the real-world 3D locations and orientations of the objects. If I stand at the cat's position facing where it is facing, is the toaster on the left or right of me?",,A,A,True,A. on the left
+34,multi_object_viewpoint_towards_object,Consider the real-world 3D locations and orientations of the objects. Which side of the boy is facing the short tree on the left?,,A,D,False,A. front
+35,location_closer_to_camera,Consider the real-world 3D location of the objects. Which object is further away from the camera?,,A,B,False,A. green cube
+36,location_above,Consider the real-world 3D locations of the objects. Is the street sign directly above the man?,,A,B,False,A.
+37,location_above,Consider the real-world 3D locations of the objects. Is the chair directly underneath the umbrella?,,B,A,False,B. no
+38,multi_object_closer_to,"Consider the real-world 3D locations of the objects. Which is closer to the teddy bear, the woman or the tv?",,A,B,False,A. green cube
+39,multi_object_closer_to,"Consider the real-world 3D locations of the objects. Which is closer to the red sign, the flag or the fire hydrant?",,A,B,False,A. green cube or B. yellow cube
+40,multi_object_facing,"Consider the real-world 3D locations and orientations of the objects. Which object is the piano facing towards, the blue pillow or the teapot?",,A,B,False,A. purple cube
+41,location_above,Consider the real-world 3D locations of the objects. Is the excavator directly underneath the green sign?,,B,B,True,B.
+42,multi_object_parallel,"Consider the real-world 3D orientations of the objects. What is the relationship between the orientations of the blue sign that says ""2"" and the graffiti on brown container, parallel of perpendicular to each other?",,B,B,True,B. perpendicular
+43,location_above,Consider the real-world 3D locations of the objects. Is the green sign directly above the silver car?,,A,B,False,A. yes
+44,height_higher,Consider the real-world 3D locations of the objects. Which object has a lower location?,,A,B,False,A. yellow cube
+45,multi_object_viewpoint_towards_object,Consider the real-world 3D locations and orientations of the objects. Which side of the dog is facing the landline?,,A,C,False,A. front
+46,multi_object_facing,"Consider the real-world 3D locations and orientations of the objects. Which object is the beach chair facing towards, the umbrella or the sea?",,A,B,False,A. green cube
+47,multi_object_parallel,"Consider the real-world 3D orientations of the objects. What is the relationship between the orientations of the train and the white van, parallel of perpendicular to each other?",,B,B,True,B. perpendicular
+48,multi_object_viewpoint_towards_object,Consider the real-world 3D locations and orientations of the objects. Which side of the white truck is facing the mini stop sign?,,A,B,False,A. front
+49,location_next_to,Consider the real-world 3D locations of the objects. Are the horse and the sea next to each other or far away from each other?,,A,A,True,A. next to each other
+50,location_above,Consider the real-world 3D locations of the objects. Is the fridge directly underneath the rick cooker?,,A,A,True,A.
+51,orientation_in_front_of,"Consider the real-world 3D locations and orientations of the objects. If I stand at the motorcycle's position facing where it is facing, is the cat in front of me or behind me?",,A,B,False,A. in front of
+52,multi_object_closer_to,"Consider the real-world 3D locations of the objects. Which is closer to the lamp, the bed or the wooden cabinet?",,A,A,True,A. green cube
+53,location_closer_to_camera,Consider the real-world 3D location of the objects. Which object is further away from the camera?,,B,B,True,B. yellow cube
+54,location_above,Consider the real-world 3D locations of the objects. Is the tennis net directly underneath the tennis ball?,,B,B,True,B.
+55,multi_object_viewpoint_towards_object,Consider the real-world 3D locations and orientations of the objects. Which side of the person in white is facing the trees?,,A,B,False,A. front
+56,location_next_to,Consider the real-world 3D locations of the objects. Are the woman and the blue umbrella next to each other or far away from each other?,,A,A,True,A. next to each other
+57,location_next_to,Consider the real-world 3D locations of the objects. Are the people and the airplane next to each other or far away from each other?,,A,A,True,A. next to each other
+58,multi_object_parallel,"Consider the real-world 3D orientations of the objects. What is the relationship between the orientations of the sign that says ""30 ST"" and the sign that says ""K ST"", parallel of perpendicular to each other?",,A,B,False,A. parallel
+59,multi_object_viewpoint_towards_object,Consider the real-world 3D locations and orientations of the objects. Which side of the zebra is facing the man?,,A,A,True,A. front
+60,multi_object_closer_to,"Consider the real-world 3D locations of the objects. Which is closer to the kid in dark blue, the truck or the umbrella?",,B,B,True,B. purple cube
+61,multi_object_facing,"Consider the real-world 3D locations and orientations of the objects. Which object is the clock facing towards, the parking meter or the ""cash for gold"" sign?",,B,A,False,B. yellow cube
+62,orientation_in_front_of,"Consider the real-world 3D locations and orientations of the objects. If I stand at the duck on the bench's position facing where it is facing, is the person in front of me or behind me?",,A,B,False,A. in front of
+63,location_next_to,Consider the real-world 3D locations of the objects. Are the truck and the traffic light next to each other or far away from each other?,,A,A,True,A. next to each other
+64,orientation_on_the_left,"Consider the real-world 3D locations and orientations of the objects. If I stand at the airplane's position facing where it is facing, is the bicycle on the left or right of me?",,A,A,True,A. on the left
+65,multi_object_parallel,"Consider the real-world 3D orientations of the objects. What is the relationship between the orientations of the toliets, parallel of perpendicular to each other?",,A,A,True,A. parallel
+66,orientation_on_the_left,"Consider the real-world 3D locations and orientations of the objects. If I stand at the tank's position facing where it is facing, is the airplane statue on the left or right of me?",,A,A,True,A. on the left
+67,height_higher,Consider the real-world 3D locations of the objects. Which object has a lower location?,,A,A,True,A. green cube
+68,location_next_to,Consider the real-world 3D locations of the objects. Are the grey bag and the boy next to each other or far away from each other?,,B,B,True,B. far away from each other
+69,multi_object_same_direction,"Consider the real-world 3D orientations of the objects. Are the boat and the airplane facing same or similar directions, or very different directions?",,A,B,False,A. same or similar directions
+70,multi_object_closer_to,"Consider the real-world 3D locations of the objects. Which is closer to the building, the crowds or the tree?",,B,A,False,B. purple cube
+71,multi_object_viewpoint_towards_object,"Consider the real-world 3D locations and orientations of the objects. Which side of the tennis player is facing the ""OPEL"" sign?",,C,C,True,C. back
+72,multi_object_same_direction,"Consider the real-world 3D orientations of the objects. Are the teddy bear in the image and the horse facing same or similar directions, or very different directions?",,A,B,False,A. same or similar directions
+73,location_above,Consider the real-world 3D locations of the objects. Is the tennis ball directly above the tennis player?,,A,B,False,A. yes
+74,multi_object_viewpoint_towards_object,Consider the real-world 3D locations and orientations of the objects. Which side of the giraffe is facing the person?,,A,C,False,A. front
+75,location_next_to,Consider the real-world 3D locations of the objects. Are the man and the child next to each other or far away from each other?,,A,A,True,A. next to each other
+76,orientation_viewpoint,Consider the real-world 3D locations and orientations of the objects. Which side of the bench is facing the camera?,,A,C,False,A. front
+77,multi_object_parallel,"Consider the real-world 3D orientations of the objects. What is the relationship between the orientations of the number ""28"" on the bus and the ""ANNE"" word on the bus, parallel of perpendicular to each other?",,A,A,True,A. parallel
+78,multi_object_closer_to,"Consider the real-world 3D locations of the objects. Which is closer to the tv, the wooden table or the orange chair?",,A,B,False,A. yellow cube or B. purple cube
+79,multi_object_same_direction,"Consider the real-world 3D orientations of the objects. Are the cyclist and the white suv facing same or similar directions, or very different directions?",,A,A,True,A. same or similar directions
+80,location_closer_to_camera,Consider the real-world 3D location of the objects. Which object is closer to the camera?,,A,A,True,A. green cube
+81,location_closer_to_camera,Consider the real-world 3D location of the objects. Which object is closer to the camera?,,B,B,True,B. yellow cube
+82,multi_object_facing,"Consider the real-world 3D locations and orientations of the objects. Which object is the TV facing towards, the long couch or the armchair?",,B,B,True,B. purple cube
+83,location_next_to,Consider the real-world 3D locations of the objects. Are the sofa and the lawn next to each other or far away from each other?,,A,A,True,A. next to each other
+84,multi_object_parallel,"Consider the real-world 3D orientations of the objects. What is the relationship between the orientations of the police car and the stop sign, parallel of perpendicular to each other?",,A,B,False,A. parallel
+85,location_closer_to_camera,Consider the real-world 3D location of the objects. Which object is further away from the camera?,,B,A,False,B. yellow cube
+86,location_above,Consider the real-world 3D locations of the objects. Is the pet crate directly above the suitcase?,,B,B,True,B.
+87,orientation_viewpoint,Consider the real-world 3D locations and orientations of the objects. Which side of the teddy bear is facing the camera?,,A,A,True,A. front
+88,multi_object_facing,"Consider the real-world 3D locations and orientations of the objects. Which object is the chair facing towards, the wooden desk or the TV?",,B,A,False,B. purple cube
+89,orientation_in_front_of,"Consider the real-world 3D locations and orientations of the objects. If I stand at the recreational vehicle's position facing where it is facing, is the dog in front of me or behind me?",,A,B,False,A
+90,location_closer_to_camera,Consider the real-world 3D location of the objects. Which object is further away from the camera?,,B,A,False,B. yellow cube
+91,location_above,Consider the real-world 3D locations of the objects. Is the tree directly above the bird?,,B,B,True,B.
+92,multi_object_closer_to,"Consider the real-world 3D locations of the objects. Which is closer to the white truck, the stop sign or the church?",,A,B,False,A. green cube
+93,orientation_on_the_left,"Consider the real-world 3D locations and orientations of the objects. If I stand at the fridge's position facing where it is facing, is the microwave on the left or right of me?",,B,A,False,B. on the right
+94,multi_object_closer_to,"Consider the real-world 3D locations of the objects. Which is closer to the dog, the red umbrella or the woods?",,B,A,False,B. purple cube
+95,location_next_to,Consider the real-world 3D locations of the objects. Are the clock tower and the bus next to each other or far away from each other?,,B,B,True,B. far away from each other
+96,orientation_on_the_left,"Consider the real-world 3D locations and orientations of the objects. If I stand at the car's position facing where it is facing, is the parking meter on the left or right of me?",,B,B,True,B. on the right
+97,multi_object_facing,"Consider the real-world 3D locations and orientations of the objects. Which object is the person facing towards, the coffee table or the tv?",,A,A,True,A. yellow cube
+98,orientation_in_front_of,"Consider the real-world 3D locations and orientations of the objects. If I stand at the no bicycle sign's position facing where it is facing, is the stop sign in front of me or behind me?",,A,A,True,A
+99,multi_object_facing,"Consider the real-world 3D locations and orientations of the objects. Which object is the woman facing towards, the computer screen or the flower?",,A,A,True,A. green cube
+100,location_next_to,Consider the real-world 3D locations of the objects. Are the bread and the cup next to each other or far away from each other?,,A,A,True,A. next to each other
+101,location_closer_to_camera,Consider the real-world 3D location of the objects. Which object is further away from the camera?,,B,B,True,B. green cube
+102,location_above,"Consider the real-world 3D locations of the objects. Is the black car directly underneath the ""ATM here"" sign?",,A,B,False,A.
+103,orientation_viewpoint,Consider the real-world 3D locations and orientations of the objects. Which side of the silver chair in the center is facing the camera?,,A,D,False,A. front
+104,orientation_on_the_left,"Consider the real-world 3D locations and orientations of the objects. If I stand at the horse with black tail's position facing where it is facing, is the bicycle on the left or right of me?",,B,A,False,B. on the right
+105,multi_object_facing,"Consider the real-world 3D locations and orientations of the objects. Which object is the man in blue shirt facing towards, the TV or the flower painting?",,B,A,False,B. purple cube
+106,location_next_to,Consider the real-world 3D locations of the objects. Are the bird and the white plastic container next to each other or far away from each other?,,B,B,True,B. far away from each other
+107,orientation_on_the_left,"Consider the real-world 3D locations and orientations of the objects. If I stand at the ambulance's position facing where it is facing, is the magazine stand on the left or right of me?",,B,B,True,B. on the right
+108,multi_object_same_direction,"Consider the real-world 3D orientations of the objects. Are the green toothbrush and the red toothbrush facing same or similar directions, or very different directions?",,B,B,True,B. very different directions
+109,location_closer_to_camera,Consider the real-world 3D location of the objects. Which object is further away from the camera?,,B,A,False,B. yellow cube
+110,orientation_in_front_of,"Consider the real-world 3D locations and orientations of the objects. If I stand at the chair's position facing where it is facing, is the bed in front of me or behind me?",,A,B,False,A
+111,multi_object_facing,"Consider the real-world 3D locations and orientations of the objects. Which object is the couch facing towards, the red chair or the fireplace?",,A,B,False,A. yellow cube
+112,multi_object_parallel,"Consider the real-world 3D orientations of the objects. What is the relationship between the orientations of the skateboard and the ramp, parallel of perpendicular to each other?",,A,B,False,A. parallel
+113,location_next_to,Consider the real-world 3D locations of the objects. Are the red bus and the street light next to each other or far away from each other?,,A,B,False,A. next to each other
+114,multi_object_closer_to,"Consider the real-world 3D locations of the objects. Which is closer to the desk, the bed or the fridge?",,A,A,True,A. green cube
+115,orientation_on_the_left,"Consider the real-world 3D locations and orientations of the objects. If I stand at the cat's position facing where it is facing, is the dog on the left or right of me?",,B,B,True,B. on the right
+116,multi_object_facing,"Consider the real-world 3D locations and orientations of the objects. Which object is the tv facing towards, the couch or the megazine?",,A,B,False,A. yellow cube
+117,multi_object_viewpoint_towards_object,Consider the real-world 3D locations and orientations of the objects. Which side of the white car is facing the stop sign?,,A,A,True,A. front
+118,location_closer_to_camera,Consider the real-world 3D location of the objects. Which object is closer to the camera?,,A,A,True,A. green cube
+119,location_closer_to_camera,Consider the real-world 3D location of the objects. Which object is closer to the camera?,,A,A,True,A. green cube
+120,orientation_in_front_of,"Consider the real-world 3D locations and orientations of the objects. If I stand at the fridge's position facing where it is facing, is the trash can in front of me or behind me?",,A,A,True,A. in front of
+121,orientation_on_the_left,"Consider the real-world 3D locations and orientations of the objects. If I stand at the woman in purple cloth's position facing where it is facing, is the kitchen paper towel on the left or right of me?",,A,A,True,A. on the left
+122,location_next_to,Consider the real-world 3D locations of the objects. Are the dog and the red car next to each other or far away from each other?,,A,B,False,A. next to each other
+123,orientation_viewpoint,Consider the real-world 3D locations and orientations of the objects. Which side of the skier is facing the camera?,,A,B,False,A. front
+124,multi_object_facing,"Consider the real-world 3D locations and orientations of the objects. Which object is the monitor facing towards, the window or the dining table?",,B,B,True,B. purple cube
+125,multi_object_viewpoint_towards_object,Consider the real-world 3D locations and orientations of the objects. Which side of the cat is facing the air conditioner?,,A,C,False,A. front
+126,height_higher,Consider the real-world 3D locations of the objects. Which object has a lower location?,,A,B,False,A. green cube
+127,location_closer_to_camera,Consider the real-world 3D location of the objects. Which object is closer to the camera?,,B,A,False,B. yellow cube
+128,orientation_in_front_of,"Consider the real-world 3D locations and orientations of the objects. If I stand at the dog's position facing where it is facing, is the white board in front of me or behind me?",,A,A,True,A. in front of
+129,multi_object_closer_to,"Consider the real-world 3D locations of the objects. Which is closer to the woman with red hair, the lady in blue or the window?",,A,A,True,A. yellow cube or B. purple cube
+130,orientation_viewpoint,Consider the real-world 3D locations and orientations of the objects. Which side of the referee is facing the camera?,,A,C,False,A. front
+131,location_above,Consider the real-world 3D locations of the objects. Is the giraffes directly underneath the sunshade?,,A,B,False,A. yes
+132,multi_object_same_direction,"Consider the real-world 3D orientations of the objects. Are the bicycle and the motorcycle facing same or similar directions, or very different directions?",,B,B,True,B. very different directions
+133,height_higher,Consider the real-world 3D locations of the objects. Which object has a higher location?,,B,A,False,B. yellow cube
+134,orientation_on_the_left,"Consider the real-world 3D locations and orientations of the objects. If I stand at the dog's position facing where it is facing, is the spare tire on the left or right of me?",,A,A,True,A. on the left
+135,multi_object_parallel,"Consider the real-world 3D orientations of the objects. What is the relationship between the orientations of the red car and the street sign that says ""Lakeside AV"", parallel of perpendicular to each other?",,B,B,True,B. perpendicular
+136,location_closer_to_camera,Consider the real-world 3D location of the objects. Which object is further away from the camera?,,B,A,False,B. yellow cube
+137,multi_object_parallel,"Consider the real-world 3D orientations of the objects. What is the relationship between the orientations of the white advertisement board and the bus, parallel of perpendicular to each other?",,B,A,False,B. perpendicular
+138,multi_object_facing,"Consider the real-world 3D locations and orientations of the objects. Which object is the person facing towards, the black laptop or the laptop on the table?",,B,A,False,B. purple cube
+139,multi_object_same_direction,"Consider the real-world 3D orientations of the objects. Are the motorcycles all facing same or similar directions, or very different directions?",,A,A,True,A. same or similar directions
+140,multi_object_viewpoint_towards_object,Consider the real-world 3D locations and orientations of the objects. Which side of the boat is facing the elephant?,,A,B,False,A. front
+141,height_higher,Consider the real-world 3D locations of the objects. Which object has a lower location?,,B,B,True,B. green cube
+142,multi_object_parallel,"Consider the real-world 3D orientations of the objects. What is the relationship between the orientations of the garage door and the silver car, parallel of perpendicular to each other?",,A,A,True,A. parallel
+143,orientation_on_the_left,"Consider the real-world 3D locations and orientations of the objects. If I stand at the red car's position facing where it is facing, is the dart board on the left or right of me?",,A,B,False,A. on the left
+144,orientation_viewpoint,Consider the real-world 3D locations and orientations of the objects. Which side of the cyclist wearing a black shirt and sunglasses is facing the camera?,,A,A,True,A. front
+145,multi_object_same_direction,"Consider the real-world 3D orientations of the objects. Are the bus and the taxi facing same or similar directions, or very different directions?",,A,B,False,A. same or similar directions
+146,orientation_in_front_of,"Consider the real-world 3D locations and orientations of the objects. If I stand at the clock's position facing where it is facing, is the man in front of me or behind me?",,A,A,True,A
+147,multi_object_parallel,"Consider the real-world 3D orientations of the objects. What is the relationship between the orientations of the bus on the left and the bus on the right, parallel of perpendicular to each other?",,A,A,True,A. parallel
+148,orientation_in_front_of,"Consider the real-world 3D locations and orientations of the objects. If I stand at the clock's position facing where it is facing, is the man in front of me or behind me?",,A,A,True,A
+149,orientation_on_the_left,"Consider the real-world 3D locations and orientations of the objects. If I stand at the zebra's position facing where it is facing, is the trunk on the left or right of me?",,B,B,True,B. on the right
+150,multi_object_facing,"Consider the real-world 3D locations and orientations of the objects. Which object is the kid facing towards, the person in green or the yellow pillars?",,B,B,True,B. yellow cube
+151,multi_object_same_direction,"Consider the real-world 3D orientations of the objects. Are the yellow sign and the brown menu board facing same or similar directions, or very different directions?",,B,B,True,B. very different directions
+152,height_higher,Consider the real-world 3D locations of the objects. Which object has a lower location?,,B,B,True,B. yellow cube
+153,orientation_in_front_of,"Consider the real-world 3D locations and orientations of the objects. If I stand at the dog's position facing where it is facing, is the chair in front of me or behind me?",,A,B,False,A. in front of
+154,height_higher,Consider the real-world 3D locations of the objects. Which object has a lower location?,,A,B,False,A. green cube
+155,multi_object_closer_to,"Consider the real-world 3D locations of the objects. Which is closer to the person, the dog or the cup?",,A,A,True,A. green cube
+156,height_higher,Consider the real-world 3D locations of the objects. Which object has a higher location?,,A,A,True,A. green cube
+157,height_higher,Consider the real-world 3D locations of the objects. Which object has a higher location?,,A,B,False,A. green cube
+158,orientation_viewpoint,Consider the real-world 3D locations and orientations of the objects. Which side of the bench is facing the camera?,,A,C,False,A. front
+159,height_higher,Consider the real-world 3D locations of the objects. Which object has a higher location?,,A,B,False,A. green cube
+160,location_above,Consider the real-world 3D locations of the objects. Is the pedestrian traffic light directly underneath the Apple sign?,,B,B,True,B.
+161,orientation_viewpoint,Consider the real-world 3D locations and orientations of the objects. Which side of the green truck is facing the camera?,,A,A,True,A. front
+162,multi_object_viewpoint_towards_object,Consider the real-world 3D locations and orientations of the objects. Which side of the man in white is facing the computer screen?,,A,D,False,A. front
+163,location_next_to,Consider the real-world 3D locations of the objects. Are the plant and the sink next to each other or far away from each other?,,A,A,True,A. next to each other
+164,multi_object_same_direction,"Consider the real-world 3D orientations of the objects. Are the white van and the train facing same or similar directions, or very different directions?",,B,A,False,B
+165,multi_object_closer_to,"Consider the real-world 3D locations of the objects. Which is closer to the statue, the green rubbish bin or the street information board?",,A,B,False,A. yellow cube or B. purple cube
+166,height_higher,Consider the real-world 3D locations of the objects. Which object has a higher location?,,A,A,True,A. green cube
+167,multi_object_facing,"Consider the real-world 3D locations and orientations of the objects. Which object is the faucet facing towards, the kitchen hood or the fridge?",,B,A,False,B. green cube
+168,orientation_in_front_of,"Consider the real-world 3D locations and orientations of the objects. If I stand at the Route.43 bus's position facing where it is facing, is the blue train in front of me or behind me?",,,B,False,The yellow cube is in front of you.
+169,orientation_in_front_of,"Consider the real-world 3D locations and orientations of the objects. If I stand at the wooden doors's position facing where it is facing, is the cow in front of me or behind me?",,A,A,True,A
+170,multi_object_parallel,"Consider the real-world 3D orientations of the objects. What is the relationship between the orientations of the umbrella and the cat, parallel of perpendicular to each other?",,A,A,True,A. parallel
+171,orientation_on_the_left,"Consider the real-world 3D locations and orientations of the objects. If I stand at the man's position facing where it is facing, is the skateboard on the left or right of me?",,B,B,True,B. on the right
+172,orientation_viewpoint,Consider the real-world 3D locations and orientations of the objects. Which side of the teddy bear is facing the camera?,,C,D,False,C. back
+173,multi_object_facing,"Consider the real-world 3D locations and orientations of the objects. Which object is the tv facing towards, the curtain or the bed?",,A,B,False,A. yellow cube
+174,multi_object_same_direction,"Consider the real-world 3D orientations of the objects. Are the woman with red umbrella and the women with black and white umbrella facing same or similar directions, or very different directions?",,A,B,False,A. same or similar directions
+175,multi_object_viewpoint_towards_object,Consider the real-world 3D locations and orientations of the objects. Which side of the skier in red is facing the skier in blue?,,A,B,False,A. front
+176,multi_object_same_direction,"Consider the real-world 3D orientations of the objects. Are the truck and the taxi facing same or similar directions, or very different directions?",,B,A,False,B. very different directions
+177,height_higher,Consider the real-world 3D locations of the objects. Which object has a lower location?,,A,B,False,A. green cube
+178,location_next_to,Consider the real-world 3D locations of the objects. Are the bench and the restaurant next to each other or far away from each other?,,A,B,False,A. next to each other
+179,multi_object_same_direction,"Consider the real-world 3D orientations of the objects. Are the person in red cloth and the horse outside the truck facing same or similar directions, or very different directions?",,A,A,True,A. same or similar directions

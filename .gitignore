@@ -219,3 +219,6 @@ train/sft/4b_lora_model/
 train/sft/training_checkpoints/
 train/sft/wandb/
 train/sft/unsloth_compiled_cache/
+
+unsloth_compiled_cache/
+wandb/

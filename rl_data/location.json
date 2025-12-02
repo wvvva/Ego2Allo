@@ -47,7 +47,7 @@
     },
     "question": "Which object is closer to the camera, the yellow one or the purple one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_0/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_0/visual_prompt.png"
   },
   {
     "camera": {
@@ -97,7 +97,7 @@
     },
     "question": "Which box is above the other, the blue one or the gray one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_1/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_1/visual_prompt.png"
   },
   {
     "camera": {
@@ -147,7 +147,7 @@
     },
     "question": "Which box is above the other, the blue one or the brown one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_2/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_2/visual_prompt.png"
   },
   {
     "camera": {
@@ -197,7 +197,7 @@
     },
     "question": "Which box is above the other, the purple one or the yellow one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_3/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_3/visual_prompt.png"
   },
   {
     "camera": {
@@ -247,7 +247,7 @@
     },
     "question": "Which box is above the other, the green one or the orange one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_4/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_4/visual_prompt.png"
   },
   {
     "camera": {
@@ -297,7 +297,7 @@
     },
     "question": "Which object is closer to the camera, the blue one or the orange one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_5/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_5/visual_prompt.png"
   },
   {
     "camera": {
@@ -347,7 +347,7 @@
     },
     "question": "Which box is above the other, the orange one or the gray one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_6/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_6/visual_prompt.png"
   },
   {
     "camera": {
@@ -397,7 +397,7 @@
     },
     "question": "Which box is above the other, the green one or the gray one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_7/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_7/visual_prompt.png"
   },
   {
     "camera": {
@@ -447,7 +447,7 @@
     },
     "question": "Which box is above the other, the orange one or the purple one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_8/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_8/visual_prompt.png"
   },
   {
     "camera": {
@@ -497,7 +497,7 @@
     },
     "question": "Which object is closer to the camera, the gray one or the blue one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_9/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_9/visual_prompt.png"
   },
   {
     "camera": {
@@ -547,7 +547,7 @@
     },
     "question": "Which object is closer to the camera, the brown one or the gray one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_10/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_10/visual_prompt.png"
   },
   {
     "camera": {
@@ -597,7 +597,7 @@
     },
     "question": "Which object is closer to the camera, the green one or the orange one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_11/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_11/visual_prompt.png"
   },
   {
     "camera": {
@@ -647,7 +647,7 @@
     },
     "question": "Which object is closer to the camera, the brown one or the purple one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_12/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_12/visual_prompt.png"
   },
   {
     "camera": {
@@ -697,7 +697,7 @@
     },
     "question": "Which object is closer to the camera, the blue one or the yellow one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_13/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_13/visual_prompt.png"
   },
   {
     "camera": {
@@ -747,7 +747,7 @@
     },
     "question": "Which object is closer to the camera, the gray one or the yellow one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_14/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_14/visual_prompt.png"
   },
   {
     "camera": {
@@ -797,7 +797,7 @@
     },
     "question": "Which object is closer to the camera, the brown one or the purple one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_15/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_15/visual_prompt.png"
   },
   {
     "camera": {
@@ -847,7 +847,7 @@
     },
     "question": "Which object is closer to the camera, the brown one or the green one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_16/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_16/visual_prompt.png"
   },
   {
     "camera": {
@@ -897,7 +897,7 @@
     },
     "question": "Which object is closer to the camera, the orange one or the blue one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_17/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_17/visual_prompt.png"
   },
   {
     "camera": {
@@ -947,7 +947,7 @@
     },
     "question": "Which box is above the other, the orange one or the gray one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_18/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_18/visual_prompt.png"
   },
   {
     "camera": {
@@ -997,7 +997,7 @@
     },
     "question": "Which object is closer to the camera, the gray one or the blue one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_19/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_19/visual_prompt.png"
   },
   {
     "camera": {
@@ -1047,7 +1047,7 @@
     },
     "question": "Which object is closer to the camera, the green one or the purple one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_20/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_20/visual_prompt.png"
   },
   {
     "camera": {
@@ -1097,7 +1097,7 @@
     },
     "question": "Which box is above the other, the green one or the brown one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_21/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_21/visual_prompt.png"
   },
   {
     "camera": {
@@ -1147,7 +1147,7 @@
     },
     "question": "Which box is above the other, the gray one or the brown one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_22/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_22/visual_prompt.png"
   },
   {
     "camera": {
@@ -1197,7 +1197,7 @@
     },
     "question": "Which box is above the other, the brown one or the orange one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_23/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_23/visual_prompt.png"
   },
   {
     "camera": {
@@ -1247,7 +1247,7 @@
     },
     "question": "Which object is closer to the camera, the orange one or the yellow one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_24/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_24/visual_prompt.png"
   },
   {
     "camera": {
@@ -1297,7 +1297,7 @@
     },
     "question": "Which object is closer to the camera, the gray one or the blue one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_25/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_25/visual_prompt.png"
   },
   {
     "camera": {
@@ -1347,7 +1347,7 @@
     },
     "question": "Which box is above the other, the purple one or the brown one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_26/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_26/visual_prompt.png"
   },
   {
     "camera": {
@@ -1397,7 +1397,7 @@
     },
     "question": "Which object is closer to the camera, the blue one or the gray one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_27/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_27/visual_prompt.png"
   },
   {
     "camera": {
@@ -1447,7 +1447,7 @@
     },
     "question": "Which object is closer to the camera, the yellow one or the blue one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_28/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_28/visual_prompt.png"
   },
   {
     "camera": {
@@ -1497,7 +1497,7 @@
     },
     "question": "Which box is above the other, the brown one or the gray one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_29/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_29/visual_prompt.png"
   },
   {
     "camera": {
@@ -1547,7 +1547,7 @@
     },
     "question": "Which object is closer to the camera, the orange one or the blue one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_30/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_30/visual_prompt.png"
   },
   {
     "camera": {
@@ -1597,7 +1597,7 @@
     },
     "question": "Which object is closer to the camera, the purple one or the blue one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_31/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_31/visual_prompt.png"
   },
   {
     "camera": {
@@ -1647,7 +1647,7 @@
     },
     "question": "Which box is above the other, the orange one or the green one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_32/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_32/visual_prompt.png"
   },
   {
     "camera": {
@@ -1697,7 +1697,7 @@
     },
     "question": "Which box is above the other, the gray one or the orange one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_33/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_33/visual_prompt.png"
   },
   {
     "camera": {
@@ -1747,7 +1747,7 @@
     },
     "question": "Which box is above the other, the blue one or the brown one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_34/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_34/visual_prompt.png"
   },
   {
     "camera": {
@@ -1797,7 +1797,7 @@
     },
     "question": "Which object is closer to the camera, the blue one or the orange one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_35/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_35/visual_prompt.png"
   },
   {
     "camera": {
@@ -1847,7 +1847,7 @@
     },
     "question": "Which object is closer to the camera, the gray one or the brown one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_36/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_36/visual_prompt.png"
   },
   {
     "camera": {
@@ -1897,7 +1897,7 @@
     },
     "question": "Which object is closer to the camera, the gray one or the green one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_37/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_37/visual_prompt.png"
   },
   {
     "camera": {
@@ -1947,7 +1947,7 @@
     },
     "question": "Which box is above the other, the brown one or the blue one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_38/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_38/visual_prompt.png"
   },
   {
     "camera": {
@@ -1997,7 +1997,7 @@
     },
     "question": "Which object is closer to the camera, the yellow one or the orange one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_39/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_39/visual_prompt.png"
   },
   {
     "camera": {
@@ -2047,7 +2047,7 @@
     },
     "question": "Which box is above the other, the blue one or the yellow one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_40/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_40/visual_prompt.png"
   },
   {
     "camera": {
@@ -2097,7 +2097,7 @@
     },
     "question": "Which object is closer to the camera, the gray one or the green one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_41/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_41/visual_prompt.png"
   },
   {
     "camera": {
@@ -2147,7 +2147,7 @@
     },
     "question": "Which object is closer to the camera, the blue one or the orange one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_42/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_42/visual_prompt.png"
   },
   {
     "camera": {
@@ -2197,7 +2197,7 @@
     },
     "question": "Which box is above the other, the blue one or the brown one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_43/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_43/visual_prompt.png"
   },
   {
     "camera": {
@@ -2247,7 +2247,7 @@
     },
     "question": "Which box is above the other, the yellow one or the purple one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_44/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_44/visual_prompt.png"
   },
   {
     "camera": {
@@ -2297,7 +2297,7 @@
     },
     "question": "Which object is closer to the camera, the orange one or the gray one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_45/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_45/visual_prompt.png"
   },
   {
     "camera": {
@@ -2347,7 +2347,7 @@
     },
     "question": "Which object is closer to the camera, the brown one or the gray one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_46/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_46/visual_prompt.png"
   },
   {
     "camera": {
@@ -2397,7 +2397,7 @@
     },
     "question": "Which object is closer to the camera, the green one or the yellow one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_47/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_47/visual_prompt.png"
   },
   {
     "camera": {
@@ -2447,7 +2447,7 @@
     },
     "question": "Which object is closer to the camera, the orange one or the yellow one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_48/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_48/visual_prompt.png"
   },
   {
     "camera": {
@@ -2497,7 +2497,7 @@
     },
     "question": "Which box is above the other, the orange one or the gray one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_49/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_49/visual_prompt.png"
   },
   {
     "camera": {
@@ -2547,7 +2547,7 @@
     },
     "question": "Which object is closer to the camera, the yellow one or the gray one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_50/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_50/visual_prompt.png"
   },
   {
     "camera": {
@@ -2597,7 +2597,7 @@
     },
     "question": "Which object is closer to the camera, the yellow one or the brown one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_51/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_51/visual_prompt.png"
   },
   {
     "camera": {
@@ -2647,7 +2647,7 @@
     },
     "question": "Which box is above the other, the green one or the gray one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_52/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_52/visual_prompt.png"
   },
   {
     "camera": {
@@ -2697,7 +2697,7 @@
     },
     "question": "Which box is above the other, the gray one or the yellow one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_53/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_53/visual_prompt.png"
   },
   {
     "camera": {
@@ -2747,7 +2747,7 @@
     },
     "question": "Which object is closer to the camera, the purple one or the brown one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_54/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_54/visual_prompt.png"
   },
   {
     "camera": {
@@ -2797,7 +2797,7 @@
     },
     "question": "Which object is closer to the camera, the green one or the orange one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_55/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_55/visual_prompt.png"
   },
   {
     "camera": {
@@ -2847,7 +2847,7 @@
     },
     "question": "Which object is closer to the camera, the purple one or the blue one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_56/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_56/visual_prompt.png"
   },
   {
     "camera": {
@@ -2897,7 +2897,7 @@
     },
     "question": "Which object is closer to the camera, the gray one or the green one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_57/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_57/visual_prompt.png"
   },
   {
     "camera": {
@@ -2947,7 +2947,7 @@
     },
     "question": "Which object is closer to the camera, the purple one or the blue one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_58/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_58/visual_prompt.png"
   },
   {
     "camera": {
@@ -2997,7 +2997,7 @@
     },
     "question": "Which object is closer to the camera, the gray one or the green one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_59/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_59/visual_prompt.png"
   },
   {
     "camera": {
@@ -3047,7 +3047,7 @@
     },
     "question": "Which object is closer to the camera, the green one or the blue one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_60/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_60/visual_prompt.png"
   },
   {
     "camera": {
@@ -3097,7 +3097,7 @@
     },
     "question": "Which box is above the other, the brown one or the orange one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_61/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_61/visual_prompt.png"
   },
   {
     "camera": {
@@ -3147,7 +3147,7 @@
     },
     "question": "Which box is above the other, the purple one or the yellow one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_62/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_62/visual_prompt.png"
   },
   {
     "camera": {
@@ -3197,7 +3197,7 @@
     },
     "question": "Which box is above the other, the purple one or the blue one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_63/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_63/visual_prompt.png"
   },
   {
     "camera": {
@@ -3247,7 +3247,7 @@
     },
     "question": "Which object is closer to the camera, the blue one or the gray one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_64/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_64/visual_prompt.png"
   },
   {
     "camera": {
@@ -3297,7 +3297,7 @@
     },
     "question": "Which box is above the other, the gray one or the brown one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_65/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_65/visual_prompt.png"
   },
   {
     "camera": {
@@ -3347,7 +3347,7 @@
     },
     "question": "Which object is closer to the camera, the blue one or the orange one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_66/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_66/visual_prompt.png"
   },
   {
     "camera": {
@@ -3397,7 +3397,7 @@
     },
     "question": "Which object is closer to the camera, the gray one or the brown one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_67/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_67/visual_prompt.png"
   },
   {
     "camera": {
@@ -3447,7 +3447,7 @@
     },
     "question": "Which box is above the other, the orange one or the gray one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_68/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_68/visual_prompt.png"
   },
   {
     "camera": {
@@ -3497,7 +3497,7 @@
     },
     "question": "Which box is above the other, the yellow one or the purple one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_69/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_69/visual_prompt.png"
   },
   {
     "camera": {
@@ -3547,7 +3547,7 @@
     },
     "question": "Which box is above the other, the yellow one or the green one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_70/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_70/visual_prompt.png"
   },
   {
     "camera": {
@@ -3597,7 +3597,7 @@
     },
     "question": "Which box is above the other, the orange one or the blue one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_71/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_71/visual_prompt.png"
   },
   {
     "camera": {
@@ -3647,7 +3647,7 @@
     },
     "question": "Which box is above the other, the purple one or the green one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_72/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_72/visual_prompt.png"
   },
   {
     "camera": {
@@ -3697,7 +3697,7 @@
     },
     "question": "Which object is closer to the camera, the blue one or the green one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_73/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_73/visual_prompt.png"
   },
   {
     "camera": {
@@ -3747,7 +3747,7 @@
     },
     "question": "Which object is closer to the camera, the green one or the orange one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_74/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_74/visual_prompt.png"
   },
   {
     "camera": {
@@ -3797,7 +3797,7 @@
     },
     "question": "Which object is closer to the camera, the yellow one or the blue one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_75/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_75/visual_prompt.png"
   },
   {
     "camera": {
@@ -3847,7 +3847,7 @@
     },
     "question": "Which box is above the other, the yellow one or the blue one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_76/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_76/visual_prompt.png"
   },
   {
     "camera": {
@@ -3897,7 +3897,7 @@
     },
     "question": "Which box is above the other, the green one or the purple one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_77/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_77/visual_prompt.png"
   },
   {
     "camera": {
@@ -3947,7 +3947,7 @@
     },
     "question": "Which box is above the other, the purple one or the gray one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_78/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_78/visual_prompt.png"
   },
   {
     "camera": {
@@ -3997,7 +3997,7 @@
     },
     "question": "Which box is above the other, the blue one or the purple one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_79/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_79/visual_prompt.png"
   },
   {
     "camera": {
@@ -4047,7 +4047,7 @@
     },
     "question": "Which object is closer to the camera, the purple one or the yellow one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_80/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_80/visual_prompt.png"
   },
   {
     "camera": {
@@ -4097,7 +4097,7 @@
     },
     "question": "Which box is above the other, the gray one or the purple one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_81/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_81/visual_prompt.png"
   },
   {
     "camera": {
@@ -4147,7 +4147,7 @@
     },
     "question": "Which box is above the other, the green one or the purple one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_82/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_82/visual_prompt.png"
   },
   {
     "camera": {
@@ -4197,7 +4197,7 @@
     },
     "question": "Which box is above the other, the green one or the brown one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_83/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_83/visual_prompt.png"
   },
   {
     "camera": {
@@ -4247,7 +4247,7 @@
     },
     "question": "Which object is closer to the camera, the brown one or the purple one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_84/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_84/visual_prompt.png"
   },
   {
     "camera": {
@@ -4297,7 +4297,7 @@
     },
     "question": "Which object is closer to the camera, the blue one or the yellow one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_85/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_85/visual_prompt.png"
   },
   {
     "camera": {
@@ -4347,7 +4347,7 @@
     },
     "question": "Which box is above the other, the gray one or the brown one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_86/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_86/visual_prompt.png"
   },
   {
     "camera": {
@@ -4397,7 +4397,7 @@
     },
     "question": "Which box is above the other, the purple one or the yellow one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_87/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_87/visual_prompt.png"
   },
   {
     "camera": {
@@ -4447,7 +4447,7 @@
     },
     "question": "Which object is closer to the camera, the orange one or the blue one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_88/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_88/visual_prompt.png"
   },
   {
     "camera": {
@@ -4497,7 +4497,7 @@
     },
     "question": "Which object is closer to the camera, the brown one or the blue one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_89/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_89/visual_prompt.png"
   },
   {
     "camera": {
@@ -4547,7 +4547,7 @@
     },
     "question": "Which box is above the other, the blue one or the brown one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_90/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_90/visual_prompt.png"
   },
   {
     "camera": {
@@ -4597,7 +4597,7 @@
     },
     "question": "Which box is above the other, the brown one or the gray one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_91/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_91/visual_prompt.png"
   },
   {
     "camera": {
@@ -4647,7 +4647,7 @@
     },
     "question": "Which object is closer to the camera, the blue one or the gray one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_92/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_92/visual_prompt.png"
   },
   {
     "camera": {
@@ -4697,7 +4697,7 @@
     },
     "question": "Which box is above the other, the gray one or the orange one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_93/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_93/visual_prompt.png"
   },
   {
     "camera": {
@@ -4747,7 +4747,7 @@
     },
     "question": "Which box is above the other, the green one or the brown one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_94/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_94/visual_prompt.png"
   },
   {
     "camera": {
@@ -4797,7 +4797,7 @@
     },
     "question": "Which object is closer to the camera, the purple one or the yellow one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_95/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_95/visual_prompt.png"
   },
   {
     "camera": {
@@ -4847,7 +4847,7 @@
     },
     "question": "Which object is closer to the camera, the gray one or the yellow one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_96/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_96/visual_prompt.png"
   },
   {
     "camera": {
@@ -4897,7 +4897,7 @@
     },
     "question": "Which box is above the other, the brown one or the orange one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_97/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_97/visual_prompt.png"
   },
   {
     "camera": {
@@ -4947,7 +4947,7 @@
     },
     "question": "Which object is closer to the camera, the yellow one or the green one?",
     "answer": "B",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_98/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_98/visual_prompt.png"
   },
   {
     "camera": {
@@ -4997,6 +4997,6 @@
     },
     "question": "Which object is closer to the camera, the green one or the brown one?",
     "answer": "A",
-    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/loaction/scene_99/visual_prompt.png"
+    "img": "/ocean/projects/cis250208p/shared/datasets/synthetic/location/scene_99/visual_prompt.png"
   }
 ]

@@ -116,6 +116,7 @@ class APCRunner:
         pred_letter = match.group(1) if match else None
 
         print("correctenss: ", pred_letter == correct)
+        print("correctenss: ", correct)
 
         if verbose:
             print(len(conv_history))

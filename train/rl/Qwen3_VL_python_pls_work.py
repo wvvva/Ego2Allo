@@ -79,7 +79,7 @@ def load_3dsrbench_for_dpo(json_path):
 max_seq_length = 2048
 
 model, tokenizer = FastLanguageModel.from_pretrained(
-    model_name="Qwen/Qwen2.5-3B-Instruct",
+    model_name="Qwen/Qwen2.5-VL-3B-Instruct",
     max_seq_length=1024,
     dtype="float16",          # REQUIRED (not torch.float16)
     load_in_4bit=False,       # or True if you want massive VRAM savings
@@ -95,7 +95,7 @@ model = FastLanguageModel.get_peft_model(
 # -----------------------------------------------
 # 3. Prepare your dataset for DPO
 # -----------------------------------------------
-json_path = "/jet/home/vwei/Ego2Allo/rl_data/orien.json"
+json_path = "/ocean/projects/cis250208p/vwei/Ego2Allo/rl_data/orien.json"
 train_dataset = load_3dsrbench_for_dpo(json_path)
 
 # -----------------------------------------------
@@ -104,7 +104,7 @@ train_dataset = load_3dsrbench_for_dpo(json_path)
 dpo_trainer = DPOTrainer(
     model = model,
     ref_model = None,      # reference model is auto-cloned inside trainer
-    args = DPOConfig(   output_dir="/ocean/projects/cis250208p/vwei/3b_DPO",
+    args = DPOConfig(   output_dir="/ocean/projects/cis250208p/shared/3b_DPO",
                         bf16 = False,
                         fp16 = True,
                         gradient_accumulation_steps=1,
@@ -124,9 +124,17 @@ dpo_trainer = DPOTrainer(
 )
 
 dpo_trainer.train()
+merged = model.merge_and_unload()
 
-model = model.merge_and_unload()
-model.save_pretrained("/ocean/projects/cis250208p/vwei/qwen_3b_dpo_merged")
-tokenizer.save_pretrained("/ocean/projects/cis250208p/vwei/qwen_3b_dpo_merged")
+def drop_quant_config(cfg):
+    if hasattr(cfg, "quantization_config"):
+        cfg.__dict__.pop("quantization_config", None)
 
+drop_quant_config(merged.config)
+text_cfg = getattr(merged.config, "text_config", None)
+if text_cfg is not None:
+    drop_quant_config(text_cfg)
+
+merged.save_pretrained("/ocean/projects/cis250208p/shared/qwen_3b_grpo_merged")
+tokenizer.save_pretrained("/ocean/projects/cis250208p/shared/qwen_3b_grpo_merged")
 

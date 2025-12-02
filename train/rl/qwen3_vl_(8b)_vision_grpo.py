@@ -1,3 +1,4 @@
+import logging
 import os
 
 os.environ["ACCELERATE_DISABLE_FP16_GRAD_SCALER"] = "true"
@@ -8,31 +9,73 @@ import re
 from typing import List, Optional
 
 import torch
-from datasets import Dataset
+from datasets import Dataset, concatenate_datasets
 from PIL import Image
+from glob import glob
 
 from trl import GRPOConfig, GRPOTrainer
 from unsloth import FastVisionModel
 from transformers import TrainerCallback
 
-MODEL_NAME = "unsloth/Qwen3-VL-8B-Instruct-unsloth-bnb-4bit"
-JSON_PATH = "/jet/home/vwei/Ego2Allo/rl_data/orien.json"
-MAX_SEQ_LENGTH = 4096
-IMAGE_RESOLUTION = (512, 512)
+MODEL_NAME = "Qwen/Qwen3-VL-4B-Instruct"
+JSON_PATH = "/ocean/projects/cis250208p/vwei/Ego2Allo/rl_data/*"
+MAX_SEQ_LENGTH = 2048
+IMAGE_RESOLUTION = (168, 168)
 USE_WANDB = os.getenv("USE_WANDB", "1").lower() not in {"0", "false"}
 WANDB_PROJECT = os.getenv("WANDB_PROJECT", "ego2allo-grpo")
 WANDB_RUN_NAME = os.getenv("WANDB_RUN_NAME", "qwen3vl_grpo")
+
+
+logger = logging.getLogger(__name__)
+
+
+def _env_number(name: str, default, cast=int):
+    raw_value = os.getenv(name)
+    if raw_value is None:
+        return default
+    try:
+        return cast(raw_value)
+    except ValueError:
+        logger.warning("Invalid value %r supplied for %s; falling back to %s.", raw_value, name, default)
+        return default
+
+
+PER_DEVICE_BATCH_SIZE = _env_number("GRPO_PER_DEVICE_BATCH_SIZE", 1, int)
+GRAD_ACCUM_STEPS = _env_number("GRPO_GRAD_ACCUMULATION_STEPS", 2, int)
+NUM_GENERATIONS = _env_number("GRPO_NUM_GENERATIONS",2, int)
+MAX_PROMPT_LEN = _env_number("GRPO_MAX_PROMPT_LENGTH", 512, int)
+MAX_COMPLETION_LEN = _env_number("GRPO_MAX_COMPLETION_LENGTH", 268, int)
+GEN_TEMPERATURE = float(os.getenv("GRPO_TEMPERATURE", "0.3"))
+GEN_TOP_P = float(os.getenv("GRPO_TOP_P", "0.8"))
+GEN_REPEAT_PENALTY = float(os.getenv("GRPO_REPETITION_PENALTY", "1.05"))
+GEN_NUM_BEAMS = _env_number("GRPO_NUM_BEAMS", 1, int)
+GEN_DO_SAMPLE = os.getenv("GRPO_DO_SAMPLE", "1").lower() not in {"0", "false"}
 
 REASONING_START = "<REASONING>"
 REASONING_END = "</REASONING>"
 SOLUTION_START = "<SOLUTION>"
 SOLUTION_END = "</SOLUTION>"
 
+
+def ensure_text(value) -> str:
+    if value is None:
+        return ""
+    if isinstance(value, str):
+        return value
+    if isinstance(value, (list, tuple)):
+        parts = []
+        for part in value:
+            text = ensure_text(part).strip()
+            if text:
+                parts.append(text)
+        return " ".join(parts)
+    return str(value)
+
 model, tokenizer = FastVisionModel.from_pretrained(
     model_name=MODEL_NAME,
     max_seq_length=MAX_SEQ_LENGTH,
     dtype=torch.float16,
-    load_in_4bit=True,
+    load_in_4bit=False,
     fast_inference=False,
     gpu_memory_utilization=0.8,
 )
@@ -42,15 +85,25 @@ model = FastVisionModel.get_peft_model(
     finetune_vision_layers=False,
     finetune_language_layers=True,
     finetune_attention_modules=True,
-    finetune_mlp_modules=True,
+    finetune_mlp_modules=False,
     r=16,
     lora_alpha=16,
     lora_dropout=0.0,
     bias="none",
     random_state=3407,
     use_rslora=False,
-    use_gradient_checkpointing="unsloth",
+    use_gradient_checkpointing=False,
 )
+FastVisionModel.for_training(model)
+# FastVisionModel.for_inference(model, cache_vision=True)
+
+if hasattr(model, "print_trainable_parameters"):
+    model.print_trainable_parameters()
+model.generation_config.temperature = GEN_TEMPERATURE
+model.generation_config.top_p = GEN_TOP_P
+model.generation_config.repetition_penalty = GEN_REPEAT_PENALTY
+model.generation_config.num_beams = GEN_NUM_BEAMS
+model.generation_config.do_sample = GEN_DO_SAMPLE
 
 
 def _load_orien_json(path: str) -> Dataset:
@@ -59,16 +112,16 @@ def _load_orien_json(path: str) -> Dataset:
 
     rows = []
     for ex in raw:
-        options_text = ", ".join(f"{k}: {v}" for k, v in ex["options"].items())
+        options_text = ", ".join(f"{k}: {ensure_text(v)}" for k, v in ex["options"].items())
         user_text = (
-            f"{ex['question']} Options: {options_text}. "
+            f"{ensure_text(ex['question'])} Options: {options_text}. "
             "Think carefully before answering. "
             f"First describe your reasoning between {REASONING_START} and {REASONING_END}, "
             f"then give the final answer letter between {SOLUTION_START} and {SOLUTION_END}."
         )
         rows.append(
             {
-                "image_path": ex["img"],
+                "image_path": ensure_text(ex["img"]),
                 "prompt_template": [
                     {
                         "role": "user",
@@ -78,7 +131,7 @@ def _load_orien_json(path: str) -> Dataset:
                         ],
                     }
                 ],
-                "answer": ex["answer"].strip().upper(),
+                "answer": ensure_text(ex["answer"]).strip().upper(),
             }
         )
 
@@ -99,54 +152,107 @@ def _load_orien_json(path: str) -> Dataset:
     return dataset
 
 
-train_dataset = _load_orien_json(JSON_PATH)
+def load_training_dataset(json_path: str) -> Dataset:
+    """
+    Accept either a single JSON file or a glob-style pattern pointing to multiple files.
+    """
+    if os.path.isfile(json_path):
+        return _load_orien_json(json_path)
+
+    matches = sorted(glob(json_path))
+    if not matches:
+        raise FileNotFoundError(f"No JSON files matched pattern: {json_path}")
+
+    datasets = [_load_orien_json(match) for match in matches]
+    if len(datasets) == 1:
+        return datasets[0]
+    return concatenate_datasets(datasets)
 
 
-def formatting_reward_func(completions: List[str], **_) -> List[float]:
+train_dataset = load_training_dataset(JSON_PATH)
+
+
+def unified_reward_func(prompts, completions, **kwargs):
+    """
+    TRL passes dataset columns via keyword arguments. We rely on the `answer`
+    column but fall back to zeros if it's absent so the reward func never
+    crashes when the trainer only provides prompts/completions.
+    """
+    answers = kwargs.get("answer") or kwargs.get("answers")
+    if answers is None:
+        answers = [""] * len(completions)
+    elif isinstance(answers, torch.Tensor):
+        answers = answers.tolist()
+    elif isinstance(answers, tuple):
+        answers = list(answers)
+    elif not isinstance(answers, list):
+        answers = [answers] * len(completions)
+    if len(answers) != len(completions):
+        if len(answers) == 1:
+            answers = answers * len(completions)
+        else:
+            answers = (answers + [""] * len(completions))[: len(completions)]
+
     thinking_pattern = f"{REASONING_START}(.*?){REASONING_END}"
-    answer_pattern = f"{SOLUTION_START}(.*?){SOLUTION_END}"
-    rewards = []
-    for completion in completions:
-        reward = 0.0
-        if len(re.findall(thinking_pattern, completion, re.DOTALL)) == 1:
-            reward += 1.0
-        if len(re.findall(answer_pattern, completion, re.DOTALL)) == 1:
-            reward += 1.0
-        if completion:
-            removal = completion.replace("addCriterion", "").replace("\n", "")
-            if (len(completion) - len(removal)) / len(completion) >= 0.5:
-                reward -= 2.0
-        rewards.append(reward)
-    return rewards
+    answer_pattern   = f"{SOLUTION_START}(.*?){SOLUTION_END}"
 
-
-def correctness_reward_func(prompts, completions, answer, **_) -> List[float]:
-    answer_pattern = f"{SOLUTION_START}(.*?){SOLUTION_END}"
-    rewards = []
-    for completion, gold in zip(completions, answer):
-        match = re.search(answer_pattern, completion, re.DOTALL)
-        if not match:
-            rewards.append(0.0)
-            continue
-        predicted = match.group(1).strip().upper()
-        reward = 2.0 if predicted == gold else 0.0
-        rewards.append(reward)
-    return rewards
-
-
-def reasoning_length_penalty(completions: List[str], **_) -> List[float]:
-    thinking_pattern = f"{REASONING_START}(.*?){REASONING_END}"
     limit_tokens = 160
     rewards = []
-    for completion in completions:
+
+    for prompt, completion, gold in zip(prompts, completions, answers):
+        total_reward = 0.0
+
+        # ---------------------------
+        # Formatting reward component
+        # ---------------------------
+        # Reward exact 1 reasoning block
+        thinking_blocks = re.findall(thinking_pattern, completion, re.DOTALL)
+        if thinking_blocks:
+            if len(thinking_blocks) == 1:
+                total_reward += 1.0
+            else:
+                total_reward -= 0.1
+
+        # Reward exact 1 answer block
+        answer_blocks = re.findall(answer_pattern, completion, re.DOTALL)
+        if answer_blocks:
+            if len(answer_blocks) == 1:
+                total_reward += 1.0
+            else:
+                total_reward -= 0.5
+
+        # Penalize spammy newlines
+        newline_count = completion.count("\n")
+        total_chars = max(len(completion), 1)
+        newline_ratio = newline_count / total_chars
+        if newline_ratio > 0.5:
+            total_reward -= 2.0
+
+        # ---------------------------
+        # Correctness reward component
+        # ---------------------------
+        match = re.search(answer_pattern, completion, re.DOTALL)
+        if match:
+            predicted = match.group(1).strip().upper()
+            gold_clean = str(gold).strip().upper()
+            if predicted == gold_clean:
+                total_reward += 2.0
+
+        # ---------------------------
+        # Reasoning length penalty
+        # ---------------------------
         match = re.search(thinking_pattern, completion, re.DOTALL)
         if not match:
-            rewards.append(-1.0)
-            continue
-        reasoning = match.group(1)
-        length = len(reasoning.split())
-        excess = max(0, length - limit_tokens)
-        rewards.append(-excess / limit_tokens)
+            total_reward -= 0.5
+        else:
+            reasoning = match.group(1)
+            length = len(reasoning.split())
+            if length > limit_tokens:
+                excess = length - limit_tokens
+                total_reward += -min(excess / limit_tokens, 1.0)
+
+        rewards.append(total_reward)
+
     return rewards
 
 report_to_target = "wandb" if USE_WANDB else "none"
@@ -158,16 +264,16 @@ training_args = GRPOConfig(
     weight_decay=0.1,
     warmup_ratio=0.1,
     lr_scheduler_type="cosine",
-    optim="adamw_8bit",
+    optim="paged_adamw_8bit",
     logging_steps=1,
     log_completions=False,
-    per_device_train_batch_size=1,
-    gradient_accumulation_steps=2,
-    num_generations=2,
-    max_prompt_length=1024,
-    max_completion_length=512,
+    per_device_train_batch_size=PER_DEVICE_BATCH_SIZE,
+    gradient_accumulation_steps=GRAD_ACCUM_STEPS,
+    num_generations=NUM_GENERATIONS,
+    max_prompt_length=MAX_PROMPT_LEN,
+    max_completion_length=MAX_COMPLETION_LEN,
     num_train_epochs=1,
-    save_steps=100,
+    save_steps=10,
     max_grad_norm=0.1,
     report_to=report_to_target,
     output_dir="/ocean/projects/cis250208p/vwei",
@@ -235,11 +341,7 @@ trainer = GRPOTrainer(
     model=model,
     args=training_args,
     processing_class=tokenizer,
-    reward_funcs=[
-        formatting_reward_func,
-        correctness_reward_func,
-        reasoning_length_penalty,
-    ],
+    reward_funcs=unified_reward_func,
     train_dataset=train_dataset,
     callbacks=[SaveLoraCallback(lora_checkpoint_dir)],
 )
@@ -252,5 +354,6 @@ else:
 if wandb_run is not None:
     wandb_run.finish()
 
-model.save_pretrained("/ocean/projects/cis250208p/vwei/qwen_3b_dpo_merged")
-tokenizer.save_pretrained("/ocean/projects/cis250208p/vwei/qwen_3b_dpo_merged")
+merged = model.merge_and_unload()
+merged.save_pretrained("/ocean/projects/cis250208p/shared/qwen_4b_grpo_merged")
+tokenizer.save_pretrained("/ocean/projects/cis250208p/shared/qwen_4b_grpo_merged")
