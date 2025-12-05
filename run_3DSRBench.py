@@ -9,9 +9,9 @@ args = parser.parse_args()
 
 print("Modules imported.")
 
-# model_name = "qwen3vl_4b_instruct_sft" # Change this
+model_name = "qwen3vl_4b_instruct_sft" # Change this
 # model_name = "qwen3vl_4b_instruct" # Change this
-model_name = "qwenvl2_5_3b_instruct"
+# model_name = "qwenvl2_5_3b_instruct"
 # model_name = "qwenvl2_5_7b_instruct"
 config_path = f"apc/configs/{model_name}.yaml"
 
@@ -28,4 +28,4 @@ ds = load_from_disk("test_dataset_150")
 results = apc_runner.run(ds, verbose=False, datasource="3DSRBench", prompt_type=args.prompt)
 df = pd.DataFrame(results)
 
-df.to_csv(f"3DSRBench_raw_predictions_{model_name}_8_8_2.csv", index=False)
+df.to_csv(f"3DSRBench_raw_predictions_{model_name}-RL-4_8_2.csv", index=False)

@@ -18,8 +18,8 @@ from unsloth import FastVisionModel
 from transformers import TrainerCallback
 
 # MODEL_NAME = "Qwen/Qwen3-VL-4B-Instruct"
-MODEL_NAME = "/ocean/projects/cis250208p/shared/models/sft/4b_lora_model_4_8_2"
-MODEL_DESTINATION = "/ocean/projects/cis250208p/shared/qwen_4b_grpo_merged_4_8_2"
+MODEL_NAME = "/ocean/projects/cis250208p/shared/models/sft/4b_lora_model_8_16_2"
+MODEL_DESTINATION = "/ocean/projects/cis250208p/shared/models/rl/Qwen3-VL-4B-Instruct-SFT-RL-8_16_2"
 JSON_PATH = "/ocean/projects/cis250208p/vwei/Ego2Allo/rl_data/*"
 MAX_SEQ_LENGTH = 2048
 IMAGE_RESOLUTION = (168, 168)
@@ -333,6 +333,8 @@ if USE_WANDB:
     wandb_run = wandb.init(
         project=WANDB_PROJECT,
         name=WANDB_RUN_NAME,
+        # id="htl7bc0i",
+        resume="allow",
         config={
             "model_name": MODEL_NAME,
             "json_path": JSON_PATH,
