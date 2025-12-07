@@ -16,6 +16,18 @@ import wandb
 os.environ["WANDB_PROJECT"] = "Ego2Allo-VLM-SFT"
 os.environ["WANDB_LOG_MODEL"] = "try2"
 
+########################################################
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument("--r", type=int, default=4)
+parser.add_argument("--lora_alpha", type=int, default=8)
+parser.add_argument("--lora_dropout", type=float, default=0.1)
+args = parser.parse_args()
+
+r = args.r
+lora_alpha = args.lora_alpha
+lora_dropout = args.lora_dropout
+
 print("Loading model")
 
 model, tokenizer = FastVisionModel.from_pretrained(
@@ -34,9 +46,9 @@ model = FastVisionModel.get_peft_model(
     finetune_attention_modules = True, # False if not finetuning attention layers
     finetune_mlp_modules       = False, # False if not finetuning MLP layers
 
-    r = 4,           # The larger, the higher the accuracy, but might overfit
-    lora_alpha = 4,  # Recommended alpha == r at least
-    lora_dropout = 0.1,
+    r = r,           # The larger, the higher the accuracy, but might overfit
+    lora_alpha = lora_alpha,  # Recommended alpha == r at least
+    lora_dropout = lora_dropout,
     bias = "none",
     random_state = 3407,
     use_rslora = False,  # We support rank stabilized LoRA
@@ -47,17 +59,16 @@ model = FastVisionModel.get_peft_model(
 print("Training data loaded")
 print("Loading training data")
 
-with open("/ocean/projects/cis250208p/shared/datasets/train_data.json", "r") as f:
+with open("/ocean/projects/cis250208p/shared/datasets/sft_train/train_data_2.json", "r") as f:
     train_data = json.load(f)
 
-with open("/ocean/projects/cis250208p/shared/datasets/test_data.json", "r") as f:
+with open("/ocean/projects/cis250208p/shared/datasets/sft_train/test_data_2.json", "r") as f:
     test_data = json.load(f)
 
 print("Training data loaded")
 print("Enabling training")
 
 FastVisionModel.for_training(model) # Enable for training!
-
 
 trainer = SFTTrainer(
     model = model,
@@ -81,11 +92,11 @@ trainer = SFTTrainer(
         logging_steps = 1,
         # save_strategy = "steps",
         # save_steps = 50,
-        run_name = "try1",
-        output_dir = "training_checkpoints",
+        run_name = "qwen3vl-4b-sft",
+        # output_dir = "training_checkpoints",
         
-        # eval_strategy = "steps",             # evaluate every N steps
-        # eval_steps = 25,                     # how many steps until we do evaluation
+        eval_strategy = "steps",             # evaluate every N steps
+        eval_steps = 25,                     # how many steps until we do evaluation
         # load_best_model_at_end = True,       # MUST USE for early stopping
         # metric_for_best_model = "eval_loss", # metric we want to early stop on
         # greater_is_better = False,           # the lower the eval loss, the better
@@ -111,7 +122,9 @@ print("Training complete")
 print("Saving model")
 
 # r, lora_alpha, max_turn_nums = 4, 8, 2
-model.save_pretrained("4b_lora_model_4_4_2")  # Local saving
-tokenizer.save_pretrained("4b_lora_model_4_4_2")
+model_destination = f"/ocean/projects/cis250208p/shared/models/sft/4b_lora_model_{r}_{lora_alpha}_2"
+
+model.save_pretrained(model_destination)  # Local saving
+tokenizer.save_pretrained(model_destination)
 
 print("Model saved")

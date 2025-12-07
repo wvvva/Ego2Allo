@@ -17,7 +17,9 @@ from trl import GRPOConfig, GRPOTrainer
 from unsloth import FastVisionModel
 from transformers import TrainerCallback
 
-MODEL_NAME = "Qwen/Qwen3-VL-4B-Instruct"
+# MODEL_NAME = "Qwen/Qwen3-VL-4B-Instruct"
+MODEL_NAME = "/ocean/projects/cis250208p/shared/models/sft/4b_lora_model_8_16_2"
+MODEL_DESTINATION = "/ocean/projects/cis250208p/shared/models/rl/Qwen3-VL-4B-Instruct-SFT-RL-8_16_2"
 JSON_PATH = "/ocean/projects/cis250208p/vwei/Ego2Allo/rl_data/*"
 MAX_SEQ_LENGTH = 2048
 IMAGE_RESOLUTION = (168, 168)
@@ -45,9 +47,9 @@ GRAD_ACCUM_STEPS = _env_number("GRPO_GRAD_ACCUMULATION_STEPS", 2, int)
 NUM_GENERATIONS = _env_number("GRPO_NUM_GENERATIONS",2, int)
 MAX_PROMPT_LEN = _env_number("GRPO_MAX_PROMPT_LENGTH", 512, int)
 MAX_COMPLETION_LEN = _env_number("GRPO_MAX_COMPLETION_LENGTH", 268, int)
-GEN_TEMPERATURE = float(os.getenv("GRPO_TEMPERATURE", "0.3"))
+GEN_TEMPERATURE = float(os.getenv("GRPO_TEMPERATURE", "0.7"))
 GEN_TOP_P = float(os.getenv("GRPO_TOP_P", "0.8"))
-GEN_REPEAT_PENALTY = float(os.getenv("GRPO_REPETITION_PENALTY", "1.05"))
+GEN_REPEAT_PENALTY = float(os.getenv("GRPO_REPETITION_PENALTY", "1.0"))
 GEN_NUM_BEAMS = _env_number("GRPO_NUM_BEAMS", 1, int)
 GEN_DO_SAMPLE = os.getenv("GRPO_DO_SAMPLE", "1").lower() not in {"0", "false"}
 
@@ -273,7 +275,7 @@ training_args = GRPOConfig(
     max_prompt_length=MAX_PROMPT_LEN,
     max_completion_length=MAX_COMPLETION_LEN,
     num_train_epochs=1,
-    save_steps=10,
+    save_steps=100,
     max_grad_norm=0.1,
     report_to=report_to_target,
     output_dir="/ocean/projects/cis250208p/vwei/4-4",
@@ -327,6 +329,8 @@ if USE_WANDB:
     wandb_run = wandb.init(
         project=WANDB_PROJECT,
         name=WANDB_RUN_NAME,
+        # id="htl7bc0i",
+        resume="allow",
         config={
             "model_name": MODEL_NAME,
             "json_path": JSON_PATH,
