@@ -1,8 +1,8 @@
 """
-2025.11.4
-2025.11.3
-4.57.1
-0.23.0
+2025.11.6
+2025.11.6
+4.57.2
+0.24.0
 __UNSLOTH_VERSIONING__
 """
 
@@ -29,7 +29,7 @@ import torch
 import torch.nn as nn
 from torch.nn import functional as F
 from typing import Any, List, Optional, Tuple, Union, Dict, Set, Callable
-from peft.tuners.lora.inc import (torch)
+from peft.tuners.lora.layer import (Any, F, torch)
 
 
 torch_addmm = torch.addmm

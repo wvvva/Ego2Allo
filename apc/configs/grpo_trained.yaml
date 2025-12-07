@@ -1,7 +1,7 @@
 # VLM
 vlm:
   type: qwenvl3
-  pretrained_model: /ocean/projects/cis250208p/shared/qwen_4b_grpo_merged
+  pretrained_model: /ocean/projects/cis250208p/shared/qwen_4b_grpo_merged_4_4
   model_name: qwen3_vl_4b_grpo
   conv_template: llava_llama_3
   log_responses: false

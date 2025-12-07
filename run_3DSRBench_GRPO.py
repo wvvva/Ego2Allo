@@ -28,4 +28,4 @@ ds = load_from_disk("test_dataset_150")
 results = apc_runner.run(ds, verbose=False, datasource="3DSRBench", prompt_type=args.prompt_type)
 df = pd.DataFrame(results)
 
-df.to_csv(f"3DSRBench_raw_predictions_{model_name}_4b.csv", index=False)
+df.to_csv(f"result_rl/3DSRBench_raw_predictions_{model_name}_4_4_2.csv", index=False)

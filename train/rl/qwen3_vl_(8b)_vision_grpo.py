@@ -86,8 +86,8 @@ model = FastVisionModel.get_peft_model(
     finetune_language_layers=True,
     finetune_attention_modules=True,
     finetune_mlp_modules=False,
-    r=16,
-    lora_alpha=16,
+    r=4,
+    lora_alpha=4,
     lora_dropout=0.0,
     bias="none",
     random_state=3407,
@@ -276,9 +276,9 @@ training_args = GRPOConfig(
     save_steps=10,
     max_grad_norm=0.1,
     report_to=report_to_target,
-    output_dir="/ocean/projects/cis250208p/vwei",
+    output_dir="/ocean/projects/cis250208p/vwei/4-4",
     bf16=False,
-    fp16=False,
+    fp16=True,
     importance_sampling_level="sequence",
     mask_truncated_completions=False,
     loss_type="dr_grpo",
@@ -355,5 +355,5 @@ if wandb_run is not None:
     wandb_run.finish()
 
 merged = model.merge_and_unload()
-merged.save_pretrained("/ocean/projects/cis250208p/shared/qwen_4b_grpo_merged")
-tokenizer.save_pretrained("/ocean/projects/cis250208p/shared/qwen_4b_grpo_merged")
+merged.save_pretrained("/ocean/projects/cis250208p/shared/qwen_4b_grpo_merged_4_4")
+tokenizer.save_pretrained("/ocean/projects/cis250208p/shared/qwen_4b_grpo_merged_4_4")
