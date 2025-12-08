@@ -1,0 +1,31 @@
+# VLM
+vlm:
+  type: qwenvl3
+  pretrained_model: /jet/home/ydinga/idl_project/shared/models/sft/Qwen3-VL-4B-Instruct-SFT_4_8_2
+  model_name: qwen3_vl_4b_grpo
+  conv_template: llava_llama_3
+  log_responses: false
+  # MLLM sampling parameters
+  do_sample: false
+  temperature: 0.0
+  max_new_tokens: 512
+
+# Detection - Grounding DINO
+detection:
+  ckpt_path: /ocean/projects/cis250208p/shared/models/vision_modules/checkpoints/groundingdino_swint_ogc.pth
+  box_threshold: 0.05 # 45
+  text_threshold: 0.05
+  num_candidates: 5
+  use_vlm_refinement: true
+
+# Segmentation - SAM
+segmentation:
+  ckpt_path: /ocean/projects/cis250208p/shared/models/vision_modules/checkpoints/sam_vit_h_4b8939.pth
+
+# Depth - DepthPro
+depth:
+  ckpt_path: /ocean/projects/cis250208p/shared/models/vision_modules/checkpoints/depth_pro.pt
+
+# Orientation - OrientAnything
+orientation:
+  ckpt_path: /ocean/projects/cis250208p/shared/models/vision_modules/checkpoints/

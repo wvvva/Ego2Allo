@@ -17,7 +17,6 @@ from trl import GRPOConfig, GRPOTrainer
 from unsloth import FastVisionModel
 from transformers import TrainerCallback
 
-# MODEL_NAME = "Qwen/Qwen3-VL-4B-Instruct"
 MODEL_NAME = "/ocean/projects/cis250208p/shared/models/sft/4b_lora_model_8_16_2"
 MODEL_DESTINATION = "/ocean/projects/cis250208p/shared/models/rl/Qwen3-VL-4B-Instruct-SFT-RL-8_16_2"
 JSON_PATH = "/ocean/projects/cis250208p/vwei/Ego2Allo/rl_data/*"
@@ -82,6 +81,7 @@ model, tokenizer = FastVisionModel.from_pretrained(
     gpu_memory_utilization=0.8,
 )
 
+<<<<<<< Updated upstream
 model = FastVisionModel.get_peft_model(
     model,
     finetune_vision_layers=False,
@@ -96,6 +96,23 @@ model = FastVisionModel.get_peft_model(
     use_rslora=False,
     use_gradient_checkpointing=False,
 )
+=======
+# model = FastVisionModel.get_peft_model(
+#     model,
+#     finetune_vision_layers=False,
+#     finetune_language_layers=True,
+#     finetune_attention_modules=True,
+#     finetune_mlp_modules=False,
+#     r=16,
+#     lora_alpha=16,
+#     lora_dropout=0.0,
+#     bias="none",
+#     random_state=3407,
+#     use_rslora=False,
+#     use_gradient_checkpointing=False,
+# )
+
+>>>>>>> Stashed changes
 FastVisionModel.for_training(model)
 # FastVisionModel.for_inference(model, cache_vision=True)
 
@@ -318,6 +335,19 @@ def _latest_checkpoint(path: str) -> Optional[str]:
         return None
     return sorted(checkpoints, key=lambda x: int(x.split("-")[-1]))[-1]
 
+class ForceFloat16Callback(TrainerCallback):
+    """
+    Forces the model to float16 at the start of training. 
+    This is crucial when resuming from a checkpoint, as the loader 
+    might reset dtypes to float32 or bfloat16 depending on the saved config.
+    """
+    def on_train_begin(self, args, state, control, **kwargs):
+        model = kwargs.get("model")
+        if model:
+            print(f"\n[Callback] Enforcing torch.float16 on model before training starts (Global Step: {state.global_step})...")
+            model.to(torch.float16)
+        else:
+            print(f"\n[Callback] Model not found in on_train_begin callback (Global Step: {state.global_step})...")
 
 resume_from_checkpoint = os.getenv("GRPO_RESUME_FROM") or _latest_checkpoint(training_args.output_dir)
 lora_checkpoint_dir = os.path.join(training_args.output_dir, "lora_checkpoints")
@@ -329,7 +359,7 @@ if USE_WANDB:
     wandb_run = wandb.init(
         project=WANDB_PROJECT,
         name=WANDB_RUN_NAME,
-        # id="htl7bc0i",
+        # id="y2w2rl3t",
         resume="allow",
         config={
             "model_name": MODEL_NAME,
@@ -347,7 +377,7 @@ trainer = GRPOTrainer(
     processing_class=tokenizer,
     reward_funcs=unified_reward_func,
     train_dataset=train_dataset,
-    callbacks=[SaveLoraCallback(lora_checkpoint_dir)],
+    callbacks=[SaveLoraCallback(lora_checkpoint_dir), ForceFloat16Callback()],
 )
 
 if resume_from_checkpoint:

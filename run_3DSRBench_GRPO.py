@@ -4,6 +4,7 @@ from datasets import load_from_disk
 import argparse
 
 parser = argparse.ArgumentParser()
+parser.add_argument("--model-name", type=str, required=False, default="grpo_trained")
 parser.add_argument("--prompt-type", type=str, required=False, default="visual")
 args = parser.parse_args()
 
@@ -11,7 +12,8 @@ print("Modules imported.")
 
 # model_name = "qwen3vl_4b_instruct_sft" # Change this
 # model_name = "qwen3vl_4b_instruct" # Change this
-model_name = "grpo_trained"
+# model_name = "grpo_trained"
+model_name = args.model_name
 # model_name = "qwenvl2_5_7b_instruct"
 config_path = f"apc/configs/{model_name}.yaml"
 

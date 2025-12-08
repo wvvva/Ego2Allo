@@ -1,13 +1,10 @@
 #!/bin/bash
 
-python run_3DSRBench.py --prompt-type "none"
-python run_3DSRBench.py --prompt-type "none_reasoning"
-python run_3DSRBench.py --prompt-type "numerical_react"
-python run_3DSRBench.py --prompt-type "numerical"
-python run_3DSRBench.py --prompt-type "visual"
-python run_3DSRBench.py --prompt-type "numerical_reasoning"
-python run_3DSRBench.py --prompt-type "visual_reasoning"
-scancel -u $USER
+# python run_3DSRBench_GRPO.py --model-name sft_4_4
+# python run_3DSRBench_GRPO.py --model-name sft_4_8
+# python run_3DSRBench_GRPO.py --model-name sft_8_8
+python run_3DSRBench_GRPO.py --model-name sft_8_16
+scancel -u ydinga
 
 # FILE_TO_RUN="python run_SAT.py"
 
