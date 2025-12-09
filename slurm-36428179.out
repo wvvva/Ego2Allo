@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/ocean/projects/cis250208p/vwei/Ego2Allo/train/rl/qwen3_vl_(8b)_vision_grpo.py", line 16, in <module>
-    from trl import GRPOConfig, GRPOTrainer
-ModuleNotFoundError: No module named 'trl'
